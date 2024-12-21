@@ -1,0 +1,340 @@
+<!doctype html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style>
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+		}
+
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			line-height: 18px;
+			color: #555;
+		}
+
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.8;
+		}
+
+		.box {
+			border: 2px dotted rgb(96 139 168);
+
+			display: flex;
+			flex-direction: row;
+		}
+
+		.box div {
+
+
+			background-color: rgb(96 139 168 / 0.2);
+			border: 2px solid rgb(96 139 168);
+			border-radius: 5px;
+		}
+
+		#query_stuff {
+
+			width: 400px;
+			flex: none;
+			border: 1px solid black;
+		}
+
+		#osm-map {
+			flex: 1 1 0px;
+			border: 1px solid black;
+		}
+
+		#selectStreet {
+			display: block;
+		}
+	</style>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+	<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+</head>
+
+<body class="sansserif">
+	<div class="box">
+		<div id="query-stuff">
+			<input type="checkbox" id="checkBike" name="vehicle1" value="Bike">
+			<label for="checkBike">Bicycle</label><br>
+			<input type="checkbox" id="checkCar" name="vehicle2" value="Car">
+			<label for="checkCar">Car</label><br>
+			<input type="checkbox" id="checkPed" name="vehicle3" value="Ped">
+			<label for="checkPed">Pedestrian</label><br>
+
+			<input type="checkbox" id="checkTruck" name="vehicle3" value="Ped">
+			<label for="checkTruck">Truck</label><br>
+
+			<input type="checkbox" id="checkParked" name="vehicle3" value="Ped">
+			<label for="checkParked">Parked Vehicle</label><br>
+
+			<input type="checkbox" id="checkMotorcycle" name="vehicle3" value="Ped">
+			<label for="checkMotorcycle">Motorcycle</label><br>
+
+			<input type="checkbox" id="checkBus" name="vehicle3" value="Ped">
+			<label for="checkBus">Bus</label><br>
+
+			<input type="checkbox" id="checkElectricScooter" name="vehicle3" value="Ped">
+			<label for="checkElectricScooter">Electric Scooter</label><br>
+
+			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
+			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
+			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
+			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
+			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
+
+			<select id="selectStreet">
+				<option>Any</option>
+				<option>Fulton</option>
+				<option>Milvia</option>
+				<option>University</option>
+			</select>
+
+			<button id="filterButton">Filter collisions</button>
+		</div>
+		<div id="osm-map"></div>
+	</div>
+	<script type="module">
+		import { collisionsJson, transparencyJson, mergedTransparencyJson } from "./js/util.js";
+		const checkBike = document.querySelector('#checkBike');
+		const checkCar = document.querySelector('#checkCar');
+		const checkPed = document.querySelector('#checkPed');
+		const checkTruck = document.querySelector('#checkTruck');
+		const checkParked = document.querySelector('#checkParked');
+		const checkMotorcycle = document.querySelector('#checkMotorcycle');
+		const checkBus = document.querySelector('#checkBus');
+		const checkElectricScooter = document.querySelector('#checkElectricScooter');
+
+		const check2024 = document.querySelector('#check2024');
+		const check2023 = document.querySelector('#check2023');
+		const check2022 = document.querySelector('#check2022');
+		const check2021 = document.querySelector('#check2021');
+		const check2020 = document.querySelector('#check2020');
+		const selectStreet = document.querySelector('#selectStreet');
+
+
+
+
+		// Where you want to render the map.
+		var element = document.getElementById('osm-map');
+		// Height has to be set. You can do this in CSS too.
+		element.style = 'height:100vh;';
+		// Create Leaflet map on map element.
+		var map = L.map(element);
+		// Add OSM tile layer to the Leaflet map.
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+		// Target's GPS coordinates.
+		var target = L.latLng('37.87', '-122.27'); // berkeley 37°52′18″N 122°16′22″W
+		// Set map's center to target with zoom 14.
+		map.setView(target, 14);
+		// add geojson precincts to map
+
+		const bikeIcon = L.icon({ iconUrl: './test/bicycle.png' });
+		const pedIcon = L.icon({ iconUrl: './test/pedestrian.png' });
+		const carIcon = L.icon({ iconUrl: './test/suv.png' });
+
+		function randomOffset() {
+			const r = Math.random() - 0.5;
+			return r / 5000;
+		}
+		function objToString(obj) {
+			var msg = "";
+
+			for (const [key, value] of Object.entries(obj)) {
+				msg += ('<br>' + key + ':' + value);
+			}
+			return msg;
+		}
+
+		// populate the street select options
+		function populateStreetSelect(mergedTransparencyJson,selectStreet) {
+			const setStreets = new Set();
+
+			for (const coll of mergedTransparencyJson) {
+				const attr = coll.attributes;
+				const loc = attr.Accident_Location;
+				const arr = loc.split("/");
+				for (const str of arr) {
+					setStreets.add(str);
+				}
+			}
+
+		    // sort
+			const arrSorted = Array.from(setStreets).sort();
+
+			for (const str of arrSorted) {
+				const opt = document.createElement("option");
+				opt.text = str;
+				selectStreet.add(opt, null);
+			}
+		}
+		populateStreetSelect(mergedTransparencyJson, selectStreet);
+
+		// keep track of markes for removal
+		const markers = [];
+
+		function removeAllMakers() {
+			for (const m of markers) {
+				m.remove();
+			}
+		}
+
+		function checkFilter(attr, filterBike, filterCar, filterPed, filterTruck,
+			filterParked, filterBus, filterMotorcycle,
+			filterElectricScooter,
+			filter2024, filter2023,
+			filter2022, filter2021, filter2020,
+			selectStreet
+		) {
+			const involved = attr.Involved_Objects;
+			if (involved.includes("Bi") != filterBike) {
+				return false;
+			}
+			if (involved.includes("Ped") != filterPed) {
+				return false;
+			}
+			if (involved.includes("Car") != filterCar) {
+				return false;
+			}
+
+			if (involved.includes("Truck") != filterTruck) {
+				return false;
+			}
+			if (involved.includes("Park") != filterParked) {
+				return false;
+			}
+			if (involved.includes("Motor") != filterMotorcycle) {
+				return false;
+			}
+			if (involved.includes("Bus") != filterBus) {
+				return false;
+			}
+			if (involved.includes("Electric Scooter") != filterElectricScooter) {
+				return false;
+			}
+
+			const year = attr.Year;
+			if ((year == 2024) && !filter2024) {
+				return false;
+
+			}
+			if ((year == 2023) && !filter2023) {
+				return false;
+
+			}
+			if ((year == 2022) && !filter2022) {
+				return false;
+
+			}
+			if ((year == 2021) && !filter2021) {
+				return false;
+
+			}
+			if ((year == 2020) && !filter2020) {
+				return false;
+
+			}
+			if ((year < 2020) || (year > 2024)) {
+				return false;
+			}
+			const loc = attr.Accident_Location;
+
+			if (selectStreet != "Any") {
+				if (!loc.includes(selectStreet)) {
+					return false;
+				}
+
+			}
+			return true;
+		}
+
+		function addMarkers(collisionJson, filterBike, filterCar, filterPed,
+			filterTruck, filterParked, filterMotorcycle, filterBus, filterElectricScooter,
+			filter2024, filter2023, filter2022, filter2021, filter2020,
+			selectStreet
+
+		) {
+			removeAllMakers();
+			const markersAtLocation = new Map();
+			// add collisions to map
+			var markerCount = 0
+			var skipped = 0, plotted = 0;
+
+			for (const coll of collisionJson) {
+				const attr = coll.attributes;
+				/*if (!attr.Accident_Location.includes('Fulton')) {
+					skipped++;
+					continue;
+				}*/
+				const checked = checkFilter(attr, filterBike, filterCar, filterPed,
+					filterTruck, filterParked, filterBus, filterMotorcycle, filterElectricScooter,
+					filter2024, filter2023, filter2022, filter2021, filter2020, selectStreet);
+				if (!checked) {
+					continue;
+				}
+				plotted++;
+				if (attr.Latitude && attr.Longitude) {
+					const loc = [attr.Latitude, attr.Longitude];
+					const roundLoc = loc.map((c) => c.toFixed(3));
+					const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
+
+					if (ct > 0) {
+						console.log("adjusting marker")
+					}
+					const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001]);
+					markersAtLocation.set(JSON.stringify(loc), ct + 1);
+					const msg = objToString(attr);
+					marker.bindPopup(msg).openPopup();
+					marker.addTo(map);
+					markers.push(marker);
+					markerCount++;
+				}
+			}
+			console.log('SKiped', skipped);
+			console.log('Plotted', plotted);
+			console.log("markerCount ", markerCount)
+
+
+		}
+		map.setView(target, 14);
+		//	addMarkers(mergedTransparencyJson, true, true, true, true, true, true, true, true);
+
+		document.querySelector('#filterButton').addEventListener('click', (event) => {
+			addMarkers(mergedTransparencyJson,
+				checkBike.checked,
+				checkCar.checked,
+				checkPed.checked,
+				checkTruck.checked,
+				checkParked.checked,
+				checkMotorcycle.checked,
+				checkBus.checked,
+				checkElectricScooter.checked,
+				check2024.checked,
+				check2023.checked,
+				check2022.checked,
+				check2021.checked,
+				check2020.checked,
+				selectStreet.value
+
+
+			);
+
+		});
+
+	</script>
+</body>
