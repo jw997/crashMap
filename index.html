@@ -117,7 +117,7 @@
 
 				<option value='Bus'>Bus/Any</option>
 			</select>
-
+<br/>
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
 			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
 			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
@@ -130,6 +130,8 @@
 				<option>Any</option>
 
 			</select>
+
+			<div id = 'summary'></div>
 
 			<button id="filterButton">Filter collisions</button>
 		</div>
@@ -154,6 +156,8 @@
 		const check2021 = document.querySelector('#check2021');
 		const check2020 = document.querySelector('#check2020');
 		const selectStreet = document.querySelector('#selectStreet');
+
+		const summary = document.querySelector('#summary');
 
 
 
@@ -374,9 +378,12 @@
 					markerCount++;
 				}
 			}
-			console.log('SKiped', skipped);
+			console.log('Skipped', skipped);
 			console.log('Plotted', plotted);
 			console.log("markerCount ", markerCount)
+
+			const summaryMsg = '<br>Matching collsions: ' + plotted + '<br>' + 'Skipped: ' + skipped + '<br>';
+			summary.innerHTML = summaryMsg;
 
 
 		}
