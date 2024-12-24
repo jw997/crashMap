@@ -68,7 +68,7 @@
 <body class="sansserif">
 	<div class="box">
 		<div id="query-stuff">
-		<!----	<input type="checkbox" id="checkBike" name="vehicle1" value="Bike">
+			<!----	<input type="checkbox" id="checkBike" name="vehicle1" value="Bike">
 			<label for="checkBike">Bicycle</label><br>
 			<input type="checkbox" id="checkCar" name="vehicle2" value="Car">
 			<label for="checkCar">Car</label><br>
@@ -92,30 +92,30 @@
 --->
 			<select id="selectVehicleTypes">
 				<option value='.*'>Any</option>
-				<option value = 'Car'>Car/Any</option>
+				<option value='Car'>Car/Any</option>
 				<option value='Bi.*Car'>Car/Bicycle</option>
 				<option value='Car.*Ped'>Car/Pedestrian</option>
-				<option value = 'Car.*Solo|Car.*Object'>Car/Solo</option>
-				
+				<option value='Car.*Solo|Car.*Object'>Car/Solo</option>
 
-				<option value = 'Bi'>Bicycle/Any</option>
-				<option value = 'Bi.*Ped'>Bicycle/Pedestrian</option>
-				<option value = 'Bicyle$|Bi.*Solo'>Bicycle/Solo</option>
-				
-				<option value='Ped' >Pedestrian/Any</option>
-				
-				<option value= 'Electric Bi'>Electric bicycle/Any</option>
-				<option value= 'Electric Bi.*Ped'>Electric bicycle/Pedestrian</option>
-				<option value = 'Electric Sc'>Electric Scooter/Any</option>
-				<option value = 'Electric Sc.*Ped'>Electric Scooter/Pedestrian</option>
-				<option value = 'Electric Skate'>Electric Skateboard/Any</option>
-				<option value = 'Electric Skate.*Ped'>Electric Skateboard/Pedestrian</option>
 
-				<option value = 'Motor'>Motorcycle/Any</option>
+				<option value='Bi'>Bicycle/Any</option>
+				<option value='Bi.*Ped'>Bicycle/Pedestrian</option>
+				<option value='Bicyle$|Bi.*Solo'>Bicycle/Solo</option>
 
-				<option value = 'Truck'>Truck/Any</option>
+				<option value='Ped'>Pedestrian/Any</option>
 
-				<option value = 'Bus'>Bus/Any</option>
+				<option value='Electric Bi'>Electric bicycle/Any</option>
+				<option value='Electric Bi.*Ped'>Electric bicycle/Pedestrian</option>
+				<option value='Electric Sc'>Electric Scooter/Any</option>
+				<option value='Electric Sc.*Ped'>Electric Scooter/Pedestrian</option>
+				<option value='Electric Skate'>Electric Skateboard/Any</option>
+				<option value='Electric Skate.*Ped'>Electric Skateboard/Pedestrian</option>
+
+				<option value='Motor'>Motorcycle/Any</option>
+
+				<option value='Truck'>Truck/Any</option>
+
+				<option value='Bus'>Bus/Any</option>
 			</select>
 
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
@@ -124,11 +124,11 @@
 			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
 			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
 
-			
+
 
 			<select id="selectStreet">
 				<option>Any</option>
-			
+
 			</select>
 
 			<button id="filterButton">Filter collisions</button>
@@ -191,8 +191,38 @@
 			return msg;
 		}
 
+		const popupFields = ['Date',
+				'Time',
+				'Day_of_Week',
+				'Case_Number',
+				'Accident_Location',
+				'Latitude',
+				'Longitude',
+				'Collision_Classification_Descri',
+				'Collision_Type',
+				'Primary_Collision_Factor_Code',
+				'PCF_Description',
+				'PCF_Category',
+				'Involved_Objects',
+				'Involved_Parties',
+				'Party_at_Fault',
+				'Number_of_Injuries',
+				'Number_of_Fatalities',
+				'Suspected_Serious_Injury'
+			];
+		function collisionPopup(obj) {
+			var msg = "";
+			for (const k of popupFields) {
+				const v = obj[k];
+				if (v) {
+					msg += (k + ': ' + v + '<br>');
+				}
+			}
+			return msg;
+		}
+
 		// populate the street select options
-		function populateStreetSelect(mergedTransparencyJson,selectStreet) {
+		function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 			const setStreets = new Set();
 
 			for (const coll of mergedTransparencyJson) {
@@ -204,7 +234,7 @@
 				}
 			}
 
-		    // sort
+			// sort
 			const arrSorted = Array.from(setStreets).sort();
 
 			for (const str of arrSorted) {
@@ -233,7 +263,7 @@
 		) {
 			const involved = attr.Involved_Objects;
 
-			const m = involved.match(vehTypeRegExp );
+			const m = involved.match(vehTypeRegExp);
 
 			if (!m) {
 				return false;
@@ -337,7 +367,7 @@
 					}
 					const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001]);
 					markersAtLocation.set(JSON.stringify(loc), ct + 1);
-					const msg = objToString(attr);
+					const msg = collisionPopup(attr);
 					marker.bindPopup(msg).openPopup();
 					marker.addTo(map);
 					markers.push(marker);
@@ -355,15 +385,15 @@
 
 		document.querySelector('#filterButton').addEventListener('click', (event) => {
 			addMarkers(mergedTransparencyJson,
-			/*
-				checkBike.checked,
-				checkCar.checked,
-				checkPed.checked,
-				checkTruck.checked,
-				checkParked.checked,
-				checkMotorcycle.checked,
-				checkBus.checked,
-				checkElectricScooter.checked, */
+				/*
+					checkBike.checked,
+					checkCar.checked,
+					checkPed.checked,
+					checkTruck.checked,
+					checkParked.checked,
+					checkMotorcycle.checked,
+					checkBus.checked,
+					checkElectricScooter.checked, */
 				selectVehicleTypes.value,
 				check2024.checked,
 				check2023.checked,
