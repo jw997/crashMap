@@ -68,7 +68,7 @@
 <body class="sansserif">
 	<div class="box">
 		<div id="query-stuff">
-			<input type="checkbox" id="checkBike" name="vehicle1" value="Bike">
+		<!----	<input type="checkbox" id="checkBike" name="vehicle1" value="Bike">
 			<label for="checkBike">Bicycle</label><br>
 			<input type="checkbox" id="checkCar" name="vehicle2" value="Car">
 			<label for="checkCar">Car</label><br>
@@ -89,12 +89,42 @@
 
 			<input type="checkbox" id="checkElectricScooter" name="vehicle3" value="Ped">
 			<label for="checkElectricScooter">Electric Scooter</label><br>
+--->
+			<select id="selectVehicleTypes">
+				<option value='.*'>Any</option>
+				<option value = 'Car'>Car/Any</option>
+				<option value='Bi.*Car'>Car/Bicycle</option>
+				<option value='Car.*Ped'>Car/Pedestrian</option>
+				<option value = 'Car.*Solo|Car.*Object'>Car/Solo</option>
+				
+
+				<option value = 'Bi'>Bicycle/Any</option>
+				<option value = 'Bi.*Ped'>Bicycle/Pedestrian</option>
+				<option value = 'Bicyle$|Bi.*Solo'>Bicycle/Solo</option>
+				
+				<option value='Ped' >Pedestrian/Any</option>
+				
+				<option value= 'Electric Bi'>Electric bicycle/Any</option>
+				<option value= 'Electric Bi.*Ped'>Electric bicycle/Pedestrian</option>
+				<option value = 'Electric Sc'>Electric Scooter/Any</option>
+				<option value = 'Electric Sc.*Ped'>Electric Scooter/Pedestrian</option>
+				<option value = 'Electric Skate'>Electric Skateboard/Any</option>
+				<option value = 'Electric Skate.*Ped'>Electric Skateboard/Pedestrian</option>
+
+				<option value = 'Motor'>Motorcycle/Any</option>
+
+				<option value = 'Truck'>Truck/Any</option>
+
+				<option value = 'Bus'>Bus/Any</option>
+			</select>
 
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
 			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
 			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
 			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
 			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
+
+			
 
 			<select id="selectStreet">
 				<option>Any</option>
@@ -107,14 +137,16 @@
 	</div>
 	<script type="module">
 		import { collisionsJson, transparencyJson, mergedTransparencyJson } from "./js/util.js";
-		const checkBike = document.querySelector('#checkBike');
+		/*const checkBike = document.querySelector('#checkBike');
 		const checkCar = document.querySelector('#checkCar');
 		const checkPed = document.querySelector('#checkPed');
 		const checkTruck = document.querySelector('#checkTruck');
 		const checkParked = document.querySelector('#checkParked');
 		const checkMotorcycle = document.querySelector('#checkMotorcycle');
 		const checkBus = document.querySelector('#checkBus');
-		const checkElectricScooter = document.querySelector('#checkElectricScooter');
+		const checkElectricScooter = document.querySelector('#checkElectricScooter'); */
+
+		const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
 
 		const check2024 = document.querySelector('#check2024');
 		const check2023 = document.querySelector('#check2023');
@@ -192,15 +224,21 @@
 			}
 		}
 
-		function checkFilter(attr, filterBike, filterCar, filterPed, filterTruck,
+		function checkFilter(attr, vehTypeRegExp, /* filterBike, filterCar, filterPed, filterTruck,
 			filterParked, filterBus, filterMotorcycle,
-			filterElectricScooter,
+			filterElectricScooter, */
 			filter2024, filter2023,
 			filter2022, filter2021, filter2020,
 			selectStreet
 		) {
 			const involved = attr.Involved_Objects;
-			if (involved.includes("Bi") != filterBike) {
+
+			const m = involved.match(vehTypeRegExp );
+
+			if (!m) {
+				return false;
+			}
+			/*if (involved.includes("Bi") != filterBike) {
 				return false;
 			}
 			if (involved.includes("Ped") != filterPed) {
@@ -224,7 +262,9 @@
 			}
 			if (involved.includes("Electric Scooter") != filterElectricScooter) {
 				return false;
-			}
+			}*/
+
+
 
 			const year = attr.Year;
 			if ((year == 2024) && !filter2024) {
@@ -261,8 +301,9 @@
 			return true;
 		}
 
-		function addMarkers(collisionJson, filterBike, filterCar, filterPed,
-			filterTruck, filterParked, filterMotorcycle, filterBus, filterElectricScooter,
+		function addMarkers(collisionJson, /*filterBike, filterCar, filterPed,
+			filterTruck, filterParked, filterMotorcycle, filterBus, filterElectricScooter, */
+			vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
 			selectStreet
 
@@ -279,8 +320,8 @@
 					skipped++;
 					continue;
 				}*/
-				const checked = checkFilter(attr, filterBike, filterCar, filterPed,
-					filterTruck, filterParked, filterBus, filterMotorcycle, filterElectricScooter,
+				const checked = checkFilter(attr, vehTypeRegExp, /*filterBike, filterCar, filterPed,
+					filterTruck, filterParked, filterBus, filterMotorcycle, filterElectricScooter,*/
 					filter2024, filter2023, filter2022, filter2021, filter2020, selectStreet);
 				if (!checked) {
 					continue;
@@ -314,6 +355,7 @@
 
 		document.querySelector('#filterButton').addEventListener('click', (event) => {
 			addMarkers(mergedTransparencyJson,
+			/*
 				checkBike.checked,
 				checkCar.checked,
 				checkPed.checked,
@@ -321,7 +363,8 @@
 				checkParked.checked,
 				checkMotorcycle.checked,
 				checkBus.checked,
-				checkElectricScooter.checked,
+				checkElectricScooter.checked, */
+				selectVehicleTypes.value,
 				check2024.checked,
 				check2023.checked,
 				check2022.checked,
