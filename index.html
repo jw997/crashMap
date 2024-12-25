@@ -117,21 +117,29 @@
 
 				<option value='Bus'>Bus/Any</option>
 			</select>
-<br/>
+			<br />
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
 			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
 			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
 			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
 			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
 
+			<select id='severity'>
+				<option value='Any'>Any</option>
 
+				<option value='Fatality'>Fatality</option>
+
+				<option value='Injury'>Injury</option>
+
+				<option value='NonInjury'>Non-Injury</option>
+			</select>
 
 			<select id="selectStreet">
 				<option>Any</option>
 
 			</select>
 
-			<div id = 'summary'></div>
+			<div id='summary'></div>
 
 			<button id="filterButton">Filter collisions</button>
 		</div>
@@ -156,8 +164,10 @@
 		const check2021 = document.querySelector('#check2021');
 		const check2020 = document.querySelector('#check2020');
 		const selectStreet = document.querySelector('#selectStreet');
+		const selectSeverity = document.querySelector('#severity');
 
 		const summary = document.querySelector('#summary');
+		
 
 
 
@@ -196,24 +206,24 @@
 		}
 
 		const popupFields = ['Date',
-				'Time',
-				'Day_of_Week',
-				'Case_Number',
-				'Accident_Location',
-				'Latitude',
-				'Longitude',
-				'Collision_Classification_Descri',
-				'Collision_Type',
-				'Primary_Collision_Factor_Code',
-				'PCF_Description',
-				'PCF_Category',
-				'Involved_Objects',
-				'Involved_Parties',
-				'Party_at_Fault',
-				'Number_of_Injuries',
-				'Number_of_Fatalities',
-				'Suspected_Serious_Injury'
-			];
+			'Time',
+			'Day_of_Week',
+			'Case_Number',
+			'Accident_Location',
+			'Latitude',
+			'Longitude',
+			'Collision_Classification_Descri',
+			'Collision_Type',
+			'Primary_Collision_Factor_Code',
+			'PCF_Description',
+			'PCF_Category',
+			'Involved_Objects',
+			'Involved_Parties',
+			'Party_at_Fault',
+			'Number_of_Injuries',
+			'Number_of_Fatalities',
+			'Suspected_Serious_Injury'
+		];
 		function collisionPopup(obj) {
 			var msg = "";
 			for (const k of popupFields) {
@@ -240,8 +250,9 @@
 
 			// sort
 			const arrSorted = Array.from(setStreets).sort();
-
+			console.debug("Streetnames")
 			for (const str of arrSorted) {
+				console.debug(str);
 				const opt = document.createElement("option");
 				opt.text = str;
 				selectStreet.add(opt, null);
@@ -263,7 +274,7 @@
 			filterElectricScooter, */
 			filter2024, filter2023,
 			filter2022, filter2021, filter2020,
-			selectStreet
+			selectStreet,severity
 		) {
 			const involved = attr.Involved_Objects;
 
@@ -332,14 +343,56 @@
 				}
 
 			}
+			if (severity == 'Fatality') {
+				if (attr.Number_of_Fatalities ==0) {
+					return false;
+				}
+			}
+			if (severity == 'Injury') {
+				if (attr.Number_of_Injuries ==0) {
+					return false;
+				}
+			}
+			if (severity == 'NonInjury') {
+				if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities !=0))  {
+					return false;
+				}
+			}
 			return true;
 		}
+
+		var greenIcon = new L.Icon({
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
+			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+			iconSize: [25, 41],
+			iconAnchor: [12, 41],
+			popupAnchor: [1, -34],
+			shadowSize: [41, 41]
+		});
+
+		var goldIcon = new L.Icon({
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png',
+			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+			iconSize: [25, 41],
+			iconAnchor: [12, 41],
+			popupAnchor: [1, -34],
+			shadowSize: [41, 41]
+		});
+
+		var redIcon = new L.Icon({
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+			iconSize: [25, 41],
+			iconAnchor: [12, 41],
+			popupAnchor: [1, -34],
+			shadowSize: [41, 41]
+		});
 
 		function addMarkers(collisionJson, /*filterBike, filterCar, filterPed,
 			filterTruck, filterParked, filterMotorcycle, filterBus, filterElectricScooter, */
 			vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
-			selectStreet
+			selectStreet,selectSeverity
 
 		) {
 			removeAllMakers();
@@ -356,7 +409,7 @@
 				}*/
 				const checked = checkFilter(attr, vehTypeRegExp, /*filterBike, filterCar, filterPed,
 					filterTruck, filterParked, filterBus, filterMotorcycle, filterElectricScooter,*/
-					filter2024, filter2023, filter2022, filter2021, filter2020, selectStreet);
+					filter2024, filter2023, filter2022, filter2021, filter2020, selectStreet,selectSeverity);
 				if (!checked) {
 					continue;
 				}
@@ -369,7 +422,17 @@
 					if (ct > 0) {
 						console.log("adjusting marker")
 					}
-					const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001]);
+
+					var myMarker;
+					if (attr.Number_of_Fatalities > 0) {
+						myMarker = redIcon;
+					} else if (attr.Number_of_Injuries > 0) {
+						myMarker = goldIcon
+					} else {
+						myMarker = greenIcon;
+					}
+					const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001],
+						{ icon: myMarker });
 					markersAtLocation.set(JSON.stringify(loc), ct + 1);
 					const msg = collisionPopup(attr);
 					marker.bindPopup(msg).openPopup();
@@ -407,7 +470,8 @@
 				check2022.checked,
 				check2021.checked,
 				check2020.checked,
-				selectStreet.value
+				selectStreet.value,
+				selectSeverity.value
 
 
 			);
