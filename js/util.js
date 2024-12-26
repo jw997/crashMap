@@ -11,7 +11,7 @@ const transparencyJson = await getJson(transparencyJsonFile);
 
 async function getTransparencyData() {
 	var arrays = [];
-	for (var y = 2011; y<=2024; y++ ) {
+	for (var y = 2015; y<=2024; y++ ) {
 		const file = './data/' + y + '.json';
 		const transparencyJson = await getJson(file);
 		arrays.push(transparencyJson.features);

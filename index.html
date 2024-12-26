@@ -63,6 +63,8 @@
 	</style>
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 	<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+	<!---	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script> -->
+
 </head>
 
 <body class="sansserif">
@@ -123,7 +125,11 @@
 			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
 			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
 			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
-
+			<input type="checkbox" id="check2019"> <label for="check2019">2019</label><br>
+			<input type="checkbox" id="check2018"> <label for="check2018">2018</label><br>
+			<input type="checkbox" id="check2017"> <label for="check2017">2017</label><br>
+			<input type="checkbox" id="check2016"> <label for="check2016">2016</label><br>
+			<input type="checkbox" id="check2015"> <label for="check2015">2015</label><br>
 			<select id='severity'>
 				<option value='Any'>Any</option>
 
@@ -142,11 +148,36 @@
 			<div id='summary'></div>
 
 			<button id="filterButton">Filter collisions</button>
+
+			<div><canvas id="crashHist"></canvas></div>
 		</div>
 		<div id="osm-map"></div>
 	</div>
+	<script src="https://unpkg.com/chart.js@4.2.0/dist/chart.umd.js"></script>
+	<div id="chart-wrapper">
+		<canvas id="chart"></canvas>
+	</div>
+	<script>
+		const ctx = document.getElementById('chart').getContext('2d');
+		const chart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: ['A', 'B', 'C'],
+				datasets: [{
+					label: 'Easy as',
+					data: [1, 2, 3],
+				}],
+			},
+			options: {
+				responsive: true
+			}
+		});
+	</script>
+
 	<script type="module">
 		import { collisionsJson, transparencyJson, mergedTransparencyJson } from "./js/util.js";
+
+
 		/*const checkBike = document.querySelector('#checkBike');
 		const checkCar = document.querySelector('#checkCar');
 		const checkPed = document.querySelector('#checkPed');
@@ -163,11 +194,19 @@
 		const check2022 = document.querySelector('#check2022');
 		const check2021 = document.querySelector('#check2021');
 		const check2020 = document.querySelector('#check2020');
+
+		const check2019 = document.querySelector('#check2019');
+		const check2018 = document.querySelector('#check2018');
+		const check2017 = document.querySelector('#check2017');
+		const check2016 = document.querySelector('#check2016');
+		const check2015 = document.querySelector('#check2015');
+
+
 		const selectStreet = document.querySelector('#selectStreet');
 		const selectSeverity = document.querySelector('#severity');
 
 		const summary = document.querySelector('#summary');
-		
+
 
 
 
@@ -250,9 +289,9 @@
 
 			// sort
 			const arrSorted = Array.from(setStreets).sort();
-			console.debug("Streetnames")
+			//	console.debug("Streetnames")
 			for (const str of arrSorted) {
-				console.debug(str);
+				//		console.debug(str);
 				const opt = document.createElement("option");
 				opt.text = str;
 				selectStreet.add(opt, null);
@@ -274,7 +313,13 @@
 			filterElectricScooter, */
 			filter2024, filter2023,
 			filter2022, filter2021, filter2020,
-			selectStreet,severity
+			filter2019,
+			filter2018,
+			filter2017,
+			filter2016,
+			filter2015,
+
+			selectStreet, severity
 		) {
 			const involved = attr.Involved_Objects;
 
@@ -332,7 +377,27 @@
 				return false;
 
 			}
-			if ((year < 2020) || (year > 2024)) {
+			if ((year == 2019) && !filter2019) {
+				return false;
+
+			}
+			if ((year == 2018) && !filter2018) {
+				return false;
+
+			}
+			if ((year == 2017) && !filter2017) {
+				return false;
+
+			}
+			if ((year == 2016) && !filter2016) {
+				return false;
+
+			}
+			if ((year == 2015) && !filter2015) {
+				return false;
+
+			}
+			if ((year < 2015) || (year > 2024)) {
 				return false;
 			}
 			const loc = attr.Accident_Location;
@@ -344,17 +409,17 @@
 
 			}
 			if (severity == 'Fatality') {
-				if (attr.Number_of_Fatalities ==0) {
+				if (attr.Number_of_Fatalities == 0) {
 					return false;
 				}
 			}
 			if (severity == 'Injury') {
-				if (attr.Number_of_Injuries ==0) {
+				if (attr.Number_of_Injuries == 0) {
 					return false;
 				}
 			}
 			if (severity == 'NonInjury') {
-				if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities !=0))  {
+				if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
 					return false;
 				}
 			}
@@ -388,11 +453,18 @@
 			shadowSize: [41, 41]
 		});
 
-		function addMarkers(collisionJson, /*filterBike, filterCar, filterPed,
+		function addMarkers(collisionJson, histData, /*filterBike, filterCar, filterPed,
 			filterTruck, filterParked, filterMotorcycle, filterBus, filterElectricScooter, */
 			vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
-			selectStreet,selectSeverity
+
+			filter2019,
+			filter2018,
+			filter2017,
+			filter2016,
+			filter2015,
+
+			selectStreet, selectSeverity
 
 		) {
 			removeAllMakers();
@@ -409,11 +481,20 @@
 				}*/
 				const checked = checkFilter(attr, vehTypeRegExp, /*filterBike, filterCar, filterPed,
 					filterTruck, filterParked, filterBus, filterMotorcycle, filterElectricScooter,*/
-					filter2024, filter2023, filter2022, filter2021, filter2020, selectStreet,selectSeverity);
+					filter2024, filter2023, filter2022, filter2021, filter2020,
+					filter2019,
+					filter2018,
+					filter2017,
+					filter2016,
+					filter2015,
+
+					selectStreet, selectSeverity);
 				if (!checked) {
 					continue;
 				}
 				plotted++;
+				histData.set(attr.Year, histData.get(attr.Year) + 1);
+
 				if (attr.Latitude && attr.Longitude) {
 					const loc = [attr.Latitude, attr.Longitude];
 					const roundLoc = loc.map((c) => c.toFixed(3));
@@ -453,8 +534,18 @@
 		map.setView(target, 14);
 		//	addMarkers(mergedTransparencyJson, true, true, true, true, true, true, true, true);
 
+		const histData = new Map();
+		function clearHistData() {
+			for (var y = 2015; y < 2025; y++) {
+				histData.set(y, 0);
+			}
+		}
+		clearHistData();
+		var histChart;
+
 		document.querySelector('#filterButton').addEventListener('click', (event) => {
-			addMarkers(mergedTransparencyJson,
+			clearHistData();
+			addMarkers(mergedTransparencyJson, histData,
 				/*
 					checkBike.checked,
 					checkCar.checked,
@@ -465,18 +556,85 @@
 					checkBus.checked,
 					checkElectricScooter.checked, */
 				selectVehicleTypes.value,
+
 				check2024.checked,
 				check2023.checked,
 				check2022.checked,
 				check2021.checked,
 				check2020.checked,
+
+				check2019.checked,
+				check2018.checked,
+				check2017.checked,
+				check2016.checked,
+				check2015.checked,
+
+
+
 				selectStreet.value,
 				selectSeverity.value
 
 
 			);
 
+			console.log(JSON.stringify(histData));
+
+			(function () {
+				const data = [
+					{ year: 2015, count: histData.get(2015) },
+					{ year: 2016, count: histData.get(2016) },
+					{ year: 2017, count: histData.get(2017) },
+					{ year: 2018, count: histData.get(2018) },
+					{ year: 2019, count: histData.get(2019) },
+					{ year: 2020, count: histData.get(2020) },
+					{ year: 2021, count: histData.get(2021) },
+					{ year: 2022, count: histData.get(2022) },
+					{ year: 2023, count: histData.get(2023) },
+					{ year: 2024, count: histData.get(2024) },
+
+				];
+				if (histChart == undefined) {
+					histChart = new Chart(
+						document.getElementById('crashHist'),
+						{
+							type: 'bar',
+							data: {
+								labels: data.map(row => row.year),
+								datasets: [
+									{
+										label: 'matching crashes by year',
+										data: data.map(row => row.count)
+									}
+								]
+							}
+						}
+					);
+				} else {
+					//const newData = data.map(row => row.count);
+					// update data
+
+					const newData = {
+						label: 'matching crashes by year',
+						data: data.map(row => row.count)
+					}
+
+					histChart.data.datasets.pop();
+					histChart.data.datasets.push(newData);
+					console.log(newData);
+
+
+
+					histChart.update();
+				}
+			})();
+
+
+
+
 		});
+
+
+
 
 	</script>
 </body>
