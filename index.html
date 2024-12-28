@@ -266,14 +266,24 @@
 			for (const coll of mergedTransparencyJson) {
 				const attr = coll.attributes;
 				const loc = attr.Accident_Location;
-				const arr = loc.split("/");
+				const arr = loc.split("/").map( (s)=>s.trim());
+
 				for (const str of arr) {
-					setStreets.add(str);
+					const e = str.trim();
+					console.log("#" ,e,'#');
+					if (!setStreets.has(e)) {
+						setStreets.add(e);
+					}
 				}
 			}
 
 			// sort
 			const arrSorted = Array.from(setStreets).sort();
+	//		const set2 = new set(arrSorted);
+	//		const arr2 = [...set2];
+
+
+			console.log( setStreets.size, arrSorted.length);
 			//	console.debug("Streetnames")
 			for (const str of arrSorted) {
 				//		console.debug(str);
