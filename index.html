@@ -1,8 +1,20 @@
 <!doctype html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 	<style>
+		.sansserif {
+  			font-family: Verdana, Arial, Helvetica, sans-serif;
+			  
+		}	
+		.body-container {
+			overflow: hidden;
+		}
+
+		
+
 		.info {
 			padding: 6px 8px;
 			font: 14px/16px Arial, Helvetica, sans-serif;
@@ -29,7 +41,7 @@
 			margin-right: 8px;
 			opacity: 0.8;
 		}
-
+/*
 		.box {
 			border: 2px dotted rgb(96 139 168);
 
@@ -39,20 +51,44 @@
 
 		.box div {
 			background-color: rgb(96 139 168 / 0.2);
+			
 			border: 2px solid rgb(96 139 168);
 			border-radius: 5px;
-		}
+		    resize: both;
+			overflow:auto; 
+			
+		} */
 
-		#query_stuff {
+		#query-stuff {
+			padding: 1em;
+			background-color: rgb(96 139 168 / 0.2);
+			
+			border: 5px solid red; /* rgb(96 139 168)*/
 
-			width: 400px;
-			flex: none;
-			border: 1px solid black;
+			width: 20rem;
+			height: 80%;
+		/*	flex: none;  */
+		
+			 resize: horizontal;
+			overflow-x: hidden; 
+			overflow-y:scroll;
+			position: absolute;
+			left: calc( 40px + 4%);
+			top:5%;
+
+			z-index: 999;
+			
+			
 		}
 
 		#osm-map {
-			flex: 1 1 0px;
+		/*	flex: 1 1 1000px; */
+	/*	width: calc(100% - 400px); */
 			border: 1px solid black;
+			/*resize: both;
+			overflow: auto;*/
+			overflow: hidden;
+		
 		}
 
 		#selectStreet {
@@ -62,10 +98,17 @@
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 	<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
 
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+	$( function() {
+		$( "#resizable" ).resizable();
+	  } );
+
 </head>
 
-<body class="sansserif">
-	<div class="box">
+<body class="sansserif body-container" >
+<!---	<div class="box">-->
 		<div id="query-stuff">
 
 			<select id="selectVehicleTypes">
@@ -126,7 +169,7 @@
 			<div><canvas id="crashFaultHist"></canvas></div>
 		</div>
 		<div id="osm-map"></div>
-	</div>
+	<!--- </div -->
 
 	<script src="https://unpkg.com/chart.js@4.2.0/dist/chart.umd.js"></script>
 	<script type="module">
@@ -140,12 +183,18 @@
 		// BEGIN INIT STUFF
 		const selectStreet = document.querySelector('#selectStreet');
 		populateStreetSelect(mergedTransparencyJson, selectStreet);
+		
+		// make query box resizeable with jquery
+		jQuery( "#query-stuff").resizable();
+
 		// END INIT STUFF
 		
 		document.querySelector('#filterButton').addEventListener('click', (event) => {
 			handleFilterClick();
 
 		});
+
+
 
 	</script>
 </body>

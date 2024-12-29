@@ -15,12 +15,10 @@ const check2017 = document.querySelector('#check2017');
 const check2016 = document.querySelector('#check2016');
 const check2015 = document.querySelector('#check2015');
 
-
 const selectStreet = document.querySelector('#selectStreet');
 const selectSeverity = document.querySelector('#severity');
 
 const summary = document.querySelector('#summary');
-
 
 // populate the street select options
 function populateStreetSelect(mergedTransparencyJson, selectStreet) {
@@ -33,7 +31,7 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 		for (const str of arr) {
 			const e = str.trim();
-			console.log("#", e, '#');
+		//	console.log("#", e, '#');
 			if (!setStreets.has(e)) {
 				setStreets.add(e);
 			}
@@ -52,8 +50,6 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 		selectStreet.add(opt, null);
 	}
 }
-
-
 
 var greenIcon = new L.Icon({
 	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
@@ -81,8 +77,6 @@ var redIcon = new L.Icon({
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
-
-
 
 const collisionsJsonFile = './db/exports/BPCOLL.json';
 const collisionsJson = await getJson(collisionsJsonFile);
@@ -154,7 +148,17 @@ function createMap() {
 	// add geojson precincts to map
 }
 
+
+
 createMap();
+
+const resizeObserver = new ResizeObserver(() => {
+	console.log("resize observer fired");
+	map.invalidateSize();
+  });
+  
+resizeObserver.observe(document.getElementById('osm-map'));
+  
 
 
 // keep track of markers for removal
