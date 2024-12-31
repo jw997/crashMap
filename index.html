@@ -8,6 +8,32 @@
 		.sansserif {
 			font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
+		.button {
+			background-color: RGB(0,0,0,0);
+			border: 1PX SOLID black;
+			color: black;
+			padding: 5px 10px 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: small;
+			margin: 4px 2vw;
+			border-radius: 99999vmax;
+			max-width: 33%;
+			min-width: calc(44px + 2rem);	
+			min-height: 44px;	
+			visibility: visible;
+			touch-action: none;
+			
+		}
+		.select {
+			font-size: small;
+			color: black;
+		}
+		.chart {
+			border: 1PX SOLID black;
+			margin: 10px;
+		}
 
 		.info {
 			padding: 6px 8px;
@@ -64,10 +90,14 @@
 
 		}
 
-		@media only screen and (max-width: 991px) {
+		/* small devices */
+
+		@media only screen and (max-width: 991px) and (orientation: portrait){
 			#osm-map {
 				grid-column: 1;
 				grid-row: 1;
+				max-height: 50vh;
+				max-width: 100vh;
 			}
 
 			#query-stuff {
@@ -77,6 +107,25 @@
 
 			.grid-container {
 				grid-template-rows: 20rem 1fr;
+				height: 85vh;
+			}
+		}
+
+		@media only screen and (max-width: 991px) and (orientation: landscape){
+			#osm-map {
+				grid-column: 1;
+				grid-row: 1;
+				max-height: 50vh;
+				max-width: 100vh;
+			}
+
+			#query-stuff {
+				grid-column: 1;
+				grid-row: 2;
+			}
+
+			.grid-container {
+				grid-template-rows: 50vh 1fr;
 				height: 85vh;
 			}
 		}
@@ -106,7 +155,12 @@
 <body class="sansserif body-container">
 	<div class="grid-container">
 		<div id="query-stuff">
-			<select id="selectVehicleTypes">
+
+			<br/>
+			<label>Pick crash participants</label>
+			<br/>
+			
+			<select id="selectVehicleTypes" class="select">
 				<option value='.*'>Any</option>
 				<option value='Car'>Car/Any</option>
 				<option value='Bi.*Car'>Car/Bicycle</option>
@@ -134,7 +188,10 @@
 
 				<option value='Bus'>Bus/Any</option>
 			</select>
-			<br />
+			<br/>
+			<label>Pick years of data</label>
+			<br/>
+
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
 			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
 			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
@@ -145,23 +202,31 @@
 			<input type="checkbox" id="check2017"> <label for="check2017">2017</label><br>
 			<input type="checkbox" id="check2016"> <label for="check2016">2016</label><br>
 			<input type="checkbox" id="check2015"> <label for="check2015">2015</label><br>
-			<select id='severity'>
+
+			<br/>
+			<label>Pick crash severity</label>
+			<br/>
+
+			<select id='severity' class="select">
 				<option value='Any'>Any</option>
 				<option value='Fatality'>Fatality</option>
 				<option value='Injury'>Injury</option>
 				<option value='NonInjury'>Non-Injury</option>
 			</select>
 
-			<select id="selectStreet">
+			<br/>
+			<label>Pick street</label>
+			<br/>
+			<select id="selectStreet" class="select">
 				<option>Any</option>
 			</select>
 
-			<button id="filterButton">Filter collisions</button>
+			<button id="filterButton" class="button">Filter collisions</button>
 
 			<div id='summary'></div>
 
-			<div><canvas id="crashHist"></canvas></div>
-			<div><canvas id="crashFaultHist"></canvas></div>
+			<div><canvas id="crashHist" class="chart"></canvas></div>
+			<div><canvas id="crashFaultHist" class="chart"></canvas></div>
 		</div>
 		<div id="osm-map"></div>
 	</div>
