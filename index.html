@@ -6,14 +6,8 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 	<style>
 		.sansserif {
-  			font-family: Verdana, Arial, Helvetica, sans-serif;
-			  
-		}	
-		.body-container {
-			overflow: hidden;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
-
-		
 
 		.info {
 			padding: 6px 8px;
@@ -41,76 +35,77 @@
 			margin-right: 8px;
 			opacity: 0.8;
 		}
-/*
-		.box {
-			border: 2px dotted rgb(96 139 168);
-
-			display: flex;
-			flex-direction: row;
-		}
-
-		.box div {
-			background-color: rgb(96 139 168 / 0.2);
-			
-			border: 2px solid rgb(96 139 168);
-			border-radius: 5px;
-		    resize: both;
-			overflow:auto; 
-			
-		} */
 
 		#query-stuff {
-			padding: 1em;
+
 			background-color: rgb(96 139 168 / 0.2);
-			
-			border: 5px solid red; /* rgb(96 139 168)*/
 
-			width: 20rem;
-			height: 80%;
-		/*	flex: none;  */
-		
-			 resize: horizontal;
-			overflow-x: hidden; 
-			overflow-y:scroll;
-			position: absolute;
-			left: calc( 40px + 4%);
-			top:5%;
-
-			z-index: 999;
-			
-			
+			overflow-y: scroll;
+			border: 1px solid black;
+			/*
+			padding: 1em;
+			border: 5px solid red;
+*/
 		}
 
 		#osm-map {
-		/*	flex: 1 1 1000px; */
-	/*	width: calc(100% - 400px); */
 			border: 1px solid black;
-			/*resize: both;
-			overflow: auto;*/
-			overflow: hidden;
-		
 		}
 
 		#selectStreet {
 			display: block;
 		}
+
+		.grid-container {
+			display: grid;
+
+			grid-gap: 20px;
+			overflow-y: auto;
+
+		}
+
+		@media only screen and (max-width: 991px) {
+			#osm-map {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			#query-stuff {
+				grid-column: 1;
+				grid-row: 2;
+			}
+
+			.grid-container {
+				grid-template-rows: 20rem 1fr;
+				height: 85vh;
+			}
+		}
+
+		/* Large devices (laptops/desktops, 992px and up) */
+		@media only screen and (min-width: 992px) {
+			#osm-map {
+				grid-column: 2;
+				grid-row: 1;
+			}
+
+			#query-stuff {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			.grid-container {
+				grid-template-columns: 20rem 1fr;
+				height: 95vh;
+			}
+		}
 	</style>
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 	<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
-
-	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
-
-	$( function() {
-		$( "#resizable" ).resizable();
-	  } );
-
 </head>
 
-<body class="sansserif body-container" >
-<!---	<div class="box">-->
+<body class="sansserif body-container">
+	<div class="grid-container">
 		<div id="query-stuff">
-
 			<select id="selectVehicleTypes">
 				<option value='.*'>Any</option>
 				<option value='Car'>Car/Any</option>
@@ -161,15 +156,15 @@
 				<option>Any</option>
 			</select>
 
-			<div id='summary'></div>
-
 			<button id="filterButton">Filter collisions</button>
+
+			<div id='summary'></div>
 
 			<div><canvas id="crashHist"></canvas></div>
 			<div><canvas id="crashFaultHist"></canvas></div>
 		</div>
 		<div id="osm-map"></div>
-	<!--- </div -->
+	</div>
 
 	<script src="https://unpkg.com/chart.js@4.2.0/dist/chart.umd.js"></script>
 	<script type="module">
@@ -177,18 +172,15 @@
 			collisionsJson, transparencyJson, mergedTransparencyJson,
 			redIcon, goldIcon, greenIcon,
 			populateStreetSelect,
-			collisionPopup,map,handleFilterClick
+			collisionPopup, map, handleFilterClick
 		} from "./js/util.js";
 
 		// BEGIN INIT STUFF
 		const selectStreet = document.querySelector('#selectStreet');
 		populateStreetSelect(mergedTransparencyJson, selectStreet);
-		
-		// make query box resizeable with jquery
-		jQuery( "#query-stuff").resizable();
 
 		// END INIT STUFF
-		
+
 		document.querySelector('#filterButton').addEventListener('click', (event) => {
 			handleFilterClick();
 

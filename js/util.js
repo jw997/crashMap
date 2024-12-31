@@ -134,7 +134,7 @@ function createMap() {
 	// Where you want to render the map.
 	var element = document.getElementById('osm-map');
 	// Height has to be set. You can do this in CSS too.
-	element.style = 'height:100vh;';
+	//element.style = 'height:100vh;';
 	// Create Leaflet map on map element.
 	map = L.map(element);
 	// Add OSM tile layer to the Leaflet map.
