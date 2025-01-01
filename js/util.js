@@ -1,6 +1,10 @@
 
 import { getJson } from "./utils_helper.js";
 
+// set default chart font color to black
+Chart.defaults.color = '#000';
+Chart.defaults.font.size = 14;
+
 const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
 
 const check2024 = document.querySelector('#check2024');
