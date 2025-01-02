@@ -1,5 +1,5 @@
 
-import { getJson } from "./utils_helper.js";
+import { getJson, streetArray } from "./utils_helper.js";
 
 // set default chart font color to black
 Chart.defaults.color = '#000';
@@ -35,7 +35,7 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 		for (const str of arr) {
 			const e = str.trim();
-		//	console.log("#", e, '#');
+			//	console.log("#", e, '#');
 			if (!setStreets.has(e)) {
 				setStreets.add(e);
 			}
@@ -47,10 +47,18 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 	console.log(setStreets.size, arrSorted.length);
 	//	console.debug("Streetnames")
+	/*
 	for (const str of arrSorted) {
-		//		console.debug(str);
+		console.debug(str);
 		const opt = document.createElement("option");
 		opt.text = str;
+		selectStreet.add(opt, null);
+	}*/
+
+	for (const str of streetArray) {
+		const opt = document.createElement("option");
+		opt.value = str;
+		opt.text = str.split("|")[0];
 		selectStreet.add(opt, null);
 	}
 }
@@ -113,7 +121,7 @@ const popupFields = ['Date',
 	'Collision_Type',
 	'Primary_Collision_Factor_Code',
 	'PCF_Description',
-//	'PCF_Category',
+	//	'PCF_Category',
 	'Involved_Objects',
 	'Involved_Parties',
 	'Party_at_Fault',
@@ -159,10 +167,10 @@ createMap();
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
 	map.invalidateSize();
-  });
-  
+});
+
 resizeObserver.observe(document.getElementById('osm-map'));
-  
+
 
 
 // keep track of markers for removal
@@ -240,8 +248,18 @@ function checkFilter(attr, vehTypeRegExp,
 	const loc = attr.Accident_Location;
 
 	if (selectStreet != "Any") {
-		if (!loc.includes(selectStreet)) {
-			return false;
+
+		if (selectStreet.includes('|')) {
+			const re = new RegExp(selectStreet);
+
+			if (!loc.match(re)) {
+				return false;
+			} else {
+				return true;
+			}
+		} else {
+			return loc.includes(selectStreet);
+
 		}
 
 	}
