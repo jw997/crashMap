@@ -2027,7 +2027,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202000047399",
         "Party_at_Fault": "Pedestrian"
       }
@@ -2123,7 +2123,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-0005855",
         "Party_at_Fault": "Driver"
       }
@@ -2379,7 +2379,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00053958",
         "Party_at_Fault": "Pedestrian"
       }
@@ -2731,7 +2731,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00050286",
         "Party_at_Fault": "NOT STATED"
       }
@@ -2859,7 +2859,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2020-00054151",
         "Party_at_Fault": "Driver"
       }
@@ -2875,7 +2875,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00052603",
         "Party_at_Fault": "Driver"
       }
@@ -2907,7 +2907,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "9370-2020-01746",
         "Party_at_Fault": "Pedestrian"
       }
@@ -3547,7 +3547,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00051145",
         "Party_at_Fault": "Driver"
       }
@@ -3563,7 +3563,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00053779",
         "Party_at_Fault": "Driver"
       }
@@ -3707,7 +3707,7 @@
         "Year": 2020,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "9370-2020-01337",
         "Party_at_Fault": "Pedestrian"
       }
@@ -3851,7 +3851,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00056094",
         "Party_at_Fault": "Driver"
       }
@@ -3867,7 +3867,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00055357",
         "Party_at_Fault": "Driver"
       }
@@ -4011,7 +4011,7 @@
         "Year": 2020,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2020-00002743",
         "Party_at_Fault": "Driver"
       }
@@ -4027,7 +4027,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00000439",
         "Party_at_Fault": "Driver"
       }
@@ -4059,7 +4059,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00003826",
         "Party_at_Fault": "Driver"
       }
@@ -4075,7 +4075,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00003835",
         "Party_at_Fault": "Driver"
       }
@@ -4235,7 +4235,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00004517",
         "Party_at_Fault": "Driver"
       }
@@ -4347,7 +4347,7 @@
         "Year": 2020,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00003549",
         "Party_at_Fault": "Driver"
       }
@@ -4411,7 +4411,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00005336",
         "Party_at_Fault": "Driver"
       }
@@ -4475,7 +4475,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00004019",
         "Party_at_Fault": "Driver"
       }
@@ -4507,7 +4507,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00003821",
         "Party_at_Fault": "Driver"
       }
@@ -4571,7 +4571,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00011769",
         "Party_at_Fault": "Driver"
       }
@@ -4619,7 +4619,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00006933",
         "Party_at_Fault": "Driver"
       }
@@ -4955,7 +4955,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "20-1762",
         "Party_at_Fault": "Pedestrian"
       }
@@ -4971,7 +4971,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00004750",
         "Party_at_Fault": "Driver"
       }
@@ -5211,7 +5211,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00010995",
         "Party_at_Fault": "Driver"
       }
@@ -5243,7 +5243,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00006402",
         "Party_at_Fault": "Pedestrian"
       }
@@ -5611,7 +5611,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2020-00053276",
         "Party_at_Fault": "Driver"
       }
@@ -5899,7 +5899,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00057064",
         "Party_at_Fault": "Driver"
       }
@@ -5947,7 +5947,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00057476",
         "Party_at_Fault": "Driver"
       }
@@ -6027,7 +6027,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00001120",
         "Party_at_Fault": "Driver"
       }
@@ -6155,7 +6155,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00010404",
         "Party_at_Fault": "Driver"
       }
@@ -6299,7 +6299,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00030257",
         "Party_at_Fault": "Driver"
       }
@@ -6427,7 +6427,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00039032",
         "Party_at_Fault": "Driver"
       }
@@ -6747,7 +6747,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00058054",
         "Party_at_Fault": "Driver"
       }
@@ -7627,7 +7627,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00026867",
         "Party_at_Fault": "Driver"
       }
@@ -7851,7 +7851,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2021-00053399",
         "Party_at_Fault": "Pedestrian"
       }
@@ -7931,7 +7931,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00047704",
         "Party_at_Fault": "Driver"
       }
@@ -8059,7 +8059,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00055697",
         "Party_at_Fault": "Pedestrian"
       }
@@ -8091,7 +8091,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00055037",
         "Party_at_Fault": "Driver"
       }
@@ -8139,7 +8139,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2020-00048394",
         "Party_at_Fault": "Driver"
       }
@@ -8875,7 +8875,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00027252",
         "Party_at_Fault": "Driver"
       }
@@ -8987,7 +8987,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00010520",
         "Party_at_Fault": "Pedestrian"
       }
@@ -9067,7 +9067,7 @@
         "Year": 2020,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2020-00013374",
         "Party_at_Fault": "Driver"
       }
@@ -9515,7 +9515,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00034166",
         "Party_at_Fault": "Driver"
       }
@@ -9547,7 +9547,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bus/NOT STATED",
+        "Involved_Objects": "Bus/Pedestrian",
         "Local_Report_Number": "2020-00031140",
         "Party_at_Fault": "Driver"
       }
@@ -9579,7 +9579,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00037424",
         "Party_at_Fault": "Driver"
       }
@@ -9595,7 +9595,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2020-00039783",
         "Party_at_Fault": "Driver"
       }
@@ -9787,7 +9787,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00024247",
         "Party_at_Fault": "Driver"
       }
@@ -9803,7 +9803,7 @@
         "Year": 2020,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2020-00021854",
         "Party_at_Fault": "Bicyclist"
       }
@@ -9835,7 +9835,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00022446",
         "Party_at_Fault": "Driver"
       }
@@ -10683,7 +10683,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00000337",
         "Party_at_Fault": "Driver"
       }
@@ -10779,7 +10779,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2020-00010952",
         "Party_at_Fault": "Driver"
       }
@@ -10955,7 +10955,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00034876",
         "Party_at_Fault": "Driver"
       }
@@ -11099,7 +11099,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2020-00019209",
         "Party_at_Fault": "Driver"
       }
@@ -11339,7 +11339,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00028786",
         "Party_at_Fault": "Driver"
       }
@@ -11499,7 +11499,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00039593",
         "Party_at_Fault": "Driver"
       }
@@ -11643,7 +11643,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00045956",
         "Party_at_Fault": "Pedestrian"
       }
@@ -11755,7 +11755,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00011933",
         "Party_at_Fault": "Driver"
       }
@@ -12123,7 +12123,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00008856",
         "Party_at_Fault": "Driver"
       }
@@ -13227,7 +13227,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2021-00033432",
         "Party_at_Fault": "Pedestrian"
       }
@@ -14091,7 +14091,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00006571",
         "Party_at_Fault": "Driver"
       }
@@ -14459,7 +14459,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00046306",
         "Party_at_Fault": "Driver"
       }
@@ -14651,7 +14651,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00011602",
         "Party_at_Fault": "Driver"
       }
@@ -14763,7 +14763,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00012695",
         "Party_at_Fault": "Driver"
       }
@@ -14795,7 +14795,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00012378",
         "Party_at_Fault": "Driver"
       }
@@ -15771,7 +15771,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2021-00022355",
         "Party_at_Fault": "Driver"
       }
@@ -16171,7 +16171,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00026745",
         "Party_at_Fault": "Driver"
       }
@@ -16299,7 +16299,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00038664",
         "Party_at_Fault": "Driver"
       }
@@ -16587,7 +16587,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2020-00013803",
         "Party_at_Fault": "Pedestrian"
       }
@@ -16651,7 +16651,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Car/Pedestrian",
         "Local_Report_Number": "2020-00019830",
         "Party_at_Fault": "Driver"
       }
@@ -16859,7 +16859,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00049383",
         "Party_at_Fault": "Pedestrian"
       }
@@ -16891,7 +16891,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2021-00047678",
         "Party_at_Fault": "Pedestrian"
       }
@@ -17259,7 +17259,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2021-00040538",
         "Party_at_Fault": "NOT STATED"
       }
@@ -17323,7 +17323,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00031430",
         "Party_at_Fault": "Driver"
       }
@@ -17835,7 +17835,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00029953",
         "Party_at_Fault": "Driver"
       }
@@ -18507,7 +18507,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00008683",
         "Party_at_Fault": "Driver"
       }
@@ -18555,7 +18555,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00013248",
         "Party_at_Fault": "Driver"
       }
@@ -18587,7 +18587,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00010774",
         "Party_at_Fault": "Driver"
       }
@@ -18859,7 +18859,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2021-00037716",
         "Party_at_Fault": "Bicyclist"
       }
@@ -18971,7 +18971,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00024554",
         "Party_at_Fault": "Driver"
       }
@@ -19147,7 +19147,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00021284",
         "Party_at_Fault": "Driver"
       }
@@ -19403,7 +19403,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00025194",
         "Party_at_Fault": "Driver"
       }
@@ -19611,7 +19611,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2021-00051924",
         "Party_at_Fault": "Driver"
       }
@@ -19643,7 +19643,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00050778",
         "Party_at_Fault": "Driver"
       }
@@ -19883,7 +19883,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00052707",
         "Party_at_Fault": "Driver"
       }
@@ -19915,7 +19915,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00053181",
         "Party_at_Fault": "Driver"
       }
@@ -20395,7 +20395,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bus/NOT STATED",
+        "Involved_Objects": "Bus/Pedestrian",
         "Local_Report_Number": "9370-2021-11426",
         "Party_at_Fault": "Driver"
       }
@@ -20667,7 +20667,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2021-00038813",
         "Party_at_Fault": "Driver"
       }
@@ -20875,7 +20875,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00000878",
         "Party_at_Fault": "Driver"
       }
@@ -21067,7 +21067,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00006655",
         "Party_at_Fault": "Driver"
       }
@@ -22283,7 +22283,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00052499",
         "Party_at_Fault": "NOT STATED"
       }
@@ -22491,7 +22491,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00046826",
         "Party_at_Fault": "Driver"
       }
@@ -22571,7 +22571,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2021-00048356",
         "Party_at_Fault": "Pedestrian"
       }
@@ -22715,7 +22715,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00053277",
         "Party_at_Fault": "Driver"
       }
@@ -22859,7 +22859,7 @@
         "Year": 2021,
         "Number_of_Injuries": 3,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian/Pedestrian",
         "Local_Report_Number": "2021-00033409",
         "Party_at_Fault": "Driver"
       }
@@ -23707,7 +23707,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00005867",
         "Party_at_Fault": "Driver"
       }
@@ -23883,7 +23883,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 2,
-        "Involved_Objects": "Car/Car/Car/Car/NOT STATED/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Car/Car/Car/Pedestrian/Pedestrian/Pedestrian",
         "Local_Report_Number": "9370-2021-11277",
         "Party_at_Fault": "NOT STATED"
       }
@@ -24315,7 +24315,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2021-00052440",
         "Party_at_Fault": "Driver"
       }
@@ -24347,7 +24347,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00052364",
         "Party_at_Fault": "Driver"
       }
@@ -24379,7 +24379,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00051294",
         "Party_at_Fault": "Driver"
       }
@@ -24395,7 +24395,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00055431",
         "Party_at_Fault": "Driver"
       }
@@ -24411,7 +24411,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2021-00054120",
         "Party_at_Fault": "Driver"
       }
@@ -24427,7 +24427,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00053933",
         "Party_at_Fault": "Driver"
       }
@@ -24827,7 +24827,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00001250",
         "Party_at_Fault": "Pedestrian"
       }
@@ -24987,7 +24987,7 @@
         "Year": 2022,
         "Number_of_Injuries": 3,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00007982",
         "Party_at_Fault": "Driver"
       }
@@ -25275,7 +25275,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00023350",
         "Party_at_Fault": "Pedestrian"
       }
@@ -25291,7 +25291,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2021-00016265",
         "Party_at_Fault": "Driver"
       }
@@ -25451,7 +25451,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00002949",
         "Party_at_Fault": "Driver"
       }
@@ -25547,7 +25547,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00004011",
         "Party_at_Fault": "Driver"
       }
@@ -25659,7 +25659,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2020-00009319",
         "Party_at_Fault": "Driver"
       }
@@ -25675,7 +25675,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian/Pedestrian",
         "Local_Report_Number": "2020-00009945",
         "Party_at_Fault": "Bicyclist"
       }
@@ -25995,7 +25995,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00011630",
         "Party_at_Fault": "Driver"
       }
@@ -26091,7 +26091,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00011516",
         "Party_at_Fault": "Driver"
       }
@@ -26811,7 +26811,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2022-0007897",
         "Party_at_Fault": "Bicyclist"
       }
@@ -28267,7 +28267,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00014188",
         "Party_at_Fault": "Driver"
       }
@@ -28299,7 +28299,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00017142",
         "Party_at_Fault": "Driver"
       }
@@ -28843,7 +28843,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00031852",
         "Party_at_Fault": "Driver"
       }
@@ -29003,7 +29003,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00006570",
         "Party_at_Fault": "Driver"
       }
@@ -29531,7 +29531,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00004176",
         "Party_at_Fault": "Driver"
       }
@@ -29627,7 +29627,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00009024",
         "Party_at_Fault": "Driver"
       }
@@ -29707,7 +29707,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00008237",
         "Party_at_Fault": "Driver"
       }
@@ -29979,7 +29979,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00028678",
         "Party_at_Fault": "Driver"
       }
@@ -30395,7 +30395,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2022-00021199",
         "Party_at_Fault": "Pedestrian"
       }
@@ -30587,7 +30587,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00017182",
         "Party_at_Fault": "Driver"
       }
@@ -30715,7 +30715,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00019301",
         "Party_at_Fault": "Driver"
       }
@@ -30859,7 +30859,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00021070",
         "Party_at_Fault": "Driver"
       }
@@ -30907,7 +30907,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00020885",
         "Party_at_Fault": "Driver"
       }
@@ -31179,7 +31179,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2022-00008929",
         "Party_at_Fault": "Driver"
       }
@@ -31227,7 +31227,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00022346",
         "Party_at_Fault": "Driver"
       }
@@ -31243,7 +31243,7 @@
         "Year": 2022,
         "Number_of_Injuries": 3,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00022301",
         "Party_at_Fault": "Driver"
       }
@@ -31787,7 +31787,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00012446",
         "Party_at_Fault": "NOT STATED"
       }
@@ -32027,7 +32027,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00023945",
         "Party_at_Fault": "Pedestrian"
       }
@@ -32107,7 +32107,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00026548",
         "Party_at_Fault": "Pedestrian"
       }
@@ -32171,7 +32171,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00007758",
         "Party_at_Fault": "Pedestrian"
       }
@@ -32459,7 +32459,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00060819",
         "Party_at_Fault": "Driver"
       }
@@ -33483,7 +33483,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00052192",
         "Party_at_Fault": "NOT STATED"
       }
@@ -33723,7 +33723,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00013270",
         "Party_at_Fault": "Driver"
       }
@@ -33819,7 +33819,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2022-00028365",
         "Party_at_Fault": "Driver"
       }
@@ -34235,7 +34235,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00052179",
         "Party_at_Fault": "Driver"
       }
@@ -35067,7 +35067,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00053316",
         "Party_at_Fault": "Driver"
       }
@@ -35163,7 +35163,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00050445",
         "Party_at_Fault": "Driver"
       }
@@ -35707,7 +35707,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00050764",
         "Party_at_Fault": "Driver"
       }
@@ -35739,7 +35739,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00047137",
         "Party_at_Fault": "Driver"
       }
@@ -35819,7 +35819,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2022-00041192",
         "Party_at_Fault": "Pedestrian"
       }
@@ -35835,7 +35835,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00044720",
         "Party_at_Fault": "Driver"
       }
@@ -35979,7 +35979,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00041946",
         "Party_at_Fault": "Driver"
       }
@@ -35995,7 +35995,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00045819",
         "Party_at_Fault": "Driver"
       }
@@ -36539,7 +36539,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00048598",
         "Party_at_Fault": "Driver"
       }
@@ -36987,7 +36987,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00014837",
         "Party_at_Fault": "Driver"
       }
@@ -37435,7 +37435,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/NOT STATED/NOT STATED/Pedestrian",
         "Local_Report_Number": "9370-2022-01488",
         "Party_at_Fault": "Driver"
       }
@@ -37531,7 +37531,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00044590",
         "Party_at_Fault": "Driver"
       }
@@ -37563,7 +37563,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00037398",
         "Party_at_Fault": "Pedestrian"
       }
@@ -37579,7 +37579,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00040280",
         "Party_at_Fault": "Driver"
       }
@@ -38075,7 +38075,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00020815",
         "Party_at_Fault": "Driver"
       }
@@ -38555,7 +38555,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00060257",
         "Party_at_Fault": "Driver"
       }
@@ -38571,7 +38571,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00058457",
         "Party_at_Fault": "Driver"
       }
@@ -38699,7 +38699,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00059746",
         "Party_at_Fault": "Driver"
       }
@@ -39067,7 +39067,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00059885",
         "Party_at_Fault": "Driver"
       }
@@ -39403,7 +39403,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00033944",
         "Party_at_Fault": "Driver"
       }
@@ -39739,7 +39739,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00030866",
         "Party_at_Fault": "Driver"
       }
@@ -39803,7 +39803,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00004862",
         "Party_at_Fault": "Driver"
       }
@@ -39819,7 +39819,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00004120",
         "Party_at_Fault": "Driver"
       }
@@ -39979,7 +39979,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00053463",
         "Party_at_Fault": "Driver"
       }
@@ -40283,7 +40283,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00048564",
         "Party_at_Fault": "Driver"
       }
@@ -41035,7 +41035,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00032052",
         "Party_at_Fault": "Driver"
       }
@@ -41115,7 +41115,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00050242",
         "Party_at_Fault": "Driver"
       }
@@ -41819,7 +41819,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00051771",
         "Party_at_Fault": "Driver"
       }
@@ -41979,7 +41979,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00046677",
         "Party_at_Fault": "Driver"
       }
@@ -42059,7 +42059,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00054314",
         "Party_at_Fault": "Driver"
       }
@@ -42203,7 +42203,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00053242",
         "Party_at_Fault": "Driver"
       }
@@ -42363,7 +42363,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00045774",
         "Party_at_Fault": "Pedestrian"
       }
@@ -43163,7 +43163,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00000211",
         "Party_at_Fault": "Driver"
       }
@@ -44171,7 +44171,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00054261",
         "Party_at_Fault": "Driver"
       }
@@ -44235,7 +44235,7 @@
         "Year": 2022,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00047084",
         "Party_at_Fault": "Driver"
       }
@@ -44283,7 +44283,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00046645",
         "Party_at_Fault": "Pedestrian"
       }
@@ -44395,7 +44395,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00046724",
         "Party_at_Fault": "Driver"
       }
@@ -44875,7 +44875,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00060702",
         "Party_at_Fault": "Pedestrian"
       }
@@ -44939,7 +44939,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "9370-2022-01442",
         "Party_at_Fault": "Pedestrian"
       }
@@ -45067,7 +45067,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00044254",
         "Party_at_Fault": "Driver"
       }
@@ -45307,7 +45307,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00046599",
         "Party_at_Fault": "Driver"
       }
@@ -45563,7 +45563,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00054389",
         "Party_at_Fault": "Driver"
       }
@@ -45819,7 +45819,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00049946",
         "Party_at_Fault": "Driver"
       }
@@ -45979,7 +45979,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00047560",
         "Party_at_Fault": "Driver"
       }
@@ -46107,7 +46107,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00055653",
         "Party_at_Fault": "Driver"
       }
@@ -46715,7 +46715,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00037100",
         "Party_at_Fault": "Driver"
       }
@@ -46731,7 +46731,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00039143",
         "Party_at_Fault": "Driver"
       }
@@ -46747,7 +46747,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00031385",
         "Party_at_Fault": "Driver"
       }
@@ -46859,7 +46859,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00053768",
         "Party_at_Fault": "Driver"
       }
@@ -46987,7 +46987,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00058334",
         "Party_at_Fault": "Pedestrian"
       }
@@ -47115,7 +47115,7 @@
         "Year": 2022,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2022-00031509",
         "Party_at_Fault": "Driver"
       }
@@ -47179,7 +47179,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2022-00000670",
         "Party_at_Fault": "Driver"
       }
@@ -47691,7 +47691,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00046854",
         "Party_at_Fault": "Driver"
       }
@@ -47739,7 +47739,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00059320",
         "Party_at_Fault": "Driver"
       }
@@ -47835,7 +47835,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2023-00051039",
         "Party_at_Fault": "Driver"
       }
@@ -47867,7 +47867,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00053284",
         "Party_at_Fault": "Pedestrian"
       }
@@ -48187,7 +48187,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00030647",
         "Party_at_Fault": "Driver"
       }
@@ -48747,7 +48747,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00048662",
         "Party_at_Fault": "Driver"
       }
@@ -48859,7 +48859,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00048470",
         "Party_at_Fault": "Pedestrian"
       }
@@ -49067,7 +49067,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00002614",
         "Party_at_Fault": "Driver"
       }
@@ -49307,7 +49307,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/Truck",
+        "Involved_Objects": "Car/Pedestrian/Truck",
         "Local_Report_Number": "2023-00062093",
         "Party_at_Fault": "Driver"
       }
@@ -49707,7 +49707,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00056508",
         "Party_at_Fault": "Driver"
       }
@@ -49835,7 +49835,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00058567",
         "Party_at_Fault": "Driver"
       }
@@ -49899,7 +49899,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00060019",
         "Party_at_Fault": "Driver"
       }
@@ -49963,7 +49963,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2023-00055632",
         "Party_at_Fault": "Pedestrian"
       }
@@ -50107,7 +50107,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00062130",
         "Party_at_Fault": "Pedestrian"
       }
@@ -50331,7 +50331,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00033576",
         "Party_at_Fault": "Driver"
       }
@@ -51483,7 +51483,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00030319",
         "Party_at_Fault": "Driver"
       }
@@ -51755,7 +51755,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00026146",
         "Party_at_Fault": "Driver"
       }
@@ -51915,7 +51915,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2023-00028508",
         "Party_at_Fault": "Driver"
       }
@@ -52267,7 +52267,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00046990",
         "Party_at_Fault": "Pedestrian"
       }
@@ -52379,7 +52379,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00036357",
         "Party_at_Fault": "Driver"
       }
@@ -52635,7 +52635,7 @@
         "Year": 2023,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00020198",
         "Party_at_Fault": "Driver"
       }
@@ -52715,7 +52715,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00008236",
         "Party_at_Fault": "Driver"
       }
@@ -52827,7 +52827,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Pedestrian",
+        "Involved_Objects": "Pedestrian/Pedestrian",
         "Local_Report_Number": "2023-00044524",
         "Party_at_Fault": "Driver"
       }
@@ -52843,7 +52843,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00043749",
         "Party_at_Fault": "Driver"
       }
@@ -52859,7 +52859,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00044014",
         "Party_at_Fault": "Driver"
       }
@@ -53227,7 +53227,7 @@
         "Year": 2023,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2023-00043590",
         "Party_at_Fault": "Driver"
       }
@@ -53419,7 +53419,7 @@
         "Year": 2023,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00040759",
         "Party_at_Fault": "Driver"
       }
@@ -53515,7 +53515,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00040058",
         "Party_at_Fault": "Pedestrian"
       }
@@ -53819,7 +53819,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00050844",
         "Party_at_Fault": "Driver"
       }
@@ -53883,7 +53883,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00055201",
         "Party_at_Fault": "Driver"
       }
@@ -53979,7 +53979,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00057836",
         "Party_at_Fault": "Driver"
       }
@@ -54075,7 +54075,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00030164",
         "Party_at_Fault": "Driver"
       }
@@ -54219,7 +54219,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300020676",
         "Party_at_Fault": "Driver"
       }
@@ -54235,7 +54235,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300017793",
         "Party_at_Fault": "Driver"
       }
@@ -54283,7 +54283,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00044784",
         "Party_at_Fault": "Driver"
       }
@@ -54827,7 +54827,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00055477",
         "Party_at_Fault": "Driver"
       }
@@ -55067,7 +55067,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00062254",
         "Party_at_Fault": "Driver"
       }
@@ -55163,7 +55163,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00058565",
         "Party_at_Fault": "Pedestrian"
       }
@@ -55179,7 +55179,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00056270",
         "Party_at_Fault": "Driver"
       }
@@ -55275,7 +55275,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00000553",
         "Party_at_Fault": "Driver"
       }
@@ -55307,7 +55307,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00006532",
         "Party_at_Fault": "Driver"
       }
@@ -55995,7 +55995,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2023-00052425",
         "Party_at_Fault": "Pedestrian"
       }
@@ -56027,7 +56027,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00048050",
         "Party_at_Fault": "Driver"
       }
@@ -56075,7 +56075,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00057913",
         "Party_at_Fault": "Driver"
       }
@@ -56123,7 +56123,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00057212",
         "Party_at_Fault": "Driver"
       }
@@ -56475,7 +56475,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00006365",
         "Party_at_Fault": "Driver"
       }
@@ -56523,7 +56523,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00004684",
         "Party_at_Fault": "Driver"
       }
@@ -56555,7 +56555,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00001806",
         "Party_at_Fault": "Driver"
       }
@@ -56651,7 +56651,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2023-00022132",
         "Party_at_Fault": "Driver"
       }
@@ -56907,7 +56907,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300017562",
         "Party_at_Fault": "Driver"
       }
@@ -57083,7 +57083,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bus/NOT STATED",
+        "Involved_Objects": "Bus/Pedestrian",
         "Local_Report_Number": "2023-00027621",
         "Party_at_Fault": "Pedestrian"
       }
@@ -57355,7 +57355,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00031348",
         "Party_at_Fault": "Driver"
       }
@@ -57483,7 +57483,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00016265",
         "Party_at_Fault": "Pedestrian"
       }
@@ -57515,7 +57515,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300018747",
         "Party_at_Fault": "Driver"
       }
@@ -58043,7 +58043,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00036717",
         "Party_at_Fault": "Pedestrian"
       }
@@ -58075,7 +58075,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00036505",
         "Party_at_Fault": "Pedestrian"
       }
@@ -58331,7 +58331,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300009046",
         "Party_at_Fault": "Driver"
       }
@@ -58667,7 +58667,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00008046",
         "Party_at_Fault": "Driver"
       }
@@ -58683,7 +58683,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00003269",
         "Party_at_Fault": "Driver"
       }
@@ -59323,7 +59323,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00018034",
         "Party_at_Fault": "Driver"
       }
@@ -59435,7 +59435,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00000347",
         "Party_at_Fault": "Driver"
       }
@@ -59995,7 +59995,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00035603",
         "Party_at_Fault": "Pedestrian"
       }
@@ -60027,7 +60027,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00012598",
         "Party_at_Fault": "Driver"
       }
@@ -60139,7 +60139,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00004906",
         "Party_at_Fault": "Driver"
       }
@@ -60251,7 +60251,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00011266",
         "Party_at_Fault": "Driver"
       }
@@ -60283,7 +60283,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00014982",
         "Party_at_Fault": "Driver"
       }
@@ -60379,7 +60379,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00003375",
         "Party_at_Fault": "Driver"
       }
@@ -60395,7 +60395,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00000682",
         "Party_at_Fault": "Driver"
       }
@@ -60667,7 +60667,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00005832",
         "Party_at_Fault": "Driver"
       }
@@ -61275,7 +61275,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2023-00026653",
         "Party_at_Fault": "Pedestrian"
       }
@@ -61419,7 +61419,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "202300020551",
         "Party_at_Fault": "Driver"
       }
@@ -61435,7 +61435,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00016646",
         "Party_at_Fault": "Driver"
       }
@@ -62395,7 +62395,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bus/NOT STATED",
+        "Involved_Objects": "Bus/Pedestrian",
         "Local_Report_Number": "2024-00044351",
         "Party_at_Fault": "Driver"
       }
@@ -62427,7 +62427,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00009158",
         "Party_at_Fault": "Driver"
       }
@@ -62811,7 +62811,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2023-00012489",
         "Party_at_Fault": "Pedestrian"
       }
@@ -62843,7 +62843,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00015155",
         "Party_at_Fault": "Pedestrian"
       }
@@ -62859,7 +62859,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00010986",
         "Party_at_Fault": "Driver"
       }
@@ -63147,7 +63147,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00033825",
         "Party_at_Fault": "Driver"
       }
@@ -63211,7 +63211,7 @@
         "Year": 2023,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-0024084",
         "Party_at_Fault": "Driver"
       }
@@ -63451,7 +63451,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00005116",
         "Party_at_Fault": "Driver"
       }
@@ -63499,7 +63499,7 @@
         "Year": 2023,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Motorcycle/NOT STATED",
+        "Involved_Objects": "Car/Motorcycle/Pedestrian",
         "Local_Report_Number": "2023-00006777",
         "Party_at_Fault": "Pedestrian"
       }
@@ -63755,7 +63755,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00049312",
         "Party_at_Fault": "Driver"
       }
@@ -63819,7 +63819,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00048571",
         "Party_at_Fault": "Driver"
       }
@@ -64091,7 +64091,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00006508",
         "Party_at_Fault": "Driver"
       }
@@ -64123,7 +64123,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2024-00004777",
         "Party_at_Fault": "Bicyclist"
       }
@@ -64155,7 +64155,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00008976",
         "Party_at_Fault": "Driver"
       }
@@ -64235,7 +64235,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00001525",
         "Party_at_Fault": "Driver"
       }
@@ -64539,7 +64539,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00012878",
         "Party_at_Fault": "Driver"
       }
@@ -64683,7 +64683,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Pedestrian",
+        "Involved_Objects": "Pedestrian/Pedestrian",
         "Local_Report_Number": "2024-00043698",
         "Party_at_Fault": "Pedestrian"
       }
@@ -64747,7 +64747,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00029302",
         "Party_at_Fault": "Driver"
       }
@@ -64955,7 +64955,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00010104",
         "Party_at_Fault": "Driver"
       }
@@ -65147,7 +65147,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00004823",
         "Party_at_Fault": "Driver"
       }
@@ -65483,7 +65483,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00006769",
         "Party_at_Fault": "Driver"
       }
@@ -66491,7 +66491,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00009137",
         "Party_at_Fault": "Driver"
       }
@@ -66859,7 +66859,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00044335",
         "Party_at_Fault": "Driver"
       }
@@ -66955,7 +66955,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00015523",
         "Party_at_Fault": "Driver"
       }
@@ -67195,7 +67195,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00042577",
         "Party_at_Fault": "Driver"
       }
@@ -67595,7 +67595,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00012820",
         "Party_at_Fault": "Driver"
       }
@@ -67627,7 +67627,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00015077",
         "Party_at_Fault": "Driver"
       }
@@ -67947,7 +67947,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00023354",
         "Party_at_Fault": "Driver"
       }
@@ -67995,7 +67995,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00022460",
         "Party_at_Fault": "Driver"
       }
@@ -68507,7 +68507,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00002533",
         "Party_at_Fault": "Driver"
       }
@@ -68827,7 +68827,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00003707",
         "Party_at_Fault": "Driver"
       }
@@ -68955,7 +68955,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00007930",
         "Party_at_Fault": "Driver"
       }
@@ -69499,7 +69499,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00039553",
         "Party_at_Fault": "Driver"
       }
@@ -69643,7 +69643,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Motorcycle/NOT STATED",
+        "Involved_Objects": "Car/Motorcycle/Pedestrian",
         "Local_Report_Number": "2024-00050550",
         "Party_at_Fault": "Driver"
       }
@@ -69691,7 +69691,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00049886",
         "Party_at_Fault": "Driver"
       }
@@ -69819,7 +69819,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "2024-00016971",
         "Party_at_Fault": "Driver"
       }
@@ -69851,7 +69851,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00017955",
         "Party_at_Fault": "Driver"
       }
@@ -70331,7 +70331,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00003841",
         "Party_at_Fault": "Driver"
       }
@@ -70859,7 +70859,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00003746",
         "Party_at_Fault": "Driver"
       }
@@ -70907,7 +70907,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00000219",
         "Party_at_Fault": "Driver"
       }
@@ -70923,7 +70923,7 @@
         "Year": 2024,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00006775",
         "Party_at_Fault": "NOT STATED"
       }
@@ -70939,7 +70939,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00007318",
         "Party_at_Fault": "Driver"
       }
@@ -70955,7 +70955,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00003102",
         "Party_at_Fault": "Driver"
       }
@@ -71803,7 +71803,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00048826",
         "Party_at_Fault": "Driver"
       }
@@ -71819,7 +71819,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00046649",
         "Party_at_Fault": "Driver"
       }
@@ -71963,7 +71963,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00047422",
         "Party_at_Fault": "Driver"
       }
@@ -72059,7 +72059,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00046659",
         "Party_at_Fault": "Driver"
       }
@@ -72075,7 +72075,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00047166",
         "Party_at_Fault": "Driver"
       }
@@ -72699,7 +72699,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00047379",
         "Party_at_Fault": "Driver"
       }
@@ -72795,7 +72795,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2024-00027148",
         "Party_at_Fault": "Driver"
       }
@@ -72859,7 +72859,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00031458",
         "Party_at_Fault": "Driver"
       }
@@ -73243,7 +73243,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00040798",
         "Party_at_Fault": "NOT STATED"
       }
@@ -73291,7 +73291,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00042710",
         "Party_at_Fault": "Driver"
       }
@@ -73323,7 +73323,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00023454",
         "Party_at_Fault": "Driver"
       }
@@ -73387,7 +73387,7 @@
         "Year": 2024,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2024-00034644",
         "Party_at_Fault": "Driver"
       }
@@ -73883,7 +73883,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00050830",
         "Party_at_Fault": "Driver"
       }
@@ -73899,7 +73899,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00049340",
         "Party_at_Fault": "Driver"
       }
@@ -73963,7 +73963,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-0045599",
         "Party_at_Fault": "Driver"
       }
@@ -74091,7 +74091,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00044837",
         "Party_at_Fault": "Driver"
       }
@@ -74187,7 +74187,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00012226",
         "Party_at_Fault": "Pedestrian"
       }
@@ -74347,7 +74347,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00021484",
         "Party_at_Fault": "Driver"
       }
@@ -74811,7 +74811,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00023457",
         "Party_at_Fault": "Driver"
       }
@@ -75339,7 +75339,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2024-00031196",
         "Party_at_Fault": "Bicyclist"
       }
@@ -75515,7 +75515,7 @@
         "Year": 2024,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "NOT STATED/NOT STATED",
+        "Involved_Objects": "NOT STATED/Pedestrian",
         "Local_Report_Number": "9370-2024-02445",
         "Party_at_Fault": "Pedestrian"
       }
@@ -75995,7 +75995,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00012257",
         "Party_at_Fault": "Driver"
       }
@@ -76939,7 +76939,7 @@
         "Year": 2020,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2020-00034459",
         "Party_at_Fault": "Pedestrian"
       }
@@ -77675,7 +77675,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00032628",
         "Party_at_Fault": "Driver"
       }
@@ -77723,7 +77723,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00022574",
         "Party_at_Fault": "Driver"
       }
@@ -77771,7 +77771,7 @@
         "Year": 2021,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-0037356",
         "Party_at_Fault": "Driver"
       }
@@ -77835,7 +77835,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00033408",
         "Party_at_Fault": "Driver"
       }
@@ -77915,7 +77915,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00038308",
         "Party_at_Fault": "Driver"
       }
@@ -78523,7 +78523,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00048639",
         "Party_at_Fault": "Driver"
       }
@@ -78571,7 +78571,7 @@
         "Year": 2021,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2021-00045481",
         "Party_at_Fault": "Driver"
       }
@@ -78763,7 +78763,7 @@
         "Year": 2021,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2021-00053748",
         "Party_at_Fault": "Driver"
       }
@@ -80059,7 +80059,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00020797",
         "Party_at_Fault": "Driver"
       }
@@ -80699,7 +80699,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00046231",
         "Party_at_Fault": "Driver"
       }
@@ -80731,7 +80731,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00046637",
         "Party_at_Fault": "Driver"
       }
@@ -81227,7 +81227,7 @@
         "Year": 2022,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2022-00057789",
         "Party_at_Fault": "Driver"
       }
@@ -81307,7 +81307,7 @@
         "Year": 2022,
         "Number_of_Injuries": 0,
         "Number_of_Fatalities": 1,
-        "Involved_Objects": "NOT STATED/Truck",
+        "Involved_Objects": "Pedestrian/Truck",
         "Local_Report_Number": "2022-00049672",
         "Party_at_Fault": "Driver"
       }
@@ -82091,7 +82091,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00038535",
         "Party_at_Fault": "Driver"
       }
@@ -82123,7 +82123,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Bicycle/NOT STATED",
+        "Involved_Objects": "Bicycle/Pedestrian",
         "Local_Report_Number": "2023-00038627",
         "Party_at_Fault": "Bicyclist"
       }
@@ -82187,7 +82187,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/Car/NOT STATED",
+        "Involved_Objects": "Car/Car/Pedestrian",
         "Local_Report_Number": "2023-00044528",
         "Party_at_Fault": "Driver"
       }
@@ -82283,7 +82283,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00048482",
         "Party_at_Fault": "Driver"
       }
@@ -82427,7 +82427,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00054717",
         "Party_at_Fault": "Driver"
       }
@@ -82443,7 +82443,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00054873",
         "Party_at_Fault": "Pedestrian"
       }
@@ -82507,7 +82507,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00055333",
         "Party_at_Fault": "Driver"
       }
@@ -83243,7 +83243,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00026643",
         "Party_at_Fault": "Pedestrian"
       }
@@ -83339,7 +83339,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00016388",
         "Party_at_Fault": "Pedestrian"
       }
@@ -83499,7 +83499,7 @@
         "Year": 2023,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2023-00006766",
         "Party_at_Fault": "Driver"
       }
@@ -83931,7 +83931,7 @@
         "Year": 2023,
         "Number_of_Injuries": 2,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian/Pedestrian",
         "Local_Report_Number": "2023-00004832",
         "Party_at_Fault": "Driver"
       }
@@ -84267,7 +84267,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00007415",
         "Party_at_Fault": "Driver"
       }
@@ -84427,7 +84427,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00002498",
         "Party_at_Fault": "NOT STATED"
       }
@@ -84859,7 +84859,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00049900",
         "Party_at_Fault": "Pedestrian"
       }
@@ -84875,7 +84875,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00045787",
         "Party_at_Fault": "Driver"
       }
@@ -85227,7 +85227,7 @@
         "Year": 2024,
         "Number_of_Injuries": 1,
         "Number_of_Fatalities": 0,
-        "Involved_Objects": "Car/NOT STATED",
+        "Involved_Objects": "Car/Pedestrian",
         "Local_Report_Number": "2024-00017084",
         "Party_at_Fault": "Driver"
       }
