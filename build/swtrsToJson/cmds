@@ -1,0 +1,6 @@
+#!/bin/bash
+rm swtrs.json attribs.json statetest.json temp.sqlite3
+sqlite3 temp.sqlite3 -init txtToJson.sql
+jq '[.[] | {attributes: .}]' swtrs.json  >attribs.json
+jq '.features += $inputs[]' shell.json --slurpfile inputs attribs.json >statetest.json
+ 
