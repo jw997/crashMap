@@ -93,11 +93,11 @@ var redIcon = new L.Icon({
 	shadowSize: [41, 41]
 });
 
-const collisionsJsonFile = './db/exports/BPCOLL.json';
-const collisionsJson = await getJson(collisionsJsonFile);
+//const collisionsJsonFile = './db/exports/BPCOLL.json';
+//const collisionsJson = await getJson(collisionsJsonFile);
 
-const transparencyJsonFile = './db/exports/transparency.portal.2024.json';
-const transparencyJson = await getJson(transparencyJsonFile);
+//const transparencyJsonFile = './db/exports/transparency.portal.2024.json';
+//const transparencyJson = await getJson(transparencyJsonFile);
 
 async function getTransparencyData() {
 	var arrays = [];
@@ -115,11 +115,7 @@ const mergedTransparencyJson = await (getTransparencyData());
 
 async function getSWITRSData() {
 	var arrays = [];
-	/*for (var y = 2015; y <= 2024; y++) {
-		const file = './data/' + y + '.json';
-		const transparencyJson = await getJson(file);
-		arrays.push(transparencyJson.features);
-	}*/
+	
 	const file = './test/statetest.json';
 	const swtrsJson = await getJson(file);
 	arrays.push(swtrsJson.features);
@@ -688,7 +684,7 @@ const carIcon = L.icon({ iconUrl: './test/suv.png' });
 
 
 export {
-	collisionsJson, transparencyJson, mergedTransparencyJson, greenIcon, goldIcon, redIcon,
+	/*collisionsJson, transparencyJson, */ mergedTransparencyJson, greenIcon, goldIcon, redIcon,
 	populateStreetSelect, collisionPopup,
 	map, handleFilterClick
 };
