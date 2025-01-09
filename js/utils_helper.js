@@ -190,7 +190,6 @@ const streetArray = [
 	"Golf Course",
 	"Grant",
 	"Grayson",
-	"Greenway31",
 	"Greenwood",
 	"Gridiron",
 	"Grizzly Peak\|Grizzl\|izzly",

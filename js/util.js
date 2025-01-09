@@ -5,6 +5,8 @@ import { getJson, streetArray } from "./utils_helper.js";
 Chart.defaults.color = '#000';
 Chart.defaults.font.size = 14;
 
+const selectData = document.querySelector('#selectData');
+
 const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
 
 const check2024 = document.querySelector('#check2024');
@@ -21,6 +23,7 @@ const check2015 = document.querySelector('#check2015');
 
 const selectStreet = document.querySelector('#selectStreet');
 const selectSeverity = document.querySelector('#severity');
+
 
 const summary = document.querySelector('#summary');
 
@@ -110,6 +113,85 @@ async function getTransparencyData() {
 
 const mergedTransparencyJson = await (getTransparencyData());
 
+async function getSWITRSData() {
+	var arrays = [];
+	/*for (var y = 2015; y <= 2024; y++) {
+		const file = './data/' + y + '.json';
+		const transparencyJson = await getJson(file);
+		arrays.push(transparencyJson.features);
+	}*/
+	const file = './test/statetest.json';
+	const swtrsJson = await getJson(file);
+	arrays.push(swtrsJson.features);
+	const retval = [].concat(...arrays)
+	return retval;
+
+}
+
+const mergedSWITRSJson = await (getSWITRSData());
+
+function makeTimeStampSet(arr) {
+	var setTimeStamps = new Set();
+	for (const coll of arr) {
+		const d = coll.attributes.Date;
+		const t = coll.attributes.Time;
+
+		if (!d || !t) {
+			console.log("collision with missing date time ", coll);
+		} else {
+			const str = d + ' ' + t;
+			const ts = Date.parse(str);
+			if (setTimeStamps.has(str)) {
+				console.log("collsion with dupe date time ", coll);
+
+			} else {
+				setTimeStamps.add(ts);
+				if (!coll.attributes.DateTime) {
+					coll.attributes.DateTime = ts;
+				}
+			}
+		}
+	}
+	return setTimeStamps;
+}
+// make set of swtrs collision time stamps
+const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
+const tsTransparency = makeTimeStampSet(mergedTransparencyJson);
+
+
+const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
+const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
+const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
+const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
+
+var mergedUnion = mergedSWITRSJson.slice();
+for (const e of mergedTransparencyJson) {
+	if (tsTransparencyMinusSwtrs.has( e.attributes.DateTime)) {
+		mergedUnion.push( e);
+	}
+}
+
+console.log(" mergedUnion: ",mergedUnion.length );
+
+
+
+
+
+console.log("Swtrs time stamps: ", tsSwtrs.size);
+console.log("Transparency time stamps: ", tsTransparency.size);
+
+console.log("tsSwtrsUnionTransparency: ", tsSwtrsUnionTransparency.size);
+console.log("tsSwrtsIntersectionTransparency :", tsSwrtsIntersectionTransparency.size);
+
+console.log("tsSwtrsMinusTransparency: ", tsSwtrsMinusTransparency.size);
+
+console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
+
+
+
+
+//const mergedTransparencyJson = mergedSWITRSJson;
+
 const popupFields = ['Date',
 	'Time',
 	//'Day_of_Week',
@@ -182,7 +264,7 @@ function removeAllMakers() {
 	}
 }
 
-function checkFilter(attr, vehTypeRegExp,
+function checkFilter(attr, tsSet,  vehTypeRegExp,
 	filter2024, filter2023,
 	filter2022, filter2021, filter2020,
 	filter2019,
@@ -193,6 +275,9 @@ function checkFilter(attr, vehTypeRegExp,
 
 	selectStreet, severity
 ) {
+	if (!tsSet.has( attr.DateTime)) {
+		return false;
+	}
 	const involved = attr.Involved_Objects;
 
 	const m = involved.match(vehTypeRegExp);
@@ -250,7 +335,7 @@ function checkFilter(attr, vehTypeRegExp,
 	if (selectStreet != "Any") {
 
 		if (selectStreet.includes('|')) {
-			const re = new RegExp(selectStreet);
+			const re = new RegExp(selectStreet, 'i');
 
 			if (!loc.match(re)) {
 				return false;
@@ -258,7 +343,7 @@ function checkFilter(attr, vehTypeRegExp,
 				return true;
 			}
 		} else {
-			return loc.includes(selectStreet);
+			return loc.toUpperCase().includes(selectStreet.toUpperCase());
 
 		}
 
@@ -282,7 +367,7 @@ function checkFilter(attr, vehTypeRegExp,
 }
 
 
-function addMarkers(collisionJson, histData, histFaultData,
+function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
 
@@ -307,7 +392,7 @@ function addMarkers(collisionJson, histData, histFaultData,
 			skipped++;
 			continue;
 		}*/
-		const checked = checkFilter(attr, vehTypeRegExp,
+		const checked = checkFilter(attr, tsSet, vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
 			filter2019,
 			filter2018,
@@ -326,7 +411,7 @@ function addMarkers(collisionJson, histData, histFaultData,
 
 		if (attr.Latitude && attr.Longitude) {
 			const loc = [attr.Latitude, attr.Longitude];
-			const roundLoc = loc.map((c) => c.toFixed(3));
+		//	const roundLoc = loc.map((c) => c.toFixed(3));
 			const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
 
 			if (ct > 0) {
@@ -389,10 +474,84 @@ function clearFaultData() {
 clearFaultData();
 var histFaultChart;
 
+
+function createOrUpdateChart(data, chartVar, element, labelText) {
+	// data should be an array of objects with members bar and count
+	if (chartVar == undefined) {
+		chartVar = new Chart(element
+			,
+			{
+				type: 'bar',
+				data: {
+					labels: data.map(row => row.bar),
+					datasets: [
+						{
+							label: labelText,
+							data: data.map(row => row.count)
+						}
+					]
+				}
+			}
+		);
+	} else {
+		//const newData = data.map(row => row.count);
+		// update data
+
+		const newData = {
+			label: labelText,
+			data: data.map(row => row.count)
+		}
+
+		chartVar.data.datasets.pop();
+		chartVar.data.datasets.push(newData);
+		//	console.log(newData);
+		chartVar.update();
+	}
+
+	return chartVar;
+
+}
+
+
 function handleFilterClick() {
 	clearHistData();
 	clearFaultData();
-	addMarkers(mergedTransparencyJson, histData, histFaultData,
+
+	const dataSpec = selectData.value;
+	var tsSet;
+	var collData;
+
+	switch (selectData.value) {
+		case 'T':
+			collData = mergedTransparencyJson;
+			tsSet = tsTransparency;
+			break;
+		case 'S':
+			collData = mergedSWITRSJson;
+			tsSet = tsSwtrs;
+			break;
+		case "SUT":
+			collData = mergedUnion; // TODO UNION
+			tsSet = tsSwtrsUnionTransparency;
+			break;
+		case 'SNT':
+			collData = mergedSWITRSJson;
+			tsSet = tsSwrtsIntersectionTransparency;
+			break;
+		case 'TMS': //>BPD minus State</option>
+			collData = mergedTransparencyJson;
+			tsSet = tsTransparencyMinusSwtrs;
+			break;
+
+		case 'SMT':
+			collData = mergedSWITRSJson;
+			tsSet = tsSwtrsMinusTransparency;
+			break;
+		default:
+			console.log("Unepxected data spec")
+
+	}
+	addMarkers(collData, tsSet, histData, histFaultData,
 
 		selectVehicleTypes.value,
 
@@ -412,94 +571,46 @@ function handleFilterClick() {
 		selectSeverity.value
 
 
+
 	);
-	// make fault histo
-	console.dir(histFaultData);
 
-	(function () {
-		const data = [];
-		for (const k of faultKeys) {
-			data.push({ party: k, count: histFaultData.get(k) })
-		}
-		if (histFaultChart == undefined) {
-			histFaultChart = new Chart(
-				document.getElementById('crashFaultHist'),
-				{
-					type: 'bar',
-					data: {
-						labels: data.map(row => row.party),
-						datasets: [
-							{
-								label: 'matching crashes by fault',
-								data: data.map(row => row.count)
-							}
-						]
-					}
-				}
-			);
-		} else {
-			//const newData = data.map(row => row.count);
-			// update data
 
-			const newData = {
-				label: 'matching crashes by fault',
-				data: data.map(row => row.count)
-			}
 
-			histFaultChart.data.datasets.pop();
-			histFaultChart.data.datasets.push(newData);
-			console.log(newData);
-			histFaultChart.update();
-		}
-	})();
 
-	console.dir(histData);
 
-	(function () {
-		const data = [
-			{ year: 2015, count: histData.get(2015) },
-			{ year: 2016, count: histData.get(2016) },
-			{ year: 2017, count: histData.get(2017) },
-			{ year: 2018, count: histData.get(2018) },
-			{ year: 2019, count: histData.get(2019) },
-			{ year: 2020, count: histData.get(2020) },
-			{ year: 2021, count: histData.get(2021) },
-			{ year: 2022, count: histData.get(2022) },
-			{ year: 2023, count: histData.get(2023) },
-			{ year: 2024, count: histData.get(2024) },
 
-		];
-		if (histChart == undefined) {
-			histChart = new Chart(
-				document.getElementById('crashHist'),
-				{
-					type: 'bar',
-					data: {
-						labels: data.map(row => row.year),
-						datasets: [
-							{
-								label: 'matching crashes by year',
-								data: data.map(row => row.count)
-							}
-						]
-					}
-				}
-			);
-		} else {
-			//const newData = data.map(row => row.count);
-			// update data
+	const data = [];
+	for (const k of faultKeys) {
+		data.push({ bar: k, count: histFaultData.get(k) })
+	}
 
-			const newData = {
-				label: 'matching crashes by year',
-				data: data.map(row => row.count)
-			}
+	histFaultChart = createOrUpdateChart(data, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 
-			histChart.data.datasets.pop();
-			histChart.data.datasets.push(newData);
-			console.log(newData);
-			histChart.update();
-		}
-	})();
+	/*
+		console.dir(histData);
+	
+		const dataByYear = [
+			{ bar: 2015, count: histData.get(2015) },
+			{ bar: 2016, count: histData.get(2016) },
+			{ bar: 2017, count: histData.get(2017) },
+			{ bar: 2018, count: histData.get(2018) },
+			{ bar: 2019, count: histData.get(2019) },
+			{ bar: 2020, count: histData.get(2020) },
+			{ bar: 2021, count: histData.get(2021) },
+			{ bar: 2022, count: histData.get(2022) },
+			{ bar: 2023, count: histData.get(2023) },
+			{ bar: 2024, count: histData.get(2024) },
+	
+		];*/
+	const dataByYear = [];
+	for (var bar = 2015; bar <= 2024; bar++) {
+		dataByYear.push({ bar: bar, count: histData.get(bar) });
+	}
+
+
+	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('crashHist'), 'Collisions by Year');
+
+
 
 
 
@@ -524,7 +635,57 @@ const pedIcon = L.icon({ iconUrl: './test/pedestrian.png' });
 const carIcon = L.icon({ iconUrl: './test/suv.png' });
 
 
+/*
+	(function () {
+		const data = [
+			{ year: 2015, count: histData.get(2015) },
+			{ year: 2016, count: histData.get(2016) },
+			{ year: 2017, count: histData.get(2017) },
+			{ year: 2018, count: histData.get(2018) },
+			{ year: 2019, count: histData.get(2019) },
+			{ year: 2020, count: histData.get(2020) },
+			{ year: 2021, count: histData.get(2021) },
+			{ year: 2022, count: histData.get(2022) },
+			{ year: 2023, count: histData.get(2023) },
+			{ year: 2024, count: histData.get(2024) },
+
+		];
+		if (histChart == undefined) {
+			histChart = new Chart(
+				document.getElementById('crashHist'),
+				{
+					type: 'bar',
+					data: {
+						labels: data.map(row => row.year),
+						datasets: [
+							{
+								label: 'Collisions by Year',
+								data: data.map(row => row.count)
+							}
+						]
+					}
+				}
+			);
+		} else {
+			//const newData = data.map(row => row.count);
+			// update data
+
+			const newData = {
+				label: 'Collisions by Year',
+				data: data.map(row => row.count)
+			}
+
+			histChart.data.datasets.pop();
+			histChart.data.datasets.push(newData);
+			console.log(newData);
+			histChart.update();
+		}
+	})();
+
 */
+
+
+
 
 export {
 	collisionsJson, transparencyJson, mergedTransparencyJson, greenIcon, goldIcon, redIcon,
