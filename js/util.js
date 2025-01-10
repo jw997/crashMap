@@ -199,6 +199,8 @@ const popupFields = ['Date',
 	'Time',
 	//'Day_of_Week',
 	'Case_Number',
+	'Case_ID',
+	'Local_Report_Number',
 	'Accident_Location',
 	'Latitude',
 	'Longitude',
@@ -213,6 +215,7 @@ const popupFields = ['Date',
 	'Number_of_Injuries',
 	'Number_of_Fatalities',
 	'Suspected_Serious_Injury'
+
 ];
 function collisionPopup(obj) {
 	var msg = "";
