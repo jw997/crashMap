@@ -116,7 +116,7 @@ const mergedTransparencyJson = await (getTransparencyData());
 async function getSWITRSData() {
 	var arrays = [];
 	
-	const file = './test/statetest.json';
+	const file = './data/statetest.json';
 	const swtrsJson = await getJson(file);
 	arrays.push(swtrsJson.features);
 	const retval = [].concat(...arrays)
@@ -335,12 +335,12 @@ function checkFilter(attr, tsSet,  vehTypeRegExp,
 
 			if (!loc.match(re)) {
 				return false;
-			} else {
-				return true;
-			}
+			} 
 		} else {
-			return loc.toUpperCase().includes(selectStreet.toUpperCase());
-
+			const m = loc.toUpperCase().includes(selectStreet.toUpperCase());
+			if (!m) {
+				return false;
+			}
 		}
 
 	}
