@@ -115,7 +115,7 @@ const mergedTransparencyJson = await (getTransparencyData());
 
 async function getSWITRSData() {
 	var arrays = [];
-	
+
 	const file = './data/statetest.json';
 	const swtrsJson = await getJson(file);
 	arrays.push(swtrsJson.features);
@@ -162,12 +162,12 @@ const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
 
 var mergedUnion = mergedSWITRSJson.slice();
 for (const e of mergedTransparencyJson) {
-	if (tsTransparencyMinusSwtrs.has( e.attributes.DateTime)) {
-		mergedUnion.push( e);
+	if (tsTransparencyMinusSwtrs.has(e.attributes.DateTime)) {
+		mergedUnion.push(e);
 	}
 }
 
-console.log(" mergedUnion: ",mergedUnion.length );
+console.log(" mergedUnion: ", mergedUnion.length);
 
 
 
@@ -260,7 +260,7 @@ function removeAllMakers() {
 	}
 }
 
-function checkFilter(attr, tsSet,  vehTypeRegExp,
+function checkFilter(attr, tsSet, vehTypeRegExp,
 	filter2024, filter2023,
 	filter2022, filter2021, filter2020,
 	filter2019,
@@ -271,7 +271,7 @@ function checkFilter(attr, tsSet,  vehTypeRegExp,
 
 	selectStreet, severity
 ) {
-	if (!tsSet.has( attr.DateTime)) {
+	if (!tsSet.has(attr.DateTime)) {
 		return false;
 	}
 	const involved = attr.Involved_Objects;
@@ -335,7 +335,7 @@ function checkFilter(attr, tsSet,  vehTypeRegExp,
 
 			if (!loc.match(re)) {
 				return false;
-			} 
+			}
 		} else {
 			const m = loc.toUpperCase().includes(selectStreet.toUpperCase());
 			if (!m) {
@@ -407,7 +407,7 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 
 		if (attr.Latitude && attr.Longitude) {
 			const loc = [attr.Latitude, attr.Longitude];
-		//	const roundLoc = loc.map((c) => c.toFixed(3));
+			//	const roundLoc = loc.map((c) => c.toFixed(3));
 			const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
 
 			if (ct > 0) {
@@ -430,6 +430,9 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 			marker.addTo(map);
 			markers.push(marker);
 			markerCount++;
+		} else {
+			histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
+			skipped++;
 		}
 	}
 	console.log('Skipped', skipped);
@@ -445,13 +448,16 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 //	addMarkers(mergedTransparencyJson, true, true, true, true, true, true, true, true);
 
 const histData = new Map();
+const histMissingGPSData = new Map();
 function clearHistData() {
 	for (var y = 2015; y < 2025; y++) {
 		histData.set(y, 0);
+		histMissingGPSData.set(y, 0);
 	}
 }
 clearHistData();
 var histChart;
+var histChartGPS;
 
 var histFaultData = new Map();
 const faultKeys = [
@@ -605,6 +611,13 @@ function handleFilterClick() {
 
 
 	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('crashHist'), 'Collisions by Year');
+
+	const dataGPSByYear = [];
+	for (var bar = 2015; bar <= 2024; bar++) {
+		dataGPSByYear.push({ bar: bar, count: histMissingGPSData.get(bar) });
+	}
+
+	histChartGPS = createOrUpdateChart(dataGPSByYear, histChartGPS, document.getElementById('gpsHist'), 'Missing GPS by Year');
 
 
 
