@@ -101,14 +101,20 @@ SELECT case_id,
 FROM (SELECT Case_ID, 
 
 CASE
-     WHEN stwd_vehicle_type == 'A' THEN 'Car'
-     WHEN  stwd_vehicle_type == 'C' THEN 'Motorcycle'
-	  WHEN  (stwd_vehicle_type == 'D' or stwd_vehicle_type == 'F') THEN 'Truck'
-	   WHEN   (stwd_vehicle_type == 'H' or stwd_vehicle_type == 'I')  THEN 'Bus'
-	    WHEN  stwd_vehicle_type == 'L'	THEN 'Bicycle'
-		
-		 WHEN (party_type == 2 or  stwd_vehicle_type == 'M'	) THEN 'Pedestrian'
-      ELSE 'NOT STATED' 
+    when party_type ==3 then 'Parked Car'
+    WHEN stwd_vehicle_type == 'A' THEN 'Car'
+    WHEN  stwd_vehicle_type == 'C' THEN 'Motorcycle'
+    WHEN  (stwd_vehicle_type == 'D' or stwd_vehicle_type == 'F') THEN 'Truck'
+    WHEN   (stwd_vehicle_type == 'H' or stwd_vehicle_type == 'I')  THEN 'Bus'
+    when chp_veh_type_towing == '91' then  'Electric Bicycle'
+    when   chp_veh_type_towing  == '93' then  'Electric Skateboard'
+    when chp_veh_type_towing == '94' then  'Electric Scooter'
+    WHEN  stwd_vehicle_type == 'L'	THEN 'Bicycle'	
+    WHEN (party_type == 2 or  stwd_vehicle_type == 'N'	) THEN 'Pedestrian'
+    when party_type ==1 then 'Car'
+   
+    
+    ELSE 'NOT STATED' 
 END stwd_vehicle_type
 
 from party

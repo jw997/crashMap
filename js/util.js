@@ -27,12 +27,19 @@ const selectSeverity = document.querySelector('#severity');
 
 const summary = document.querySelector('#summary');
 
+const mapLocalCaseIDToAttr = new Map();
+
 // populate the street select options
 function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 	const setStreets = new Set();
 
 	for (const coll of mergedTransparencyJson) {
 		const attr = coll.attributes;
+
+		/* save gps info for missing state records */
+		if (attr.Longitude && attr.Latitude) {
+			mapLocalCaseIDToAttr.set(attr.Case_Number, attr);
+		}
 		const loc = attr.Accident_Location;
 		const arr = loc.split("/").map((s) => s.trim());
 
@@ -362,6 +369,8 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 	return true;
 }
 
+const  LatitudeDefault = 37.868412;
+const LongitudeDefault = -122.349938;
 
 function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	vehTypeRegExp,
@@ -404,6 +413,21 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 		histData.set(attr.Year, histData.get(attr.Year) + 1);
 
 		histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
+
+		if (!(attr.Latitude && attr.Longitude)) {
+			// try to get it from the map
+			const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
+			if (matchingLocalReport) {
+				attr.Latitude = matchingLocalReport.Latitude;
+				attr.Longitude = matchingLocalReport.Longitude;
+				//console.log("Fixed GPS for ", attr.Local_Report_Number);
+			} else {
+				console.log("Failed to fix GPS for ", attr.Local_Report_Number);
+				//attr.Latitude = LatitudeDefault;
+				//attr.Longitude = LongitudeDefault;
+
+			}
+		}
 
 		if (attr.Latitude && attr.Longitude) {
 			const loc = [attr.Latitude, attr.Longitude];
@@ -631,19 +655,19 @@ function randomOffset() {
 }
 function objToString(obj) {
 	var msg = "";
-
+	
 	for (const [key, value] of Object.entries(obj)) {
 		msg += ('<br>' + key + ':' + value);
 	}
 	return msg;
 }
-
-
+	
+	
 const bikeIcon = L.icon({ iconUrl: './test/bicycle.png' });
 const pedIcon = L.icon({ iconUrl: './test/pedestrian.png' });
 const carIcon = L.icon({ iconUrl: './test/suv.png' });
-
-
+	
+	
 /*
 	(function () {
 		const data = [
@@ -657,7 +681,7 @@ const carIcon = L.icon({ iconUrl: './test/suv.png' });
 			{ year: 2022, count: histData.get(2022) },
 			{ year: 2023, count: histData.get(2023) },
 			{ year: 2024, count: histData.get(2024) },
-
+	
 		];
 		if (histChart == undefined) {
 			histChart = new Chart(
@@ -678,19 +702,19 @@ const carIcon = L.icon({ iconUrl: './test/suv.png' });
 		} else {
 			//const newData = data.map(row => row.count);
 			// update data
-
+	
 			const newData = {
 				label: 'Collisions by Year',
 				data: data.map(row => row.count)
 			}
-
+	
 			histChart.data.datasets.pop();
 			histChart.data.datasets.push(newData);
 			console.log(newData);
 			histChart.update();
 		}
 	})();
-
+	
 */
 
 
