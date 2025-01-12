@@ -27,6 +27,8 @@ const selectSeverity = document.querySelector('#severity');
 
 const summary = document.querySelector('#summary');
 
+const saveanchor = document.getElementById('saveanchor')
+
 const mapLocalCaseIDToAttr = new Map();
 
 // populate the street select options
@@ -372,7 +374,7 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 	return true;
 }
 
-const  LatitudeDefault = 37.868412;
+const LatitudeDefault = 37.868412;
 const LongitudeDefault = -122.349938;
 
 function addMarkers(collisionJson, tsSet, histData, histFaultData,
@@ -394,6 +396,8 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	var markerCount = 0
 	var skipped = 0, plotted = 0;
 
+	var arrMappedCollisions = [];
+
 	for (const coll of collisionJson) {
 		const attr = coll.attributes;
 		/*if (!attr.Accident_Location.includes('Fulton')) {
@@ -413,6 +417,8 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 			continue;
 		}
 		plotted++;
+		arrMappedCollisions.push(attr); // add to array for export function
+
 		histData.set(attr.Year, histData.get(attr.Year) + 1);
 
 		histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
@@ -469,6 +475,13 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	const summaryMsg = '<br>Matching collsions: ' + plotted;//+ '<br>' + 'Skipped: ' + skipped + '<br>';
 	summary.innerHTML = summaryMsg;
 
+	// set array for download
+	const json = JSON.stringify(arrMappedCollisions, null, 2);
+	const inputblob = new Blob([json], {
+		type: "application/json",
+	});
+	const u = URL.createObjectURL(inputblob);
+	saveanchor.href = u;
 
 }
 //	map.setView(target, 14);
@@ -646,12 +659,69 @@ function handleFilterClick() {
 
 	histChartGPS = createOrUpdateChart(dataGPSByYear, histChartGPS, document.getElementById('gpsHist'), 'Missing GPS by Year');
 
+}
+
+
+/* unused stuff
+
+const json = JSON.stringify(3.1415, null, 2);
+const inputblob = new Blob([json], {
+	type: "application/json",
+});
+
+
+const u = URL.createObjectURL(inputblob);
+
+saveanchor.href = u;
+
+async function saveFile1() {
+	// create a new handle
+	const newHandle = await window.showSaveFilePicker();
+
+	// create a FileSystemWritableFileStream to write to
+	const writableStream = await newHandle.createWritable();
+
+	// write our file
+	await writableStream.write(inputblob);
+
+	// close the file and write the contents to disk.
+	await writableStream.close();
+}
 
 
 
+async function saveFile() {
+
+
+
+	//const inputblob = { hello: "world" };
+	const json = JSON.stringify(3.1415, null, 2);
+	const inputblob = new Blob([json], {
+		type: "application/json",
+	});
+
+
+
+
+
+	const downloadelem = document.createElement("a");
+	const url = URL.createObjectURL(inputblob);
+	document.body.appendChild(downloadelem);
+	downloadelem.src = url;
+	downloadelem.click();
+	downloadelem.remove();
+	window.URL.revokeObjectURL(url);
+}
+//downloadBlob(yourblob);
+
+
+async function handleExportClick() {
+	await saveFile();
 
 }
-/* unused stuff
+
+
+
 function randomOffset() {
 	const r = Math.random() - 0.5;
 	return r / 5000;
