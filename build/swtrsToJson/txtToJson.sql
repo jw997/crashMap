@@ -143,7 +143,17 @@ CASE
 	   WHEN  PARTY_TYPE == 4 THEN 'Bicyclist'
 	    WHEN  PARTY_TYPE == 5 THEN 'OTHER'
       ELSE 'NOT STATED' 
-END Party_at_Fault
+END Party_at_Fault,
+
+CASE
+    when collision_severity == 1 then 'Fatal'
+    WHEN  collision_severity == 2  THEN 'Serious Injury'
+    WHEN   collision_severity == 3 THEN 'Minor Injury'
+    WHEN   collision_severity == 0 THEN 'No Injury'
+    WHEN   collision_severity == 4 THEN 'Possible Injury'
+	
+    ELSE 'NOT STATED' 
+END Injury_Severity
 
 --- Bicycle_Collision, Pedestrian_Collision, Motorcycle_Collision, Truck_Collision
 

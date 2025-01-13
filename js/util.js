@@ -216,7 +216,8 @@ const popupFields = ['Date',
 	'Party_at_Fault',
 	'Number_of_Injuries',
 	'Number_of_Fatalities',
-	'Suspected_Serious_Injury'
+	'Suspected_Serious_Injury',
+	'Injury_Severity'
 
 ];
 function collisionPopup(obj) {
@@ -380,13 +381,7 @@ const LongitudeDefault = -122.349938;
 function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
-
-	filter2019,
-	filter2018,
-	filter2017,
-	filter2016,
-	filter2015,
-
+	filter2019, filter2018, filter2017, filter2016, filter2015,
 	selectStreet, selectSeverity
 
 ) {
@@ -400,18 +395,9 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 
 	for (const coll of collisionJson) {
 		const attr = coll.attributes;
-		/*if (!attr.Accident_Location.includes('Fulton')) {
-			skipped++;
-			continue;
-		}*/
 		const checked = checkFilter(attr, tsSet, vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
-			filter2019,
-			filter2018,
-			filter2017,
-			filter2016,
-			filter2015,
-
+			filter2019, filter2018, filter2017, filter2016, filter2015,
 			selectStreet, selectSeverity);
 		if (!checked) {
 			continue;
@@ -423,6 +409,11 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 
 		histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
 
+
+		histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
+
+		
+
 		if (!(attr.Latitude && attr.Longitude)) {
 			// try to get it from the map
 			const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
@@ -432,9 +423,6 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 				//console.log("Fixed GPS for ", attr.Local_Report_Number);
 			} else {
 				console.log("Failed to fix GPS for ", attr.Local_Report_Number);
-				//attr.Latitude = LatitudeDefault;
-				//attr.Longitude = LongitudeDefault;
-
 			}
 		}
 
@@ -484,22 +472,51 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	saveanchor.href = u;
 
 }
-//	map.setView(target, 14);
-//	addMarkers(mergedTransparencyJson, true, true, true, true, true, true, true, true);
 
-const histData = new Map();
+// chart data variables
+const histYearData = new Map();
 const histMissingGPSData = new Map();
-function clearHistData() {
+var histFaultData = new Map();
+
+var histSeverityData = new Map();
+var histObjectData = new Map();
+
+const arrSeverityKeys = [
+	"Unspecified Injury",
+	"No Injury",
+	
+	"Possible Injury",
+	"Minor Injury",
+
+	"Serious Injury",
+	"Fatal"
+
+
+];
+
+const arrObjectKeys =[
+	"Car","Bicycle","Pedestrian","Truck","Bus","Parked Car","Object","Electric Bike", "Electric Scooter", "Electric Skateboard"
+];
+
+function clearHistData( keys, data) {
+	for (const f of keys) {
+		data.set(f,0);
+	}
+}
+
+clearHistData( arrObjectKeys, histObjectData);
+clearHistData( arrSeverityKeys, histSeverityData);
+
+
+// clear data functions
+function clearHistYearData() {
 	for (var y = 2015; y < 2025; y++) {
-		histData.set(y, 0);
+		histYearData.set(y, 0);
 		histMissingGPSData.set(y, 0);
 	}
 }
-clearHistData();
-var histChart;
-var histChartGPS;
+clearHistYearData();
 
-var histFaultData = new Map();
 const faultKeys = [
 	"Bicyclist",
 	"Driver",
@@ -514,7 +531,14 @@ function clearFaultData() {
 	}
 }
 clearFaultData();
+
+// chart variables
+var histChart;
+var histChartGPS;
 var histFaultChart;
+
+var histObjectChart;
+var histSeverityChart;
 
 
 function createOrUpdateChart(data, chartVar, element, labelText) {
@@ -549,15 +573,17 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 		//	console.log(newData);
 		chartVar.update();
 	}
-
 	return chartVar;
-
 }
 
 
 function handleFilterClick() {
-	clearHistData();
+	clearHistYearData();
 	clearFaultData();
+	clearHistData( arrObjectKeys, histObjectData);
+    clearHistData( arrSeverityKeys, histSeverityData);
+	
+
 
 	const dataSpec = selectData.value;
 	var tsSet;
@@ -593,7 +619,7 @@ function handleFilterClick() {
 			console.log("Unepxected data spec")
 
 	}
-	addMarkers(collData, tsSet, histData, histFaultData,
+	addMarkers(collData, tsSet, histYearData, histFaultData,
 
 		selectVehicleTypes.value,
 
@@ -621,12 +647,26 @@ function handleFilterClick() {
 
 
 
-	const data = [];
+	const dataFault = [];
 	for (const k of faultKeys) {
-		data.push({ bar: k, count: histFaultData.get(k) })
+		dataFault.push({ bar: k, count: histFaultData.get(k) })
 	}
 
-	histFaultChart = createOrUpdateChart(data, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
+	const dataObject = [];
+	for (const k of  arrObjectKeys) {
+		dataObject.push({ bar: k, count: histObjectData.get(k) })
+	}
+
+	const dataSeverity = [];
+	for (const k of arrSeverityKeys) {
+		dataSeverity.push({ bar: k, count: histSeverityData.get(k) })
+	}
+
+	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
+
+	histObjectChart = createOrUpdateChart(dataObject, histObjectChart , document.getElementById('objectHist'), 'Crash Particpants');
+
+	histSeverityChart = createOrUpdateChart(dataSeverity, histSeverityChart, document.getElementById('severityHist'), 'Injury Severity');
 
 	/*
 		console.dir(histData);
@@ -646,7 +686,7 @@ function handleFilterClick() {
 		];*/
 	const dataByYear = [];
 	for (var bar = 2015; bar <= 2024; bar++) {
-		dataByYear.push({ bar: bar, count: histData.get(bar) });
+		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
 	}
 
 
@@ -660,6 +700,15 @@ function handleFilterClick() {
 	histChartGPS = createOrUpdateChart(dataGPSByYear, histChartGPS, document.getElementById('gpsHist'), 'Missing GPS by Year');
 
 }
+
+function handleExportClick() {
+	handleFilterClick();
+}
+
+saveanchor.addEventListener(
+	"click", handleExportClick
+	// (event) => (event.target.href = canvas.toDataURL()),
+);
 
 
 /* unused stuff
