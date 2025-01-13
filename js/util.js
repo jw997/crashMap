@@ -406,13 +406,17 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 		arrMappedCollisions.push(attr); // add to array for export function
 
 		histData.set(attr.Year, histData.get(attr.Year) + 1);
-
 		histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
-
-
 		histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
 
-		
+		for (const v of arrObjectKeys) {
+			if (attr.Involved_Objects.includes(v)) {
+
+				histObjectData.set(v, histObjectData.get(v) + 1);
+			}
+		}
+
+
 
 		if (!(attr.Latitude && attr.Longitude)) {
 			// try to get it from the map
@@ -484,7 +488,7 @@ var histObjectData = new Map();
 const arrSeverityKeys = [
 	"Unspecified Injury",
 	"No Injury",
-	
+
 	"Possible Injury",
 	"Minor Injury",
 
@@ -494,18 +498,18 @@ const arrSeverityKeys = [
 
 ];
 
-const arrObjectKeys =[
-	"Car","Bicycle","Pedestrian","Truck","Bus","Parked Car","Object","Electric Bike", "Electric Scooter", "Electric Skateboard"
+const arrObjectKeys = [
+	"Car", "Motorcycle", "Bicycle", "Pedestrian", "Truck", "Bus", "Parked Car", "Object", "Electric Bike", "Electric Scooter", "Electric Skateboard"
 ];
 
-function clearHistData( keys, data) {
+function clearHistData(keys, data) {
 	for (const f of keys) {
-		data.set(f,0);
+		data.set(f, 0);
 	}
 }
 
-clearHistData( arrObjectKeys, histObjectData);
-clearHistData( arrSeverityKeys, histSeverityData);
+clearHistData(arrObjectKeys, histObjectData);
+clearHistData(arrSeverityKeys, histSeverityData);
 
 
 // clear data functions
@@ -580,9 +584,9 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 function handleFilterClick() {
 	clearHistYearData();
 	clearFaultData();
-	clearHistData( arrObjectKeys, histObjectData);
-    clearHistData( arrSeverityKeys, histSeverityData);
-	
+	clearHistData(arrObjectKeys, histObjectData);
+	clearHistData(arrSeverityKeys, histSeverityData);
+
 
 
 	const dataSpec = selectData.value;
@@ -653,7 +657,7 @@ function handleFilterClick() {
 	}
 
 	const dataObject = [];
-	for (const k of  arrObjectKeys) {
+	for (const k of arrObjectKeys) {
 		dataObject.push({ bar: k, count: histObjectData.get(k) })
 	}
 
@@ -664,7 +668,7 @@ function handleFilterClick() {
 
 	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 
-	histObjectChart = createOrUpdateChart(dataObject, histObjectChart , document.getElementById('objectHist'), 'Crash Particpants');
+	histObjectChart = createOrUpdateChart(dataObject, histObjectChart, document.getElementById('objectHist'), 'Crash Particpants');
 
 	histSeverityChart = createOrUpdateChart(dataSeverity, histSeverityChart, document.getElementById('severityHist'), 'Injury Severity');
 

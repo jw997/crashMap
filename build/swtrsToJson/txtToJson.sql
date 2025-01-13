@@ -106,7 +106,7 @@ CASE
     WHEN  stwd_vehicle_type == 'C' THEN 'Motorcycle'
     WHEN  (stwd_vehicle_type == 'D' or stwd_vehicle_type == 'F') THEN 'Truck'
     WHEN   (stwd_vehicle_type == 'H' or stwd_vehicle_type == 'I')  THEN 'Bus'
-    when chp_veh_type_towing == '91' then  'Electric Bicycle'
+    when chp_veh_type_towing == '91' then  'Electric Bike'
     when   chp_veh_type_towing  == '93' then  'Electric Skateboard'
     when chp_veh_type_towing == '94' then  'Electric Scooter'
     WHEN  stwd_vehicle_type == 'L'	THEN 'Bicycle'	
