@@ -13,12 +13,17 @@ async function getJson(url) {
 }
 
 const streetArray = [
+
+
 	"62nd",
 	"63rd",
 	"65th",
 	"66th",
-	"67th",
-	"80",
+	"67th",	
+	
+	"I80\|80",
+	"NOT I80\|^(?!.*80).*$",
+	
 	"Acacia",
 	"Acroft",
 	"Acton\|Action",
@@ -60,6 +65,9 @@ const streetArray = [
 	"Berkeley\|BERKELY",
 	"Berryman\|BERYMAN",
 	"Beverly",
+
+
+	"Bike Boulevards\|Russell\|Channing\|Virginia\|Milvia\|California\|9th\|Bowditch\|Hillegass\|King St",
 	"Blake",
 	"Boise",
 	"Bolivar",
@@ -225,7 +233,8 @@ const streetArray = [
 	"Hopkins",
 	"Horseshoe Driveway",
 	"Hospital",
-	"Howe",
+	"Howe",	"I80\|80",
+	"NOT I80\|^(?!.*80).*$",
 	"Idaho",
 	"Indian Rock",
 	"Jaynes",
