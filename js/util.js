@@ -75,6 +75,57 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 	}
 }
 
+function getIcon(name) {
+	const icon = new L.Icon({
+		iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
+		shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+		iconSize: [25, 41],
+		iconAnchor: [12, 41],
+		popupAnchor: [1, -34],
+		shadowSize: [41, 41]
+	});
+	return icon;
+
+}
+
+const greenIcon = getIcon('marker-icon-green.png');
+const redIcon = getIcon('marker-icon-red.png');
+const orangeIcon = getIcon('marker-icon-orange.png');
+const yellowIcon = getIcon('marker-icon-yellow.png');
+const goldIcon = getIcon('marker-icon-gold.png');
+const blueIcon = getIcon('marker-icon-blue.png');
+const violetIcon = getIcon('marker-icon-violet.png');
+
+// todo make a severity class with the icons and text wrapped together
+function getIconForSeverity(sev) {
+	var icon;
+	switch (sev) {
+		case 'Fatal':
+			icon = redIcon;
+			break;
+		case "Serious Injury":
+			icon = orangeIcon;
+			break;
+		case "Minor Injury":
+			icon = goldIcon;
+			break;
+		case "Possible Injury":
+			icon = yellowIcon;
+			break;
+		case "No Injury":
+			icon = blueIcon;
+			break;
+		case "Unspecified Injury":
+			icon = violetIcon;
+			break;
+		default:
+			console.error("Unexpected Injury severity ", sev);
+	}
+	return icon;
+}
+
+
+/*
 var greenIcon = new L.Icon({
 	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
 	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -101,7 +152,7 @@ var redIcon = new L.Icon({
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
-
+*/
 //const collisionsJsonFile = './db/exports/BPCOLL.json';
 //const collisionsJson = await getJson(collisionsJsonFile);
 
@@ -125,9 +176,17 @@ const mergedTransparencyJson = await (getTransparencyData());
 async function getSWITRSData() {
 	var arrays = [];
 
-	const file = './data/statetest.json';
-	const swtrsJson = await getJson(file);
-	arrays.push(swtrsJson.features);
+	const fileNames = ['switrs2015-2019.json', 'switrs2020-2024.json'];
+	for (const fName of fileNames) {
+		const file = './data/' + fName;
+		const swtrsJson = await getJson(file);
+		arrays.push(swtrsJson.features);
+
+	}
+	/*
+		const file = './data/statetest.json';
+		const swtrsJson = await getJson(file);
+		arrays.push(swtrsJson.features); */
 	const retval = [].concat(...arrays)
 	return retval;
 
@@ -357,17 +416,40 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 		}
 
 	}
-	if (severity == 'Fatality') {
-		if (attr.Number_of_Fatalities == 0) {
+	var acceptableSeverities = [];
+	acceptableSeverities.push('Fatal');
+
+	if (severity == 'Fatal') {
+		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
 			return false;
 		}
 	}
-	if (severity == 'Injury') {
-		if (attr.Number_of_Injuries == 0) {
+	acceptableSeverities.push('Serious Injury');
+
+	if (severity == 'Serious Injury') {
+		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
 			return false;
 		}
 	}
-	if (severity == 'NonInjury') {
+
+	acceptableSeverities.push('Minor Injury');
+
+	if (severity == 'Minor Injury') {
+		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+			return false;
+		}
+	}
+
+	acceptableSeverities.push('Possible Injury');
+
+	if (severity == 'Possible Injury') {
+		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+			return false;
+		}
+	}
+
+
+	if (severity == 'No Injury') {
 		if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
 			return false;
 		}
@@ -439,14 +521,15 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 				console.log("adjusting marker")
 			}
 
-			var myMarker;
+			var myMarker = getIconForSeverity(attr.Injury_Severity);
+			/*
 			if (attr.Number_of_Fatalities > 0) {
 				myMarker = redIcon;
 			} else if (attr.Number_of_Injuries > 0) {
 				myMarker = goldIcon
 			} else {
 				myMarker = greenIcon;
-			}
+			}*/
 			const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001],
 				{ icon: myMarker });
 			markersAtLocation.set(JSON.stringify(loc), ct + 1);
