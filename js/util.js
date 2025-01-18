@@ -450,9 +450,12 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 
 
 	if (severity == 'No Injury') {
-		if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
+		if (attr.Injury_Severity != 'No Injury') {
 			return false;
 		}
+		/*if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
+			return false;
+		}*/
 	}
 	return true;
 }
