@@ -33,7 +33,7 @@ All of these require the collision to be reported. Many collisions are not repor
 
 1) TP is the quickest to update, but still has a dealy of several weeks. TP has the least detailed info.
 
-2) Some information about vehicle type is lost on the way from BPD to SWITRS. For example, the identification of electric bikes, electric scooters, and electric skateboards is often different between TP and SWITRS.
+2) Some information about vehicle type is lost on the way from BPD to SWITRS. For example, the identification of electric bikes, electric scooters, and electric skateboards is often different between TP and SWITRS.  SWITRS shows 7 ebike crashes but TP shows 34.  Spot checking shows some of those crashes in SWITRS appears as non electric bicycle crashes, whereas TP shows them as ebikes.
 
 3) SWITRS is often months behind the current date.
 

@@ -124,40 +124,13 @@ function getIconForSeverity(sev) {
 	return icon;
 }
 
+async function getCityBoundary() {
+	const file = './data/cityboundary/Land_Boundary.geojson';
+    const cityGeoJson = await getJson(file);
+	return cityGeoJson;
+}
 
-/*
-var greenIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
-	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41]
-});
-
-var goldIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png',
-	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41]
-});
-
-var redIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41]
-});
-*/
-//const collisionsJsonFile = './db/exports/BPCOLL.json';
-//const collisionsJson = await getJson(collisionsJsonFile);
-
-//const transparencyJsonFile = './db/exports/transparency.portal.2024.json';
-//const transparencyJson = await getJson(transparencyJsonFile);
+const cityGeoJson = await getCityBoundary();
 
 async function getTransparencyData() {
 	var arrays = [];
@@ -183,13 +156,8 @@ async function getSWITRSData() {
 		arrays.push(swtrsJson.features);
 
 	}
-	/*
-		const file = './data/statetest.json';
-		const swtrsJson = await getJson(file);
-		arrays.push(swtrsJson.features); */
 	const retval = [].concat(...arrays)
 	return retval;
-
 }
 
 const mergedSWITRSJson = await (getSWITRSData());
@@ -229,6 +197,7 @@ const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
 const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
 
 var mergedUnion = mergedSWITRSJson.slice();
+
 for (const e of mergedTransparencyJson) {
 	if (tsTransparencyMinusSwtrs.has(e.attributes.DateTime)) {
 		mergedUnion.push(e);
@@ -313,6 +282,9 @@ function createMap() {
 
 
 createMap();
+
+// add city boundary to map
+L.geoJSON(cityGeoJson,{fillOpacity: 0.05}).addTo(map);
 
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
