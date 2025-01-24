@@ -162,6 +162,21 @@ async function getSWITRSData() {
 
 const mergedSWITRSJson = await (getSWITRSData());
 
+function makeTimeStamp(c) {
+	const d = coll.attributes.Date;
+		const t = coll.attributes.Time;
+
+		if (!d || !t) {
+			console.log("collision with missing date time ", coll);
+			return undefined;
+		} else {
+			const str = d + ' ' + t;
+			const ts = Date.parse(str);
+			return ts;
+		}
+
+}
+
 function makeTimeStampSet(arr) {
 	var setTimeStamps = new Set();
 	for (const coll of arr) {
@@ -186,9 +201,59 @@ function makeTimeStampSet(arr) {
 	}
 	return setTimeStamps;
 }
+
+function makeTimeStampMap(arr) {
+	var setTimeStamps = new Map();
+	for (const coll of arr) {
+		const d = coll.attributes.Date;
+		const t = coll.attributes.Time;
+
+		if (!d || !t) {
+			console.log("collision with missing date time ", coll);
+		} else {
+			const str = d + ' ' + t;
+			const ts = Date.parse(str);
+			if (setTimeStamps.has(str)) {
+				console.log("collsion with dupe date time ", coll);
+
+			} else {
+				setTimeStamps.set(ts, coll);
+				if (!coll.attributes.DateTime) {
+					coll.attributes.DateTime = ts;
+				}
+			}
+		}
+	}
+	return setTimeStamps;
+}
+
 // make set of swtrs collision time stamps
 const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
 const tsTransparency = makeTimeStampSet(mergedTransparencyJson);
+
+// make maps of ts to coll
+const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
+const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
+
+// make sets of local collision ids
+function makeLocalCollisionIdSet( arr) {
+	// for arr of SWITRS reports "Local_Report_Number": "2022-00060191",
+	// for arr of BPD reports "Case_Number": "2022-00060191",
+	const retval = new  Set();
+	for (const c of arr) {
+		const a = c.attributes;
+		if (a.Local_Report_Number) {
+			retval.add(a.Local_Report_Number)
+		} else if (a.Case_Number) {
+			retval.add(a.Case_Number)
+		}
+	}
+	return retval;
+}
+
+const lidSwitrs = makeLocalCollisionIdSet( mergedSWITRSJson);
+const lidTransparency = makeLocalCollisionIdSet( mergedTransparencyJson);
+
 
 
 const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
@@ -196,12 +261,33 @@ const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
 const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
 const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
 
+function minus( bigTs, littleTs, bigId, littleId, big, little) { 
+
+	const retval = new Set();
+	for (const b of big) {
+
+	}
+
+	
+	
+	
+
+}
+
+// for union, start with switrs
 var mergedUnion = mergedSWITRSJson.slice();
 
+// add any bpd records that differ in both timestamp and local case id
 for (const e of mergedTransparencyJson) {
-	if (tsTransparencyMinusSwtrs.has(e.attributes.DateTime)) {
-		mergedUnion.push(e);
-	}
+	const ts = e.attributes.DateTime;
+	const lid = e.attributes.Case_Number;
+
+	// 
+	if (!tsSwtrs.has(ts)) {
+		if (!lidSwitrs.has(lid)) {
+			mergedUnion.push(e);
+		}
+	}	
 }
 
 console.log(" mergedUnion: ", mergedUnion.length);
