@@ -1,4 +1,3 @@
-
 import { getJson, streetArray } from "./utils_helper.js";
 
 // set default chart font color to black
@@ -77,8 +76,10 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 function getIcon(name) {
 	const icon = new L.Icon({
-		iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
-		shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+	//	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
+	iconUrl: './images/' + name,
+	//	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+	shadowUrl: './images/marker-shadow.png',
 		iconSize: [25, 41],
 		iconAnchor: [12, 41],
 		popupAnchor: [1, -34],
@@ -88,12 +89,12 @@ function getIcon(name) {
 
 }
 
-const greenIcon = getIcon('marker-icon-green.png');
-const redIcon = getIcon('marker-icon-red.png');
-const orangeIcon = getIcon('marker-icon-orange.png');
-const yellowIcon = getIcon('marker-icon-yellow.png');
-const goldIcon = getIcon('marker-icon-gold.png');
-const blueIcon = getIcon('marker-icon-blue.png');
+const greenIcon = getIcon('marker-highway-green.png');
+const redIcon = getIcon('marker-highway-red.png');
+const orangeIcon = getIcon('marker-highway-orange.png');
+const yellowIcon = getIcon('marker-highway-yellow.png');
+const goldIcon = getIcon('marker-highway-brown.png');
+const blueIcon = getIcon('marker-highway-blue.png');
 const violetIcon = getIcon('marker-icon-violet.png');
 
 // todo make a severity class with the icons and text wrapped together
@@ -126,7 +127,7 @@ function getIconForSeverity(sev) {
 
 async function getCityBoundary() {
 	const file = './data/cityboundary/Land_Boundary.geojson';
-    const cityGeoJson = await getJson(file);
+	const cityGeoJson = await getJson(file);
 	return cityGeoJson;
 }
 
@@ -164,16 +165,16 @@ const mergedSWITRSJson = await (getSWITRSData());
 
 function makeTimeStamp(c) {
 	const d = coll.attributes.Date;
-		const t = coll.attributes.Time;
+	const t = coll.attributes.Time;
 
-		if (!d || !t) {
-			console.log("collision with missing date time ", coll);
-			return undefined;
-		} else {
-			const str = d + ' ' + t;
-			const ts = Date.parse(str);
-			return ts;
-		}
+	if (!d || !t) {
+		console.log("collision with missing date time ", coll);
+		return undefined;
+	} else {
+		const str = d + ' ' + t;
+		const ts = Date.parse(str);
+		return ts;
+	}
 
 }
 
@@ -236,24 +237,25 @@ const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
 const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
 
 // make sets of local collision ids
-function makeLocalCollisionIdSet( arr) {
+function makeLocalCollisionIdMap(arr) {
 	// for arr of SWITRS reports "Local_Report_Number": "2022-00060191",
 	// for arr of BPD reports "Case_Number": "2022-00060191",
-	const retval = new  Set();
+	const retval = new Map();
 	for (const c of arr) {
 		const a = c.attributes;
 		if (a.Local_Report_Number) {
-			retval.add(a.Local_Report_Number)
+			retval.set(a.Local_Report_Number, c);
 		} else if (a.Case_Number) {
-			retval.add(a.Case_Number)
+			retval.set(a.Case_Number, c);
 		}
 	}
 	return retval;
 }
 
-const lidSwitrs = makeLocalCollisionIdSet( mergedSWITRSJson);
-const lidTransparency = makeLocalCollisionIdSet( mergedTransparencyJson);
+const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
+const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
+const lidSwitrs = new Set(lidMapSwitrs.keys());
 
 
 const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
@@ -261,18 +263,6 @@ const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
 const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
 const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
 
-function minus( bigTs, littleTs, bigId, littleId, big, little) { 
-
-	const retval = new Set();
-	for (const b of big) {
-
-	}
-
-	
-	
-	
-
-}
 
 // for union, start with switrs
 var mergedUnion = mergedSWITRSJson.slice();
@@ -287,8 +277,55 @@ for (const e of mergedTransparencyJson) {
 		if (!lidSwitrs.has(lid)) {
 			mergedUnion.push(e);
 		}
-	}	
+	}
 }
+
+
+// each bpd report has a "Case_Number": "2022-00019693", and a date time
+// each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
+function getSwitrsReportForLocalReport(localColl) {
+	const ts = localColl.attributes.DateTime;
+	const lid = localColl.attributes.Case_Number;
+
+	// first lookup by case number
+	const r1 = lidMapSwitrs.get(lid);
+	if (r1) {
+		return r1;
+	}
+	// then try by date time
+	const r2 = tsMapSwtrs.get(ts);
+	if (r2) {
+		return r2;
+	}
+	return undefined;
+}
+for (const localColl of mergedTransparencyJson) {
+	localColl.switrsRecord = getSwitrsReportForLocalReport(localColl);
+}
+
+// each bpd report has a "Case_Number": "2022-00019693", and a date time
+// each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
+function getLocalReportForSwitrsReport(switrsColl) {
+	const ts = switrsColl.attributes.DateTime;
+	const lid = switrsColl.attributes.Local_Report_Number;
+
+	// first lookup by case number
+	const r1 = lidMapTransparency.get(lid);
+	if (r1) {
+		return r1;
+	}
+	// then try by date time
+	const r2 = tsMapTransparency.get(ts);
+	if (r2) {
+		return r2;
+	}
+	return undefined;
+}
+
+for (const switrsColl of mergedSWITRSJson) {
+	switrsColl.localRecord = getLocalReportForSwitrsReport(switrsColl);
+}
+
 
 console.log(" mergedUnion: ", mergedUnion.length);
 
@@ -370,7 +407,7 @@ function createMap() {
 createMap();
 
 // add city boundary to map
-L.geoJSON(cityGeoJson,{fillOpacity: 0.05}).addTo(map);
+L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
@@ -390,7 +427,7 @@ function removeAllMakers() {
 	}
 }
 
-function checkFilter(attr, tsSet, vehTypeRegExp,
+function checkFilter(coll, tsSet, vehTypeRegExp,
 	filter2024, filter2023,
 	filter2022, filter2021, filter2020,
 	filter2019,
@@ -401,6 +438,8 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 
 	selectStreet, severity
 ) {
+	const attr = coll.attributes;
+
 	if (!tsSet.has(attr.DateTime)) {
 		return false;
 	}
@@ -475,17 +514,26 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 
 	}
 	var acceptableSeverities = [];
+    // if coll has unspecifed severity, but switrs gives a severity use that instead
+	var coll_severity = attr.Injury_Severity;
+
+	if (coll_severity == 'Unspecified Injury') {
+		if (coll.switrsRecord) {
+			coll_severity = coll.switrsRecord.attributes.Injury_Severity
+		}
+	}
+
 	acceptableSeverities.push('Fatal');
 
 	if (severity == 'Fatal') {
-		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+		if (acceptableSeverities.indexOf(coll_severity) == -1) {
 			return false;
 		}
 	}
 	acceptableSeverities.push('Serious Injury');
 
 	if (severity == 'Serious Injury') {
-		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+		if (acceptableSeverities.indexOf(coll_severity) == -1) {
 			return false;
 		}
 	}
@@ -493,7 +541,7 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 	acceptableSeverities.push('Minor Injury');
 
 	if (severity == 'Minor Injury') {
-		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+		if (acceptableSeverities.indexOf(coll_severity) == -1) {
 			return false;
 		}
 	}
@@ -501,14 +549,14 @@ function checkFilter(attr, tsSet, vehTypeRegExp,
 	acceptableSeverities.push('Possible Injury');
 
 	if (severity == 'Possible Injury') {
-		if (acceptableSeverities.indexOf(attr.Injury_Severity) == -1) {
+		if (acceptableSeverities.indexOf(coll_severity) == -1) {
 			return false;
 		}
 	}
 
 
 	if (severity == 'No Injury') {
-		if (attr.Injury_Severity != 'No Injury') {
+		if (coll_severity != 'No Injury') {
 			return false;
 		}
 		/*if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
@@ -538,7 +586,7 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 
 	for (const coll of collisionJson) {
 		const attr = coll.attributes;
-		const checked = checkFilter(attr, tsSet, vehTypeRegExp,
+		const checked = checkFilter(coll, tsSet, vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
 			filter2019, filter2018, filter2017, filter2016, filter2015,
 			selectStreet, selectSeverity);
@@ -560,21 +608,47 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 		}
 
 
+		/*
+				if (!(attr.Latitude && attr.Longitude)) {
+					// try to get it from the map
+					const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
+					if (matchingLocalReport) {
+						attr.Latitude = matchingLocalReport.Latitude;
+						attr.Longitude = matchingLocalReport.Longitude;
+						//console.log("Fixed GPS for ", attr.Local_Report_Number);
+					} else {
+						console.log("Failed to fix GPS for ", attr.Local_Report_Number);
+					}
+				}*/
+		// if lat  or long is missing, try the linked coll record
+		var lat = attr.Latitude;
+		if (!lat) {
+			if (coll.localRecord) {
+				lat = coll.localRecord.attributes.Latitude;
 
-		if (!(attr.Latitude && attr.Longitude)) {
-			// try to get it from the map
-			const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
-			if (matchingLocalReport) {
-				attr.Latitude = matchingLocalReport.Latitude;
-				attr.Longitude = matchingLocalReport.Longitude;
-				//console.log("Fixed GPS for ", attr.Local_Report_Number);
-			} else {
-				console.log("Failed to fix GPS for ", attr.Local_Report_Number);
+			}
+		}
+		if (!lat) {
+			if (coll.switrsRecord) {
+				lat = coll.switrsRecord.attributes.Latitude;
+			}
+		}
+		//const long = attr.Latitude ?? coll.switrsColl.Latitude ?? coll.localColl.Latitude;
+		var long = attr.Longitude;
+		if (!long) {
+			if (coll.localRecord) {
+				long = coll.localRecord.attributes.Longitude;
+			}
+
+		}
+		if (!long) {
+			if (coll.switrsRecord) {
+				long = coll.switrsRecord.attributes.Longitude;
 			}
 		}
 
-		if (attr.Latitude && attr.Longitude) {
-			const loc = [attr.Latitude, attr.Longitude];
+		if (lat && long) {
+			const loc = [lat, long];
 			//	const roundLoc = loc.map((c) => c.toFixed(3));
 			const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
 
@@ -583,18 +657,18 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 			}
 
 			var myMarker = getIconForSeverity(attr.Injury_Severity);
-			/*
-			if (attr.Number_of_Fatalities > 0) {
-				myMarker = redIcon;
-			} else if (attr.Number_of_Injuries > 0) {
-				myMarker = goldIcon
-			} else {
-				myMarker = greenIcon;
-			}*/
-			const marker = L.marker([attr.Latitude + ct * 0.0001, attr.Longitude - ct * 0.0001],
+
+			const marker = L.marker([lat + ct * 0.0001, long - ct * 0.0001],
 				{ icon: myMarker });
 			markersAtLocation.set(JSON.stringify(loc), ct + 1);
-			const msg = collisionPopup(attr);
+			var msg = collisionPopup(attr);
+			if (coll.switrsRecord) {
+				const msg2 = collisionPopup(coll.switrsRecord.attributes);
+				msg += '<br>Switrs properties:<br>' + msg2;
+			} else if (coll.localRecord) {
+				const msg2 = collisionPopup(coll.localRecord.attributes);
+				msg += '<br>BPD properties:<br>' + msg2;
+			}
 			marker.bindPopup(msg).openPopup();
 			marker.addTo(map);
 			markers.push(marker);
@@ -750,19 +824,19 @@ function handleFilterClick() {
 			collData = mergedUnion; // TODO UNION
 			tsSet = tsSwtrsUnionTransparency;
 			break;
-		case 'SNT':
-			collData = mergedSWITRSJson;
-			tsSet = tsSwrtsIntersectionTransparency;
-			break;
-		case 'TMS': //>BPD minus State</option>
-			collData = mergedTransparencyJson;
-			tsSet = tsTransparencyMinusSwtrs;
-			break;
-
-		case 'SMT':
-			collData = mergedSWITRSJson;
-			tsSet = tsSwtrsMinusTransparency;
-			break;
+		/*	case 'SNT':
+				collData = mergedSWITRSJson;
+				tsSet = tsSwrtsIntersectionTransparency;
+				break;
+			case 'TMS': //>BPD minus State</option>
+				collData = mergedTransparencyJson;
+				tsSet = tsTransparencyMinusSwtrs;
+				break;
+	
+			case 'SMT':
+				collData = mergedSWITRSJson;
+				tsSet = tsSwtrsMinusTransparency;
+				break;*/
 		default:
 			console.log("Unepxected data spec")
 
@@ -785,15 +859,7 @@ function handleFilterClick() {
 
 		selectStreet.value,
 		selectSeverity.value
-
-
-
 	);
-
-
-
-
-
 
 	const dataFault = [];
 	for (const k of faultKeys) {
@@ -816,22 +882,6 @@ function handleFilterClick() {
 
 	histSeverityChart = createOrUpdateChart(dataSeverity, histSeverityChart, document.getElementById('severityHist'), 'Injury Severity');
 
-	/*
-		console.dir(histData);
-	
-		const dataByYear = [
-			{ bar: 2015, count: histData.get(2015) },
-			{ bar: 2016, count: histData.get(2016) },
-			{ bar: 2017, count: histData.get(2017) },
-			{ bar: 2018, count: histData.get(2018) },
-			{ bar: 2019, count: histData.get(2019) },
-			{ bar: 2020, count: histData.get(2020) },
-			{ bar: 2021, count: histData.get(2021) },
-			{ bar: 2022, count: histData.get(2022) },
-			{ bar: 2023, count: histData.get(2023) },
-			{ bar: 2024, count: histData.get(2024) },
-	
-		];*/
 	const dataByYear = [];
 	for (var bar = 2015; bar <= 2024; bar++) {
 		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
@@ -991,7 +1041,7 @@ const carIcon = L.icon({ iconUrl: './test/suv.png' });
 
 
 export {
-	/*collisionsJson, transparencyJson, */ mergedTransparencyJson, greenIcon, goldIcon, redIcon,
+	mergedTransparencyJson, greenIcon, goldIcon, redIcon,
 	populateStreetSelect, collisionPopup,
 	map, handleFilterClick
 };
