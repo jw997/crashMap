@@ -8,12 +8,18 @@
 		body {
 			background-color: white;
 		}
+
 		.sansserif {
 			font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
-		label, select, input, #summary {
+
+		label,
+		select,
+		input,
+		#summary {
 			margin-left: 10px;
 		}
+
 		.button {
 			background-color: white;
 			border: 1PX SOLID black;
@@ -26,19 +32,34 @@
 			margin: 4px 2vw;
 			border-radius: 99999vmax;
 			max-width: 33%;
-			min-width: calc(44px + 2rem);	
-			min-height: 44px;	
+			min-width: calc(44px + 2rem);
+			min-height: 44px;
+			height: 44px;
 			visibility: visible;
-			touch-action: none;
+			box-sizing: border-box;
+			/* touch-action: none; 
 			
+			vertical-align: center;
+			-moz-box-align: center;
+			position: relative;*/
+
 		}
+
+		#saveanchor {
+			position: relative;
+			top: -2px;
+			padding-top: 7px;
+		}
+
 		.button:hover {
 			background-color: lightgrey;
 		}
+
 		.select {
 			font-size: small;
 			color: black;
 		}
+
 		.chart {
 			border: 1PX SOLID black;
 			margin: 10px;
@@ -100,7 +121,7 @@
 		}
 
 		/* small devices */
-		@media only screen and (max-width: 991px) and (orientation: portrait){
+		@media only screen and (max-width: 991px) and (orientation: portrait) {
 			#osm-map {
 				grid-column: 1;
 				grid-row: 1;
@@ -118,7 +139,8 @@
 				height: 98vh;
 			}
 		}
-/*
+
+		/*
 		@media only screen and (max-width: 991px) and (orientation: portrait){
 			#osm-map {
 				grid-column: 1;
@@ -138,7 +160,7 @@
 			}
 		}
 */
-		@media only screen and (max-width: 991px) and (orientation: landscape){
+		@media only screen and (max-width: 991px) and (orientation: landscape) {
 			#osm-map {
 				grid-column: 1;
 				grid-row: 1;
@@ -194,23 +216,23 @@
 <body class="sansserif body-container">
 	<div class="grid-container">
 		<div id="query-stuff">
-			<br/>
+			<br />
 			<label>Pick crash data source</label>
-			  
-			<br/>
+
+			<br />
 			<select id="selectData" class="select">
 				<option value="T">BPD Data</option>
 				<option value="S">State Data</option>
 				<option value="SUT">BPD union State</option>
-			<!---	<option value="SNT">BPD intersect State</option>
+				<!---	<option value="SNT">BPD intersect State</option>
 				<option value="TMS">BPD minus State</option>
 				<option value="SMT">State minus BPD</option> -->
 			</select>
 
-			<br/>
+			<br />
 			<label>Pick crash participants</label>
-			<br/>
-			
+			<br />
+
 			<select id="selectVehicleTypes" class="select">
 				<option value='.*'>Any</option>
 				<option value='Car'>Car/Any</option>
@@ -239,9 +261,9 @@
 
 				<option value='Bus'>Bus/Any</option>
 			</select>
-			<br/>
+			<br />
 			<label>Pick years of data</label>
-			<br/>
+			<br />
 
 			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
 			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
@@ -254,9 +276,9 @@
 			<input type="checkbox" id="check2016"> <label for="check2016">2016</label><br>
 			<input type="checkbox" id="check2015"> <label for="check2015">2015</label><br>
 
-			<br/>
+			<br />
 			<label>Pick crash severity</label>
-			<br/>
+			<br />
 
 			<select id='severity' class="select">
 				<option value='Any'>Any</option>
@@ -267,17 +289,15 @@
 				<option value='No Injury'>Non-Injury</option>
 			</select>
 
-			<br/>
+			<br />
 			<label>Pick street</label>
-			<br/>
+			<br />
 			<select id="selectStreet" class="select">
 				<option>Any</option>
 			</select>
 
-			<button id="filterButton" class="button">Filter collisions</button>
-			
-
-			<a id ='saveanchor' class='button' download='collisions.json' >Export Collisions</a>
+			<button id="filterButton" class="button">Filter</button>
+			<a id='saveanchor' class='button' download='collisions.json'>Export</a>
 
 			<div id='summary'></div>
 
@@ -287,18 +307,18 @@
 
 			<div><canvas id="crashFaultHist" class="chart"></canvas></div>
 			<div><canvas id="gpsHist" class="chart"></canvas></div>
-			
+
 		</div>
 		<div id="osm-map"></div>
 	</div>
 
 	<!--- <script src="https://unpkg.com/chart.js@4.2.0/dist/chart.umd.js"></script> -->
 
-    <script src="./dependencies/chart/4.2.0/chart.umd.js"></script>
+	<script src="./dependencies/chart/4.2.0/chart.umd.js"></script>
 
 	<script type="module">
 		import {
-			 mergedTransparencyJson,
+			mergedTransparencyJson,
 			redIcon, goldIcon, greenIcon,
 			populateStreetSelect,
 			collisionPopup, map, handleFilterClick
