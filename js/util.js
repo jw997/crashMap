@@ -436,9 +436,10 @@ const violetIcon = getIcon('marker-icon-violet.png');
 function createLegend() {
 	const legend = L.control.Legend({
 		position: "bottomleft",
+		title: 'Injury',
 		collapsed: false,
 		symbolWidth: 24,
-		opacity: 1,
+		opacity: 0.8,
 		column: 1,
 		legends: [{
 			label: "Fatal",
