@@ -76,10 +76,10 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 function getIcon(name) {
 	const icon = new L.Icon({
-	//	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
-	iconUrl: './images/' + name,
-	//	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-	shadowUrl: './images/marker-shadow.png',
+		//	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
+		iconUrl: './images/' + name,
+		//	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+		shadowUrl: './images/marker-shadow.png',
 		iconSize: [25, 41],
 		iconAnchor: [12, 41],
 		popupAnchor: [1, -34],
@@ -403,8 +403,73 @@ function createMap() {
 }
 
 
+/*
+const greenIcon = getIcon('marker-highway-green.png');
+const redIcon = getIcon('marker-highway-red.png');
+const orangeIcon = getIcon('marker-highway-orange.png');
+const yellowIcon = getIcon('marker-highway-yellow.png');
+const goldIcon = getIcon('marker-highway-brown.png');
+const blueIcon = getIcon('marker-highway-blue.png');
+const violetIcon = getIcon('marker-icon-violet.png');
 
+	case 'Fatal':
+			icon = redIcon;
+			break;
+		case "Serious Injury":
+			icon = orangeIcon;
+			break;
+		case "Minor Injury":
+			icon = goldIcon;
+			break;
+		case "Possible Injury":
+			icon = yellowIcon;
+			break;
+		case "No Injury":
+			icon = blueIcon;
+			break;
+		case "Unspecified Injury":
+			icon = violetIcon;
+			break;
+
+*/
+
+function createLegend() {
+	const legend = L.control.Legend({
+		position: "bottomleft",
+		collapsed: false,
+		symbolWidth: 24,
+		opacity: 1,
+		column: 1,
+		legends: [{
+			label: "Fatal",
+			type: "image",
+			url: "./images/marker-highway-red.png",
+		}, {
+			label: "Serious",
+			type: "image",
+			url: "./images/marker-highway-orange.png",
+		}, {
+			label: "Minor",
+			type: "image",
+			url: "./images/marker-highway-brown.png"
+		}, {
+			label: "Possible",
+			type: "image",
+			url: "./images/marker-highway-yellow.png",
+		}, {
+			label: "No Injury",
+			type: "image",
+			url: "./images/marker-highway-blue.png"
+		}, {
+			label: "Unspecified",
+			type: "image",
+			url: "./images/marker-icon-violet.png",
+
+		}]})
+		.addTo(map);
+}
 createMap();
+createLegend();
 
 // add city boundary to map
 L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
@@ -514,7 +579,7 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 
 	}
 	var acceptableSeverities = [];
-    // if coll has unspecifed severity, but switrs gives a severity use that instead
+	// if coll has unspecifed severity, but switrs gives a severity use that instead
 	var coll_severity = attr.Injury_Severity;
 
 	if (coll_severity == 'Unspecified Injury') {
