@@ -1,5 +1,9 @@
 import { getJson, streetArray } from "./utils_helper.js";
 
+// touch or mouse?
+let mql = window.matchMedia("(pointer: fine)");
+const pointerFine = mql.matches;
+
 // set default chart font color to black
 Chart.defaults.color = '#000';
 Chart.defaults.font.size = 14;
@@ -97,6 +101,100 @@ const goldIcon = getIcon('marker-highway-brown.png');
 const blueIcon = getIcon('marker-highway-blue.png');
 const violetIcon = getIcon('marker-icon-violet.png');
 
+
+
+const w3_highway_brown = '#633517';
+const w3_highway_red = '#a6001a';
+const w3_highway_orange = '#e06000';
+const w3_highway_schoolbus = '#ee9600';
+const w3_highway_yellow = '#ffab00';
+const w3_highway_green = '#004d33';
+const w3_highway_blue = '#00477e';
+
+const violet = "#9400d3";//"#EE82EE";
+
+const black = "#000000";
+
+const grey = "#101010";
+
+function getOptionsForStop(result) {
+	var colorValue;
+	var rad = 8;
+	var opa = 0.5;
+
+	switch (result) {
+		case 3: // citation
+			colorValue = black;
+			rad = 8;
+			opa = 1;
+			break;
+		case 2: // warning
+			colorValue = grey;
+			break;
+
+		default:
+			console.error("Unexpected Stop result", result);
+	}
+	const retval = {
+		color: colorValue,
+		radius: rad,
+		fill: true,
+		fillOpacity: opa,
+		stroke: false // no border line
+	};
+	return retval;
+
+
+}
+
+
+function getOptionsForSeverity(sev) {
+	var colorValue;
+	var rad = 6;
+	var opa = 0.5;
+
+	switch (sev) {
+		case 'Fatal':
+			colorValue = w3_highway_red;
+			rad = 10;
+			opa = 1;
+			break;
+		case "Serious Injury":
+			colorValue = w3_highway_orange;
+			rad = 8;
+			opa = 1;
+			break;
+		case "Minor Injury":
+			colorValue = w3_highway_brown;
+			opa = 1;
+			break;
+		case "Possible Injury":
+			colorValue = w3_highway_yellow;
+			break;
+		case "No Injury":
+			colorValue = w3_highway_blue;
+			break;
+		case "Unspecified Injury":
+			colorValue = violet;
+			break;
+		default:
+			console.error("Unexpected Injury severity ", sev);
+	}
+	if (!pointerFine) {
+		rad *= 1.5;
+	}
+	const retval = {
+		color: colorValue,
+		radius: rad,
+		fill: true,
+		fillOpacity: opa
+	};
+	return retval;
+
+}
+
+
+
 // todo make a severity class with the icons and text wrapped together
 function getIconForSeverity(sev) {
 	var icon;
@@ -121,6 +219,23 @@ function getIconForSeverity(sev) {
 			break;
 		default:
 			console.error("Unexpected Injury severity ", sev);
+	}
+	return icon;
+}
+
+function getIconForStop(Result_of_Stop) {
+	var icon;
+	switch (Result_of_Stop) {
+		case 3:
+			icon = redIcon; // warning
+			break;
+		case 2:
+			icon = orangeIcon;  // warning
+			break;
+
+		default:
+			icon = violetIcon; // field interview / other??
+			console.error("Unexpected stop results ", Result_of_Stop);
 	}
 	return icon;
 }
@@ -162,6 +277,67 @@ async function getSWITRSData() {
 }
 
 const mergedSWITRSJson = await (getSWITRSData());
+
+async function getStopData() {
+	var arrays = [];
+	for (var y = 2020; y <= 2025; y++) {
+		const file = './data/stop/ts_' + y + '.json';
+		const stopJson = await getJson(file);
+		arrays.push(stopJson.features);
+	}
+	const retval = [].concat(...arrays)
+	return retval;
+
+}
+
+const mergedStopJson = await (getStopData());
+
+// fix up stop json by adding a few computed fields
+//"DateTime_FME": "20201009232500-07:00",
+//"Date": "2024-09-30",
+//"Time": "09:35:00",
+//"Year": 2024
+function fixStops() {
+	for (const s of mergedStopJson) {
+		const attr = s.attributes;
+
+		const fme = attr.DateTime_FME;
+		if ((!fme) || (fme.length < 12)) {
+			console.log("undefined DateTime_FME");
+			continue;
+		}
+
+		//starting in 2024 the format changes!
+		// "DateTime_FME": "2024-02-22 11:35:00",
+
+		const YYYY = fme.substr(0, 4);
+
+		const y = parseInt(YYYY);
+		if (y <= 2023) {
+			const MM = fme.substr(4, 2);
+			const DD = fme.substr(6, 2);
+			const hh = fme.substr(8, 2);
+			const mm = fme.substr(10, 2);
+			const ss = "00";
+			const hyphen = '-';
+			const colon = ':';
+			const newDate = YYYY + hyphen + MM + hyphen + DD;
+			const newTime = hh + colon + mm + colon + ss;
+
+			attr.Date = newDate;
+			attr.Time = newTime;
+		} else {
+			const newDate = fme.substr(0, 10);
+			const newTime = fme.substr(11, 8);
+
+			attr.Date = newDate;
+			attr.Time = newTime;
+		}
+		attr.Year = YYYY;
+	}
+}
+
+fixStops();
 
 function makeTimeStamp(c) {
 	const d = coll.attributes.Date;
@@ -231,6 +407,8 @@ function makeTimeStampMap(arr) {
 // make set of swtrs collision time stamps
 const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
 const tsTransparency = makeTimeStampSet(mergedTransparencyJson);
+
+const tsStops = makeTimeStampSet(mergedStopJson);
 
 // make maps of ts to coll
 const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
@@ -329,10 +507,6 @@ for (const switrsColl of mergedSWITRSJson) {
 
 console.log(" mergedUnion: ", mergedUnion.length);
 
-
-
-
-
 console.log("Swtrs time stamps: ", tsSwtrs.size);
 console.log("Transparency time stamps: ", tsTransparency.size);
 
@@ -368,7 +542,12 @@ const popupFields = ['Date',
 	'Number_of_Injuries',
 	'Number_of_Fatalities',
 	'Suspected_Serious_Injury',
-	'Injury_Severity'
+	'Injury_Severity',
+	"Injury_Ages",
+	"Traffic_Violation_Offense_Code_",
+	"Type_Of_Stop", "bGeoPointAddress",
+	"bGeoPointAddress", "ReasonForStopNarrative"
+
 
 ];
 function collisionPopup(obj) {
@@ -390,7 +569,9 @@ function createMap() {
 	// Height has to be set. You can do this in CSS too.
 	//element.style = 'height:100vh;';
 	// Create Leaflet map on map element.
-	map = L.map(element);
+	map = L.map(element, {
+		preferCanvas: true
+	});
 	// Add OSM tile layer to the Leaflet map.
 	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -466,11 +647,16 @@ function createLegend() {
 			type: "image",
 			url: "./images/marker-icon-violet.png",
 
-		}]})
+		}]
+	})
 		.addTo(map);
 }
+
 createMap();
-createLegend();
+
+if (pointerFine) {
+	createLegend();
+}
 
 // add city boundary to map
 L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
@@ -504,16 +690,14 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 
 	selectStreet, severity
 ) {
+
+	// for traffic stops, just return true
+	//if (coll.attributes.Stop_GlobalID) {
+	//	return true;
+	//}
 	const attr = coll.attributes;
 
 	if (!tsSet.has(attr.DateTime)) {
-		return false;
-	}
-	const involved = attr.Involved_Objects;
-
-	const m = involved.match(vehTypeRegExp);
-
-	if (!m) {
 		return false;
 	}
 
@@ -561,6 +745,32 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	if ((year < 2015) || (year > 2024)) {
 		return false;
 	}
+
+	if (coll.attributes.Stop_GlobalID) {
+		return true;
+
+		if (coll.attributes.Result_of_Stop != 3) {
+
+			return false;
+		}
+
+		const hour = parseInt(coll.attributes.Time);
+		//if (hour >= 6 &&  hour <= 10) {
+		if ((hour <= 5) || (hour >= 21 && hour <= 23)) {
+			return true;
+		}
+
+		return false;
+	}
+
+	const involved = attr.Involved_Objects;
+
+	const m = involved.match(vehTypeRegExp);
+
+	if (!m) {
+		return false;
+	}
+
 	const loc = attr.Accident_Location;
 
 	if (selectStreet != "Any") {
@@ -635,6 +845,13 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 const LatitudeDefault = 37.868412;
 const LongitudeDefault = -122.349938;
 
+function isStopAttr(a) {
+	if (a.Stop_GlobalID) {
+		return true;
+	}
+	return false;
+
+}
 function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
@@ -642,7 +859,7 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 	selectStreet, selectSeverity
 
 ) {
-	removeAllMakers();
+	//	removeAllMakers();
 	const markersAtLocation = new Map();
 	// add collisions to map
 	var markerCount = 0
@@ -662,18 +879,21 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 		plotted++;
 		arrMappedCollisions.push(attr); // add to array for export function
 
+
 		histData.set(attr.Year, histData.get(attr.Year) + 1);
-		histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
-		histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
 
-		for (const v of arrObjectKeys) {
-			if (attr.Involved_Objects.includes(v)) {
+		if (!isStopAttr(attr)) {
+			histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
+			histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
 
-				histObjectData.set(v, histObjectData.get(v) + 1);
+			for (const v of arrObjectKeys) {
+				if (attr.Involved_Objects.includes(v)) {
+
+					histObjectData.set(v, histObjectData.get(v) + 1);
+				}
 			}
+
 		}
-
-
 		/*
 				if (!(attr.Latitude && attr.Longitude)) {
 					// try to get it from the map
@@ -722,10 +942,43 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 				console.log("adjusting marker")
 			}
 
-			var myMarker = getIconForSeverity(attr.Injury_Severity);
+			var marker;
 
-			const marker = L.marker([lat + ct * 0.0001, long - ct * 0.0001],
-				{ icon: myMarker });
+			if (!isStopAttr(attr)) {
+				//var myMarker = getIconForSeverity(attr.Injury_Severity);
+				//marker = L.marker([lat + ct * 0.0001, long - ct * 0.0001],
+				//		{ icon: myMarker });
+
+				const opt = getOptionsForSeverity(attr.Injury_Severity);
+
+
+
+				marker = L.circleMarker([lat + ct * 0.0001, long - ct * 0.0001], opt
+					/*	{
+						color: '#3388ff',
+						radius: 5,
+						fill: true,
+						fillOpacity: 1
+					}
+					*/
+				);
+
+			} else {
+				//myMarker = getIconForStop(attr.Result_of_Stop);
+				const opt = getOptionsForStop(attr.Result_of_Stop);
+
+				marker = L.circleMarker([lat + ct * 0.0001, long - ct * 0.0001], opt /*{
+					color: '#3388ff',
+					radius: 5,
+					fill: true,
+					fillOpacity: 0.5
+				}*/
+				);
+
+			}
+			/*const marker = L.marker([lat + ct * 0.0001, long - ct * 0.0001],
+				{ icon: myMarker });*/
+
 			markersAtLocation.set(JSON.stringify(loc), ct + 1);
 			var msg = collisionPopup(attr);
 			if (coll.switrsRecord) {
@@ -735,7 +988,15 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData,
 				const msg2 = collisionPopup(coll.localRecord.attributes);
 				msg += '<br>BPD properties:<br>' + msg2;
 			}
-			marker.bindPopup(msg).openPopup();
+
+			if (pointerFine) {
+
+				marker.bindTooltip(msg).openTooltip();
+				marker.bindPopup(msg).openPopup();
+			} else {
+				marker.bindPopup(msg).openPopup();
+			}
+
 			marker.addTo(map);
 			markers.push(marker);
 			markerCount++;
@@ -889,6 +1150,10 @@ function handleFilterClick() {
 		case "SUT":
 			collData = mergedUnion; // TODO UNION
 			tsSet = tsSwtrsUnionTransparency;
+			break;
+		case "STOPS":
+			collData = mergedStopJson;
+			tsSet = tsStops;
 			break;
 		/*	case 'SNT':
 				collData = mergedSWITRSJson;

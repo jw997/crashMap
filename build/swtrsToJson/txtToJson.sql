@@ -88,10 +88,53 @@ where length( collision_time) < 4;
 update collision set collision_time = substr(collision_time,1,2) || ':' ||  substr(collision_time,3,2) || ':00';
 
 
- update collision set collision_date =  substr(Collision_Date,1,4) || '-' || substr( collision_date, 5,2) || '-' || substr(collision_date, 7,2);
+update collision set collision_date =  substr(Collision_Date,1,4) || '-' || substr( collision_date, 5,2) || '-' || substr(collision_date, 7,2);
  
- update collision set longitude = -longitude where longitude > 0;
- 
+update collision set longitude = -longitude where longitude > 0;
+
+drop view if exists collision_severity;
+
+create view collision_severity as 
+select case_id, 
+CASE
+    when collision_severity == 1 then 'Fatal'
+    WHEN  collision_severity == 2  THEN 'Serious Injury'
+    WHEN   collision_severity == 3 THEN 'Minor Injury'
+    WHEN   collision_severity == 0 THEN 'No Injury'
+    WHEN   collision_severity == 4 THEN 'Possible Injury'
+	
+    ELSE 'NOT STATED' 
+END Injury_Severity
+from collision;
+
+drop view if exists party_at_fault;
+
+create view party_at_fault as 
+select case_id,
+CASE
+     WHEN PARTY_TYPE == 1 THEN 'Driver'
+     WHEN  PARTY_TYPE == 2 THEN 'Pedestrian'
+	  WHEN  PARTY_TYPE == 3 THEN 'PARKED VEH'
+	   WHEN  PARTY_TYPE == 4 THEN 'Bicyclist'
+	    WHEN  PARTY_TYPE == 5 THEN 'OTHER'
+      ELSE 'NOT STATED' 
+END Party_at_Fault
+from party where  At_Fault='Y';
+
+drop view if exists Injury_Ages;
+create view Injury_Ages as 
+SELECT case_id,
+       group_concat(party_age, '/') AS Injury_Ages
+FROM (SELECT Case_ID, 
+party_age
+from party
+where ( party_number_injured > 0 or party_number_killed >0) 
+and 
+ (party_age != 998  )
+
+ORDER BY Case_ID,party_number)
+GROUP BY Case_Id;
+
 
 Drop view if exists Involved_Objects;
 
@@ -126,6 +169,7 @@ GROUP BY Case_Id;
 select count(*) from Involved_Objects;
 
 create view json_fields as 
+
 select  Collision.Case_ID as Case_ID,
  Primary_Rd || ' / ' || Secondary_Rd as Accident_Location,
   cast( Latitude as Decimal) as Latitude,
@@ -135,30 +179,21 @@ cast(number_injured as INT) as Number_of_Injuries,
 cast( number_killed as INT) as Number_of_Fatalities,
 Involved_Objects.Involved_Objects, 
 Collision.local_report_number as Local_Report_Number,
-
-CASE
-     WHEN PARTY_TYPE == 1 THEN 'Driver'
-     WHEN  PARTY_TYPE == 2 THEN 'Pedestrian'
-	  WHEN  PARTY_TYPE == 3 THEN 'PARKED VEH'
-	   WHEN  PARTY_TYPE == 4 THEN 'Bicyclist'
-	    WHEN  PARTY_TYPE == 5 THEN 'OTHER'
-      ELSE 'NOT STATED' 
-END Party_at_Fault,
-
-CASE
-    when collision_severity == 1 then 'Fatal'
-    WHEN  collision_severity == 2  THEN 'Serious Injury'
-    WHEN   collision_severity == 3 THEN 'Minor Injury'
-    WHEN   collision_severity == 0 THEN 'No Injury'
-    WHEN   collision_severity == 4 THEN 'Possible Injury'
-	
-    ELSE 'NOT STATED' 
-END Injury_Severity
+party_at_fault.Party_at_Fault,
+collision_severity.Injury_Severity,
+Injury_Ages.Injury_Ages
 
 --- Bicycle_Collision, Pedestrian_Collision, Motorcycle_Collision, Truck_Collision
 
-from collision left join Involved_Objects on Collision.Case_ID  == Involved_Objects.Case_ID
-left join party on (collision.Case_ID = party.Case_ID and At_Fault='Y');
+from collision left join Involved_Objects 
+	on Collision.Case_ID  == Involved_Objects.Case_ID
+left join party_at_fault 
+	on collision.case_id = party_at_fault.case_id
+left join collision_severity 
+    on collision.case_id = collision_severity.case_id
+left join Injury_Ages
+    on collision.case_id = Injury_Ages.case_id
+	;
 
 .mode json
 .once swtrs.json
