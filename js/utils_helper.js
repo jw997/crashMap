@@ -274,7 +274,7 @@ const streetArray = [
 	"Marina",
 	"Mariposa",
 	"Market",
-	"Martin\|ML.JR\|MLK\|MK JR WY",
+	"Martin Luther King\|Martin\|ML.JR\|MLK\|MK JR WY",
 	"Maryland",
 	"Masonic",
 	"Mathews\|Matthews",
