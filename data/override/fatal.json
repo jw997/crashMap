@@ -1,0 +1,32 @@
+{
+	"features": [
+		{
+			"attributes": {
+				"Case_Number": "2017-00020767",
+				"Injury_Severity": "Fatal",
+				"url": "https://www.berkeleyside.org/2017/05/01/longtime-activist-69-dies-north-berkeley-crash-police-say-driver-failed-yield"
+			}
+		},
+		{
+			"attributes": {
+				"Case_Number": "2019-00034353",
+				"Injury_Severity": "Fatal",
+				"url": "https://www.berkeleyside.org/2019/06/24/cyclist-24-seriously-injured-in-north-berkeley-crash-sunday-night"
+			}
+		},
+		{
+			"attributes": {
+				"Case_Number": "2019-00011208",
+				"Injury_Severity": "Fatal",
+				"url": "https://www.berkeleyside.org/2019/04/11/berkeley-cyclist-struck-in-hit-and-run-on-ashby-avenue-dies-a-month-after-collision"
+			}
+		},
+		{
+			"attributes": {
+				"Case_Number": "2022-00055714",
+				"Injury_Severity": "Fatal",
+				"url": "https://www.berkeleyscanner.com/2024/06/20/traffic-safety/berkeley-cyclist-death-lawsuit-traffic-safety-questions/"
+			}
+		}
+	]
+}

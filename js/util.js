@@ -278,6 +278,25 @@ async function getSWITRSData() {
 
 const mergedSWITRSJson = await (getSWITRSData());
 
+// read fatal crash override data
+async function getOverrideData() {
+	var arrays = [];
+
+	const fileNames = ['fatal.json'];
+	for (const fName of fileNames) {
+		const file = './data/override/' + fName;
+		const overrideJson = await getJson(file);
+		arrays.push(overrideJson.features);
+
+	}
+	const retval = [].concat(...arrays)
+	return retval;
+}
+
+const overrideJson = await getOverrideData();
+
+
+
 async function getStopData() {
 	var arrays = [];
 	for (var y = 2020; y <= 2025; y++) {
@@ -433,6 +452,30 @@ function makeLocalCollisionIdMap(arr) {
 const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
+// apply overrides by local id
+function applyOverrides ( overrides) {
+	for (const o of overrides) {
+		const oa = o.attributes;
+		const t = lidMapTransparency.get(oa.Case_Number);
+		if (t) {
+		const attr = t.attributes;
+		attr.Injury_Severity = oa.Injury_Severity;
+		attr.url = oa.url;
+		} else {
+			console.log("override not matched " , oa.Case_Number)
+		}
+
+		const s = lidMapSwitrs.get(oa.Case_Number);
+		if (s) {
+		const attr = s.attributes;
+		attr.Injury_Severity = oa.Injury_Severity;
+		attr.url = oa.url;
+		}
+	}
+}
+
+applyOverrides(overrideJson);
+
 const lidSwitrs = new Set(lidMapSwitrs.keys());
 
 
@@ -544,6 +587,7 @@ const popupFields = ['Date',
 	'Suspected_Serious_Injury',
 	'Injury_Severity',
 	"Injury_Ages",
+	"url",
 	"Traffic_Violation_Offense_Code_",
 	"Type_Of_Stop", "bGeoPointAddress",
 	"bGeoPointAddress", "ReasonForStopNarrative"
