@@ -119,18 +119,57 @@ const black = "#000000";
 
 const grey = "#101010";
 
+const stopNoAction = "No Action"
+const stopCitation = "Citation"
+const stopWarning = "Warning"
+const stopArrest = "Arrest"
+const stopUnkown = "unknown"
+
+function getStopResultCategory(result) {
+	switch (result) {
+		case 1: // no action
+			return stopNoAction;
+			break;
+		case 5: // arrest
+		case 6:
+			return stopArrest;
+			break;
+		case 14:
+		case 15:
+			return stopWarning;
+			break;
+		case 3: // citation
+			return stopCitation;
+			break;
+		default:
+			return stopUnkown;
+			break;
+	}
+	return stopUnkown;
+}
+
 function getOptionsForStop(result) {
 	var colorValue;
 	var rad = 8;
 	var opa = 0.5;
 
 	switch (result) {
+		case 1: // no action
+			colorValue = w3_highway_green;
+			break;
+		case 5: // arrest
+		case 6:
+			colorValue = w3_highway_red;
+			break;
 		case 2: // warning
-			colorValue = black;
+		case 14:
+		case 15:
+			colorValue = w3_highway_schoolbus;
+			opa = 0.6;
 			//colorValue = grey;
 			break;
 		case 3: // citation
-			colorValue = w3_highway_red;
+			colorValue = w3_highway_blue;
 			//colorValue = black;
 			rad = 8;
 			opa = 1;
@@ -483,6 +522,7 @@ const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
 // apply overrides by local id
+// these correct severity for fatal crashes, and add news urls
 function applyOverrides(overrides) {
 	for (const o of overrides) {
 		const oa = o.attributes;
@@ -508,12 +548,10 @@ applyOverrides(overrideJson);
 
 const lidSwitrs = new Set(lidMapSwitrs.keys());
 
-
 const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
 const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
 const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
 const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
-
 
 // for union, start with switrs
 var mergedUnion = mergedSWITRSJson.slice();
@@ -530,7 +568,6 @@ for (const e of mergedTransparencyJson) {
 		}
 	}
 }
-
 
 // each bpd report has a "Case_Number": "2022-00019693", and a date time
 // each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
@@ -576,8 +613,7 @@ function getLocalReportForSwitrsReport(switrsColl) {
 for (const switrsColl of mergedSWITRSJson) {
 	switrsColl.localRecord = getLocalReportForSwitrsReport(switrsColl);
 }
-
-
+/*
 console.log(" mergedUnion: ", mergedUnion.length);
 
 console.log("Swtrs time stamps: ", tsSwtrs.size);
@@ -589,7 +625,7 @@ console.log("tsSwrtsIntersectionTransparency :", tsSwrtsIntersectionTransparency
 console.log("tsSwtrsMinusTransparency: ", tsSwtrsMinusTransparency.size);
 
 console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
-
+*/
 
 
 
@@ -833,7 +869,7 @@ function createLegend() {
 
 createMap();
 
-if (pointerFine) {
+if (pointerFine) { // skip the legend for the mobile case.  maybe make a smaller legend?
 	createLegend();
 }
 
@@ -846,7 +882,6 @@ const resizeObserver = new ResizeObserver(() => {
 });
 
 resizeObserver.observe(document.getElementById('osm-map'));
-
 
 
 // keep track of markers for removal
@@ -926,10 +961,6 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	}
 
 	if (coll.attributes.Stop_GlobalID) {
-	
-
-	
-
 		const loc = attr.Stop_Location;
 
 		if (selectStreet != "Any") {
@@ -946,7 +977,6 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 					return false;
 				}
 			}
-
 		}
 		/*
 			if (coll.attributes.Result_of_Stop != 3) {
@@ -964,7 +994,6 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	}
 
 	const involved = attr.Involved_Objects;
-
 	const m = involved.match(vehTypeRegExp);
 
 	if (!m) {
@@ -987,7 +1016,6 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 				return false;
 			}
 		}
-
 	}
 	var acceptableSeverities = [];
 	// if coll has unspecifed severity, but switrs gives a severity use that instead
@@ -1029,7 +1057,6 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 			return false;
 		}
 	}
-
 
 	if (severity == 'No Injury') {
 		if (coll_severity != 'No Injury') {
@@ -1082,13 +1109,19 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjury
 		plotted++;
 		arrMappedCollisions.push(attr); // add to array for export function
 
+		// ADD NEW CHART
+		//histData.set(attr.Year, histData.get(attr.Year) + 1);
+		incrementMapKey(histData, attr.Year);
 
-		histData.set(attr.Year, histData.get(attr.Year) + 1);
+		if (isStopAttr(attr)) {
+			incrementMapKey(histStopResultData, getStopResultCategory( attr.Result_of_Stop));
+		}
 
 		if (!isStopAttr(attr)) {
-			histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
-			histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
-
+			//histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
+			incrementMapKey(histFaultData, attr.Party_at_Fault );
+			//histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
+			incrementMapKey(histSeverityData, attr.Injury_Severity );
 			for (const v of arrObjectKeys) {
 				if (attr.Involved_Objects.includes(v)) {
 
@@ -1106,8 +1139,6 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjury
 					incrementMapKey(histAgeInjuryData, k);
 				}
 			}
-
-
 		}
 		/*
 				if (!(attr.Latitude && attr.Longitude)) {
@@ -1216,7 +1247,8 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjury
 			markers.push(marker);
 			markerCount++;
 		} else {
-			histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
+			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
+			incrementMapKey(histMissingGPSData, attr.Year);
 			skipped++;
 		}
 	}
@@ -1238,6 +1270,7 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjury
 }
 
 // chart data variables
+// ADD NEW CHART
 const histYearData = new Map();
 const histMissingGPSData = new Map();
 var histFaultData = new Map();
@@ -1245,8 +1278,12 @@ var histFaultData = new Map();
 var histSeverityData = new Map();
 var histObjectData = new Map();
 
+
 var histAgeInjuryData = new Map();  // bars 0-9, 10-19, 20-, 30, 40, 50, 60, 70, 80+
 const arrAgeKeys = [0, 10, 20, 30, 40, 50, 60, 70, 80];
+
+var histStopResultData = new Map();
+const arrStopResultKeys = [stopArrest, stopCitation, stopWarning, stopNoAction, stopUnkown];
 
 
 const arrSeverityKeys = [
@@ -1273,9 +1310,11 @@ function clearHistData(keys, data) {
 	}
 }
 
+// ADD NEW CHART
 clearHistData(arrObjectKeys, histObjectData);
 clearHistData(arrSeverityKeys, histSeverityData);
 clearHistData(arrAgeKeys, histAgeInjuryData);
+clearHistData(arrStopResultKeys, histStopResultData);
 
 
 // clear data functions
@@ -1303,6 +1342,7 @@ function clearFaultData() {
 clearFaultData();
 
 // chart variables
+// ADD NEW CHART
 var histChart;
 var histChartGPS;
 var histFaultChart;
@@ -1310,6 +1350,8 @@ var histFaultChart;
 var histObjectChart;
 var histSeverityChart;
 var histAgeInjuryChart;
+
+var histStopResultChart;
 
 
 
@@ -1350,13 +1392,13 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 
 
 function handleFilterClick() {
+	// ADD NEW CHART
 	clearHistYearData();
 	clearFaultData();
 	clearHistData(arrObjectKeys, histObjectData);
 	clearHistData(arrSeverityKeys, histSeverityData);
 	clearHistData(arrAgeKeys, histAgeInjuryData);
-
-
+	clearHistData(arrStopResultKeys, histStopResultData);
 
 	const dataSpec = selectData.value;
 	var tsSet;
@@ -1416,6 +1458,7 @@ function handleFilterClick() {
 		selectSeverity.value
 	);
 
+	// ADD NEW CHART
 	const dataFault = [];
 	for (const k of faultKeys) {
 		dataFault.push({ bar: k, count: histFaultData.get(k) })
@@ -1431,6 +1474,13 @@ function handleFilterClick() {
 		dataSeverity.push({ bar: k, count: histSeverityData.get(k) })
 	}
 
+	const dataStopResult = [];
+	for (const k of arrStopResultKeys) {
+		dataStopResult.push({ bar: k, count: histStopResultData.get(k) })
+	}
+
+
+	// ADD NEW CHART
 	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 
 	histObjectChart = createOrUpdateChart(dataObject, histObjectChart, document.getElementById('objectHist'), 'Crash Particpants');
@@ -1459,6 +1509,8 @@ function handleFilterClick() {
 	}
 
 	histAgeInjuryChart = createOrUpdateChart(dataInjurybyAge, histAgeInjuryChart, document.getElementById('ageInjuryHist'), 'Injury by Age');
+
+	histStopResultChart = createOrUpdateChart(dataStopResult, histStopResultChart, document.getElementById('stopResultHist'), 'Stop Results');
 
 }
 
