@@ -134,6 +134,7 @@ function getStopResultCategory(result) {
 		case 6:
 			return stopArrest;
 			break;
+		case 2:
 		case 14:
 		case 15:
 			return stopWarning;
