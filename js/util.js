@@ -1,5 +1,7 @@
 import { getJson, streetArray } from "./utils_helper.js";
 
+import { findClosest } from "./gpsaddr.js";
+
 // touch or mouse?
 let mql = window.matchMedia("(pointer: fine)");
 const pointerFine = mql.matches;
@@ -123,17 +125,22 @@ function getOptionsForStop(result) {
 	var opa = 0.5;
 
 	switch (result) {
-		case 3: // citation
+		case 2: // warning
 			colorValue = black;
+			//colorValue = grey;
+			break;
+		case 3: // citation
+			colorValue = w3_highway_red;
+			//colorValue = black;
 			rad = 8;
 			opa = 1;
 			break;
-		case 2: // warning
-			colorValue = grey;
-			break;
+
 
 		default:
 			console.error("Unexpected Stop result", result);
+			colorValue = violet;
+			break;
 	}
 	const retval = {
 		color: colorValue,
@@ -357,6 +364,29 @@ function fixStops() {
 }
 
 fixStops();
+
+function addStopLocations() {
+	for (const s of mergedStopJson) {
+		const attr = s.attributes;
+		const lat = attr.Latitude;
+		const lon = attr.Longitude;
+		const gps = { 'lat': lat, 'lon': lon };
+
+
+		const closest = findClosest(gps);
+		if (closest) {
+			attr.Stop_Location = closest;
+		} else {
+			console.log("Failed to find street for ", gps);
+		}
+
+	}
+}
+
+addStopLocations();
+
+
+
 
 function makeTimeStamp(c) {
 	const d = coll.attributes.Date;
@@ -589,8 +619,10 @@ const popupFields = ['Date',
 	"Injury_Ages",
 	"url",
 	"Traffic_Violation_Offense_Code_",
-	"Type_Of_Stop", "bGeoPointAddress",
-	"bGeoPointAddress", "ReasonForStopNarrative"
+	"Type_Of_Stop", "bGeoPointAddress", "bGeneralLocationDesc",
+	"ReasonForStopNarrative",
+	"Result_of_Stop_text",
+	"Stop_Location"
 
 
 ];
@@ -658,6 +690,46 @@ const violetIcon = getIcon('marker-icon-violet.png');
 
 */
 
+/*
+{
+				label: "Circle",
+				type: "circle",
+				radius: 6,
+				color: "blue",
+				fillColor: "#FF0000",
+				fillOpacity: 0.6,
+				weight: 2,
+				layers: [marker],
+				inactive: true,
+			}
+
+
+			const greenIcon = getIcon('marker-highway-green.png');
+const redIcon = getIcon('marker-highway-red.png');
+const orangeIcon = getIcon('marker-highway-orange.png');
+const yellowIcon = getIcon('marker-highway-yellow.png');
+const goldIcon = getIcon('marker-highway-brown.png');
+const blueIcon = getIcon('marker-highway-blue.png');
+const violetIcon = getIcon('marker-icon-violet.png');
+
+
+
+const w3_highway_brown = '#633517';
+const w3_highway_red = '#a6001a';
+const w3_highway_orange = '#e06000';
+const w3_highway_schoolbus = '#ee9600';
+const w3_highway_yellow = '#ffab00';
+const w3_highway_green = '#004d33';
+const w3_highway_blue = '#00477e';
+
+const violet = "#9400d3";//"#EE82EE";
+
+const black = "#000000";
+
+const grey = "#101010";
+
+
+*/
 function createLegend() {
 	const legend = L.control.Legend({
 		position: "bottomleft",
@@ -666,6 +738,69 @@ function createLegend() {
 		symbolWidth: 24,
 		opacity: 0.8,
 		column: 1,
+
+		legends: [{
+			label: "Fatal",
+			type: "circle",
+			color: w3_highway_red,
+			fillColor: w3_highway_red
+
+			//url: "./images/marker-highway-red.png",
+		}, {
+			label: "Serious",
+			type: "circle",
+
+			color: w3_highway_orange,
+			fillColor: w3_highway_orange
+			//url: "./images/marker-highway-orange.png",
+		}, {
+			label: "Minor",
+			type: "circle",
+			color: w3_highway_brown,
+			fillColor: w3_highway_brown
+			//url: "./images/marker-highway-brown.png"
+		}, {
+			label: "Possible",
+			type: "circle",
+			color: w3_highway_yellow,
+			fillColor: w3_highway_yellow
+
+			//url: "./images/marker-highway-yellow.png",
+		}, {
+			label: "No Injury",
+			type: "circle",
+			color: w3_highway_blue,
+			fillColor: w3_highway_blue
+			//url: "./images/marker-highway-blue.png"
+		}, {
+			label: "Unspecified",
+			type: "circle",
+			color: violet,
+			fillColor: violet
+			//url: "./images/marker-icon-violet.png",
+
+		}, {
+			label: "Stop: Citation",
+			type: "circle",
+			color: black,
+			fillColor: black,
+			fillOpacity: 1
+			//url: "./images/marker-icon-violet.png",
+
+		}, {
+			label: "Stop: Warning",
+			type: "circle",
+			color: grey,
+			fillColor: grey,
+			fillOpacity: 0.5
+			//url: "./images/marker-icon-violet.png",
+
+		}
+		]
+
+
+
+		/*
 		legends: [{
 			label: "Fatal",
 			type: "image",
@@ -691,7 +826,7 @@ function createLegend() {
 			type: "image",
 			url: "./images/marker-icon-violet.png",
 
-		}]
+		}]*/
 	})
 		.addTo(map);
 }
@@ -791,20 +926,41 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	}
 
 	if (coll.attributes.Stop_GlobalID) {
-		return true;
+	
 
-		if (coll.attributes.Result_of_Stop != 3) {
+	
+
+		const loc = attr.Stop_Location;
+
+		if (selectStreet != "Any") {
+
+			if (selectStreet.includes('|')) {
+				const re = new RegExp(selectStreet, 'i');
+
+				if (!loc.match(re)) {
+					return false;
+				}
+			} else {
+				const m = loc.toUpperCase().includes(selectStreet.toUpperCase());
+				if (!m) {
+					return false;
+				}
+			}
+
+		}
+		/*
+			if (coll.attributes.Result_of_Stop != 3) {
 
 			return false;
 		}
 
-		const hour = parseInt(coll.attributes.Time);
-		//if (hour >= 6 &&  hour <= 10) {
-		if ((hour <= 5) || (hour >= 21 && hour <= 23)) {
-			return true;
-		}
+				const hour = parseInt(coll.attributes.Time);
+				//if (hour >= 6 &&  hour <= 10) {
+				if ((hour <= 5) || (hour >= 21 && hour <= 23)) {
+					return true;
+				}*/
 
-		return false;
+		return true;
 	}
 
 	const involved = attr.Involved_Objects;
