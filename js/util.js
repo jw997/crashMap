@@ -392,12 +392,14 @@ function fixStops() {
 
 			attr.Date = newDate;
 			attr.Time = newTime;
+			attr.Hour = parseInt(hh);
 		} else {
 			const newDate = fme.substr(0, 10);
 			const newTime = fme.substr(11, 8);
 
 			attr.Date = newDate;
 			attr.Time = newTime;
+			attr.Hour = parseInt(newTime.substr(3,2) );
 		}
 		attr.Year = parseInt(YYYY);
 	}
@@ -633,7 +635,7 @@ console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
 //const mergedTransparencyJson = mergedSWITRSJson;
 
 const popupFields = ['Date',
-	'Time',
+	'Time','Hour',
 	//'Day_of_Week',
 	'Case_Number',
 	'Case_ID',
@@ -1099,7 +1101,7 @@ function isStopAttr(a) {
 function incrementMapKey(m, k) {
 	m.set(k, m.get(k) + 1);
 }
-function addMarkers(collisionJson, tsSet, histYearData, histFaultData, histAgeInjuryData,
+function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
 	filter2019, filter2018, filter2017, filter2016, filter2015,
@@ -1129,6 +1131,15 @@ function addMarkers(collisionJson, tsSet, histYearData, histFaultData, histAgeIn
 		// ADD NEW CHART
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
 		incrementMapKey(histYearData, attr.Year);
+
+		if (!attr.Hour ) {
+			//console.log("Undefined hour " , attr.Case_Number);
+			// try to set it from time
+			attr.Hour = parseInt(attr.Time.substr(0,2));
+		}
+		const hour = 3* Math.floor(attr.Hour/3);
+		//console.log ( "Hour is " , attr.Hour, ' ' , attr.Case_Number);
+		incrementMapKey(histHourData, hour);
 
 		if (isStopAttr(attr)) {
 			incrementMapKey(histStopResultData, getStopResultCategory( attr.Result_of_Stop));
@@ -1289,6 +1300,9 @@ function addMarkers(collisionJson, tsSet, histYearData, histFaultData, histAgeIn
 // chart data variables
 // ADD NEW CHART
 const histYearData = new Map();
+const histHourData = new Map();
+const arrHourKeys = [0,3,6,9,12,15,18,21];
+
 const histMissingGPSData = new Map();
 var histFaultData = new Map();
 
@@ -1332,6 +1346,7 @@ clearHistData(arrObjectKeys, histObjectData);
 clearHistData(arrSeverityKeys, histSeverityData);
 clearHistData(arrAgeKeys, histAgeInjuryData);
 clearHistData(arrStopResultKeys, histStopResultData);
+clearHistData(arrHourKeys, histHourData);
 
 
 // clear data functions
@@ -1360,7 +1375,9 @@ clearFaultData();
 
 // chart variables
 // ADD NEW CHART
-var histChart;
+var histYearChart;
+var histHourChart;
+
 var histChartGPS;
 var histFaultChart;
 
@@ -1411,6 +1428,7 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 function handleFilterClick() {
 	// ADD NEW CHART
 	clearHistYearData();
+	clearHistData(arrHourKeys, histHourData);
 	clearFaultData();
 	clearHistData(arrObjectKeys, histObjectData);
 	clearHistData(arrSeverityKeys, histSeverityData);
@@ -1455,7 +1473,7 @@ function handleFilterClick() {
 			console.log("Unepxected data spec")
 
 	}
-	addMarkers(collData, tsSet, histYearData, histFaultData, histAgeInjuryData,
+	addMarkers(collData, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 
 		selectVehicleTypes.value,
 
@@ -1509,8 +1527,14 @@ function handleFilterClick() {
 		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
 	}
 
+	histYearChart = createOrUpdateChart(dataByYear, histYearChart, document.getElementById('yearHist'), 'Collisions or Stops by Year');
 
-	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('yearHist'), 'Collisions or Stops by Year');
+	const dataByHour = [];
+	for (const k of arrHourKeys) {
+		dataByHour.push({ bar: k, count: histHourData.get(k) })
+	}
+
+	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), 'Collisions or Stops by Hour');
 
 	const dataGPSByYear = [];
 	for (var bar = 2015; bar <= 2024; bar++) {
