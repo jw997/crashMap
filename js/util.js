@@ -817,21 +817,37 @@ function createLegend() {
 			//url: "./images/marker-icon-violet.png",
 
 		}, {
+			label: "Stop: Arrest",
+			type: "circle",
+			color: w3_highway_red,
+			fillColor: w3_highway_red,
+			fillOpacity: 1
+			//url: "./images/marker-icon-violet.png",
+
+		},
+		{
 			label: "Stop: Citation",
 			type: "circle",
-			color: black,
-			fillColor: black,
+			color: w3_highway_blue,
+			fillColor:w3_highway_blue,
 			fillOpacity: 1
 			//url: "./images/marker-icon-violet.png",
 
 		}, {
 			label: "Stop: Warning",
 			type: "circle",
-			color: grey,
-			fillColor: grey,
+			color: w3_highway_schoolbus,
+			fillColor:w3_highway_schoolbus,
 			fillOpacity: 0.5
 			//url: "./images/marker-icon-violet.png",
 
+		} , {
+			label: "Stop: No Action",
+			type: "circle",
+			color: w3_highway_green,
+			fillColor:w3_highway_green,
+			fillOpacity: 0.5
+			//url: "./images/marker-icon-violet.png",
 		}
 		]
 
@@ -1257,7 +1273,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histFaultData, histAgeIn
 	console.log('Plotted', plotted);
 	console.log("markerCount ", markerCount)
 
-	const summaryMsg = '<br>Matching collsions: ' + plotted;//+ '<br>' + 'Skipped: ' + skipped + '<br>';
+	const summaryMsg = '<br>Matching collisions or Stops: ' + plotted;//+ '<br>' + 'Skipped: ' + skipped + '<br>';
 	summary.innerHTML = summaryMsg;
 
 	// set array for download
@@ -1484,7 +1500,7 @@ function handleFilterClick() {
 	// ADD NEW CHART
 	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 
-	histObjectChart = createOrUpdateChart(dataObject, histObjectChart, document.getElementById('objectHist'), 'Crash Particpants');
+	histObjectChart = createOrUpdateChart(dataObject, histObjectChart, document.getElementById('involvedObjectHist'), 'Crash Particpants');
 
 	histSeverityChart = createOrUpdateChart(dataSeverity, histSeverityChart, document.getElementById('severityHist'), 'Injury Severity');
 
@@ -1494,7 +1510,7 @@ function handleFilterClick() {
 	}
 
 
-	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('crashHist'), 'Collisions or Stops by Year');
+	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('yearHist'), 'Collisions or Stops by Year');
 
 	const dataGPSByYear = [];
 	for (var bar = 2015; bar <= 2024; bar++) {
