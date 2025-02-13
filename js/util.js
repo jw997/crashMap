@@ -399,7 +399,7 @@ function fixStops() {
 			attr.Date = newDate;
 			attr.Time = newTime;
 		}
-		attr.Year = YYYY;
+		attr.Year = parseInt(YYYY);
 	}
 }
 
@@ -1083,7 +1083,7 @@ function isStopAttr(a) {
 function incrementMapKey(m, k) {
 	m.set(k, m.get(k) + 1);
 }
-function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjuryData,
+function addMarkers(collisionJson, tsSet, histYearData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
 	filter2019, filter2018, filter2017, filter2016, filter2015,
@@ -1112,7 +1112,7 @@ function addMarkers(collisionJson, tsSet, histData, histFaultData, histAgeInjury
 
 		// ADD NEW CHART
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
-		incrementMapKey(histData, attr.Year);
+		incrementMapKey(histYearData, attr.Year);
 
 		if (isStopAttr(attr)) {
 			incrementMapKey(histStopResultData, getStopResultCategory( attr.Result_of_Stop));
@@ -1494,7 +1494,7 @@ function handleFilterClick() {
 	}
 
 
-	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('crashHist'), 'Collisions by Year');
+	histChart = createOrUpdateChart(dataByYear, histChart, document.getElementById('crashHist'), 'Collisions or Stops by Year');
 
 	const dataGPSByYear = [];
 	for (var bar = 2015; bar <= 2024; bar++) {

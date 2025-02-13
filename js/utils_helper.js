@@ -270,7 +270,7 @@ const streetArray = [
 	"Mabel\|Mable",
 	"Madera",
 	"Magnolia\|Magnal",
-	"Marin",
+	"Marin Ave\|Marin\\b",
 	"Marina",
 	"Mariposa",
 	"Market",
