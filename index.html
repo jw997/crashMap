@@ -234,9 +234,26 @@
 			</select>
 
 			<br />
-			<label>Pick crash participants</label>
+			
+			<label>Pick years of data</label>
 			<br />
 
+			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
+			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
+			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
+			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
+			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
+			<input type="checkbox" id="check2019"> <label for="check2019">2019</label><br>
+			<input type="checkbox" id="check2018"> <label for="check2018">2018</label><br>
+			<input type="checkbox" id="check2017"> <label for="check2017">2017</label><br>
+			<input type="checkbox" id="check2016"> <label for="check2016">2016</label><br>
+			<input type="checkbox" id="check2015"> <label for="check2015">2015</label><br>
+
+			
+
+			<br />
+			<label>Pick crash participants</label>
+			<br />
 			<select id="selectVehicleTypes" class="select">
 				<option value='.*'>Any</option>
 				<option value='Car'>Car/Any</option>
@@ -265,21 +282,12 @@
 				<option value='Bus'>Bus/Any</option>
 			</select>
 			<br />
-			<label>Pick years of data</label>
-			<br />
 
-			<input type="checkbox" id="check2024"> <label for="check2024">2024</label><br>
-			<input type="checkbox" id="check2023"> <label for="check2023">2023</label><br>
-			<input type="checkbox" id="check2022"> <label for="check2022">2022</label><br>
-			<input type="checkbox" id="check2021"> <label for="check2021">2021</label><br>
-			<input type="checkbox" id="check2020"> <label for="check2020">2020</label><br>
-			<input type="checkbox" id="check2019"> <label for="check2019">2019</label><br>
-			<input type="checkbox" id="check2018"> <label for="check2018">2018</label><br>
-			<input type="checkbox" id="check2017"> <label for="check2017">2017</label><br>
-			<input type="checkbox" id="check2016"> <label for="check2016">2016</label><br>
-			<input type="checkbox" id="check2015"> <label for="check2015">2015</label><br>
+			<label>Pick street</label>
+			<select id="selectStreet" class="select">
+				<option>Any</option>
+			</select>
 
-			<br />
 			<label>Pick crash severity</label>
 			<br />
 
@@ -293,12 +301,18 @@
 			</select>
 
 			<br />
-			<label>Pick street</label>
+			<label>Pick stop result</label>
 			<br />
-			<select id="selectStreet" class="select">
-				<option>Any</option>
+
+			<select id='stopResult' class="select">
+				<option value='Any'>Any</option>
+				<option value='Arrest'>Arrest</option>
+				<option value='Citation'>Citation</option>
+				<option value='Warning'>Warning</option>
+				<option value='No Action'>No Action</option>
 			</select>
 
+			<br />
 			<button id="filterButton" class="button">Filter</button>
 			<a id='saveanchor' class='button' download='collisions.json'>Export</a>
 

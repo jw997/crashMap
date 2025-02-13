@@ -28,7 +28,7 @@ const check2015 = document.querySelector('#check2015');
 
 const selectStreet = document.querySelector('#selectStreet');
 const selectSeverity = document.querySelector('#severity');
-
+const selectStopResult = document.querySelector('#stopResult');
 
 const summary = document.querySelector('#summary');
 
@@ -399,9 +399,12 @@ function fixStops() {
 
 			attr.Date = newDate;
 			attr.Time = newTime;
-			attr.Hour = parseInt(newTime.substr(3,2) );
+			attr.Hour = parseInt(newTime.substr(0,2) );
 		}
 		attr.Year = parseInt(YYYY);
+		if (attr.Hour < 0 || attr.Hour > 24) {
+			console.log("Unexpected hour for stop ", attr.DateTime_FME, ' ' , attr.Hour);
+		}
 	}
 }
 
@@ -921,7 +924,7 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	filter2016,
 	filter2015,
 
-	selectStreet, severity
+	selectStreet, severity, selectStopResult
 ) {
 
 	// for traffic stops, just return true
@@ -997,6 +1000,14 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 				}
 			}
 		}
+		if (selectStopResult != "Any") {
+
+			const res = getStopResultCategory(attr.Result_of_Stop);
+			if (res != selectStopResult ) {
+				return false;
+			}
+		}
+
 		/*
 			if (coll.attributes.Result_of_Stop != 3) {
 
@@ -1105,7 +1116,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
 	filter2019, filter2018, filter2017, filter2016, filter2015,
-	selectStreet, selectSeverity
+	selectStreet, selectSeverity, selectStopResult
 
 ) {
 	removeAllMakers();
@@ -1121,7 +1132,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 		const checked = checkFilter(coll, tsSet, vehTypeRegExp,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
 			filter2019, filter2018, filter2017, filter2016, filter2015,
-			selectStreet, selectSeverity);
+			selectStreet, selectSeverity, selectStopResult);
 		if (!checked) {
 			continue;
 		}
@@ -1265,7 +1276,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 
 			if (pointerFine) {
 
-				marker.bindTooltip(msg).openTooltip();
+				//marker.bindTooltip(msg).openTooltip(); can copy from tooltip!
 				marker.bindPopup(msg).openPopup();
 			} else {
 				marker.bindPopup(msg).openPopup();
@@ -1490,7 +1501,8 @@ function handleFilterClick() {
 		check2015.checked,
 
 		selectStreet.value,
-		selectSeverity.value
+		selectSeverity.value,
+		selectStopResult.value
 	);
 
 	// ADD NEW CHART
