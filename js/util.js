@@ -14,6 +14,9 @@ const selectData = document.querySelector('#selectData');
 
 const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
 
+// ADD NEW YEAR
+
+const check2025 = document.querySelector('#check2025');
 const check2024 = document.querySelector('#check2024');
 const check2023 = document.querySelector('#check2023');
 const check2022 = document.querySelector('#check2022');
@@ -297,7 +300,7 @@ const cityGeoJson = await getCityBoundary();
 
 async function getTransparencyData() {
 	var arrays = [];
-	for (var y = 2015; y <= 2024; y++) {
+	for (var y = 2015; y <= 2025; y++) {
 		const file = './data/' + y + '.json';
 		const transparencyJson = await getJson(file);
 		arrays.push(transparencyJson.features);
@@ -311,7 +314,7 @@ const mergedTransparencyJson = await (getTransparencyData());
 
 async function getSWITRSData() {
 	var arrays = [];
-
+	// ADD NEW YEAR
 	const fileNames = ['switrs2015-2019.json', 'switrs2020-2024.json'];
 	for (const fName of fileNames) {
 		const file = './data/' + fName;
@@ -916,6 +919,7 @@ function removeAllMakers() {
 }
 
 function checkFilter(coll, tsSet, vehTypeRegExp,
+	filter2025,
 	filter2024, filter2023,
 	filter2022, filter2021, filter2020,
 	filter2019,
@@ -938,6 +942,10 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 	}
 
 	const year = attr.Year;
+	if ((year == 2025) && !filter2025) {
+		return false;
+
+	}
 	if ((year == 2024) && !filter2024) {
 		return false;
 
@@ -978,7 +986,7 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 		return false;
 
 	}
-	if ((year < 2015) || (year > 2024)) {
+	if ((year < 2015) || (year > 2025)) {
 		return false;
 	}
 
@@ -1114,6 +1122,8 @@ function incrementMapKey(m, k) {
 }
 function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
+	// ADD NEW YEAR
+	filter2025,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
 	filter2019, filter2018, filter2017, filter2016, filter2015,
 	selectStreet, selectSeverity, selectStopResult
@@ -1130,6 +1140,8 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 	for (const coll of collisionJson) {
 		const attr = coll.attributes;
 		const checked = checkFilter(coll, tsSet, vehTypeRegExp,
+			// ADD NEW YEAR
+			filter2025,
 			filter2024, filter2023, filter2022, filter2021, filter2020,
 			filter2019, filter2018, filter2017, filter2016, filter2015,
 			selectStreet, selectSeverity, selectStopResult);
@@ -1362,7 +1374,8 @@ clearHistData(arrHourKeys, histHourData);
 
 // clear data functions
 function clearHistYearData() {
-	for (var y = 2015; y < 2025; y++) {
+	// ADD NEW YEAR
+	for (var y = 2015; y <= 2025; y++) {
 		histYearData.set(y, 0);
 		histMissingGPSData.set(y, 0);
 	}
@@ -1487,7 +1500,8 @@ function handleFilterClick() {
 	addMarkers(collData, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 
 		selectVehicleTypes.value,
-
+		// ADD NEW YEAR
+		check2025.checked,
 		check2024.checked,
 		check2023.checked,
 		check2022.checked,
@@ -1535,7 +1549,8 @@ function handleFilterClick() {
 	histSeverityChart = createOrUpdateChart(dataSeverity, histSeverityChart, document.getElementById('severityHist'), 'Injury Severity');
 
 	const dataByYear = [];
-	for (var bar = 2015; bar <= 2024; bar++) {
+	// ADD NEW YEAR
+	for (var bar = 2015; bar <= 2025; bar++) {
 		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
 	}
 
@@ -1549,7 +1564,8 @@ function handleFilterClick() {
 	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), 'Collisions or Stops by Hour');
 
 	const dataGPSByYear = [];
-	for (var bar = 2015; bar <= 2024; bar++) {
+	// ADD NEW YEAR
+	for (var bar = 2015; bar <= 2025; bar++) {
 		dataGPSByYear.push({ bar: bar, count: histMissingGPSData.get(bar) });
 	}
 
