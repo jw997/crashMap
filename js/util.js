@@ -312,6 +312,22 @@ async function getTransparencyData() {
 
 const mergedTransparencyJson = await (getTransparencyData());
 
+async function getCCRSData() {
+	var arrays = [];
+	// ADD NEW YEAR
+	const fileNames = ['ccrs/ccrs2025.json'];
+	for (const fName of fileNames) {
+		const file = './data/' + fName;
+		const ccrsJson = await getJson(file);
+		arrays.push(ccrsJson.features);
+
+	}
+	const retval = [].concat(...arrays)
+	return retval;
+}
+
+const mergedCCRSJson = await (getCCRSData());
+
 async function getSWITRSData() {
 	var arrays = [];
 	// ADD NEW YEAR
@@ -402,11 +418,11 @@ function fixStops() {
 
 			attr.Date = newDate;
 			attr.Time = newTime;
-			attr.Hour = parseInt(newTime.substr(0,2) );
+			attr.Hour = parseInt(newTime.substr(0, 2));
 		}
 		attr.Year = parseInt(YYYY);
 		if (attr.Hour < 0 || attr.Hour > 24) {
-			console.log("Unexpected hour for stop ", attr.DateTime_FME, ' ' , attr.Hour);
+			console.log("Unexpected hour for stop ", attr.DateTime_FME, ' ', attr.Hour);
 		}
 	}
 }
@@ -502,12 +518,14 @@ function makeTimeStampMap(arr) {
 }
 
 // make set of swtrs collision time stamps
+const tsCcrs = makeTimeStampSet(mergedCCRSJson);
 const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
 const tsTransparency = makeTimeStampSet(mergedTransparencyJson);
 
 const tsStops = makeTimeStampSet(mergedStopJson);
 
 // make maps of ts to coll
+const tsMapCcrs = makeTimeStampMap(mergedCCRSJson);
 const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
 const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
 
@@ -527,6 +545,7 @@ function makeLocalCollisionIdMap(arr) {
 	return retval;
 }
 
+// TODO needed for CCRS?
 const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
@@ -641,7 +660,7 @@ console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
 //const mergedTransparencyJson = mergedSWITRSJson;
 
 const popupFields = ['Date',
-	'Time','Hour',
+	'Time', 'Hour',
 	//'Day_of_Week',
 	'Case_Number',
 	'Case_ID',
@@ -837,7 +856,7 @@ function createLegend() {
 			label: "Stop: Citation",
 			type: "circle",
 			color: w3_highway_blue,
-			fillColor:w3_highway_blue,
+			fillColor: w3_highway_blue,
 			fillOpacity: 1
 			//url: "./images/marker-icon-violet.png",
 
@@ -845,15 +864,15 @@ function createLegend() {
 			label: "Stop: Warning",
 			type: "circle",
 			color: w3_highway_schoolbus,
-			fillColor:w3_highway_schoolbus,
+			fillColor: w3_highway_schoolbus,
 			fillOpacity: 0.5
 			//url: "./images/marker-icon-violet.png",
 
-		} , {
+		}, {
 			label: "Stop: No Action",
 			type: "circle",
 			color: w3_highway_green,
-			fillColor:w3_highway_green,
+			fillColor: w3_highway_green,
 			fillOpacity: 0.5
 			//url: "./images/marker-icon-violet.png",
 		}
@@ -1011,7 +1030,7 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 		if (selectStopResult != "Any") {
 
 			const res = getStopResultCategory(attr.Result_of_Stop);
-			if (res != selectStopResult ) {
+			if (res != selectStopResult) {
 				return false;
 			}
 		}
@@ -1155,24 +1174,24 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
 		incrementMapKey(histYearData, attr.Year);
 
-		if (!attr.Hour ) {
+		if (!attr.Hour) {
 			//console.log("Undefined hour " , attr.Case_Number);
 			// try to set it from time
-			attr.Hour = parseInt(attr.Time.substr(0,2));
+			attr.Hour = parseInt(attr.Time.substr(0, 2));
 		}
-		const hour = 3* Math.floor(attr.Hour/3);
+		const hour = 3 * Math.floor(attr.Hour / 3);
 		//console.log ( "Hour is " , attr.Hour, ' ' , attr.Case_Number);
 		incrementMapKey(histHourData, hour);
 
 		if (isStopAttr(attr)) {
-			incrementMapKey(histStopResultData, getStopResultCategory( attr.Result_of_Stop));
+			incrementMapKey(histStopResultData, getStopResultCategory(attr.Result_of_Stop));
 		}
 
 		if (!isStopAttr(attr)) {
 			//histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
-			incrementMapKey(histFaultData, attr.Party_at_Fault );
+			incrementMapKey(histFaultData, attr.Party_at_Fault);
 			//histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
-			incrementMapKey(histSeverityData, attr.Injury_Severity );
+			incrementMapKey(histSeverityData, attr.Injury_Severity);
 			for (const v of arrObjectKeys) {
 				if (attr.Involved_Objects.includes(v)) {
 
@@ -1324,7 +1343,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 // ADD NEW CHART
 const histYearData = new Map();
 const histHourData = new Map();
-const arrHourKeys = [0,3,6,9,12,15,18,21];
+const arrHourKeys = [0, 3, 6, 9, 12, 15, 18, 21];
 
 const histMissingGPSData = new Map();
 var histFaultData = new Map();
@@ -1467,6 +1486,10 @@ function handleFilterClick() {
 		case 'T':
 			collData = mergedTransparencyJson;
 			tsSet = tsTransparency;
+			break;
+		case 'C':
+			collData = mergedCCRSJson;
+			tsSet = tsCcrs;
 			break;
 		case 'S':
 			collData = mergedSWITRSJson;

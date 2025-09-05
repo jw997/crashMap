@@ -240,8 +240,9 @@
 			<br />
 			<select id="selectData" class="select">
 				<option value="T">BPD Data</option>
-				<option value="S">State Data</option>
-				<option value="SUT">BPD union State</option>
+				<option value="C">State CCRS Data</option>
+				<option value="S">State SWITRS Data</option>
+				<option value="SUT">BPD union SWITRS</option>
 				<option value="STOPS">BPD Traffic Stops</option>
 				<!---	<option value="SNT">BPD intersect State</option>
 				<option value="TMS">BPD minus State</option>
@@ -273,7 +274,7 @@
 			<select id="selectVehicleTypes" class="select">
 				<option value='.*'>Any</option>
 				<option value='Car'>Car/Any</option>
-				<option value='Bi.*Car'>Car/Bicycle</option>
+				<option value='Bi.*Car|Car.*Bi'>Car/Bicycle</option>
 				<option value='Car.*Ped|Ped.*Car'>Car/Pedestrian</option>
 				<option value='Car.*Solo|Car.*Object'>Car/Solo</option>
 
