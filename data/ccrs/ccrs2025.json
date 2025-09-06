@@ -13572,6 +13572,75 @@
     },
     {
       "attributes": {
+        "CollisionId": 4827945,
+        "Case_ID": 4827945,
+        "CityName": "Berkeley",
+        "CCRSDateTime": "8/23/2025 4:25:00 PM",
+        "NumberInjured": 0,
+        "NumberKilled": 0,
+        "PrimaryRoad": "I-80 W/B",
+        "SecondaryRoad": "UNIVERSITY AVE",
+        "Latitude": 37.869592,
+        "Longitude": -122.30479,
+        "Accident_Location": "I-80 W/B/UNIVERSITY AVE",
+        "Hour": 16,
+        "Year": 2025,
+        "Date": "2025-08-23",
+        "Time": "16:25:00",
+        "Involved_Objects": "Car/Car",
+        "Injury_Severity": "No Injury",
+        "Party_at_Fault": "Driver",
+        "Injury_Ages": ""
+      }
+    },
+    {
+      "attributes": {
+        "CollisionId": 4826630,
+        "Case_ID": 4826630,
+        "CityName": "Berkeley",
+        "CCRSDateTime": "8/24/2025 10:50:00 AM",
+        "NumberInjured": 2,
+        "NumberKilled": 0,
+        "PrimaryRoad": "I-80 WESTBOUND",
+        "SecondaryRoad": "UNIVERSITY AVENUE",
+        "Latitude": 37.86641,
+        "Longitude": -122.30372,
+        "Accident_Location": "I-80 WESTBOUND/UNIVERSITY AVENUE",
+        "Hour": 10,
+        "Year": 2025,
+        "Date": "2025-08-24",
+        "Time": "10:50:00",
+        "Involved_Objects": "Car/Car/Car",
+        "Injury_Severity": "Possible Injury",
+        "Party_at_Fault": "Driver",
+        "Injury_Ages": "65/57"
+      }
+    },
+    {
+      "attributes": {
+        "CollisionId": 4825816,
+        "Case_ID": 4825816,
+        "CityName": "Berkeley",
+        "CCRSDateTime": "8/20/2025 11:00:00 AM",
+        "NumberInjured": 0,
+        "NumberKilled": 0,
+        "PrimaryRoad": "I-80 E/B",
+        "SecondaryRoad": "ASHBY AVE",
+        "Latitude": 37.843005,
+        "Longitude": -122.297405,
+        "Accident_Location": "I-80 E/B/ASHBY AVE",
+        "Hour": 11,
+        "Year": 2025,
+        "Date": "2025-08-20",
+        "Time": "11:00:00",
+        "Involved_Objects": "Truck/Car",
+        "Injury_Severity": "No Injury",
+        "Party_at_Fault": "Driver",
+        "Injury_Ages": ""
+      }
+    },
+    {
+      "attributes": {
         "CollisionId": 4823883,
         "Case_ID": 4823883,
         "CityName": "Berkeley",

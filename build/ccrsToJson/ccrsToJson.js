@@ -8,6 +8,8 @@ const crashFileName = process.argv[2] ?? './testcrashes.csv';
 const partyFileName = process.argv[3] ?? './testparties.csv';
 const iwpFileName = process.argv[4] ?? './testiwp.csv';
 
+const outputFilename = process.argv[5] ?? './testoutput.csv';
+
 import * as fs from 'fs';
 
 import Papa from 'papaparse';
@@ -389,7 +391,7 @@ const feature = { features: rowsCrashes };
 
 // write to json file
 const output = JSON.stringify(feature, null, 2);
-fs.writeFileSync('testoutput.json', output);
+fs.writeFileSync(outputFilename, output);
 
 exit(0);
 

@@ -315,9 +315,12 @@ const mergedTransparencyJson = await (getTransparencyData());
 async function getCCRSData() {
 	var arrays = [];
 	// ADD NEW YEAR
-	const fileNames = ['ccrs/ccrs2025.json'];
-	for (const fName of fileNames) {
-		const file = './data/' + fName;
+	for (var y = 2016; y <= 2025; y++) {
+		const file = './data/ccrs/ccrs' + y + '.json';
+
+	//const fileNames = ['ccrs/ccrs2025.json'];
+	//for (const fName of fileNames) {
+	//	const file = './data/' + fName;
 		const ccrsJson = await getJson(file);
 		arrays.push(ccrsJson.features);
 
