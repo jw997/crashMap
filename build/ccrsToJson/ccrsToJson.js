@@ -8,7 +8,7 @@ const crashFileName = process.argv[2] ?? './testcrashes.csv';
 const partyFileName = process.argv[3] ?? './testparties.csv';
 const iwpFileName = process.argv[4] ?? './testiwp.csv';
 
-const outputFilename = process.argv[5] ?? './testoutput.csv';
+const outputFilename = process.argv[5] ?? './testoutput.json';
 
 import * as fs from 'fs';
 
@@ -54,6 +54,8 @@ function transformCrash(obj) {
 	if (obj) {
 		attrObj.CollisionId = obj['Collision Id'];
 		attrObj.Case_ID = obj['Collision Id'];
+
+		attrObj.Local_Report_Number = obj['Report Number']; // this would be the BPD transparency portal id
 		attrObj.CityName = obj['City Name'];
 		attrObj.CCRSDateTime = obj['Crash Date Time'];
 		attrObj.NumberInjured = obj.NumberInjured
@@ -261,7 +263,7 @@ const arrVcodes = [
 	[48, 'Car'], //PoliceCar
 	[55, 'Truck'], //TwoAxleTowTruck
 	[60, 'Pedestrian'], //Pedestrian
-	[91, 'ElectricBicycle'],//ElectricBicycles
+	[91, 'Electric Bicycle'],//ElectricBicycles
 	[93, 'Electric Skateboard'],
 	[94, 'Electric Scooter'] //GoPedZipElectricScooterAndMotorboard
 	//[96,,MiscMotorVehicleSnowmobileGolfCart

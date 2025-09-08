@@ -548,7 +548,8 @@ function makeLocalCollisionIdMap(arr) {
 	return retval;
 }
 
-// TODO needed for CCRS?
+// TODO needed for CCRS.  lots of CCRS records are misssing GPS
+
 const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
@@ -641,8 +642,34 @@ function getLocalReportForSwitrsReport(switrsColl) {
 	return undefined;
 }
 
+function getLocalReportForCCRSReport(ccrsColl) {
+	
+	const lid = ccrsColl.attributes.Local_Report_Number;
+
+	// first lookup by case number
+	const r1 = lidMapTransparency.get(lid);
+	if (r1) {
+		return r1;
+	}
+	/*
+	// then try by date time
+	const r2 = tsMapTransparency.get(ts);
+	if (r2) {
+		return r2;
+	}
+	return undefined;*/
+}
+
+/* This Link is used to 
+1) attempt to find a replacement value for missing gps coordinates in SWITRS by use the BPD Transparency report values
+2) add the BPD collision info in the popup to the SWITRS info for comparision
+*/
 for (const switrsColl of mergedSWITRSJson) {
 	switrsColl.localRecord = getLocalReportForSwitrsReport(switrsColl);
+}
+
+for (const ccrsColl of mergedCCRSJson ) {
+	ccrsColl.localRecord = getLocalReportForCCRSReport( ccrsColl)
 }
 /*
 console.log(" mergedUnion: ", mergedUnion.length);
@@ -1321,6 +1348,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 			markerCount++;
 		} else {
 			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
+			console.log("Missing gps for collision id:", attr.Case_Number)
 			incrementMapKey(histMissingGPSData, attr.Year);
 			skipped++;
 		}

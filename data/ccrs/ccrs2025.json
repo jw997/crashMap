@@ -4,6 +4,7 @@
       "attributes": {
         "CollisionId": 4547766,
         "Case_ID": 4547766,
+        "Local_Report_Number": "9370-2025-00208",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 7:20:00 PM",
         "NumberInjured": 1,
@@ -27,6 +28,7 @@
       "attributes": {
         "CollisionId": 4547733,
         "Case_ID": 4547733,
+        "Local_Report_Number": "9370-2025-00189",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/18/2025 4:45:00 PM",
         "NumberInjured": 0,
@@ -50,6 +52,7 @@
       "attributes": {
         "CollisionId": 4547731,
         "Case_ID": 4547731,
+        "Local_Report_Number": "9370-2025-00187",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 6:49:00 PM",
         "NumberInjured": 1,
@@ -73,6 +76,7 @@
       "attributes": {
         "CollisionId": 4547416,
         "Case_ID": 4547416,
+        "Local_Report_Number": "9370-2025-00206",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 2:10:00 PM",
         "NumberInjured": 1,
@@ -96,6 +100,7 @@
       "attributes": {
         "CollisionId": 4547199,
         "Case_ID": 4547199,
+        "Local_Report_Number": "9370-2025-00231",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 3:00:00 PM",
         "NumberInjured": 0,
@@ -119,6 +124,7 @@
       "attributes": {
         "CollisionId": 4547043,
         "Case_ID": 4547043,
+        "Local_Report_Number": "9370-2025-00169",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 3:30:00 PM",
         "NumberInjured": 0,
@@ -142,6 +148,7 @@
       "attributes": {
         "CollisionId": 4546585,
         "Case_ID": 4546585,
+        "Local_Report_Number": "9370-2025-00224",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 9:00:00 AM",
         "NumberInjured": 0,
@@ -165,6 +172,7 @@
       "attributes": {
         "CollisionId": 4546503,
         "Case_ID": 4546503,
+        "Local_Report_Number": "9370-2025-00172",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 1:05:00 PM",
         "NumberInjured": 0,
@@ -188,6 +196,7 @@
       "attributes": {
         "CollisionId": 4546497,
         "Case_ID": 4546497,
+        "Local_Report_Number": "9370-2025-00177",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 10:45:00 AM",
         "NumberInjured": 0,
@@ -211,6 +220,7 @@
       "attributes": {
         "CollisionId": 4546245,
         "Case_ID": 4546245,
+        "Local_Report_Number": "9370-2025-00157",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 5:15:00 AM",
         "NumberInjured": 0,
@@ -234,6 +244,7 @@
       "attributes": {
         "CollisionId": 4546203,
         "Case_ID": 4546203,
+        "Local_Report_Number": "9370-2025-00156",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 5:10:00 AM",
         "NumberInjured": 0,
@@ -257,6 +268,7 @@
       "attributes": {
         "CollisionId": 4545050,
         "Case_ID": 4545050,
+        "Local_Report_Number": "9370-2025-00145",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/15/2025 11:30:00 AM",
         "NumberInjured": 1,
@@ -280,6 +292,7 @@
       "attributes": {
         "CollisionId": 4545049,
         "Case_ID": 4545049,
+        "Local_Report_Number": "9370-2025-00143",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/15/2025 10:55:00 AM",
         "NumberInjured": 0,
@@ -303,6 +316,7 @@
       "attributes": {
         "CollisionId": 4544985,
         "Case_ID": 4544985,
+        "Local_Report_Number": "9370-2025-00110",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/12/2025 7:20:00 PM",
         "NumberInjured": 0,
@@ -326,6 +340,7 @@
       "attributes": {
         "CollisionId": 4540224,
         "Case_ID": 4540224,
+        "Local_Report_Number": "9370-2025-00106",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/11/2025 6:10:00 PM",
         "NumberInjured": 0,
@@ -349,6 +364,7 @@
       "attributes": {
         "CollisionId": 4539159,
         "Case_ID": 4539159,
+        "Local_Report_Number": "9370-2025-00139",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/14/2025 3:00:00 PM",
         "NumberInjured": 0,
@@ -372,6 +388,7 @@
       "attributes": {
         "CollisionId": 4539099,
         "Case_ID": 4539099,
+        "Local_Report_Number": "9370-2025-00115",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/13/2025 7:20:00 AM",
         "NumberInjured": 0,
@@ -395,6 +412,7 @@
       "attributes": {
         "CollisionId": 4536304,
         "Case_ID": 4536304,
+        "Local_Report_Number": "9370-2025-00053",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/6/2025 5:30:00 PM",
         "NumberInjured": 0,
@@ -418,6 +436,7 @@
       "attributes": {
         "CollisionId": 4536288,
         "Case_ID": 4536288,
+        "Local_Report_Number": "9370-2025-00049",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/6/2025 9:20:00 AM",
         "NumberInjured": 0,
@@ -441,6 +460,7 @@
       "attributes": {
         "CollisionId": 4536276,
         "Case_ID": 4536276,
+        "Local_Report_Number": "9370-2025-00038",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/5/2025 4:45:00 PM",
         "NumberInjured": 2,
@@ -464,6 +484,7 @@
       "attributes": {
         "CollisionId": 4536264,
         "Case_ID": 4536264,
+        "Local_Report_Number": "9370-2025-00040",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/5/2025 3:56:00 PM",
         "NumberInjured": 0,
@@ -487,6 +508,7 @@
       "attributes": {
         "CollisionId": 4567262,
         "Case_ID": 4567262,
+        "Local_Report_Number": "9370-2025-00301",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/29/2025 3:35:00 PM",
         "NumberInjured": 1,
@@ -510,6 +532,7 @@
       "attributes": {
         "CollisionId": 4566715,
         "Case_ID": 4566715,
+        "Local_Report_Number": "9370-2025-00390",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 11:55:00 AM",
         "NumberInjured": 1,
@@ -533,6 +556,7 @@
       "attributes": {
         "CollisionId": 4566691,
         "Case_ID": 4566691,
+        "Local_Report_Number": "9370-2025-00315",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 6:05:00 PM",
         "NumberInjured": 0,
@@ -556,6 +580,7 @@
       "attributes": {
         "CollisionId": 4563010,
         "Case_ID": 4563010,
+        "Local_Report_Number": "9370-2025-00313",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 4:50:00 PM",
         "NumberInjured": 0,
@@ -579,6 +604,7 @@
       "attributes": {
         "CollisionId": 4562972,
         "Case_ID": 4562972,
+        "Local_Report_Number": "9370-2025-00251",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/24/2025 8:10:00 AM",
         "NumberInjured": 2,
@@ -602,6 +628,7 @@
       "attributes": {
         "CollisionId": 4561895,
         "Case_ID": 4561895,
+        "Local_Report_Number": "9370-2025-00181",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/18/2025 11:30:00 AM",
         "NumberInjured": 2,
@@ -625,6 +652,7 @@
       "attributes": {
         "CollisionId": 4557620,
         "Case_ID": 4557620,
+        "Local_Report_Number": "25-01041",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/10/2025 9:00:00 PM",
         "NumberInjured": 0,
@@ -648,6 +676,7 @@
       "attributes": {
         "CollisionId": 4557410,
         "Case_ID": 4557410,
+        "Local_Report_Number": "9370-2025-00270",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/26/2025 4:35:00 PM",
         "NumberInjured": 0,
@@ -671,6 +700,7 @@
       "attributes": {
         "CollisionId": 4557280,
         "Case_ID": 4557280,
+        "Local_Report_Number": "9370-2025-00271",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/26/2025 4:20:00 PM",
         "NumberInjured": 2,
@@ -694,6 +724,7 @@
       "attributes": {
         "CollisionId": 4556404,
         "Case_ID": 4556404,
+        "Local_Report_Number": "9370-2025-00261",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/25/2025 3:49:00 PM",
         "NumberInjured": 0,
@@ -717,6 +748,7 @@
       "attributes": {
         "CollisionId": 4552702,
         "Case_ID": 4552702,
+        "Local_Report_Number": "9370-2025-00236",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 3:35:00 PM",
         "NumberInjured": 1,
@@ -740,6 +772,7 @@
       "attributes": {
         "CollisionId": 4552451,
         "Case_ID": 4552451,
+        "Local_Report_Number": "9370-2025-00242",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/23/2025 12:30:00 PM",
         "NumberInjured": 1,
@@ -763,6 +796,7 @@
       "attributes": {
         "CollisionId": 4551424,
         "Case_ID": 4551424,
+        "Local_Report_Number": "9370-2025-00160",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 12:50:00 PM",
         "NumberInjured": 0,
@@ -786,6 +820,7 @@
       "attributes": {
         "CollisionId": 4551422,
         "Case_ID": 4551422,
+        "Local_Report_Number": "9370-2025-00129",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/14/2025 9:50:00 AM",
         "NumberInjured": 3,
@@ -809,6 +844,7 @@
       "attributes": {
         "CollisionId": 4582712,
         "Case_ID": 4582712,
+        "Local_Report_Number": "9370-2025-00456",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/9/2025 11:00:00 AM",
         "NumberInjured": 0,
@@ -832,6 +868,7 @@
       "attributes": {
         "CollisionId": 4582702,
         "Case_ID": 4582702,
+        "Local_Report_Number": "9370-2025-00446",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/8/2025 10:30:00 AM",
         "NumberInjured": 1,
@@ -855,6 +892,7 @@
       "attributes": {
         "CollisionId": 4579064,
         "Case_ID": 4579064,
+        "Local_Report_Number": "9370-2025-00398",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 2:25:00 PM",
         "NumberInjured": 0,
@@ -878,6 +916,7 @@
       "attributes": {
         "CollisionId": 4577756,
         "Case_ID": 4577756,
+        "Local_Report_Number": "9370-2025-00399",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 4:20:00 PM",
         "NumberInjured": 0,
@@ -901,6 +940,7 @@
       "attributes": {
         "CollisionId": 4574591,
         "Case_ID": 4574591,
+        "Local_Report_Number": "9370-2025-00452",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/8/2025 2:30:00 PM",
         "NumberInjured": 0,
@@ -924,6 +964,7 @@
       "attributes": {
         "CollisionId": 4574581,
         "Case_ID": 4574581,
+        "Local_Report_Number": "9370-2025-00391",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 5:05:00 AM",
         "NumberInjured": 0,
@@ -947,6 +988,7 @@
       "attributes": {
         "CollisionId": 4574533,
         "Case_ID": 4574533,
+        "Local_Report_Number": "9370-2025-00422",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/2/2025 5:47:00 PM",
         "NumberInjured": 0,
@@ -970,6 +1012,7 @@
       "attributes": {
         "CollisionId": 4572850,
         "Case_ID": 4572850,
+        "Local_Report_Number": "9370-2025-00421",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/6/2025 2:50:00 PM",
         "NumberInjured": 0,
@@ -993,6 +1036,7 @@
       "attributes": {
         "CollisionId": 4572832,
         "Case_ID": 4572832,
+        "Local_Report_Number": "9370-2025-00397",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 12:51:00 PM",
         "NumberInjured": 0,
@@ -1016,6 +1060,7 @@
       "attributes": {
         "CollisionId": 4571318,
         "Case_ID": 4571318,
+        "Local_Report_Number": "9370-2025-00430",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/2/2025 12:32:00 PM",
         "NumberInjured": 0,
@@ -1039,6 +1084,7 @@
       "attributes": {
         "CollisionId": 4571311,
         "Case_ID": 4571311,
+        "Local_Report_Number": "9370-2025-00355",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 11:02:00 PM",
         "NumberInjured": 0,
@@ -1062,6 +1108,7 @@
       "attributes": {
         "CollisionId": 4571292,
         "Case_ID": 4571292,
+        "Local_Report_Number": "9370-2025-00346",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 7:55:00 AM",
         "NumberInjured": 0,
@@ -1085,6 +1132,7 @@
       "attributes": {
         "CollisionId": 4569971,
         "Case_ID": 4569971,
+        "Local_Report_Number": "9370-2025-00354",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 10:05:00 PM",
         "NumberInjured": 2,
@@ -1108,6 +1156,7 @@
       "attributes": {
         "CollisionId": 4595278,
         "Case_ID": 4595278,
+        "Local_Report_Number": "9370-2025-00603",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/22/2025 6:47:00 AM",
         "NumberInjured": 0,
@@ -1131,6 +1180,7 @@
       "attributes": {
         "CollisionId": 4595038,
         "Case_ID": 4595038,
+        "Local_Report_Number": "9370-2025-00554",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/18/2025 7:24:00 AM",
         "NumberInjured": 0,
@@ -1154,6 +1204,7 @@
       "attributes": {
         "CollisionId": 4594821,
         "Case_ID": 4594821,
+        "Local_Report_Number": "9370-2025-00662",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 7:13:00 PM",
         "NumberInjured": 0,
@@ -1177,6 +1228,7 @@
       "attributes": {
         "CollisionId": 4594820,
         "Case_ID": 4594820,
+        "Local_Report_Number": "9370-2025-00661",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 7:12:00 PM",
         "NumberInjured": 0,
@@ -1200,6 +1252,7 @@
       "attributes": {
         "CollisionId": 4594787,
         "Case_ID": 4594787,
+        "Local_Report_Number": "9370-2025-00663",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 7:14:00 PM",
         "NumberInjured": 0,
@@ -1223,6 +1276,7 @@
       "attributes": {
         "CollisionId": 4593145,
         "Case_ID": 4593145,
+        "Local_Report_Number": "9370-2025-00601",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/22/2025 7:00:00 PM",
         "NumberInjured": 1,
@@ -1246,6 +1300,7 @@
       "attributes": {
         "CollisionId": 4592153,
         "Case_ID": 4592153,
+        "Local_Report_Number": "9370-2025-00649",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/26/2025 5:48:00 PM",
         "NumberInjured": 0,
@@ -1269,6 +1324,7 @@
       "attributes": {
         "CollisionId": 4592128,
         "Case_ID": 4592128,
+        "Local_Report_Number": "9370-2025-00260",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/25/2025 10:40:00 AM",
         "NumberInjured": 0,
@@ -1292,6 +1348,7 @@
       "attributes": {
         "CollisionId": 4592094,
         "Case_ID": 4592094,
+        "Local_Report_Number": "9370-2025-00532",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/9/2025 11:05:00 AM",
         "NumberInjured": 2,
@@ -1315,6 +1372,7 @@
       "attributes": {
         "CollisionId": 4591937,
         "Case_ID": 4591937,
+        "Local_Report_Number": "9370-2025-00592",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/21/2025 3:00:00 PM",
         "NumberInjured": 0,
@@ -1338,6 +1396,7 @@
       "attributes": {
         "CollisionId": 4591007,
         "Case_ID": 4591007,
+        "Local_Report_Number": "9370-2025-00639",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/26/2025 8:30:00 AM",
         "NumberInjured": 0,
@@ -1361,6 +1420,7 @@
       "attributes": {
         "CollisionId": 4590979,
         "Case_ID": 4590979,
+        "Local_Report_Number": "9370-2025-00621",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/24/2025 7:20:00 PM",
         "NumberInjured": 2,
@@ -1384,6 +1444,7 @@
       "attributes": {
         "CollisionId": 4589700,
         "Case_ID": 4589700,
+        "Local_Report_Number": "9366-2025-00001",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/13/2025 4:00:00 PM",
         "NumberInjured": 0,
@@ -1407,6 +1468,7 @@
       "attributes": {
         "CollisionId": 4589416,
         "Case_ID": 4589416,
+        "Local_Report_Number": "9370-2025-00556",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/18/2025 3:49:00 PM",
         "NumberInjured": 0,
@@ -1430,6 +1492,7 @@
       "attributes": {
         "CollisionId": 4585282,
         "Case_ID": 4585282,
+        "Local_Report_Number": "9370-2025-00487",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/11/2025 5:50:00 PM",
         "NumberInjured": 0,
@@ -1453,6 +1516,7 @@
       "attributes": {
         "CollisionId": 4584998,
         "Case_ID": 4584998,
+        "Local_Report_Number": "9370-2025-00451",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/8/2025 1:50:00 PM",
         "NumberInjured": 0,
@@ -1476,6 +1540,7 @@
       "attributes": {
         "CollisionId": 4584968,
         "Case_ID": 4584968,
+        "Local_Report_Number": "9370-2025-00510",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/13/2025 3:30:00 PM",
         "NumberInjured": 0,
@@ -1499,6 +1564,7 @@
       "attributes": {
         "CollisionId": 4584537,
         "Case_ID": 4584537,
+        "Local_Report_Number": "9370-2025-00552",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/17/2025 4:05:00 PM",
         "NumberInjured": 0,
@@ -1522,6 +1588,7 @@
       "attributes": {
         "CollisionId": 4584534,
         "Case_ID": 4584534,
+        "Local_Report_Number": "9370-2025-00549",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/17/2025 12:18:00 PM",
         "NumberInjured": 0,
@@ -1545,6 +1612,7 @@
       "attributes": {
         "CollisionId": 4584531,
         "Case_ID": 4584531,
+        "Local_Report_Number": "9370-2025-00538",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/15/2025 2:50:00 PM",
         "NumberInjured": 1,
@@ -1568,6 +1636,7 @@
       "attributes": {
         "CollisionId": 4610002,
         "Case_ID": 4610002,
+        "Local_Report_Number": "9370-2025-00761",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/10/2025 11:20:00 AM",
         "NumberInjured": 0,
@@ -1591,6 +1660,7 @@
       "attributes": {
         "CollisionId": 4609917,
         "Case_ID": 4609917,
+        "Local_Report_Number": "9370-2025-00757",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/10/2025 6:46:00 AM",
         "NumberInjured": 0,
@@ -1614,6 +1684,7 @@
       "attributes": {
         "CollisionId": 4609456,
         "Case_ID": 4609456,
+        "Local_Report_Number": "9370-2025-00738",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/7/2025 1:55:00 PM",
         "NumberInjured": 0,
@@ -1637,6 +1708,7 @@
       "attributes": {
         "CollisionId": 4609452,
         "Case_ID": 4609452,
+        "Local_Report_Number": "9370-2025-00740",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/7/2025 2:48:00 PM",
         "NumberInjured": 1,
@@ -1660,6 +1732,7 @@
       "attributes": {
         "CollisionId": 4603644,
         "Case_ID": 4603644,
+        "Local_Report_Number": "9370-2025-00709",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/5/2025 6:30:00 AM",
         "NumberInjured": 0,
@@ -1683,6 +1756,7 @@
       "attributes": {
         "CollisionId": 4598997,
         "Case_ID": 4598997,
+        "Local_Report_Number": "9370-2025-00648",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/26/2025 1:40:00 PM",
         "NumberInjured": 0,
@@ -1706,6 +1780,7 @@
       "attributes": {
         "CollisionId": 4598511,
         "Case_ID": 4598511,
+        "Local_Report_Number": "9370-2025-00695",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/3/2025 9:10:00 AM",
         "NumberInjured": 3,
@@ -1729,6 +1804,7 @@
       "attributes": {
         "CollisionId": 4598347,
         "Case_ID": 4598347,
+        "Local_Report_Number": "9370-2025-00699",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 2:00:00 AM",
         "NumberInjured": 0,
@@ -1752,6 +1828,7 @@
       "attributes": {
         "CollisionId": 4597493,
         "Case_ID": 4597493,
+        "Local_Report_Number": "9370-2025-00627",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/25/2025 4:30:00 PM",
         "NumberInjured": 0,
@@ -1775,6 +1852,7 @@
       "attributes": {
         "CollisionId": 4623229,
         "Case_ID": 4623229,
+        "Local_Report_Number": "2025-00003000",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 1:18:00 PM",
         "NumberInjured": 1,
@@ -1798,6 +1876,7 @@
       "attributes": {
         "CollisionId": 4621337,
         "Case_ID": 4621337,
+        "Local_Report_Number": "2025-00000288",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/3/2025 2:28:00 AM",
         "NumberInjured": 0,
@@ -1821,6 +1900,7 @@
       "attributes": {
         "CollisionId": 4621334,
         "Case_ID": 4621334,
+        "Local_Report_Number": "2025-00000684",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/5/2025 7:45:00 PM",
         "NumberInjured": 0,
@@ -1844,6 +1924,7 @@
       "attributes": {
         "CollisionId": 4621330,
         "Case_ID": 4621330,
+        "Local_Report_Number": "2025-00001347",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/9/2025 11:40:00 PM",
         "NumberInjured": 0,
@@ -1867,6 +1948,7 @@
       "attributes": {
         "CollisionId": 4621327,
         "Case_ID": 4621327,
+        "Local_Report_Number": "2025-00001538",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/11/2025 4:55:00 AM",
         "NumberInjured": 0,
@@ -1890,6 +1972,7 @@
       "attributes": {
         "CollisionId": 4621324,
         "Case_ID": 4621324,
+        "Local_Report_Number": "2025-00002158",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/15/2025 10:00:00 AM",
         "NumberInjured": 0,
@@ -1913,6 +1996,7 @@
       "attributes": {
         "CollisionId": 4621295,
         "Case_ID": 4621295,
+        "Local_Report_Number": "2025-00002288",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 7:00:00 AM",
         "NumberInjured": 0,
@@ -1936,6 +2020,7 @@
       "attributes": {
         "CollisionId": 4621294,
         "Case_ID": 4621294,
+        "Local_Report_Number": "2025-00003149",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 3:45:00 AM",
         "NumberInjured": 0,
@@ -1959,6 +2044,7 @@
       "attributes": {
         "CollisionId": 4621288,
         "Case_ID": 4621288,
+        "Local_Report_Number": "2025-00000225",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/2/2025 5:27:00 PM",
         "NumberInjured": 1,
@@ -1982,6 +2068,7 @@
       "attributes": {
         "CollisionId": 4621285,
         "Case_ID": 4621285,
+        "Local_Report_Number": "2025-00003405",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 6:58:00 PM",
         "NumberInjured": 0,
@@ -2005,6 +2092,7 @@
       "attributes": {
         "CollisionId": 4621284,
         "Case_ID": 4621284,
+        "Local_Report_Number": "2025-00004580",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/29/2025 7:35:00 PM",
         "NumberInjured": 1,
@@ -2028,6 +2116,7 @@
       "attributes": {
         "CollisionId": 4621283,
         "Case_ID": 4621283,
+        "Local_Report_Number": "2025-00004267",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/28/2025 12:50:00 AM",
         "NumberInjured": 0,
@@ -2051,6 +2140,7 @@
       "attributes": {
         "CollisionId": 4621278,
         "Case_ID": 4621278,
+        "Local_Report_Number": "2025-00003201",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/21/2025 4:01:00 PM",
         "NumberInjured": 0,
@@ -2074,6 +2164,7 @@
       "attributes": {
         "CollisionId": 4621275,
         "Case_ID": 4621275,
+        "Local_Report_Number": "2025-00000271",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/2/2025 10:45:00 PM",
         "NumberInjured": 1,
@@ -2097,6 +2188,7 @@
       "attributes": {
         "CollisionId": 4621273,
         "Case_ID": 4621273,
+        "Local_Report_Number": "2025-00000378",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/3/2025 4:12:00 PM",
         "NumberInjured": 0,
@@ -2120,6 +2212,7 @@
       "attributes": {
         "CollisionId": 4621263,
         "Case_ID": 4621263,
+        "Local_Report_Number": "2025-00000365",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/3/2025 3:05:00 PM",
         "NumberInjured": 1,
@@ -2143,6 +2236,7 @@
       "attributes": {
         "CollisionId": 4621253,
         "Case_ID": 4621253,
+        "Local_Report_Number": "2025-00000670",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/5/2025 5:25:00 PM",
         "NumberInjured": 1,
@@ -2166,6 +2260,7 @@
       "attributes": {
         "CollisionId": 4621236,
         "Case_ID": 4621236,
+        "Local_Report_Number": "2025-00000771",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/6/2025 1:25:00 PM",
         "NumberInjured": 2,
@@ -2189,6 +2284,7 @@
       "attributes": {
         "CollisionId": 4621225,
         "Case_ID": 4621225,
+        "Local_Report_Number": "2025-00001077",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/8/2025 12:04:00 PM",
         "NumberInjured": 2,
@@ -2212,6 +2308,7 @@
       "attributes": {
         "CollisionId": 4621147,
         "Case_ID": 4621147,
+        "Local_Report_Number": "2025-00001209",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/9/2025 10:16:00 AM",
         "NumberInjured": 1,
@@ -2235,6 +2332,7 @@
       "attributes": {
         "CollisionId": 4621137,
         "Case_ID": 4621137,
+        "Local_Report_Number": "2025-00004886",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/31/2025 5:09:00 PM",
         "NumberInjured": 1,
@@ -2258,6 +2356,7 @@
       "attributes": {
         "CollisionId": 4621132,
         "Case_ID": 4621132,
+        "Local_Report_Number": "2025-00001374",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/10/2025 9:06:00 AM",
         "NumberInjured": 2,
@@ -2281,6 +2380,7 @@
       "attributes": {
         "CollisionId": 4621129,
         "Case_ID": 4621129,
+        "Local_Report_Number": "2025-00003783",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/24/2025 10:25:00 PM",
         "NumberInjured": 1,
@@ -2304,6 +2404,7 @@
       "attributes": {
         "CollisionId": 4621114,
         "Case_ID": 4621114,
+        "Local_Report_Number": "2025-00003257",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/21/2025 11:17:00 PM",
         "NumberInjured": 1,
@@ -2327,6 +2428,7 @@
       "attributes": {
         "CollisionId": 4621106,
         "Case_ID": 4621106,
+        "Local_Report_Number": "2025-00001467",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/10/2025 7:05:00 PM",
         "NumberInjured": 1,
@@ -2350,6 +2452,7 @@
       "attributes": {
         "CollisionId": 4621071,
         "Case_ID": 4621071,
+        "Local_Report_Number": "2025-00003524",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/23/2025 12:31:00 PM",
         "NumberInjured": 1,
@@ -2373,6 +2476,7 @@
       "attributes": {
         "CollisionId": 4621060,
         "Case_ID": 4621060,
+        "Local_Report_Number": "2025-00001550",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/11/2025 9:08:00 AM",
         "NumberInjured": 5,
@@ -2396,6 +2500,7 @@
       "attributes": {
         "CollisionId": 4621039,
         "Case_ID": 4621039,
+        "Local_Report_Number": "2025-00001555",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/11/2025 9:58:00 AM",
         "NumberInjured": 1,
@@ -2419,6 +2524,7 @@
       "attributes": {
         "CollisionId": 4621021,
         "Case_ID": 4621021,
+        "Local_Report_Number": "2025-0002028",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/4/2025 12:32:00 PM",
         "NumberInjured": 1,
@@ -2442,6 +2548,7 @@
       "attributes": {
         "CollisionId": 4621006,
         "Case_ID": 4621006,
+        "Local_Report_Number": "2025-00002183",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/15/2025 1:19:00 PM",
         "NumberInjured": 1,
@@ -2465,6 +2572,7 @@
       "attributes": {
         "CollisionId": 4620971,
         "Case_ID": 4620971,
+        "Local_Report_Number": "2025-00002325",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 11:12:00 AM",
         "NumberInjured": 1,
@@ -2488,6 +2596,7 @@
       "attributes": {
         "CollisionId": 4620601,
         "Case_ID": 4620601,
+        "Local_Report_Number": "2025-00003385",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 4:54:00 PM",
         "NumberInjured": 1,
@@ -2511,6 +2620,7 @@
       "attributes": {
         "CollisionId": 4620593,
         "Case_ID": 4620593,
+        "Local_Report_Number": "2025-00002589",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 4:45:00 PM",
         "NumberInjured": 1,
@@ -2534,6 +2644,7 @@
       "attributes": {
         "CollisionId": 4620061,
         "Case_ID": 4620061,
+        "Local_Report_Number": "2025-00001824",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/13/2025 6:50:00 AM",
         "NumberInjured": 0,
@@ -2557,6 +2668,7 @@
       "attributes": {
         "CollisionId": 4619855,
         "Case_ID": 4619855,
+        "Local_Report_Number": "2025-00000166",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/2/2025 9:40:00 AM",
         "NumberInjured": 0,
@@ -2580,6 +2692,7 @@
       "attributes": {
         "CollisionId": 4619841,
         "Case_ID": 4619841,
+        "Local_Report_Number": "2025-00004668",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 1:40:00 PM",
         "NumberInjured": 0,
@@ -2603,6 +2716,7 @@
       "attributes": {
         "CollisionId": 4619829,
         "Case_ID": 4619829,
+        "Local_Report_Number": "2025-00003707",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/24/2025 8:58:00 AM",
         "NumberInjured": 0,
@@ -2626,6 +2740,7 @@
       "attributes": {
         "CollisionId": 4619828,
         "Case_ID": 4619828,
+        "Local_Report_Number": "2025-0003296",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 9:05:00 AM",
         "NumberInjured": 0,
@@ -2649,6 +2764,7 @@
       "attributes": {
         "CollisionId": 4619826,
         "Case_ID": 4619826,
+        "Local_Report_Number": "2025-00003154",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/21/2025 12:03:00 PM",
         "NumberInjured": 0,
@@ -2672,6 +2788,7 @@
       "attributes": {
         "CollisionId": 4619797,
         "Case_ID": 4619797,
+        "Local_Report_Number": "2025-00000297",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/3/2025 6:12:00 AM",
         "NumberInjured": 0,
@@ -2695,6 +2812,7 @@
       "attributes": {
         "CollisionId": 4619708,
         "Case_ID": 4619708,
+        "Local_Report_Number": "2025-00002066",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/14/2025 5:55:00 PM",
         "NumberInjured": 3,
@@ -2718,6 +2836,7 @@
       "attributes": {
         "CollisionId": 4619694,
         "Case_ID": 4619694,
+        "Local_Report_Number": "2025-00002008",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/14/2025 10:30:00 AM",
         "NumberInjured": 1,
@@ -2741,6 +2860,7 @@
       "attributes": {
         "CollisionId": 4619666,
         "Case_ID": 4619666,
+        "Local_Report_Number": "2025-00002386",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 2:36:00 PM",
         "NumberInjured": 1,
@@ -2764,6 +2884,7 @@
       "attributes": {
         "CollisionId": 4619663,
         "Case_ID": 4619663,
+        "Local_Report_Number": "2025-00002392",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 3:13:00 PM",
         "NumberInjured": 1,
@@ -2787,6 +2908,7 @@
       "attributes": {
         "CollisionId": 4619661,
         "Case_ID": 4619661,
+        "Local_Report_Number": "2025-00002403",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 4:11:00 PM",
         "NumberInjured": 1,
@@ -2810,6 +2932,7 @@
       "attributes": {
         "CollisionId": 4619659,
         "Case_ID": 4619659,
+        "Local_Report_Number": "2025-00002492",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 8:17:00 AM",
         "NumberInjured": 2,
@@ -2833,6 +2956,7 @@
       "attributes": {
         "CollisionId": 4619653,
         "Case_ID": 4619653,
+        "Local_Report_Number": "2025-00002579",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/17/2025 4:20:00 PM",
         "NumberInjured": 1,
@@ -2856,6 +2980,7 @@
       "attributes": {
         "CollisionId": 4619650,
         "Case_ID": 4619650,
+        "Local_Report_Number": "2025-00002748",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/18/2025 2:53:00 PM",
         "NumberInjured": 1,
@@ -2879,6 +3004,7 @@
       "attributes": {
         "CollisionId": 4619649,
         "Case_ID": 4619649,
+        "Local_Report_Number": "2025-00002758",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/18/2025 7:08:00 PM",
         "NumberInjured": 1,
@@ -2902,6 +3028,7 @@
       "attributes": {
         "CollisionId": 4619646,
         "Case_ID": 4619646,
+        "Local_Report_Number": "2025-00002994",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 12:42:00 PM",
         "NumberInjured": 1,
@@ -2925,6 +3052,7 @@
       "attributes": {
         "CollisionId": 4619643,
         "Case_ID": 4619643,
+        "Local_Report_Number": "2025-00003137",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/21/2025 10:37:00 AM",
         "NumberInjured": 1,
@@ -2948,6 +3076,7 @@
       "attributes": {
         "CollisionId": 4619635,
         "Case_ID": 4619635,
+        "Local_Report_Number": "2025-00003434",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/22/2025 10:30:00 PM",
         "NumberInjured": 1,
@@ -2971,6 +3100,7 @@
       "attributes": {
         "CollisionId": 4619634,
         "Case_ID": 4619634,
+        "Local_Report_Number": "2025-00004138",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/27/2025 7:51:00 AM",
         "NumberInjured": 1,
@@ -2994,6 +3124,7 @@
       "attributes": {
         "CollisionId": 4619631,
         "Case_ID": 4619631,
+        "Local_Report_Number": "2025-00004236",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/27/2025 2:00:00 PM",
         "NumberInjured": 1,
@@ -3017,6 +3148,7 @@
       "attributes": {
         "CollisionId": 4619627,
         "Case_ID": 4619627,
+        "Local_Report_Number": "2025-00004318",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/28/2025 9:45:00 AM",
         "NumberInjured": 2,
@@ -3040,6 +3172,7 @@
       "attributes": {
         "CollisionId": 4619624,
         "Case_ID": 4619624,
+        "Local_Report_Number": "2025-00004695",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 2:58:00 PM",
         "NumberInjured": 1,
@@ -3063,6 +3196,7 @@
       "attributes": {
         "CollisionId": 4619623,
         "Case_ID": 4619623,
+        "Local_Report_Number": "2025-00004717",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 6:13:00 PM",
         "NumberInjured": 2,
@@ -3086,6 +3220,7 @@
       "attributes": {
         "CollisionId": 4619622,
         "Case_ID": 4619622,
+        "Local_Report_Number": "2025-00004736",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/30/2025 8:18:00 PM",
         "NumberInjured": 2,
@@ -3109,6 +3244,7 @@
       "attributes": {
         "CollisionId": 4619621,
         "Case_ID": 4619621,
+        "Local_Report_Number": "2025-00004883",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/31/2025 7:30:00 PM",
         "NumberInjured": 1,
@@ -3132,6 +3268,7 @@
       "attributes": {
         "CollisionId": 4619615,
         "Case_ID": 4619615,
+        "Local_Report_Number": "2025-00004887",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/31/2025 8:08:00 PM",
         "NumberInjured": 1,
@@ -3155,6 +3292,7 @@
       "attributes": {
         "CollisionId": 4619610,
         "Case_ID": 4619610,
+        "Local_Report_Number": "2025-00003010",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/20/2025 2:35:00 PM",
         "NumberInjured": 1,
@@ -3178,6 +3316,7 @@
       "attributes": {
         "CollisionId": 4619141,
         "Case_ID": 4619141,
+        "Local_Report_Number": "2025-00001498",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/10/2025 9:41:00 PM",
         "NumberInjured": 1,
@@ -3201,6 +3340,7 @@
       "attributes": {
         "CollisionId": 4613435,
         "Case_ID": 4613435,
+        "Local_Report_Number": "9370-2025-00750",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/8/2025 11:25:00 PM",
         "NumberInjured": 0,
@@ -3224,6 +3364,7 @@
       "attributes": {
         "CollisionId": 4612564,
         "Case_ID": 4612564,
+        "Local_Report_Number": "9370-2025-00801",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 6:30:00 AM",
         "NumberInjured": 0,
@@ -3247,6 +3388,7 @@
       "attributes": {
         "CollisionId": 4611714,
         "Case_ID": 4611714,
+        "Local_Report_Number": "9370-2025-00785",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/12/2025 3:20:00 PM",
         "NumberInjured": 0,
@@ -3270,6 +3412,7 @@
       "attributes": {
         "CollisionId": 4611630,
         "Case_ID": 4611630,
+        "Local_Report_Number": "9370-2025-00746",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/8/2025 6:20:00 AM",
         "NumberInjured": 0,
@@ -3293,6 +3436,7 @@
       "attributes": {
         "CollisionId": 4634995,
         "Case_ID": 4634995,
+        "Local_Report_Number": "2025-00004959",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 6:54:00 AM",
         "NumberInjured": 0,
@@ -3316,6 +3460,7 @@
       "attributes": {
         "CollisionId": 4634978,
         "Case_ID": 4634978,
+        "Local_Report_Number": "2025-00006800",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/12/2025 12:56:00 PM",
         "NumberInjured": 1,
@@ -3339,6 +3484,7 @@
       "attributes": {
         "CollisionId": 4634828,
         "Case_ID": 4634828,
+        "Local_Report_Number": "2025-00006882",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/12/2025 10:16:00 PM",
         "NumberInjured": 2,
@@ -3362,6 +3508,7 @@
       "attributes": {
         "CollisionId": 4634696,
         "Case_ID": 4634696,
+        "Local_Report_Number": "2025-00004927",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 3:30:00 PM",
         "NumberInjured": 2,
@@ -3385,6 +3532,7 @@
       "attributes": {
         "CollisionId": 4633527,
         "Case_ID": 4633527,
+        "Local_Report_Number": "9370-2025-00933",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/27/2025 6:40:00 PM",
         "NumberInjured": 0,
@@ -3408,6 +3556,7 @@
       "attributes": {
         "CollisionId": 4633478,
         "Case_ID": 4633478,
+        "Local_Report_Number": "9370-2025-00882",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/22/2025 11:20:00 AM",
         "NumberInjured": 0,
@@ -3431,6 +3580,7 @@
       "attributes": {
         "CollisionId": 4633475,
         "Case_ID": 4633475,
+        "Local_Report_Number": "9370-2025-00875",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/22/2025 10:33:00 AM",
         "NumberInjured": 1,
@@ -3454,6 +3604,7 @@
       "attributes": {
         "CollisionId": 4633416,
         "Case_ID": 4633416,
+        "Local_Report_Number": "9370-2025-00864",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/21/2025 5:20:00 PM",
         "NumberInjured": 0,
@@ -3477,6 +3628,7 @@
       "attributes": {
         "CollisionId": 4633276,
         "Case_ID": 4633276,
+        "Local_Report_Number": "9370-2025-00860",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/20/2025 1:40:00 PM",
         "NumberInjured": 0,
@@ -3500,6 +3652,7 @@
       "attributes": {
         "CollisionId": 4628587,
         "Case_ID": 4628587,
+        "Local_Report_Number": "9370-2025-00853",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/19/2025 3:55:00 PM",
         "NumberInjured": 1,
@@ -3523,6 +3676,7 @@
       "attributes": {
         "CollisionId": 4627306,
         "Case_ID": 4627306,
+        "Local_Report_Number": "9370-2025-00845",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/19/2025 8:55:00 AM",
         "NumberInjured": 0,
@@ -3546,6 +3700,7 @@
       "attributes": {
         "CollisionId": 4626707,
         "Case_ID": 4626707,
+        "Local_Report_Number": "9370-2025-00802",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 8:30:00 AM",
         "NumberInjured": 0,
@@ -3569,6 +3724,7 @@
       "attributes": {
         "CollisionId": 4625426,
         "Case_ID": 4625426,
+        "Local_Report_Number": "9370-2025-00814",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/15/2025 5:45:00 AM",
         "NumberInjured": 1,
@@ -3592,6 +3748,7 @@
       "attributes": {
         "CollisionId": 4625303,
         "Case_ID": 4625303,
+        "Local_Report_Number": "9370-2025-00806",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 12:35:00 PM",
         "NumberInjured": 0,
@@ -3615,6 +3772,7 @@
       "attributes": {
         "CollisionId": 4625296,
         "Case_ID": 4625296,
+        "Local_Report_Number": "9370-2025-00805",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 12:30:00 PM",
         "NumberInjured": 0,
@@ -3638,6 +3796,7 @@
       "attributes": {
         "CollisionId": 4624011,
         "Case_ID": 4624011,
+        "Local_Report_Number": "2025-00002448",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/16/2025 7:30:00 PM",
         "NumberInjured": 0,
@@ -3661,6 +3820,7 @@
       "attributes": {
         "CollisionId": 4646451,
         "Case_ID": 4646451,
+        "Local_Report_Number": "9370-2025-00899",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/24/2025 3:35:00 PM",
         "NumberInjured": 0,
@@ -3684,6 +3844,7 @@
       "attributes": {
         "CollisionId": 4646001,
         "Case_ID": 4646001,
+        "Local_Report_Number": "2025-00006871",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/12/2025 5:44:00 PM",
         "NumberInjured": 0,
@@ -3707,6 +3868,7 @@
       "attributes": {
         "CollisionId": 4645855,
         "Case_ID": 4645855,
+        "Local_Report_Number": "2025-00005901",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/6/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -3730,6 +3892,7 @@
       "attributes": {
         "CollisionId": 4644959,
         "Case_ID": 4644959,
+        "Local_Report_Number": "2025-00005844",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/6/2025 2:10:00 PM",
         "NumberInjured": 1,
@@ -3753,6 +3916,7 @@
       "attributes": {
         "CollisionId": 4644408,
         "Case_ID": 4644408,
+        "Local_Report_Number": "2025-0005815",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/6/2025 11:19:00 AM",
         "NumberInjured": 1,
@@ -3776,6 +3940,7 @@
       "attributes": {
         "CollisionId": 4644398,
         "Case_ID": 4644398,
+        "Local_Report_Number": "2025-00005344",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/3/2025 1:56:00 PM",
         "NumberInjured": 1,
@@ -3799,6 +3964,7 @@
       "attributes": {
         "CollisionId": 4643118,
         "Case_ID": 4643118,
+        "Local_Report_Number": "9370-2025-00918",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/26/2025 10:00:00 AM",
         "NumberInjured": 0,
@@ -3822,6 +3988,7 @@
       "attributes": {
         "CollisionId": 4642732,
         "Case_ID": 4642732,
+        "Local_Report_Number": "2025-00007995",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/19/2025 7:59:00 PM",
         "NumberInjured": 0,
@@ -3845,6 +4012,7 @@
       "attributes": {
         "CollisionId": 4642721,
         "Case_ID": 4642721,
+        "Local_Report_Number": "2025-00005705",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/5/2025 4:36:00 PM",
         "NumberInjured": 0,
@@ -3868,6 +4036,7 @@
       "attributes": {
         "CollisionId": 4642720,
         "Case_ID": 4642720,
+        "Local_Report_Number": "2025-00007341",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/15/2025 4:14:00 PM",
         "NumberInjured": 0,
@@ -3891,6 +4060,7 @@
       "attributes": {
         "CollisionId": 4640975,
         "Case_ID": 4640975,
+        "Local_Report_Number": "9370-2025-00003",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/1/2025 3:30:00 AM",
         "NumberInjured": 0,
@@ -3914,6 +4084,7 @@
       "attributes": {
         "CollisionId": 4640941,
         "Case_ID": 4640941,
+        "Local_Report_Number": "9370-2025-00948",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/29/2025 12:47:00 PM",
         "NumberInjured": 0,
@@ -3937,6 +4108,7 @@
       "attributes": {
         "CollisionId": 4639372,
         "Case_ID": 4639372,
+        "Local_Report_Number": "2025-00005620",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/5/2025 9:41:00 AM",
         "NumberInjured": 0,
@@ -3960,6 +4132,7 @@
       "attributes": {
         "CollisionId": 4639361,
         "Case_ID": 4639361,
+        "Local_Report_Number": "2025-00004920",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 12:11:00 AM",
         "NumberInjured": 0,
@@ -3983,6 +4156,7 @@
       "attributes": {
         "CollisionId": 4639296,
         "Case_ID": 4639296,
+        "Local_Report_Number": "2028-00008513",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/22/2025 1:40:00 AM",
         "NumberInjured": 1,
@@ -4006,6 +4180,7 @@
       "attributes": {
         "CollisionId": 4639294,
         "Case_ID": 4639294,
+        "Local_Report_Number": "2025-00007209",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/14/2025 8:04:00 PM",
         "NumberInjured": 1,
@@ -4029,6 +4204,7 @@
       "attributes": {
         "CollisionId": 4639293,
         "Case_ID": 4639293,
+        "Local_Report_Number": "2025-00007471",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/16/2025 2:02:00 PM",
         "NumberInjured": 1,
@@ -4052,6 +4228,7 @@
       "attributes": {
         "CollisionId": 4639287,
         "Case_ID": 4639287,
+        "Local_Report_Number": "2025-00006782",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/12/2025 11:57:00 AM",
         "NumberInjured": 1,
@@ -4075,6 +4252,7 @@
       "attributes": {
         "CollisionId": 4639285,
         "Case_ID": 4639285,
+        "Local_Report_Number": "2025-00007033",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/13/2025 6:29:00 PM",
         "NumberInjured": 1,
@@ -4098,6 +4276,7 @@
       "attributes": {
         "CollisionId": 4639282,
         "Case_ID": 4639282,
+        "Local_Report_Number": "2025-00006596",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/11/2025 10:16:00 AM",
         "NumberInjured": 1,
@@ -4121,6 +4300,7 @@
       "attributes": {
         "CollisionId": 4639280,
         "Case_ID": 4639280,
+        "Local_Report_Number": "2025-00006464",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/10/2025 1:22:00 PM",
         "NumberInjured": 1,
@@ -4144,6 +4324,7 @@
       "attributes": {
         "CollisionId": 4638024,
         "Case_ID": 4638024,
+        "Local_Report_Number": "2025-00009371",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/27/2025 5:22:00 PM",
         "NumberInjured": 1,
@@ -4167,6 +4348,7 @@
       "attributes": {
         "CollisionId": 4638005,
         "Case_ID": 4638005,
+        "Local_Report_Number": "2025-00008921",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/25/2025 12:00:00 PM",
         "NumberInjured": 1,
@@ -4190,6 +4372,7 @@
       "attributes": {
         "CollisionId": 4637992,
         "Case_ID": 4637992,
+        "Local_Report_Number": "2025-00007770",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/18/2025 3:33:00 PM",
         "NumberInjured": 1,
@@ -4213,6 +4396,7 @@
       "attributes": {
         "CollisionId": 4637959,
         "Case_ID": 4637959,
+        "Local_Report_Number": "2025-00007763",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/18/2025 2:30:00 PM",
         "NumberInjured": 1,
@@ -4236,6 +4420,7 @@
       "attributes": {
         "CollisionId": 4637755,
         "Case_ID": 4637755,
+        "Local_Report_Number": "2025-00006755",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/12/2025 8:30:00 AM",
         "NumberInjured": 1,
@@ -4259,6 +4444,7 @@
       "attributes": {
         "CollisionId": 4637713,
         "Case_ID": 4637713,
+        "Local_Report_Number": "2025-00006237",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/8/2025 6:12:00 PM",
         "NumberInjured": 1,
@@ -4282,6 +4468,7 @@
       "attributes": {
         "CollisionId": 4637699,
         "Case_ID": 4637699,
+        "Local_Report_Number": "2025-00005707",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/5/2025 5:23:00 PM",
         "NumberInjured": 1,
@@ -4305,6 +4492,7 @@
       "attributes": {
         "CollisionId": 4637637,
         "Case_ID": 4637637,
+        "Local_Report_Number": "2025-00005553",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 8:54:00 PM",
         "NumberInjured": 2,
@@ -4328,6 +4516,7 @@
       "attributes": {
         "CollisionId": 4637580,
         "Case_ID": 4637580,
+        "Local_Report_Number": "2025-00005551",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 8:16:00 PM",
         "NumberInjured": 1,
@@ -4351,6 +4540,7 @@
       "attributes": {
         "CollisionId": 4637542,
         "Case_ID": 4637542,
+        "Local_Report_Number": "2025-00005397",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/3/2025 8:11:00 PM",
         "NumberInjured": 1,
@@ -4374,6 +4564,7 @@
       "attributes": {
         "CollisionId": 4637532,
         "Case_ID": 4637532,
+        "Local_Report_Number": "2025-00005031",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 6:16:00 PM",
         "NumberInjured": 1,
@@ -4397,6 +4588,7 @@
       "attributes": {
         "CollisionId": 4637531,
         "Case_ID": 4637531,
+        "Local_Report_Number": "2025-00005030",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 6:06:00 PM",
         "NumberInjured": 1,
@@ -4420,6 +4612,7 @@
       "attributes": {
         "CollisionId": 4637282,
         "Case_ID": 4637282,
+        "Local_Report_Number": "9370-2025-00910",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/25/2025 6:28:00 PM",
         "NumberInjured": 0,
@@ -4443,6 +4636,7 @@
       "attributes": {
         "CollisionId": 4637262,
         "Case_ID": 4637262,
+        "Local_Report_Number": "9370-2025-00885",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/23/2025 12:45:00 PM",
         "NumberInjured": 0,
@@ -4466,6 +4660,7 @@
       "attributes": {
         "CollisionId": 4636592,
         "Case_ID": 4636592,
+        "Local_Report_Number": "2025-00006530",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/10/2025 4:53:00 PM",
         "NumberInjured": 0,
@@ -4489,6 +4684,7 @@
       "attributes": {
         "CollisionId": 4636583,
         "Case_ID": 4636583,
+        "Local_Report_Number": "2025-00007929",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/19/2025 1:10:00 PM",
         "NumberInjured": 0,
@@ -4512,6 +4708,7 @@
       "attributes": {
         "CollisionId": 4636570,
         "Case_ID": 4636570,
+        "Local_Report_Number": "2025-00005704",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/5/2025 4:38:00 PM",
         "NumberInjured": 0,
@@ -4535,6 +4732,7 @@
       "attributes": {
         "CollisionId": 4636561,
         "Case_ID": 4636561,
+        "Local_Report_Number": "2025-00009428",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 1:25:00 AM",
         "NumberInjured": 0,
@@ -4558,6 +4756,7 @@
       "attributes": {
         "CollisionId": 4636549,
         "Case_ID": 4636549,
+        "Local_Report_Number": "2025-00009549",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 5:00:00 PM",
         "NumberInjured": 0,
@@ -4581,6 +4780,7 @@
       "attributes": {
         "CollisionId": 4636537,
         "Case_ID": 4636537,
+        "Local_Report_Number": "2025-00008406",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/22/2025 10:24:00 AM",
         "NumberInjured": 0,
@@ -4604,6 +4804,7 @@
       "attributes": {
         "CollisionId": 4636524,
         "Case_ID": 4636524,
+        "Local_Report_Number": "2025-00006642",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/11/2025 1:30:00 PM",
         "NumberInjured": 0,
@@ -4627,6 +4828,7 @@
       "attributes": {
         "CollisionId": 4636514,
         "Case_ID": 4636514,
+        "Local_Report_Number": "2025-00005068",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 11:28:00 PM",
         "NumberInjured": 0,
@@ -4650,6 +4852,7 @@
       "attributes": {
         "CollisionId": 4635992,
         "Case_ID": 4635992,
+        "Local_Report_Number": "2025-00009315",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/27/2025 12:27:00 PM",
         "NumberInjured": 1,
@@ -4673,6 +4876,7 @@
       "attributes": {
         "CollisionId": 4635827,
         "Case_ID": 4635827,
+        "Local_Report_Number": "2025-00009584",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/28/2025 8:40:00 PM",
         "NumberInjured": 0,
@@ -4696,6 +4900,7 @@
       "attributes": {
         "CollisionId": 4635761,
         "Case_ID": 4635761,
+        "Local_Report_Number": "2025-00007214",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/14/2025 8:15:00 PM",
         "NumberInjured": 0,
@@ -4719,6 +4924,7 @@
       "attributes": {
         "CollisionId": 4635715,
         "Case_ID": 4635715,
+        "Local_Report_Number": "2025-00006153",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/8/2025 8:12:00 AM",
         "NumberInjured": 0,
@@ -4742,6 +4948,7 @@
       "attributes": {
         "CollisionId": 4657232,
         "Case_ID": 4657232,
+        "Local_Report_Number": "2025-00003956",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/26/2025 1:32:00 AM",
         "NumberInjured": 2,
@@ -4765,6 +4972,7 @@
       "attributes": {
         "CollisionId": 4655175,
         "Case_ID": 4655175,
+        "Local_Report_Number": 202500014246,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/28/2025 9:26:00 PM",
         "NumberInjured": 0,
@@ -4788,6 +4996,7 @@
       "attributes": {
         "CollisionId": 4655134,
         "Case_ID": 4655134,
+        "Local_Report_Number": 202500014244,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/28/2025 9:20:00 PM",
         "NumberInjured": 0,
@@ -4811,6 +5020,7 @@
       "attributes": {
         "CollisionId": 4655099,
         "Case_ID": 4655099,
+        "Local_Report_Number": 202500011540,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/12/2025 1:25:00 PM",
         "NumberInjured": 0,
@@ -4834,6 +5044,7 @@
       "attributes": {
         "CollisionId": 4654981,
         "Case_ID": 4654981,
+        "Local_Report_Number": 20250014394,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/29/2025 11:29:00 PM",
         "NumberInjured": 0,
@@ -4857,6 +5068,7 @@
       "attributes": {
         "CollisionId": 4654948,
         "Case_ID": 4654948,
+        "Local_Report_Number": 202500010677,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/7/2025 5:36:00 PM",
         "NumberInjured": 0,
@@ -4880,6 +5092,7 @@
       "attributes": {
         "CollisionId": 4654938,
         "Case_ID": 4654938,
+        "Local_Report_Number": 202500014096,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/28/2025 12:21:00 AM",
         "NumberInjured": 0,
@@ -4903,6 +5116,7 @@
       "attributes": {
         "CollisionId": 4654925,
         "Case_ID": 4654925,
+        "Local_Report_Number": 202500013256,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/22/2025 9:25:00 PM",
         "NumberInjured": 0,
@@ -4926,6 +5140,7 @@
       "attributes": {
         "CollisionId": 4654878,
         "Case_ID": 4654878,
+        "Local_Report_Number": 202500011914,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 3:43:00 PM",
         "NumberInjured": 0,
@@ -4949,6 +5164,7 @@
       "attributes": {
         "CollisionId": 4654855,
         "Case_ID": 4654855,
+        "Local_Report_Number": 202500010460,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/5/2025 5:00:00 PM",
         "NumberInjured": 0,
@@ -4972,6 +5188,7 @@
       "attributes": {
         "CollisionId": 4654529,
         "Case_ID": 4654529,
+        "Local_Report_Number": "9370-2025-01017",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/5/2025 10:10:00 AM",
         "NumberInjured": 0,
@@ -4995,6 +5212,7 @@
       "attributes": {
         "CollisionId": 4653711,
         "Case_ID": 4653711,
+        "Local_Report_Number": "2025-00010653",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/5/2025 2:00:00 PM",
         "NumberInjured": 1,
@@ -5018,6 +5236,7 @@
       "attributes": {
         "CollisionId": 4653688,
         "Case_ID": 4653688,
+        "Local_Report_Number": "2025-00010148",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/4/2025 4:33:00 PM",
         "NumberInjured": 1,
@@ -5041,6 +5260,7 @@
       "attributes": {
         "CollisionId": 4653587,
         "Case_ID": 4653587,
+        "Local_Report_Number": "2025-00010015",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/3/2025 6:51:00 PM",
         "NumberInjured": 1,
@@ -5064,6 +5284,7 @@
       "attributes": {
         "CollisionId": 4653577,
         "Case_ID": 4653577,
+        "Local_Report_Number": "2025-00010621",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/2/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -5087,6 +5308,7 @@
       "attributes": {
         "CollisionId": 4653576,
         "Case_ID": 4653576,
+        "Local_Report_Number": "2025-00014406",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/30/2025 1:00:00 AM",
         "NumberInjured": 1,
@@ -5110,6 +5332,7 @@
       "attributes": {
         "CollisionId": 4653453,
         "Case_ID": 4653453,
+        "Local_Report_Number": "9370-2025-01062",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/8/2025 4:45:00 PM",
         "NumberInjured": 0,
@@ -5133,6 +5356,7 @@
       "attributes": {
         "CollisionId": 4653334,
         "Case_ID": 4653334,
+        "Local_Report_Number": "2025-00012844",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/20/2025 10:40:00 AM",
         "NumberInjured": 0,
@@ -5156,6 +5380,7 @@
       "attributes": {
         "CollisionId": 4653275,
         "Case_ID": 4653275,
+        "Local_Report_Number": "2025-00010238",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/5/2025 9:13:00 AM",
         "NumberInjured": 1,
@@ -5179,6 +5404,7 @@
       "attributes": {
         "CollisionId": 4653260,
         "Case_ID": 4653260,
+        "Local_Report_Number": "2025-00010675",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/7/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -5202,6 +5428,7 @@
       "attributes": {
         "CollisionId": 4653226,
         "Case_ID": 4653226,
+        "Local_Report_Number": "2025-00014165",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/28/2025 12:37:00 PM",
         "NumberInjured": 1,
@@ -5225,6 +5452,7 @@
       "attributes": {
         "CollisionId": 4653183,
         "Case_ID": 4653183,
+        "Local_Report_Number": "2025-00003768",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/24/2025 11:30:00 AM",
         "NumberInjured": 1,
@@ -5248,6 +5476,7 @@
       "attributes": {
         "CollisionId": 4653171,
         "Case_ID": 4653171,
+        "Local_Report_Number": "2025-00004413",
         "CityName": "Berkeley",
         "CCRSDateTime": "1/28/2025 9:24:00 PM",
         "NumberInjured": 1,
@@ -5271,6 +5500,7 @@
       "attributes": {
         "CollisionId": 4652960,
         "Case_ID": 4652960,
+        "Local_Report_Number": "2025-00006411",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 11:38:00 PM",
         "NumberInjured": 0,
@@ -5294,6 +5524,7 @@
       "attributes": {
         "CollisionId": 4652953,
         "Case_ID": 4652953,
+        "Local_Report_Number": "2025-00007981",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/19/2025 6:41:00 PM",
         "NumberInjured": 0,
@@ -5317,6 +5548,7 @@
       "attributes": {
         "CollisionId": 4652334,
         "Case_ID": 4652334,
+        "Local_Report_Number": "2025-00014009",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/27/2025 1:16:00 PM",
         "NumberInjured": 1,
@@ -5340,6 +5572,7 @@
       "attributes": {
         "CollisionId": 4652319,
         "Case_ID": 4652319,
+        "Local_Report_Number": "2025-00013458",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/24/2025 2:22:00 PM",
         "NumberInjured": 1,
@@ -5363,6 +5596,7 @@
       "attributes": {
         "CollisionId": 4652310,
         "Case_ID": 4652310,
+        "Local_Report_Number": "2025-00013420",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/24/2025 11:05:00 AM",
         "NumberInjured": 2,
@@ -5386,6 +5620,7 @@
       "attributes": {
         "CollisionId": 4652307,
         "Case_ID": 4652307,
+        "Local_Report_Number": "2025-00012979",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/21/2025 8:55:00 AM",
         "NumberInjured": 1,
@@ -5409,6 +5644,7 @@
       "attributes": {
         "CollisionId": 4652292,
         "Case_ID": 4652292,
+        "Local_Report_Number": "2025-00012725",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/19/2025 8:10:00 PM",
         "NumberInjured": 1,
@@ -5432,6 +5668,7 @@
       "attributes": {
         "CollisionId": 4652289,
         "Case_ID": 4652289,
+        "Local_Report_Number": "2025-00012710",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/19/2025 6:08:00 AM",
         "NumberInjured": 2,
@@ -5455,6 +5692,7 @@
       "attributes": {
         "CollisionId": 4652280,
         "Case_ID": 4652280,
+        "Local_Report_Number": "2025-00012441",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/18/2025 8:13:00 AM",
         "NumberInjured": 1,
@@ -5478,6 +5716,7 @@
       "attributes": {
         "CollisionId": 4652278,
         "Case_ID": 4652278,
+        "Local_Report_Number": "2025-00012556",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/17/2025 4:40:00 PM",
         "NumberInjured": 1,
@@ -5501,6 +5740,7 @@
       "attributes": {
         "CollisionId": 4652267,
         "Case_ID": 4652267,
+        "Local_Report_Number": "2025-00009684",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/1/2025 1:45:00 PM",
         "NumberInjured": 0,
@@ -5524,6 +5764,7 @@
       "attributes": {
         "CollisionId": 4652266,
         "Case_ID": 4652266,
+        "Local_Report_Number": "2025-00012064",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/15/2025 1:49:00 PM",
         "NumberInjured": 1,
@@ -5547,6 +5788,7 @@
       "attributes": {
         "CollisionId": 4652260,
         "Case_ID": 4652260,
+        "Local_Report_Number": "2025-00011887",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 1:59:00 PM",
         "NumberInjured": 1,
@@ -5570,6 +5812,7 @@
       "attributes": {
         "CollisionId": 4652249,
         "Case_ID": 4652249,
+        "Local_Report_Number": "2025-00011764",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/13/2025 5:39:00 PM",
         "NumberInjured": 1,
@@ -5593,6 +5836,7 @@
       "attributes": {
         "CollisionId": 4652248,
         "Case_ID": 4652248,
+        "Local_Report_Number": "2025-00011737",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/13/2025 3:19:00 PM",
         "NumberInjured": 1,
@@ -5616,6 +5860,7 @@
       "attributes": {
         "CollisionId": 4652219,
         "Case_ID": 4652219,
+        "Local_Report_Number": "2025-00011734",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/13/2025 2:30:00 PM",
         "NumberInjured": 1,
@@ -5639,6 +5884,7 @@
       "attributes": {
         "CollisionId": 4652209,
         "Case_ID": 4652209,
+        "Local_Report_Number": "2025-00011562",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/12/2025 4:31:00 PM",
         "NumberInjured": 1,
@@ -5662,6 +5908,7 @@
       "attributes": {
         "CollisionId": 4652201,
         "Case_ID": 4652201,
+        "Local_Report_Number": "2025-00011316",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/11/2025 9:35:00 AM",
         "NumberInjured": 1,
@@ -5685,6 +5932,7 @@
       "attributes": {
         "CollisionId": 4652199,
         "Case_ID": 4652199,
+        "Local_Report_Number": "2025-00010857",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/8/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -5708,6 +5956,7 @@
       "attributes": {
         "CollisionId": 4652181,
         "Case_ID": 4652181,
+        "Local_Report_Number": "2025-00010842",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/8/2025 3:40:00 PM",
         "NumberInjured": 3,
@@ -5731,6 +5980,7 @@
       "attributes": {
         "CollisionId": 4652170,
         "Case_ID": 4652170,
+        "Local_Report_Number": "9370-2025-01072",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/9/2025 12:00:00 PM",
         "NumberInjured": 0,
@@ -5754,6 +6004,7 @@
       "attributes": {
         "CollisionId": 4652169,
         "Case_ID": 4652169,
+        "Local_Report_Number": "2025-00010735",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/7/2025 10:58:00 PM",
         "NumberInjured": 3,
@@ -5777,6 +6028,7 @@
       "attributes": {
         "CollisionId": 4651446,
         "Case_ID": 4651446,
+        "Local_Report_Number": "9370-2025-01047",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/7/2025 4:45:00 PM",
         "NumberInjured": 0,
@@ -5800,6 +6052,7 @@
       "attributes": {
         "CollisionId": 4651363,
         "Case_ID": 4651363,
+        "Local_Report_Number": "9370-2025-01004",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/3/2025 11:15:00 PM",
         "NumberInjured": 0,
@@ -5823,6 +6076,7 @@
       "attributes": {
         "CollisionId": 4651362,
         "Case_ID": 4651362,
+        "Local_Report_Number": "9370-2025-01003",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/4/2025 1:05:00 AM",
         "NumberInjured": 0,
@@ -5846,6 +6100,7 @@
       "attributes": {
         "CollisionId": 4649850,
         "Case_ID": 4649850,
+        "Local_Report_Number": "2025-00014174",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/28/2025 2:45:00 PM",
         "NumberInjured": 2,
@@ -5869,6 +6124,7 @@
       "attributes": {
         "CollisionId": 4649826,
         "Case_ID": 4649826,
+        "Local_Report_Number": "2025-00012378",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/17/2025 4:35:00 PM",
         "NumberInjured": 1,
@@ -5892,6 +6148,7 @@
       "attributes": {
         "CollisionId": 4649810,
         "Case_ID": 4649810,
+        "Local_Report_Number": "2025-00010507",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/6/2025 6:00:00 PM",
         "NumberInjured": 1,
@@ -5915,6 +6172,7 @@
       "attributes": {
         "CollisionId": 4649754,
         "Case_ID": 4649754,
+        "Local_Report_Number": "2025-00010048",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/4/2025 5:48:00 AM",
         "NumberInjured": 1,
@@ -5938,6 +6196,7 @@
       "attributes": {
         "CollisionId": 4649012,
         "Case_ID": 4649012,
+        "Local_Report_Number": "9370-2025-01032",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/6/2025 2:30:00 PM",
         "NumberInjured": 0,
@@ -5961,6 +6220,7 @@
       "attributes": {
         "CollisionId": 4648639,
         "Case_ID": 4648639,
+        "Local_Report_Number": "2025-00006030",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/7/2025 1:46:00 PM",
         "NumberInjured": 0,
@@ -5984,6 +6244,7 @@
       "attributes": {
         "CollisionId": 4647826,
         "Case_ID": 4647826,
+        "Local_Report_Number": "9370-2025-01013",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/4/2025 5:45:00 PM",
         "NumberInjured": 0,
@@ -6007,6 +6268,7 @@
       "attributes": {
         "CollisionId": 4668901,
         "Case_ID": 4668901,
+        "Local_Report_Number": "9370-2025-01107",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 1:20:00 PM",
         "NumberInjured": 0,
@@ -6030,6 +6292,7 @@
       "attributes": {
         "CollisionId": 4668666,
         "Case_ID": 4668666,
+        "Local_Report_Number": "9370-2025-01199",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/20/2025 1:30:00 AM",
         "NumberInjured": 0,
@@ -6053,6 +6316,7 @@
       "attributes": {
         "CollisionId": 4668246,
         "Case_ID": 4668246,
+        "Local_Report_Number": "9370-2025-01104",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 11:00:00 AM",
         "NumberInjured": 0,
@@ -6076,6 +6340,7 @@
       "attributes": {
         "CollisionId": 4668139,
         "Case_ID": 4668139,
+        "Local_Report_Number": "9370-2025-01192",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/19/2025 9:13:00 AM",
         "NumberInjured": 0,
@@ -6099,6 +6364,7 @@
       "attributes": {
         "CollisionId": 4666945,
         "Case_ID": 4666945,
+        "Local_Report_Number": "9370-2025-01165",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/16/2025 5:20:00 PM",
         "NumberInjured": 0,
@@ -6122,6 +6388,7 @@
       "attributes": {
         "CollisionId": 4660623,
         "Case_ID": 4660623,
+        "Local_Report_Number": "2025-00012107",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/15/2025 5:56:00 PM",
         "NumberInjured": 0,
@@ -6145,6 +6412,7 @@
       "attributes": {
         "CollisionId": 4658722,
         "Case_ID": 4658722,
+        "Local_Report_Number": 202500010108,
         "CityName": "Berkeley",
         "CCRSDateTime": "3/4/2025 1:49:00 PM",
         "NumberInjured": 0,
@@ -6168,6 +6436,7 @@
       "attributes": {
         "CollisionId": 4658608,
         "Case_ID": 4658608,
+        "Local_Report_Number": "2025-00007181",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/1/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -6191,6 +6460,7 @@
       "attributes": {
         "CollisionId": 4658440,
         "Case_ID": 4658440,
+        "Local_Report_Number": "9370-2025-01081",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/10/2025 9:55:00 AM",
         "NumberInjured": 0,
@@ -6214,6 +6484,7 @@
       "attributes": {
         "CollisionId": 4679515,
         "Case_ID": 4679515,
+        "Local_Report_Number": "9370-2025-01361",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/6/2025 6:00:00 PM",
         "NumberInjured": 0,
@@ -6237,6 +6508,7 @@
       "attributes": {
         "CollisionId": 4679507,
         "Case_ID": 4679507,
+        "Local_Report_Number": "9370-2025-01309",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 6:02:00 PM",
         "NumberInjured": 0,
@@ -6260,6 +6532,7 @@
       "attributes": {
         "CollisionId": 4675904,
         "Case_ID": 4675904,
+        "Local_Report_Number": "9370-2025-01278",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/27/2025 4:27:00 PM",
         "NumberInjured": 0,
@@ -6283,6 +6556,7 @@
       "attributes": {
         "CollisionId": 4675364,
         "Case_ID": 4675364,
+        "Local_Report_Number": "9370-2025-01148",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/15/2025 1:29:00 PM",
         "NumberInjured": 0,
@@ -6306,6 +6580,7 @@
       "attributes": {
         "CollisionId": 4674016,
         "Case_ID": 4674016,
+        "Local_Report_Number": "9370-2025-01250",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 11:36:00 AM",
         "NumberInjured": 0,
@@ -6329,6 +6604,7 @@
       "attributes": {
         "CollisionId": 4672167,
         "Case_ID": 4672167,
+        "Local_Report_Number": "9370-2025-01226",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 11:19:00 AM",
         "NumberInjured": 0,
@@ -6352,6 +6628,7 @@
       "attributes": {
         "CollisionId": 4671799,
         "Case_ID": 4671799,
+        "Local_Report_Number": "9370-2025-01213",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/21/2025 7:20:00 AM",
         "NumberInjured": 0,
@@ -6375,6 +6652,7 @@
       "attributes": {
         "CollisionId": 4670875,
         "Case_ID": 4670875,
+        "Local_Report_Number": "9370-2025-01113",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/13/2025 12:40:00 PM",
         "NumberInjured": 0,
@@ -6398,6 +6676,7 @@
       "attributes": {
         "CollisionId": 4670758,
         "Case_ID": 4670758,
+        "Local_Report_Number": "9370-2025-01243",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/23/2025 7:06:00 PM",
         "NumberInjured": 3,
@@ -6421,6 +6700,7 @@
       "attributes": {
         "CollisionId": 4692402,
         "Case_ID": 4692402,
+        "Local_Report_Number": "9370-2025-01387",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/9/2025 12:10:00 PM",
         "NumberInjured": 0,
@@ -6444,6 +6724,7 @@
       "attributes": {
         "CollisionId": 4692012,
         "Case_ID": 4692012,
+        "Local_Report_Number": "9370-2025-01103",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 12:10:00 PM",
         "NumberInjured": 0,
@@ -6467,6 +6748,7 @@
       "attributes": {
         "CollisionId": 4689850,
         "Case_ID": 4689850,
+        "Local_Report_Number": "9370-2025-01196",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/19/2025 1:18:00 PM",
         "NumberInjured": 2,
@@ -6490,6 +6772,7 @@
       "attributes": {
         "CollisionId": 4685603,
         "Case_ID": 4685603,
+        "Local_Report_Number": "9370-2025-01331",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/2/2025 4:55:00 PM",
         "NumberInjured": 0,
@@ -6513,6 +6796,7 @@
       "attributes": {
         "CollisionId": 4684487,
         "Case_ID": 4684487,
+        "Local_Report_Number": "9370-2025-01337",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/3/2025 11:55:00 AM",
         "NumberInjured": 0,
@@ -6536,6 +6820,7 @@
       "attributes": {
         "CollisionId": 4684398,
         "Case_ID": 4684398,
+        "Local_Report_Number": "9370-2025-01314",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 9:50:00 AM",
         "NumberInjured": 0,
@@ -6559,6 +6844,7 @@
       "attributes": {
         "CollisionId": 4684360,
         "Case_ID": 4684360,
+        "Local_Report_Number": "9370-2025-01286",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/29/2025 7:39:00 AM",
         "NumberInjured": 1,
@@ -6582,6 +6868,7 @@
       "attributes": {
         "CollisionId": 4683877,
         "Case_ID": 4683877,
+        "Local_Report_Number": "9370-2025-01327",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/2/2025 12:30:00 PM",
         "NumberInjured": 0,
@@ -6605,6 +6892,7 @@
       "attributes": {
         "CollisionId": 4683344,
         "Case_ID": 4683344,
+        "Local_Report_Number": "9370-2025-01172",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/17/2025 7:55:00 AM",
         "NumberInjured": 0,
@@ -6628,6 +6916,7 @@
       "attributes": {
         "CollisionId": 4682390,
         "Case_ID": 4682390,
+        "Local_Report_Number": "9335-2025-00992",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/24/2025 5:15:00 PM",
         "NumberInjured": 0,
@@ -6651,6 +6940,7 @@
       "attributes": {
         "CollisionId": 4682099,
         "Case_ID": 4682099,
+        "Local_Report_Number": "9370-2025-01275",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/27/2025 3:10:00 PM",
         "NumberInjured": 0,
@@ -6674,6 +6964,7 @@
       "attributes": {
         "CollisionId": 4704871,
         "Case_ID": 4704871,
+        "Local_Report_Number": "9370-2025-01493",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/18/2025 10:40:00 AM",
         "NumberInjured": 0,
@@ -6697,6 +6988,7 @@
       "attributes": {
         "CollisionId": 4704207,
         "Case_ID": 4704207,
+        "Local_Report_Number": "9370-2025-01451",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/15/2025 8:10:00 AM",
         "NumberInjured": 0,
@@ -6720,6 +7012,7 @@
       "attributes": {
         "CollisionId": 4704106,
         "Case_ID": 4704106,
+        "Local_Report_Number": "9370-2025-01522",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 4:48:00 PM",
         "NumberInjured": 0,
@@ -6743,6 +7036,7 @@
       "attributes": {
         "CollisionId": 4704093,
         "Case_ID": 4704093,
+        "Local_Report_Number": "9370-2025-01518",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 8:30:00 AM",
         "NumberInjured": 0,
@@ -6766,6 +7060,7 @@
       "attributes": {
         "CollisionId": 4703880,
         "Case_ID": 4703880,
+        "Local_Report_Number": "9370-2025-01513",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 12:27:00 PM",
         "NumberInjured": 1,
@@ -6789,6 +7084,7 @@
       "attributes": {
         "CollisionId": 4703405,
         "Case_ID": 4703405,
+        "Local_Report_Number": "2025-00018729",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/25/2025 4:50:00 PM",
         "NumberInjured": 1,
@@ -6812,6 +7108,7 @@
       "attributes": {
         "CollisionId": 4703382,
         "Case_ID": 4703382,
+        "Local_Report_Number": "2025-00018745",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/25/2025 5:49:00 PM",
         "NumberInjured": 1,
@@ -6835,6 +7132,7 @@
       "attributes": {
         "CollisionId": 4703254,
         "Case_ID": 4703254,
+        "Local_Report_Number": "2025-00018761",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/25/2025 8:19:00 PM",
         "NumberInjured": 1,
@@ -6858,6 +7156,7 @@
       "attributes": {
         "CollisionId": 4703184,
         "Case_ID": 4703184,
+        "Local_Report_Number": "2025-00018141",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 1:55:00 PM",
         "NumberInjured": 0,
@@ -6881,6 +7180,7 @@
       "attributes": {
         "CollisionId": 4703115,
         "Case_ID": 4703115,
+        "Local_Report_Number": "2025-00017125",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/16/2025 5:03:00 PM",
         "NumberInjured": 1,
@@ -6904,6 +7204,7 @@
       "attributes": {
         "CollisionId": 4703042,
         "Case_ID": 4703042,
+        "Local_Report_Number": "2025-00016053",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/9/2025 3:30:00 PM",
         "NumberInjured": 1,
@@ -6927,6 +7228,7 @@
       "attributes": {
         "CollisionId": 4703018,
         "Case_ID": 4703018,
+        "Local_Report_Number": "2025-00015323",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/4/2025 10:34:00 PM",
         "NumberInjured": 1,
@@ -6950,6 +7252,7 @@
       "attributes": {
         "CollisionId": 4703003,
         "Case_ID": 4703003,
+        "Local_Report_Number": "9370-2025-01530",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/19/2025 5:00:00 PM",
         "NumberInjured": 0,
@@ -6973,6 +7276,7 @@
       "attributes": {
         "CollisionId": 4702991,
         "Case_ID": 4702991,
+        "Local_Report_Number": "2025-00015137",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/3/2025 9:15:00 PM",
         "NumberInjured": 1,
@@ -6996,6 +7300,7 @@
       "attributes": {
         "CollisionId": 4702227,
         "Case_ID": 4702227,
+        "Local_Report_Number": "2025-00013236",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/22/2025 6:32:00 PM",
         "NumberInjured": 1,
@@ -7019,6 +7324,7 @@
       "attributes": {
         "CollisionId": 4701481,
         "Case_ID": 4701481,
+        "Local_Report_Number": "9370-2025-01418",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 6:15:00 AM",
         "NumberInjured": 1,
@@ -7042,6 +7348,7 @@
       "attributes": {
         "CollisionId": 4698933,
         "Case_ID": 4698933,
+        "Local_Report_Number": "9370-2025-01528",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/16/2025 3:30:00 PM",
         "NumberInjured": 1,
@@ -7065,6 +7372,7 @@
       "attributes": {
         "CollisionId": 4696377,
         "Case_ID": 4696377,
+        "Local_Report_Number": "9370-2025-01485",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 3:00:00 PM",
         "NumberInjured": 0,
@@ -7088,6 +7396,7 @@
       "attributes": {
         "CollisionId": 4696360,
         "Case_ID": 4696360,
+        "Local_Report_Number": "9370-2025-01478",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 7:35:00 AM",
         "NumberInjured": 0,
@@ -7111,6 +7420,7 @@
       "attributes": {
         "CollisionId": 4696285,
         "Case_ID": 4696285,
+        "Local_Report_Number": "9370-2025-01463",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/16/2025 10:00:00 AM",
         "NumberInjured": 1,
@@ -7134,6 +7444,7 @@
       "attributes": {
         "CollisionId": 4696254,
         "Case_ID": 4696254,
+        "Local_Report_Number": "9370-2025-01430",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 6:00:00 PM",
         "NumberInjured": 0,
@@ -7157,6 +7468,7 @@
       "attributes": {
         "CollisionId": 4696035,
         "Case_ID": 4696035,
+        "Local_Report_Number": "9370-2025-01436",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/9/2025 2:00:00 PM",
         "NumberInjured": 0,
@@ -7180,6 +7492,7 @@
       "attributes": {
         "CollisionId": 4695800,
         "Case_ID": 4695800,
+        "Local_Report_Number": "9370-2025-01465",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/16/2025 9:50:00 AM",
         "NumberInjured": 0,
@@ -7203,6 +7516,7 @@
       "attributes": {
         "CollisionId": 4694822,
         "Case_ID": 4694822,
+        "Local_Report_Number": "9370-2025-01447",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/14/2025 4:56:00 PM",
         "NumberInjured": 0,
@@ -7226,6 +7540,7 @@
       "attributes": {
         "CollisionId": 4694807,
         "Case_ID": 4694807,
+        "Local_Report_Number": "9370-2025-01431",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 4:57:00 PM",
         "NumberInjured": 0,
@@ -7249,6 +7564,7 @@
       "attributes": {
         "CollisionId": 4694243,
         "Case_ID": 4694243,
+        "Local_Report_Number": "9370-2025-01409",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/11/2025 6:15:00 PM",
         "NumberInjured": 1,
@@ -7272,6 +7588,7 @@
       "attributes": {
         "CollisionId": 4716704,
         "Case_ID": 4716704,
+        "Local_Report_Number": "9370-2025-01672",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/3/2025 10:00:00 AM",
         "NumberInjured": 0,
@@ -7295,6 +7612,7 @@
       "attributes": {
         "CollisionId": 4716703,
         "Case_ID": 4716703,
+        "Local_Report_Number": "9370-2025-01657",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/1/2025 11:40:00 AM",
         "NumberInjured": 1,
@@ -7318,6 +7636,7 @@
       "attributes": {
         "CollisionId": 4716527,
         "Case_ID": 4716527,
+        "Local_Report_Number": "9370-2025-01580",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/25/2025 3:37:00 PM",
         "NumberInjured": 0,
@@ -7341,6 +7660,7 @@
       "attributes": {
         "CollisionId": 4716352,
         "Case_ID": 4716352,
+        "Local_Report_Number": "9370-2025-01600",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/28/2025 7:15:00 AM",
         "NumberInjured": 0,
@@ -7364,6 +7684,7 @@
       "attributes": {
         "CollisionId": 4716004,
         "Case_ID": 4716004,
+        "Local_Report_Number": "2025-00016938",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/15/2025 1:49:00 PM",
         "NumberInjured": 1,
@@ -7387,6 +7708,7 @@
       "attributes": {
         "CollisionId": 4716001,
         "Case_ID": 4716001,
+        "Local_Report_Number": "2025-00018132",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 11:36:00 AM",
         "NumberInjured": 0,
@@ -7410,6 +7732,7 @@
       "attributes": {
         "CollisionId": 4715828,
         "Case_ID": 4715828,
+        "Local_Report_Number": "2025-00017710",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/19/2025 6:10:00 PM",
         "NumberInjured": 1,
@@ -7433,6 +7756,7 @@
       "attributes": {
         "CollisionId": 4715827,
         "Case_ID": 4715827,
+        "Local_Report_Number": "2025-00017571",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/18/2025 11:40:00 PM",
         "NumberInjured": 1,
@@ -7456,6 +7780,7 @@
       "attributes": {
         "CollisionId": 4715823,
         "Case_ID": 4715823,
+        "Local_Report_Number": "2025-0015623",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/7/2025 2:10:00 AM",
         "NumberInjured": 1,
@@ -7479,6 +7804,7 @@
       "attributes": {
         "CollisionId": 4715822,
         "Case_ID": 4715822,
+        "Local_Report_Number": "2025-00016759",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/14/2025 7:32:00 AM",
         "NumberInjured": 1,
@@ -7502,6 +7828,7 @@
       "attributes": {
         "CollisionId": 4715785,
         "Case_ID": 4715785,
+        "Local_Report_Number": "2025-00018791",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/25/2025 11:05:00 PM",
         "NumberInjured": 0,
@@ -7525,6 +7852,7 @@
       "attributes": {
         "CollisionId": 4715784,
         "Case_ID": 4715784,
+        "Local_Report_Number": "2025-00018053",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/21/2025 5:45:00 PM",
         "NumberInjured": 0,
@@ -7548,6 +7876,7 @@
       "attributes": {
         "CollisionId": 4715282,
         "Case_ID": 4715282,
+        "Local_Report_Number": "9370-2025-01681",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/4/2025 6:18:00 AM",
         "NumberInjured": 0,
@@ -7571,6 +7900,7 @@
       "attributes": {
         "CollisionId": 4715264,
         "Case_ID": 4715264,
+        "Local_Report_Number": "9370-2025-01555",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/23/2025 2:00:00 PM",
         "NumberInjured": 0,
@@ -7594,6 +7924,7 @@
       "attributes": {
         "CollisionId": 4714346,
         "Case_ID": 4714346,
+        "Local_Report_Number": "2025-00018385",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/23/2025 5:06:00 PM",
         "NumberInjured": 0,
@@ -7617,6 +7948,7 @@
       "attributes": {
         "CollisionId": 4713733,
         "Case_ID": 4713733,
+        "Local_Report_Number": "2025-0095",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/24/2025 9:58:00 PM",
         "NumberInjured": 0,
@@ -7640,6 +7972,7 @@
       "attributes": {
         "CollisionId": 4713498,
         "Case_ID": 4713498,
+        "Local_Report_Number": "9370-2025-01656",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/1/2025 10:38:00 AM",
         "NumberInjured": 2,
@@ -7663,6 +7996,7 @@
       "attributes": {
         "CollisionId": 4713381,
         "Case_ID": 4713381,
+        "Local_Report_Number": "2025-00015871",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/8/2025 3:11:00 PM",
         "NumberInjured": 0,
@@ -7686,6 +8020,7 @@
       "attributes": {
         "CollisionId": 4713276,
         "Case_ID": 4713276,
+        "Local_Report_Number": "2025-00016058",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/9/2025 2:45:00 PM",
         "NumberInjured": 0,
@@ -7709,6 +8044,7 @@
       "attributes": {
         "CollisionId": 4712824,
         "Case_ID": 4712824,
+        "Local_Report_Number": "2025-00018248",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/23/2025 7:00:00 AM",
         "NumberInjured": 0,
@@ -7732,6 +8068,7 @@
       "attributes": {
         "CollisionId": 4712656,
         "Case_ID": 4712656,
+        "Local_Report_Number": "2025-00018984",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/27/2025 1:32:00 AM",
         "NumberInjured": 0,
@@ -7755,6 +8092,7 @@
       "attributes": {
         "CollisionId": 4712645,
         "Case_ID": 4712645,
+        "Local_Report_Number": "2025-00019524",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 9:15:00 AM",
         "NumberInjured": 0,
@@ -7778,6 +8116,7 @@
       "attributes": {
         "CollisionId": 4712602,
         "Case_ID": 4712602,
+        "Local_Report_Number": "2025-00017123",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/16/2025 5:00:00 PM",
         "NumberInjured": 1,
@@ -7801,6 +8140,7 @@
       "attributes": {
         "CollisionId": 4712599,
         "Case_ID": 4712599,
+        "Local_Report_Number": "2025-00017469",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/18/2025 12:13:00 PM",
         "NumberInjured": 1,
@@ -7824,6 +8164,7 @@
       "attributes": {
         "CollisionId": 4712598,
         "Case_ID": 4712598,
+        "Local_Report_Number": "2025-00017245",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/17/2025 11:38:00 AM",
         "NumberInjured": 1,
@@ -7847,6 +8188,7 @@
       "attributes": {
         "CollisionId": 4712591,
         "Case_ID": 4712591,
+        "Local_Report_Number": "2025-00017745",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/18/2025 4:55:00 PM",
         "NumberInjured": 1,
@@ -7870,6 +8212,7 @@
       "attributes": {
         "CollisionId": 4712590,
         "Case_ID": 4712590,
+        "Local_Report_Number": "2025-00017806",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/20/2025 9:40:00 AM",
         "NumberInjured": 1,
@@ -7893,6 +8236,7 @@
       "attributes": {
         "CollisionId": 4712580,
         "Case_ID": 4712580,
+        "Local_Report_Number": "2025-00018142",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 2:14:00 PM",
         "NumberInjured": 1,
@@ -7916,6 +8260,7 @@
       "attributes": {
         "CollisionId": 4712579,
         "Case_ID": 4712579,
+        "Local_Report_Number": "2025-00018397",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/23/2025 6:54:00 PM",
         "NumberInjured": 1,
@@ -7939,6 +8284,7 @@
       "attributes": {
         "CollisionId": 4712554,
         "Case_ID": 4712554,
+        "Local_Report_Number": "2025-0001887",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/26/2025 2:48:00 PM",
         "NumberInjured": 1,
@@ -7962,6 +8308,7 @@
       "attributes": {
         "CollisionId": 4712543,
         "Case_ID": 4712543,
+        "Local_Report_Number": "2025-00019209",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/28/2025 3:50:00 PM",
         "NumberInjured": 1,
@@ -7985,6 +8332,7 @@
       "attributes": {
         "CollisionId": 4711508,
         "Case_ID": 4711508,
+        "Local_Report_Number": "2025-00014688",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/1/2025 10:28:00 AM",
         "NumberInjured": 1,
@@ -8008,6 +8356,7 @@
       "attributes": {
         "CollisionId": 4711495,
         "Case_ID": 4711495,
+        "Local_Report_Number": "2025-00018105",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 9:46:00 AM",
         "NumberInjured": 1,
@@ -8031,6 +8380,7 @@
       "attributes": {
         "CollisionId": 4711464,
         "Case_ID": 4711464,
+        "Local_Report_Number": "2025-00019216",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/28/2025 5:36:00 PM",
         "NumberInjured": 1,
@@ -8054,6 +8404,7 @@
       "attributes": {
         "CollisionId": 4711154,
         "Case_ID": 4711154,
+        "Local_Report_Number": "9370-2025-01628",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/30/2025 11:40:00 AM",
         "NumberInjured": 0,
@@ -8077,6 +8428,7 @@
       "attributes": {
         "CollisionId": 4710359,
         "Case_ID": 4710359,
+        "Local_Report_Number": "9370-2025-01644",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/31/2025 11:02:00 AM",
         "NumberInjured": 0,
@@ -8100,6 +8452,7 @@
       "attributes": {
         "CollisionId": 4710356,
         "Case_ID": 4710356,
+        "Local_Report_Number": "9370-2025-01626",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/30/2025 12:45:00 PM",
         "NumberInjured": 0,
@@ -8123,6 +8476,7 @@
       "attributes": {
         "CollisionId": 4710327,
         "Case_ID": 4710327,
+        "Local_Report_Number": "9370-2025-01579",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/25/2025 3:35:00 PM",
         "NumberInjured": 0,
@@ -8146,6 +8500,7 @@
       "attributes": {
         "CollisionId": 4709992,
         "Case_ID": 4709992,
+        "Local_Report_Number": "2025-00014729",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/1/2025 12:45:00 PM",
         "NumberInjured": 0,
@@ -8169,6 +8524,7 @@
       "attributes": {
         "CollisionId": 4709958,
         "Case_ID": 4709958,
+        "Local_Report_Number": "2025-00015198",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/4/2025 10:25:00 AM",
         "NumberInjured": 0,
@@ -8192,6 +8548,7 @@
       "attributes": {
         "CollisionId": 4709947,
         "Case_ID": 4709947,
+        "Local_Report_Number": "2025-00015354",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/5/2025 6:07:00 AM",
         "NumberInjured": 0,
@@ -8215,6 +8572,7 @@
       "attributes": {
         "CollisionId": 4709933,
         "Case_ID": 4709933,
+        "Local_Report_Number": "2025-00015364",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/5/2025 8:14:00 AM",
         "NumberInjured": 0,
@@ -8238,6 +8596,7 @@
       "attributes": {
         "CollisionId": 4709926,
         "Case_ID": 4709926,
+        "Local_Report_Number": "9370-2025-01536",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 9:45:00 AM",
         "NumberInjured": 0,
@@ -8261,6 +8620,7 @@
       "attributes": {
         "CollisionId": 4709916,
         "Case_ID": 4709916,
+        "Local_Report_Number": "2025-00015579",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/6/2025 4:15:00 PM",
         "NumberInjured": 0,
@@ -8284,6 +8644,7 @@
       "attributes": {
         "CollisionId": 4709674,
         "Case_ID": 4709674,
+        "Local_Report_Number": "9370-2025-01565",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/24/2025 10:48:00 AM",
         "NumberInjured": 0,
@@ -8307,6 +8668,7 @@
       "attributes": {
         "CollisionId": 4709388,
         "Case_ID": 4709388,
+        "Local_Report_Number": "9370-2025-01558",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 9:00:00 PM",
         "NumberInjured": 0,
@@ -8330,6 +8692,7 @@
       "attributes": {
         "CollisionId": 4709307,
         "Case_ID": 4709307,
+        "Local_Report_Number": "2025-00014709",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/1/2025 12:30:00 PM",
         "NumberInjured": 2,
@@ -8353,6 +8716,7 @@
       "attributes": {
         "CollisionId": 4709297,
         "Case_ID": 4709297,
+        "Local_Report_Number": "2025-00015079",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/3/2025 3:31:00 PM",
         "NumberInjured": 1,
@@ -8376,6 +8740,7 @@
       "attributes": {
         "CollisionId": 4709295,
         "Case_ID": 4709295,
+        "Local_Report_Number": "2025-00015130",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/3/2025 8:21:00 PM",
         "NumberInjured": 1,
@@ -8399,6 +8764,7 @@
       "attributes": {
         "CollisionId": 4709292,
         "Case_ID": 4709292,
+        "Local_Report_Number": "2025-00015826",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/8/2025 10:38:00 AM",
         "NumberInjured": 1,
@@ -8422,6 +8788,7 @@
       "attributes": {
         "CollisionId": 4709205,
         "Case_ID": 4709205,
+        "Local_Report_Number": "202-00016383",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/11/2025 5:01:00 PM",
         "NumberInjured": 1,
@@ -8445,6 +8812,7 @@
       "attributes": {
         "CollisionId": 4709204,
         "Case_ID": 4709204,
+        "Local_Report_Number": "2025-00016248",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/10/2025 9:35:00 PM",
         "NumberInjured": 1,
@@ -8468,6 +8836,7 @@
       "attributes": {
         "CollisionId": 4709185,
         "Case_ID": 4709185,
+        "Local_Report_Number": "2025-00016504",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 11:26:00 AM",
         "NumberInjured": 1,
@@ -8491,6 +8860,7 @@
       "attributes": {
         "CollisionId": 4709182,
         "Case_ID": 4709182,
+        "Local_Report_Number": "2025-00016575",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/12/2025 8:19:00 PM",
         "NumberInjured": 1,
@@ -8514,6 +8884,7 @@
       "attributes": {
         "CollisionId": 4709062,
         "Case_ID": 4709062,
+        "Local_Report_Number": "2025-00016976",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/15/2025 5:15:00 PM",
         "NumberInjured": 0,
@@ -8537,6 +8908,7 @@
       "attributes": {
         "CollisionId": 4709054,
         "Case_ID": 4709054,
+        "Local_Report_Number": "2025-00017114",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/15/2025 6:30:00 PM",
         "NumberInjured": 0,
@@ -8560,6 +8932,7 @@
       "attributes": {
         "CollisionId": 4709041,
         "Case_ID": 4709041,
+        "Local_Report_Number": "2025-00019202",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/28/2025 4:46:00 PM",
         "NumberInjured": 0,
@@ -8583,6 +8956,7 @@
       "attributes": {
         "CollisionId": 4709039,
         "Case_ID": 4709039,
+        "Local_Report_Number": "2025-00017483",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/18/2025 2:45:00 AM",
         "NumberInjured": 0,
@@ -8606,6 +8980,7 @@
       "attributes": {
         "CollisionId": 4709030,
         "Case_ID": 4709030,
+        "Local_Report_Number": "2025-00014732",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/1/2025 2:15:00 PM",
         "NumberInjured": 0,
@@ -8629,6 +9004,7 @@
       "attributes": {
         "CollisionId": 4708995,
         "Case_ID": 4708995,
+        "Local_Report_Number": "9370-2025-01538",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 12:40:00 AM",
         "NumberInjured": 0,
@@ -8652,6 +9028,7 @@
       "attributes": {
         "CollisionId": 4707260,
         "Case_ID": 4707260,
+        "Local_Report_Number": "2025-00019547",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 1:35:00 PM",
         "NumberInjured": 2,
@@ -8675,6 +9052,7 @@
       "attributes": {
         "CollisionId": 4707235,
         "Case_ID": 4707235,
+        "Local_Report_Number": "2025-00019505",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 9:02:00 AM",
         "NumberInjured": 1,
@@ -8698,6 +9076,7 @@
       "attributes": {
         "CollisionId": 4707228,
         "Case_ID": 4707228,
+        "Local_Report_Number": "2025-00019497",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/30/2025 7:57:00 AM",
         "NumberInjured": 1,
@@ -8721,6 +9100,7 @@
       "attributes": {
         "CollisionId": 4705849,
         "Case_ID": 4705849,
+        "Local_Report_Number": "9370-2025-01543",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 3:19:00 PM",
         "NumberInjured": 0,
@@ -8744,6 +9124,7 @@
       "attributes": {
         "CollisionId": 4705843,
         "Case_ID": 4705843,
+        "Local_Report_Number": "9370-2025-01548",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/22/2025 4:00:00 PM",
         "NumberInjured": 0,
@@ -8767,6 +9148,7 @@
       "attributes": {
         "CollisionId": 4705494,
         "Case_ID": 4705494,
+        "Local_Report_Number": "9370-2025-01576",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/24/2025 5:15:00 PM",
         "NumberInjured": 0,
@@ -8790,6 +9172,7 @@
       "attributes": {
         "CollisionId": 4705387,
         "Case_ID": 4705387,
+        "Local_Report_Number": "9370-2025-01479",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 12:55:00 PM",
         "NumberInjured": 1,
@@ -8813,6 +9196,7 @@
       "attributes": {
         "CollisionId": 4705374,
         "Case_ID": 4705374,
+        "Local_Report_Number": "9370-2025-01482",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 12:35:00 PM",
         "NumberInjured": 0,
@@ -8836,6 +9220,7 @@
       "attributes": {
         "CollisionId": 4705371,
         "Case_ID": 4705371,
+        "Local_Report_Number": "2025-00017399",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/18/2025 3:40:00 AM",
         "NumberInjured": 0,
@@ -8859,6 +9244,7 @@
       "attributes": {
         "CollisionId": 4705013,
         "Case_ID": 4705013,
+        "Local_Report_Number": "9370-2025-01499",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/18/2025 2:20:00 PM",
         "NumberInjured": 0,
@@ -8882,6 +9268,7 @@
       "attributes": {
         "CollisionId": 4728702,
         "Case_ID": 4728702,
+        "Local_Report_Number": "2025-00019126",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/28/2025 6:55:00 AM",
         "NumberInjured": 1,
@@ -8905,6 +9292,7 @@
       "attributes": {
         "CollisionId": 4724549,
         "Case_ID": 4724549,
+        "Local_Report_Number": "9370-2025-01706",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/6/2025 1:50:00 PM",
         "NumberInjured": 1,
@@ -8928,6 +9316,7 @@
       "attributes": {
         "CollisionId": 4724146,
         "Case_ID": 4724146,
+        "Local_Report_Number": "9370-2025-01704",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/6/2025 6:58:00 PM",
         "NumberInjured": 1,
@@ -8951,6 +9340,7 @@
       "attributes": {
         "CollisionId": 4724032,
         "Case_ID": 4724032,
+        "Local_Report_Number": "9370-2025-01727",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/4/2025 9:55:00 AM",
         "NumberInjured": 0,
@@ -8974,6 +9364,7 @@
       "attributes": {
         "CollisionId": 4723976,
         "Case_ID": 4723976,
+        "Local_Report_Number": "9370-2025-01627",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/30/2025 9:56:00 AM",
         "NumberInjured": 0,
@@ -8997,6 +9388,7 @@
       "attributes": {
         "CollisionId": 4723674,
         "Case_ID": 4723674,
+        "Local_Report_Number": "9370-2025-01730",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/5/2025 3:22:00 PM",
         "NumberInjured": 1,
@@ -9020,6 +9412,7 @@
       "attributes": {
         "CollisionId": 4723453,
         "Case_ID": 4723453,
+        "Local_Report_Number": "9370-2025-01650",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/31/2025 4:21:00 PM",
         "NumberInjured": 0,
@@ -9043,6 +9436,7 @@
       "attributes": {
         "CollisionId": 4719722,
         "Case_ID": 4719722,
+        "Local_Report_Number": "2025-00013148",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/22/2025 3:19:00 AM",
         "NumberInjured": 0,
@@ -9066,6 +9460,7 @@
       "attributes": {
         "CollisionId": 4719710,
         "Case_ID": 4719710,
+        "Local_Report_Number": "2025-00011977",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/14/2025 10:08:00 PM",
         "NumberInjured": 0,
@@ -9089,6 +9484,7 @@
       "attributes": {
         "CollisionId": 4718676,
         "Case_ID": 4718676,
+        "Local_Report_Number": "2025-00014740",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/2/2025 3:22:00 PM",
         "NumberInjured": 2,
@@ -9112,6 +9508,7 @@
       "attributes": {
         "CollisionId": 4739941,
         "Case_ID": 4739941,
+        "Local_Report_Number": "9370-2025-01810",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/17/2025 7:35:00 AM",
         "NumberInjured": 0,
@@ -9135,6 +9532,7 @@
       "attributes": {
         "CollisionId": 4738244,
         "Case_ID": 4738244,
+        "Local_Report_Number": "9370-2025-01804",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/16/2025 7:00:00 PM",
         "NumberInjured": 0,
@@ -9158,6 +9556,7 @@
       "attributes": {
         "CollisionId": 4738214,
         "Case_ID": 4738214,
+        "Local_Report_Number": "9370-2025-01812",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/17/2025 1:46:00 PM",
         "NumberInjured": 3,
@@ -9181,6 +9580,7 @@
       "attributes": {
         "CollisionId": 4732724,
         "Case_ID": 4732724,
+        "Local_Report_Number": "9370-2025-01753",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 11:36:00 AM",
         "NumberInjured": 0,
@@ -9204,6 +9604,7 @@
       "attributes": {
         "CollisionId": 4732653,
         "Case_ID": 4732653,
+        "Local_Report_Number": "9370-2025-01756",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 11:30:00 AM",
         "NumberInjured": 0,
@@ -9227,6 +9628,7 @@
       "attributes": {
         "CollisionId": 4731166,
         "Case_ID": 4731166,
+        "Local_Report_Number": "9370-2025-01793",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/15/2025 2:48:00 PM",
         "NumberInjured": 0,
@@ -9250,6 +9652,7 @@
       "attributes": {
         "CollisionId": 4729552,
         "Case_ID": 4729552,
+        "Local_Report_Number": "9370-2025-01792",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/15/2025 11:45:00 AM",
         "NumberInjured": 0,
@@ -9273,6 +9676,7 @@
       "attributes": {
         "CollisionId": 4729551,
         "Case_ID": 4729551,
+        "Local_Report_Number": "9370-2025-01791",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/15/2025 11:35:00 AM",
         "NumberInjured": 0,
@@ -9296,6 +9700,7 @@
       "attributes": {
         "CollisionId": 4729549,
         "Case_ID": 4729549,
+        "Local_Report_Number": "9370-2025-01777",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/13/2025 4:55:00 PM",
         "NumberInjured": 0,
@@ -9319,6 +9724,7 @@
       "attributes": {
         "CollisionId": 4729417,
         "Case_ID": 4729417,
+        "Local_Report_Number": "9370-2025-01761",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/12/2025 9:40:00 AM",
         "NumberInjured": 1,
@@ -9342,6 +9748,7 @@
       "attributes": {
         "CollisionId": 4729392,
         "Case_ID": 4729392,
+        "Local_Report_Number": "9370-2025-01751",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 12:15:00 PM",
         "NumberInjured": 0,
@@ -9365,6 +9772,7 @@
       "attributes": {
         "CollisionId": 4729114,
         "Case_ID": 4729114,
+        "Local_Report_Number": "9370-2025-01720",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/7/2025 7:09:00 PM",
         "NumberInjured": 0,
@@ -9388,6 +9796,7 @@
       "attributes": {
         "CollisionId": 4752502,
         "Case_ID": 4752502,
+        "Local_Report_Number": "9370-2025-01975",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/1/2025 2:20:00 PM",
         "NumberInjured": 0,
@@ -9411,6 +9820,7 @@
       "attributes": {
         "CollisionId": 4752499,
         "Case_ID": 4752499,
+        "Local_Report_Number": "9370-2025-01970",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/1/2025 9:00:00 AM",
         "NumberInjured": 0,
@@ -9434,6 +9844,7 @@
       "attributes": {
         "CollisionId": 4751574,
         "Case_ID": 4751574,
+        "Local_Report_Number": "2025-00018218",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/22/2025 11:03:00 PM",
         "NumberInjured": 0,
@@ -9457,6 +9868,7 @@
       "attributes": {
         "CollisionId": 4749894,
         "Case_ID": 4749894,
+        "Local_Report_Number": "9370-2025-01908",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/25/2025 5:56:00 PM",
         "NumberInjured": 0,
@@ -9480,6 +9892,7 @@
       "attributes": {
         "CollisionId": 4749891,
         "Case_ID": 4749891,
+        "Local_Report_Number": "9370-2025-01907",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/25/2025 5:55:00 PM",
         "NumberInjured": 0,
@@ -9503,6 +9916,7 @@
       "attributes": {
         "CollisionId": 4749823,
         "Case_ID": 4749823,
+        "Local_Report_Number": "9370-2025-01904",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/25/2025 7:25:00 AM",
         "NumberInjured": 1,
@@ -9526,6 +9940,7 @@
       "attributes": {
         "CollisionId": 4749784,
         "Case_ID": 4749784,
+        "Local_Report_Number": "9370-2025-01932",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/27/2025 5:30:00 PM",
         "NumberInjured": 2,
@@ -9549,6 +9964,7 @@
       "attributes": {
         "CollisionId": 4747699,
         "Case_ID": 4747699,
+        "Local_Report_Number": "2025-00022719",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/19/2025 3:41:00 PM",
         "NumberInjured": 1,
@@ -9572,6 +9988,7 @@
       "attributes": {
         "CollisionId": 4747670,
         "Case_ID": 4747670,
+        "Local_Report_Number": "2025-00021862",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/14/2025 2:23:00 PM",
         "NumberInjured": 1,
@@ -9595,6 +10012,7 @@
       "attributes": {
         "CollisionId": 4747650,
         "Case_ID": 4747650,
+        "Local_Report_Number": "2025-00021474",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 8:13:00 AM",
         "NumberInjured": 2,
@@ -9618,6 +10036,7 @@
       "attributes": {
         "CollisionId": 4744611,
         "Case_ID": 4744611,
+        "Local_Report_Number": "2025-00020106",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/3/2025 1:13:00 PM",
         "NumberInjured": 0,
@@ -9641,6 +10060,7 @@
       "attributes": {
         "CollisionId": 4744598,
         "Case_ID": 4744598,
+        "Local_Report_Number": "2025-00020171",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/4/2025 3:36:00 AM",
         "NumberInjured": 0,
@@ -9664,6 +10084,7 @@
       "attributes": {
         "CollisionId": 4744587,
         "Case_ID": 4744587,
+        "Local_Report_Number": "2025-00020490",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/6/2025 9:18:00 AM",
         "NumberInjured": 0,
@@ -9687,6 +10108,7 @@
       "attributes": {
         "CollisionId": 4744566,
         "Case_ID": 4744566,
+        "Local_Report_Number": "2025-00020777",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/7/2025 8:53:00 PM",
         "NumberInjured": 0,
@@ -9710,6 +10132,7 @@
       "attributes": {
         "CollisionId": 4744540,
         "Case_ID": 4744540,
+        "Local_Report_Number": "2025-00021266",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/10/2025 1:40:00 PM",
         "NumberInjured": 0,
@@ -9733,6 +10156,7 @@
       "attributes": {
         "CollisionId": 4744527,
         "Case_ID": 4744527,
+        "Local_Report_Number": "2025-00022890",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 4:11:00 PM",
         "NumberInjured": 0,
@@ -9756,6 +10180,7 @@
       "attributes": {
         "CollisionId": 4744505,
         "Case_ID": 4744505,
+        "Local_Report_Number": "2025-00023216",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/22/2025 1:49:00 PM",
         "NumberInjured": 0,
@@ -9779,6 +10204,7 @@
       "attributes": {
         "CollisionId": 4744491,
         "Case_ID": 4744491,
+        "Local_Report_Number": "2025-00023243",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/22/2025 2:30:00 PM",
         "NumberInjured": 0,
@@ -9802,6 +10228,7 @@
       "attributes": {
         "CollisionId": 4744483,
         "Case_ID": 4744483,
+        "Local_Report_Number": "2025-00023472",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/24/2025 1:05:00 AM",
         "NumberInjured": 0,
@@ -9825,6 +10252,7 @@
       "attributes": {
         "CollisionId": 4744447,
         "Case_ID": 4744447,
+        "Local_Report_Number": "2025-00023820",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/26/2025 9:44:00 PM",
         "NumberInjured": 0,
@@ -9848,6 +10276,7 @@
       "attributes": {
         "CollisionId": 4744432,
         "Case_ID": 4744432,
+        "Local_Report_Number": "2025-00024170",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 5:45:00 AM",
         "NumberInjured": 0,
@@ -9871,6 +10300,7 @@
       "attributes": {
         "CollisionId": 4744402,
         "Case_ID": 4744402,
+        "Local_Report_Number": "2025-00024249",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 2:23:00 PM",
         "NumberInjured": 0,
@@ -9894,6 +10324,7 @@
       "attributes": {
         "CollisionId": 4744396,
         "Case_ID": 4744396,
+        "Local_Report_Number": "2025-00024291",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 6:30:00 PM",
         "NumberInjured": 0,
@@ -9917,6 +10348,7 @@
       "attributes": {
         "CollisionId": 4744382,
         "Case_ID": 4744382,
+        "Local_Report_Number": "2025-00024292",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 7:13:00 PM",
         "NumberInjured": 0,
@@ -9940,6 +10372,7 @@
       "attributes": {
         "CollisionId": 4744370,
         "Case_ID": 4744370,
+        "Local_Report_Number": "2025-00020133",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/3/2025 10:00:00 PM",
         "NumberInjured": 0,
@@ -9963,6 +10396,7 @@
       "attributes": {
         "CollisionId": 4744244,
         "Case_ID": 4744244,
+        "Local_Report_Number": "2025-00020169",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/4/2025 2:49:00 AM",
         "NumberInjured": 2,
@@ -9986,6 +10420,7 @@
       "attributes": {
         "CollisionId": 4744234,
         "Case_ID": 4744234,
+        "Local_Report_Number": "2025-00023038",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 1:10:00 PM",
         "NumberInjured": 1,
@@ -10009,6 +10444,7 @@
       "attributes": {
         "CollisionId": 4744205,
         "Case_ID": 4744205,
+        "Local_Report_Number": "2025-00020695",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/7/2025 11:46:00 AM",
         "NumberInjured": 1,
@@ -10032,6 +10468,7 @@
       "attributes": {
         "CollisionId": 4744189,
         "Case_ID": 4744189,
+        "Local_Report_Number": "2025-00022752",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/19/2025 8:40:00 PM",
         "NumberInjured": 3,
@@ -10055,6 +10492,7 @@
       "attributes": {
         "CollisionId": 4744176,
         "Case_ID": 4744176,
+        "Local_Report_Number": "2025-00021122",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/9/2025 5:57:00 PM",
         "NumberInjured": 2,
@@ -10078,6 +10516,7 @@
       "attributes": {
         "CollisionId": 4744175,
         "Case_ID": 4744175,
+        "Local_Report_Number": "2025-00022560",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/18/2025 4:45:00 PM",
         "NumberInjured": 3,
@@ -10101,6 +10540,7 @@
       "attributes": {
         "CollisionId": 4744064,
         "Case_ID": 4744064,
+        "Local_Report_Number": "2025-000232236",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/4/2025 4:03:00 PM",
         "NumberInjured": 1,
@@ -10124,6 +10564,7 @@
       "attributes": {
         "CollisionId": 4743995,
         "Case_ID": 4743995,
+        "Local_Report_Number": "2025-00020793",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/7/2025 10:56:00 PM",
         "NumberInjured": 1,
@@ -10147,6 +10588,7 @@
       "attributes": {
         "CollisionId": 4743983,
         "Case_ID": 4743983,
+        "Local_Report_Number": "2025-00020815",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/8/2025 2:59:00 AM",
         "NumberInjured": 1,
@@ -10170,6 +10612,7 @@
       "attributes": {
         "CollisionId": 4743944,
         "Case_ID": 4743944,
+        "Local_Report_Number": "2025-00022747",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/19/2025 5:20:00 PM",
         "NumberInjured": 3,
@@ -10193,6 +10636,7 @@
       "attributes": {
         "CollisionId": 4743938,
         "Case_ID": 4743938,
+        "Local_Report_Number": "2025-00022869",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 2:15:00 PM",
         "NumberInjured": 1,
@@ -10216,6 +10660,7 @@
       "attributes": {
         "CollisionId": 4743937,
         "Case_ID": 4743937,
+        "Local_Report_Number": "2025-00020826",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/8/2025 6:47:00 AM",
         "NumberInjured": 2,
@@ -10239,6 +10684,7 @@
       "attributes": {
         "CollisionId": 4743927,
         "Case_ID": 4743927,
+        "Local_Report_Number": "2025-00022914",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 4:30:00 PM",
         "NumberInjured": 1,
@@ -10252,7 +10698,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "16:30:00",
-        "Involved_Objects": "UNKNOWN/ElectricBicycle",
+        "Involved_Objects": "UNKNOWN/Electric Bicycle",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "17"
@@ -10262,6 +10708,7 @@
       "attributes": {
         "CollisionId": 4743926,
         "Case_ID": 4743926,
+        "Local_Report_Number": "2025-00021103",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/9/2025 2:00:00 PM",
         "NumberInjured": 1,
@@ -10285,6 +10732,7 @@
       "attributes": {
         "CollisionId": 4743910,
         "Case_ID": 4743910,
+        "Local_Report_Number": "2025-00023029",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 12:17:00 PM",
         "NumberInjured": 1,
@@ -10308,6 +10756,7 @@
       "attributes": {
         "CollisionId": 4743909,
         "Case_ID": 4743909,
+        "Local_Report_Number": "2025-00021122",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/9/2025 5:51:00 PM",
         "NumberInjured": 2,
@@ -10331,6 +10780,7 @@
       "attributes": {
         "CollisionId": 4743893,
         "Case_ID": 4743893,
+        "Local_Report_Number": "2025-00021486",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 5:50:00 AM",
         "NumberInjured": 1,
@@ -10354,6 +10804,7 @@
       "attributes": {
         "CollisionId": 4743892,
         "Case_ID": 4743892,
+        "Local_Report_Number": "2025-00023118",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 9:45:00 PM",
         "NumberInjured": 3,
@@ -10377,6 +10828,7 @@
       "attributes": {
         "CollisionId": 4743890,
         "Case_ID": 4743890,
+        "Local_Report_Number": "2025-00023068",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 4:30:00 PM",
         "NumberInjured": 1,
@@ -10400,6 +10852,7 @@
       "attributes": {
         "CollisionId": 4743873,
         "Case_ID": 4743873,
+        "Local_Report_Number": "2025-00021472",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 7:59:00 AM",
         "NumberInjured": 1,
@@ -10413,7 +10866,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "07:59:00",
-        "Involved_Objects": "ElectricBicycle/Car",
+        "Involved_Objects": "Electric Bicycle/Car",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "51"
@@ -10423,6 +10876,7 @@
       "attributes": {
         "CollisionId": 4743861,
         "Case_ID": 4743861,
+        "Local_Report_Number": "2025-00021513",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/12/2025 1:22:00 PM",
         "NumberInjured": 1,
@@ -10446,6 +10900,7 @@
       "attributes": {
         "CollisionId": 4743823,
         "Case_ID": 4743823,
+        "Local_Report_Number": "2025-00021645",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/13/2025 10:56:00 AM",
         "NumberInjured": 1,
@@ -10469,6 +10924,7 @@
       "attributes": {
         "CollisionId": 4743807,
         "Case_ID": 4743807,
+        "Local_Report_Number": "2025-00023351",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/23/2025 10:58:00 AM",
         "NumberInjured": 1,
@@ -10492,6 +10948,7 @@
       "attributes": {
         "CollisionId": 4743801,
         "Case_ID": 4743801,
+        "Local_Report_Number": "2025-00023449",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/23/2025 4:00:00 PM",
         "NumberInjured": 2,
@@ -10515,6 +10972,7 @@
       "attributes": {
         "CollisionId": 4743784,
         "Case_ID": 4743784,
+        "Local_Report_Number": "2025-00021815",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/13/2025 4:15:00 PM",
         "NumberInjured": 1,
@@ -10538,6 +10996,7 @@
       "attributes": {
         "CollisionId": 4743776,
         "Case_ID": 4743776,
+        "Local_Report_Number": "2025-00023418",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/23/2025 5:33:00 PM",
         "NumberInjured": 1,
@@ -10561,6 +11020,7 @@
       "attributes": {
         "CollisionId": 4743767,
         "Case_ID": 4743767,
+        "Local_Report_Number": "2025-00021897",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/14/2025 5:48:00 PM",
         "NumberInjured": 1,
@@ -10584,6 +11044,7 @@
       "attributes": {
         "CollisionId": 4743764,
         "Case_ID": 4743764,
+        "Local_Report_Number": "2025-00016010",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/9/2025 12:35:00 PM",
         "NumberInjured": 1,
@@ -10607,6 +11068,7 @@
       "attributes": {
         "CollisionId": 4743738,
         "Case_ID": 4743738,
+        "Local_Report_Number": "2025-00023871",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/24/2025 7:30:00 AM",
         "NumberInjured": 1,
@@ -10630,6 +11092,7 @@
       "attributes": {
         "CollisionId": 4743719,
         "Case_ID": 4743719,
+        "Local_Report_Number": "2025-00021904",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/14/2025 6:04:00 PM",
         "NumberInjured": 1,
@@ -10653,6 +11116,7 @@
       "attributes": {
         "CollisionId": 4743693,
         "Case_ID": 4743693,
+        "Local_Report_Number": "2025-00023705",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/25/2025 10:47:00 PM",
         "NumberInjured": 1,
@@ -10676,6 +11140,7 @@
       "attributes": {
         "CollisionId": 4743661,
         "Case_ID": 4743661,
+        "Local_Report_Number": "2025-00022179",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/16/2025 10:51:00 AM",
         "NumberInjured": 1,
@@ -10699,6 +11164,7 @@
       "attributes": {
         "CollisionId": 4742576,
         "Case_ID": 4742576,
+        "Local_Report_Number": "2025-00022998",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/17/2025 12:30:00 AM",
         "NumberInjured": 1,
@@ -10722,6 +11188,7 @@
       "attributes": {
         "CollisionId": 4742568,
         "Case_ID": 4742568,
+        "Local_Report_Number": "2025-00022513",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/18/2025 10:50:00 AM",
         "NumberInjured": 1,
@@ -10745,6 +11212,7 @@
       "attributes": {
         "CollisionId": 4742557,
         "Case_ID": 4742557,
+        "Local_Report_Number": "2025-00024229",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 12:14:00 PM",
         "NumberInjured": 1,
@@ -10768,6 +11236,7 @@
       "attributes": {
         "CollisionId": 4742544,
         "Case_ID": 4742544,
+        "Local_Report_Number": "2025-00024301",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/29/2025 7:30:00 PM",
         "NumberInjured": 1,
@@ -10791,6 +11260,7 @@
       "attributes": {
         "CollisionId": 4742541,
         "Case_ID": 4742541,
+        "Local_Report_Number": "2025-00024361",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/30/2025 8:05:00 AM",
         "NumberInjured": 1,
@@ -10814,6 +11284,7 @@
       "attributes": {
         "CollisionId": 4741465,
         "Case_ID": 4741465,
+        "Local_Report_Number": "9370-2025-01863",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/21/2025 12:50:00 PM",
         "NumberInjured": 0,
@@ -10837,6 +11308,7 @@
       "attributes": {
         "CollisionId": 4741456,
         "Case_ID": 4741456,
+        "Local_Report_Number": "9370-2025-01835",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 12:30:00 PM",
         "NumberInjured": 0,
@@ -10860,6 +11332,7 @@
       "attributes": {
         "CollisionId": 4766185,
         "Case_ID": 4766185,
+        "Local_Report_Number": "9370-2025-02044",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/8/2025 5:30:00 AM",
         "NumberInjured": 0,
@@ -10883,6 +11356,7 @@
       "attributes": {
         "CollisionId": 4765583,
         "Case_ID": 4765583,
+        "Local_Report_Number": "9370-2025-02050",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/8/2025 9:00:00 AM",
         "NumberInjured": 0,
@@ -10906,6 +11380,7 @@
       "attributes": {
         "CollisionId": 4765501,
         "Case_ID": 4765501,
+        "Local_Report_Number": "9370-2025-02100",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/12/2025 12:11:00 PM",
         "NumberInjured": 0,
@@ -10929,6 +11404,7 @@
       "attributes": {
         "CollisionId": 4765401,
         "Case_ID": 4765401,
+        "Local_Report_Number": "9370-2025-02116",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/14/2025 2:35:00 PM",
         "NumberInjured": 0,
@@ -10952,6 +11428,7 @@
       "attributes": {
         "CollisionId": 4763470,
         "Case_ID": 4763470,
+        "Local_Report_Number": "2025-00020005",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/3/2025 2:34:00 AM",
         "NumberInjured": 0,
@@ -10975,6 +11452,7 @@
       "attributes": {
         "CollisionId": 4762823,
         "Case_ID": 4762823,
+        "Local_Report_Number": "9370-2025-01991",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/3/2025 1:47:00 AM",
         "NumberInjured": 0,
@@ -10998,6 +11476,7 @@
       "attributes": {
         "CollisionId": 4762635,
         "Case_ID": 4762635,
+        "Local_Report_Number": "9370-2025-02087",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/11/2025 12:42:00 PM",
         "NumberInjured": 1,
@@ -11021,6 +11500,7 @@
       "attributes": {
         "CollisionId": 4762230,
         "Case_ID": 4762230,
+        "Local_Report_Number": "2025-00024637",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/31/2025 10:31:00 PM",
         "NumberInjured": 2,
@@ -11044,6 +11524,7 @@
       "attributes": {
         "CollisionId": 4761955,
         "Case_ID": 4761955,
+        "Local_Report_Number": "2025-00019426",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/29/2025 9:02:00 PM",
         "NumberInjured": 0,
@@ -11067,6 +11548,7 @@
       "attributes": {
         "CollisionId": 4760786,
         "Case_ID": 4760786,
+        "Local_Report_Number": "9370-2025-01768",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/2/2025 11:28:00 AM",
         "NumberInjured": 1,
@@ -11090,6 +11572,7 @@
       "attributes": {
         "CollisionId": 4760722,
         "Case_ID": 4760722,
+        "Local_Report_Number": "2025-00017914",
         "CityName": "Berkeley",
         "CCRSDateTime": "4/19/2025 8:30:00 PM",
         "NumberInjured": 1,
@@ -11113,6 +11596,7 @@
       "attributes": {
         "CollisionId": 4760714,
         "Case_ID": 4760714,
+        "Local_Report_Number": "9370-2025-02038",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/7/2025 10:20:00 AM",
         "NumberInjured": 0,
@@ -11136,6 +11620,7 @@
       "attributes": {
         "CollisionId": 4757854,
         "Case_ID": 4757854,
+        "Local_Report_Number": "9370-2025-01955",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/29/2025 5:45:00 PM",
         "NumberInjured": 0,
@@ -11159,6 +11644,7 @@
       "attributes": {
         "CollisionId": 4757391,
         "Case_ID": 4757391,
+        "Local_Report_Number": "9370-2025-02037",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/7/2025 1:00:00 PM",
         "NumberInjured": 0,
@@ -11182,6 +11668,7 @@
       "attributes": {
         "CollisionId": 4757148,
         "Case_ID": 4757148,
+        "Local_Report_Number": "9370-2025-02021",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/5/2025 6:10:00 PM",
         "NumberInjured": 1,
@@ -11205,6 +11692,7 @@
       "attributes": {
         "CollisionId": 4755309,
         "Case_ID": 4755309,
+        "Local_Report_Number": "2025-00020115",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/1/2025 8:45:00 AM",
         "NumberInjured": 1,
@@ -11228,6 +11716,7 @@
       "attributes": {
         "CollisionId": 4755301,
         "Case_ID": 4755301,
+        "Local_Report_Number": "2025-00019893",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/2/2025 2:08:00 PM",
         "NumberInjured": 1,
@@ -11251,6 +11740,7 @@
       "attributes": {
         "CollisionId": 4755296,
         "Case_ID": 4755296,
+        "Local_Report_Number": "2025-00020206",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/4/2025 11:37:00 AM",
         "NumberInjured": 2,
@@ -11274,6 +11764,7 @@
       "attributes": {
         "CollisionId": 4754381,
         "Case_ID": 4754381,
+        "Local_Report_Number": "9370-2025-01951",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/28/2025 6:30:00 PM",
         "NumberInjured": 2,
@@ -11297,6 +11788,7 @@
       "attributes": {
         "CollisionId": 4754061,
         "Case_ID": 4754061,
+        "Local_Report_Number": "2025-00023910",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/27/2025 1:15:00 PM",
         "NumberInjured": 1,
@@ -11320,6 +11812,7 @@
       "attributes": {
         "CollisionId": 4779629,
         "Case_ID": 4779629,
+        "Local_Report_Number": "9370-2025-02147",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/16/2025 4:37:00 PM",
         "NumberInjured": 0,
@@ -11343,6 +11836,7 @@
       "attributes": {
         "CollisionId": 4776755,
         "Case_ID": 4776755,
+        "Local_Report_Number": "9370-2025-02141",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/16/2025 9:00:00 AM",
         "NumberInjured": 0,
@@ -11366,6 +11860,7 @@
       "attributes": {
         "CollisionId": 4776280,
         "Case_ID": 4776280,
+        "Local_Report_Number": "9370-2025-02110",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/13/2025 5:50:00 PM",
         "NumberInjured": 1,
@@ -11389,6 +11884,7 @@
       "attributes": {
         "CollisionId": 4774694,
         "Case_ID": 4774694,
+        "Local_Report_Number": "9370-2025-02115",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/14/2025 3:32:00 PM",
         "NumberInjured": 2,
@@ -11412,6 +11908,7 @@
       "attributes": {
         "CollisionId": 4773876,
         "Case_ID": 4773876,
+        "Local_Report_Number": "9370-2025-02129",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/15/2025 6:36:00 AM",
         "NumberInjured": 1,
@@ -11435,6 +11932,7 @@
       "attributes": {
         "CollisionId": 4773024,
         "Case_ID": 4773024,
+        "Local_Report_Number": "9370-2025-02168",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/18/2025 2:40:00 PM",
         "NumberInjured": 0,
@@ -11458,6 +11956,7 @@
       "attributes": {
         "CollisionId": 4772945,
         "Case_ID": 4772945,
+        "Local_Report_Number": "9370-2025-02161",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/18/2025 1:35:00 PM",
         "NumberInjured": 1,
@@ -11481,6 +11980,7 @@
       "attributes": {
         "CollisionId": 4772936,
         "Case_ID": 4772936,
+        "Local_Report_Number": "9370-2025-02153",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/17/2025 5:00:00 PM",
         "NumberInjured": 0,
@@ -11504,6 +12004,7 @@
       "attributes": {
         "CollisionId": 4772557,
         "Case_ID": 4772557,
+        "Local_Report_Number": "9370-2025-02030",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/14/2025 1:55:00 PM",
         "NumberInjured": 1,
@@ -11527,6 +12028,7 @@
       "attributes": {
         "CollisionId": 4772070,
         "Case_ID": 4772070,
+        "Local_Report_Number": "9370-2025-02134",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/15/2025 2:35:00 PM",
         "NumberInjured": 0,
@@ -11550,6 +12052,7 @@
       "attributes": {
         "CollisionId": 4771073,
         "Case_ID": 4771073,
+        "Local_Report_Number": "9370-2025-02103",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/12/2025 1:00:00 PM",
         "NumberInjured": 0,
@@ -11573,6 +12076,7 @@
       "attributes": {
         "CollisionId": 4770569,
         "Case_ID": 4770569,
+        "Local_Report_Number": "2025-00022837",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/20/2025 11:33:00 AM",
         "NumberInjured": 0,
@@ -11596,6 +12100,7 @@
       "attributes": {
         "CollisionId": 4792143,
         "Case_ID": 4792143,
+        "Local_Report_Number": "2025-00026367",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/4/2025 8:40:00 AM",
         "NumberInjured": 0,
@@ -11619,6 +12124,7 @@
       "attributes": {
         "CollisionId": 4792130,
         "Case_ID": 4792130,
+        "Local_Report_Number": "2025-00025433",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/6/2025 1:18:00 AM",
         "NumberInjured": 0,
@@ -11642,6 +12148,7 @@
       "attributes": {
         "CollisionId": 4792120,
         "Case_ID": 4792120,
+        "Local_Report_Number": "2025-00027232",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 12:09:00 PM",
         "NumberInjured": 3,
@@ -11665,6 +12172,7 @@
       "attributes": {
         "CollisionId": 4792106,
         "Case_ID": 4792106,
+        "Local_Report_Number": "2025-00027298",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 8:58:00 PM",
         "NumberInjured": 1,
@@ -11688,6 +12196,7 @@
       "attributes": {
         "CollisionId": 4792105,
         "Case_ID": 4792105,
+        "Local_Report_Number": "2025-00027252",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 1:55:00 PM",
         "NumberInjured": 2,
@@ -11711,6 +12220,7 @@
       "attributes": {
         "CollisionId": 4792098,
         "Case_ID": 4792098,
+        "Local_Report_Number": "2025-00027467",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 9:40:00 PM",
         "NumberInjured": 1,
@@ -11734,6 +12244,7 @@
       "attributes": {
         "CollisionId": 4792095,
         "Case_ID": 4792095,
+        "Local_Report_Number": "2025-00027561",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/20/2025 1:45:00 PM",
         "NumberInjured": 4,
@@ -11757,6 +12268,7 @@
       "attributes": {
         "CollisionId": 4792083,
         "Case_ID": 4792083,
+        "Local_Report_Number": "2025-00027932",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/23/2025 8:41:00 AM",
         "NumberInjured": 1,
@@ -11780,6 +12292,7 @@
       "attributes": {
         "CollisionId": 4791797,
         "Case_ID": 4791797,
+        "Local_Report_Number": "2025-00025733",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/8/2025 4:45:00 AM",
         "NumberInjured": 0,
@@ -11803,6 +12316,7 @@
       "attributes": {
         "CollisionId": 4791770,
         "Case_ID": 4791770,
+        "Local_Report_Number": "2025-00025540",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/6/2025 7:47:00 PM",
         "NumberInjured": 0,
@@ -11826,6 +12340,7 @@
       "attributes": {
         "CollisionId": 4791768,
         "Case_ID": 4791768,
+        "Local_Report_Number": "2025-00026234",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 4:42:00 PM",
         "NumberInjured": 0,
@@ -11849,6 +12364,7 @@
       "attributes": {
         "CollisionId": 4791752,
         "Case_ID": 4791752,
+        "Local_Report_Number": "2025-00026232",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 4:45:00 PM",
         "NumberInjured": 0,
@@ -11872,6 +12388,7 @@
       "attributes": {
         "CollisionId": 4791703,
         "Case_ID": 4791703,
+        "Local_Report_Number": "2025-00026256",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 7:30:00 PM",
         "NumberInjured": 0,
@@ -11895,6 +12412,7 @@
       "attributes": {
         "CollisionId": 4791684,
         "Case_ID": 4791684,
+        "Local_Report_Number": "2025-00026569",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/13/2025 7:10:00 PM",
         "NumberInjured": 0,
@@ -11918,6 +12436,7 @@
       "attributes": {
         "CollisionId": 4791646,
         "Case_ID": 4791646,
+        "Local_Report_Number": "2025-00027978",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/23/2025 1:48:00 PM",
         "NumberInjured": 0,
@@ -11941,6 +12460,7 @@
       "attributes": {
         "CollisionId": 4791595,
         "Case_ID": 4791595,
+        "Local_Report_Number": "2025-00027807",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/22/2025 1:45:00 AM",
         "NumberInjured": 2,
@@ -11964,6 +12484,7 @@
       "attributes": {
         "CollisionId": 4791437,
         "Case_ID": 4791437,
+        "Local_Report_Number": "2025-00027282",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 4:50:00 PM",
         "NumberInjured": 3,
@@ -11987,6 +12508,7 @@
       "attributes": {
         "CollisionId": 4791394,
         "Case_ID": 4791394,
+        "Local_Report_Number": "2025-00028409",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/26/2025 11:50:00 AM",
         "NumberInjured": 0,
@@ -12010,6 +12532,7 @@
       "attributes": {
         "CollisionId": 4791393,
         "Case_ID": 4791393,
+        "Local_Report_Number": "2025-00028006",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/23/2025 4:08:00 PM",
         "NumberInjured": 0,
@@ -12033,6 +12556,7 @@
       "attributes": {
         "CollisionId": 4791384,
         "Case_ID": 4791384,
+        "Local_Report_Number": "2025-00028663",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/27/2025 5:03:00 PM",
         "NumberInjured": 0,
@@ -12056,6 +12580,7 @@
       "attributes": {
         "CollisionId": 4791382,
         "Case_ID": 4791382,
+        "Local_Report_Number": "9370-2025-02289",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/27/2025 12:10:00 PM",
         "NumberInjured": 1,
@@ -12079,6 +12604,7 @@
       "attributes": {
         "CollisionId": 4790454,
         "Case_ID": 4790454,
+        "Local_Report_Number": "2025-00026553",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/13/2025 5:43:00 PM",
         "NumberInjured": 0,
@@ -12102,6 +12628,7 @@
       "attributes": {
         "CollisionId": 4790095,
         "Case_ID": 4790095,
+        "Local_Report_Number": "9370-2025-02344",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/4/2025 3:20:00 PM",
         "NumberInjured": 0,
@@ -12125,6 +12652,7 @@
       "attributes": {
         "CollisionId": 4789908,
         "Case_ID": 4789908,
+        "Local_Report_Number": "2025-00024970",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/3/2025 11:37:00 AM",
         "NumberInjured": 1,
@@ -12138,7 +12666,7 @@
         "Year": 2025,
         "Date": "2025-06-03",
         "Time": "11:37:00",
-        "Involved_Objects": "ElectricBicycle/UNKNOWN",
+        "Involved_Objects": "Electric Bicycle/UNKNOWN",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "66"
@@ -12148,6 +12676,7 @@
       "attributes": {
         "CollisionId": 4789708,
         "Case_ID": 4789708,
+        "Local_Report_Number": "2025-00027790",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/21/2025 10:34:00 PM",
         "NumberInjured": 0,
@@ -12171,6 +12700,7 @@
       "attributes": {
         "CollisionId": 4789705,
         "Case_ID": 4789705,
+        "Local_Report_Number": "9370-2025-02270",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/29/2025 2:00:00 PM",
         "NumberInjured": 1,
@@ -12194,6 +12724,7 @@
       "attributes": {
         "CollisionId": 4789618,
         "Case_ID": 4789618,
+        "Local_Report_Number": "2025-00025716",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/7/2025 11:32:00 PM",
         "NumberInjured": 0,
@@ -12217,6 +12748,7 @@
       "attributes": {
         "CollisionId": 4789088,
         "Case_ID": 4789088,
+        "Local_Report_Number": "9370-2025-02256",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/27/2025 10:55:00 AM",
         "NumberInjured": 0,
@@ -12240,6 +12772,7 @@
       "attributes": {
         "CollisionId": 4789011,
         "Case_ID": 4789011,
+        "Local_Report_Number": "2025-0024684",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/1/2025 10:55:00 AM",
         "NumberInjured": 1,
@@ -12263,6 +12796,7 @@
       "attributes": {
         "CollisionId": 4788997,
         "Case_ID": 4788997,
+        "Local_Report_Number": "2025-00024714",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/1/2025 3:59:00 PM",
         "NumberInjured": 1,
@@ -12286,6 +12820,7 @@
       "attributes": {
         "CollisionId": 4788972,
         "Case_ID": 4788972,
+        "Local_Report_Number": "2025-00024932",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/3/2025 6:23:00 AM",
         "NumberInjured": 1,
@@ -12309,6 +12844,7 @@
       "attributes": {
         "CollisionId": 4788960,
         "Case_ID": 4788960,
+        "Local_Report_Number": "2025-00025268",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/5/2025 9:18:00 AM",
         "NumberInjured": 1,
@@ -12332,6 +12868,7 @@
       "attributes": {
         "CollisionId": 4788955,
         "Case_ID": 4788955,
+        "Local_Report_Number": "2025-00025505",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/6/2025 3:39:00 PM",
         "NumberInjured": 2,
@@ -12355,6 +12892,7 @@
       "attributes": {
         "CollisionId": 4788940,
         "Case_ID": 4788940,
+        "Local_Report_Number": "2025-00025652",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/7/2025 12:40:00 PM",
         "NumberInjured": 1,
@@ -12378,6 +12916,7 @@
       "attributes": {
         "CollisionId": 4788925,
         "Case_ID": 4788925,
+        "Local_Report_Number": "2025-00025985",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/10/2025 3:31:00 AM",
         "NumberInjured": 1,
@@ -12401,6 +12940,7 @@
       "attributes": {
         "CollisionId": 4788911,
         "Case_ID": 4788911,
+        "Local_Report_Number": "2025-00026005",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/10/2025 8:54:00 AM",
         "NumberInjured": 1,
@@ -12424,6 +12964,7 @@
       "attributes": {
         "CollisionId": 4788894,
         "Case_ID": 4788894,
+        "Local_Report_Number": "2025-00027080",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/17/2025 11:59:00 AM",
         "NumberInjured": 1,
@@ -12447,6 +12988,7 @@
       "attributes": {
         "CollisionId": 4788839,
         "Case_ID": 4788839,
+        "Local_Report_Number": "2025-00027638",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/20/2025 10:04:00 PM",
         "NumberInjured": 0,
@@ -12470,6 +13012,7 @@
       "attributes": {
         "CollisionId": 4788825,
         "Case_ID": 4788825,
+        "Local_Report_Number": "2025-00027408",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 1:48:00 PM",
         "NumberInjured": 0,
@@ -12493,6 +13036,7 @@
       "attributes": {
         "CollisionId": 4788802,
         "Case_ID": 4788802,
+        "Local_Report_Number": "9370-2025-02257",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/27/2025 10:57:00 AM",
         "NumberInjured": 1,
@@ -12516,6 +13060,7 @@
       "attributes": {
         "CollisionId": 4788584,
         "Case_ID": 4788584,
+        "Local_Report_Number": "2025-00025931",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/9/2025 2:24:00 PM",
         "NumberInjured": 1,
@@ -12539,6 +13084,7 @@
       "attributes": {
         "CollisionId": 4788496,
         "Case_ID": 4788496,
+        "Local_Report_Number": "2025-00024948",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/3/2025 8:34:00 AM",
         "NumberInjured": 1,
@@ -12562,6 +13108,7 @@
       "attributes": {
         "CollisionId": 4788483,
         "Case_ID": 4788483,
+        "Local_Report_Number": "2025-00027437",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 5:31:00 PM",
         "NumberInjured": 1,
@@ -12585,6 +13132,7 @@
       "attributes": {
         "CollisionId": 4788448,
         "Case_ID": 4788448,
+        "Local_Report_Number": "2025-00027458",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 8:59:00 PM",
         "NumberInjured": 1,
@@ -12608,6 +13156,7 @@
       "attributes": {
         "CollisionId": 4788435,
         "Case_ID": 4788435,
+        "Local_Report_Number": "2025-00027889",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/22/2025 7:50:00 PM",
         "NumberInjured": 1,
@@ -12631,6 +13180,7 @@
       "attributes": {
         "CollisionId": 4788330,
         "Case_ID": 4788330,
+        "Local_Report_Number": "9370-2025-02247",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/26/2025 1:27:00 AM",
         "NumberInjured": 1,
@@ -12654,6 +13204,7 @@
       "attributes": {
         "CollisionId": 4788310,
         "Case_ID": 4788310,
+        "Local_Report_Number": "2025-00026765",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/15/2025 4:00:00 AM",
         "NumberInjured": 0,
@@ -12677,6 +13228,7 @@
       "attributes": {
         "CollisionId": 4788306,
         "Case_ID": 4788306,
+        "Local_Report_Number": "2025-00027391",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/19/2025 10:49:00 AM",
         "NumberInjured": 0,
@@ -12700,6 +13252,7 @@
       "attributes": {
         "CollisionId": 4788163,
         "Case_ID": 4788163,
+        "Local_Report_Number": "2025-00020765",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/7/2025 6:21:00 PM",
         "NumberInjured": 1,
@@ -12723,6 +13276,7 @@
       "attributes": {
         "CollisionId": 4786444,
         "Case_ID": 4786444,
+        "Local_Report_Number": "9370-2025-02279",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/30/2025 10:15:00 AM",
         "NumberInjured": 0,
@@ -12746,6 +13300,7 @@
       "attributes": {
         "CollisionId": 4786238,
         "Case_ID": 4786238,
+        "Local_Report_Number": "9370-2025-02258",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/27/2025 9:25:00 PM",
         "NumberInjured": 1,
@@ -12769,6 +13324,7 @@
       "attributes": {
         "CollisionId": 4786223,
         "Case_ID": 4786223,
+        "Local_Report_Number": "9370-2025-02237",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/25/2025 5:40:00 AM",
         "NumberInjured": 0,
@@ -12792,6 +13348,7 @@
       "attributes": {
         "CollisionId": 4786135,
         "Case_ID": 4786135,
+        "Local_Report_Number": "9370-2025-02188",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/21/2025 3:37:00 AM",
         "NumberInjured": 1,
@@ -12815,6 +13372,7 @@
       "attributes": {
         "CollisionId": 4784966,
         "Case_ID": 4784966,
+        "Local_Report_Number": "9370-2025-02205",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/22/2025 8:25:00 AM",
         "NumberInjured": 0,
@@ -12838,6 +13396,7 @@
       "attributes": {
         "CollisionId": 4783050,
         "Case_ID": 4783050,
+        "Local_Report_Number": "9370-2025-02229",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/24/2025 2:37:00 PM",
         "NumberInjured": 0,
@@ -12861,6 +13420,7 @@
       "attributes": {
         "CollisionId": 4781361,
         "Case_ID": 4781361,
+        "Local_Report_Number": "9370-2025-02182",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/20/2025 3:05:00 PM",
         "NumberInjured": 0,
@@ -12884,6 +13444,7 @@
       "attributes": {
         "CollisionId": 4780678,
         "Case_ID": 4780678,
+        "Local_Report_Number": "9370-2025-02174",
         "CityName": "Berkeley",
         "CCRSDateTime": "7/19/2025 1:40:00 PM",
         "NumberInjured": 4,
@@ -12907,6 +13468,7 @@
       "attributes": {
         "CollisionId": 4780124,
         "Case_ID": 4780124,
+        "Local_Report_Number": "9370-2025-02075",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/20/2025 3:22:00 PM",
         "NumberInjured": 0,
@@ -12930,6 +13492,7 @@
       "attributes": {
         "CollisionId": 4780017,
         "Case_ID": 4780017,
+        "Local_Report_Number": "9370-2025-01942",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/28/2025 11:40:00 AM",
         "NumberInjured": 1,
@@ -12953,6 +13516,7 @@
       "attributes": {
         "CollisionId": 4804569,
         "Case_ID": 4804569,
+        "Local_Report_Number": "9370-2025-02315",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/2/2025 3:39:00 PM",
         "NumberInjured": 0,
@@ -12976,6 +13540,7 @@
       "attributes": {
         "CollisionId": 4803460,
         "Case_ID": 4803460,
+        "Local_Report_Number": "9370-2025-02435",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/3/2025 12:50:00 PM",
         "NumberInjured": 0,
@@ -12999,6 +13564,7 @@
       "attributes": {
         "CollisionId": 4802599,
         "Case_ID": 4802599,
+        "Local_Report_Number": "2025-00023823",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/26/2025 10:01:00 PM",
         "NumberInjured": 0,
@@ -13022,6 +13588,7 @@
       "attributes": {
         "CollisionId": 4802499,
         "Case_ID": 4802499,
+        "Local_Report_Number": "2025-00023689",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/25/2025 7:34:00 PM",
         "NumberInjured": 0,
@@ -13045,6 +13612,7 @@
       "attributes": {
         "CollisionId": 4802492,
         "Case_ID": 4802492,
+        "Local_Report_Number": "2025-00022951",
         "CityName": "Berkeley",
         "CCRSDateTime": "5/21/2025 1:16:00 AM",
         "NumberInjured": 0,
@@ -13068,6 +13636,7 @@
       "attributes": {
         "CollisionId": 4801550,
         "Case_ID": 4801550,
+        "Local_Report_Number": "2025-00027064",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/17/2025 10:27:00 AM",
         "NumberInjured": 0,
@@ -13091,6 +13660,7 @@
       "attributes": {
         "CollisionId": 4800019,
         "Case_ID": 4800019,
+        "Local_Report_Number": "9370-2025-02368",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/7/2025 2:00:00 PM",
         "NumberInjured": 0,
@@ -13114,6 +13684,7 @@
       "attributes": {
         "CollisionId": 4800006,
         "Case_ID": 4800006,
+        "Local_Report_Number": "9370-2025-02352",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/5/2025 11:40:00 AM",
         "NumberInjured": 0,
@@ -13137,6 +13708,7 @@
       "attributes": {
         "CollisionId": 4799078,
         "Case_ID": 4799078,
+        "Local_Report_Number": "2025-00025310",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/5/2025 12:50:00 PM",
         "NumberInjured": 0,
@@ -13160,6 +13732,7 @@
       "attributes": {
         "CollisionId": 4799063,
         "Case_ID": 4799063,
+        "Local_Report_Number": "2025-00024784",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/2/2025 6:47:00 AM",
         "NumberInjured": 0,
@@ -13183,6 +13756,7 @@
       "attributes": {
         "CollisionId": 4799006,
         "Case_ID": 4799006,
+        "Local_Report_Number": "2025-00028234",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/25/2025 10:10:00 AM",
         "NumberInjured": 0,
@@ -13206,6 +13780,7 @@
       "attributes": {
         "CollisionId": 4798963,
         "Case_ID": 4798963,
+        "Local_Report_Number": "2025-0002975",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/23/2025 1:20:00 PM",
         "NumberInjured": 0,
@@ -13229,6 +13804,7 @@
       "attributes": {
         "CollisionId": 4798923,
         "Case_ID": 4798923,
+        "Local_Report_Number": "2025-00027228",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 9:05:00 AM",
         "NumberInjured": 0,
@@ -13252,6 +13828,7 @@
       "attributes": {
         "CollisionId": 4798921,
         "Case_ID": 4798921,
+        "Local_Report_Number": "2025-00028168",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/24/2025 6:42:00 PM",
         "NumberInjured": 1,
@@ -13275,6 +13852,7 @@
       "attributes": {
         "CollisionId": 4795507,
         "Case_ID": 4795507,
+        "Local_Report_Number": "2025-00027188",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 8:06:00 AM",
         "NumberInjured": 0,
@@ -13298,6 +13876,7 @@
       "attributes": {
         "CollisionId": 4795420,
         "Case_ID": 4795420,
+        "Local_Report_Number": "2025-00028168",
         "CityName": "Berkeley",
         "CCRSDateTime": "2/4/2025 6:42:00 PM",
         "NumberInjured": 1,
@@ -13321,6 +13900,7 @@
       "attributes": {
         "CollisionId": 4794808,
         "Case_ID": 4794808,
+        "Local_Report_Number": "2025-00027317",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 8:24:00 PM",
         "NumberInjured": 0,
@@ -13344,6 +13924,7 @@
       "attributes": {
         "CollisionId": 4794800,
         "Case_ID": 4794800,
+        "Local_Report_Number": "2025-00027239",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/18/2025 9:34:00 AM",
         "NumberInjured": 0,
@@ -13367,6 +13948,7 @@
       "attributes": {
         "CollisionId": 4794799,
         "Case_ID": 4794799,
+        "Local_Report_Number": "2025-00026131",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/11/2025 12:15:00 AM",
         "NumberInjured": 0,
@@ -13390,6 +13972,7 @@
       "attributes": {
         "CollisionId": 4794794,
         "Case_ID": 4794794,
+        "Local_Report_Number": "2025-00025591",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/7/2025 2:56:00 AM",
         "NumberInjured": 0,
@@ -13413,6 +13996,7 @@
       "attributes": {
         "CollisionId": 4794759,
         "Case_ID": 4794759,
+        "Local_Report_Number": "2025-00026394",
         "CityName": "Berkeley",
         "CCRSDateTime": "6/12/2025 2:31:00 PM",
         "NumberInjured": 0,
@@ -13436,6 +14020,7 @@
       "attributes": {
         "CollisionId": 4816909,
         "Case_ID": 4816909,
+        "Local_Report_Number": "9370-2025-02448",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/14/2025 2:40:00 PM",
         "NumberInjured": 1,
@@ -13459,6 +14044,7 @@
       "attributes": {
         "CollisionId": 4813778,
         "Case_ID": 4813778,
+        "Local_Report_Number": "9370-2025-02432",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/13/2025 10:20:00 PM",
         "NumberInjured": 0,
@@ -13482,6 +14068,7 @@
       "attributes": {
         "CollisionId": 4813153,
         "Case_ID": 4813153,
+        "Local_Report_Number": "9370-2025-02392",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/9/2025 12:58:00 PM",
         "NumberInjured": 1,
@@ -13505,6 +14092,7 @@
       "attributes": {
         "CollisionId": 4812133,
         "Case_ID": 4812133,
+        "Local_Report_Number": "2025-00011579",
         "CityName": "Berkeley",
         "CCRSDateTime": "3/6/2025 8:35:00 PM",
         "NumberInjured": 1,
@@ -13528,6 +14116,7 @@
       "attributes": {
         "CollisionId": 4812058,
         "Case_ID": 4812058,
+        "Local_Report_Number": "9370-2025-02445",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/10/2025 4:30:00 PM",
         "NumberInjured": 1,
@@ -13551,6 +14140,7 @@
       "attributes": {
         "CollisionId": 4807713,
         "Case_ID": 4807713,
+        "Local_Report_Number": "9370-2025-02397",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/9/2025 11:45:00 PM",
         "NumberInjured": 0,
@@ -13574,6 +14164,7 @@
       "attributes": {
         "CollisionId": 4827945,
         "Case_ID": 4827945,
+        "Local_Report_Number": "9370-2025-02556",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/23/2025 4:25:00 PM",
         "NumberInjured": 0,
@@ -13597,6 +14188,7 @@
       "attributes": {
         "CollisionId": 4826630,
         "Case_ID": 4826630,
+        "Local_Report_Number": "9370-2025-02563",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/24/2025 10:50:00 AM",
         "NumberInjured": 2,
@@ -13620,6 +14212,7 @@
       "attributes": {
         "CollisionId": 4825816,
         "Case_ID": 4825816,
+        "Local_Report_Number": "9370-2025-02571",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/20/2025 11:00:00 AM",
         "NumberInjured": 0,
@@ -13643,6 +14236,7 @@
       "attributes": {
         "CollisionId": 4823883,
         "Case_ID": 4823883,
+        "Local_Report_Number": "9370-2025-02553",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/23/2025 10:21:00 AM",
         "NumberInjured": 0,
@@ -13666,6 +14260,7 @@
       "attributes": {
         "CollisionId": 4819871,
         "Case_ID": 4819871,
+        "Local_Report_Number": "9370-2025-02589",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/19/2025 5:30:00 PM",
         "NumberInjured": 0,
@@ -13689,6 +14284,7 @@
       "attributes": {
         "CollisionId": 4819050,
         "Case_ID": 4819050,
+        "Local_Report_Number": "9370-2025-02582",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/26/2025 12:00:00 PM",
         "NumberInjured": 0,
@@ -13712,6 +14308,7 @@
       "attributes": {
         "CollisionId": 4818967,
         "Case_ID": 4818967,
+        "Local_Report_Number": "9370-2025-02488",
         "CityName": "Berkeley",
         "CCRSDateTime": "8/18/2025 4:50:00 PM",
         "NumberInjured": 0,
