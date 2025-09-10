@@ -62,6 +62,13 @@ function transformCrash(obj) {
 		attrObj.NumberKilled = obj.NumberKilled
 		attrObj.PrimaryRoad = obj.PrimaryRoad
 		attrObj.SecondaryRoad = obj.SecondaryRoad
+		if (obj.SecondaryDistance) {
+			attrObj.Accident_Location_Offset = '' + obj.SecondaryDistance + 
+			' ' + (obj.SecondaryUnitOfMeasure ?? 'F') +
+			' ' + obj.SecondaryDirection;
+		} else {
+			attrObj.Accident_Location_Offset = ''
+		}
 		attrObj.Latitude = obj.Latitude
 		attrObj.Longitude = obj.Longitude
 	}
@@ -246,13 +253,13 @@ const arrVcodes = [
 	[4, 'Bicycle'], //Bicycle
 	[7, 'Car'],  //SportUtilityVehicle
 	[8, 'Car'],  //MiniVan
-	//9,,Paratransit
+	[9, 'Bus'], //Paratransit
 	[10, 'Bus'],  //TourBus
 	//11,,OtherCommercial
 	[13, 'Bus'],  //SchoolBusPublicTypeI
 	[17, 'Bus'],  //SchoolBusContractualTypeI
 	[20, 'Bus'],  //PublicTransitAuthority
-	//22,,PickupsAndPanels
+	[22, 'Truck'], //PickupsAndPanels
 	[25, 'Truck'],  //TruckTractor
 	[26, 'Truck'],  //TwoAxleTruck
 	[27, 'Truck'],  //ThreeOrMoreAxleTruck

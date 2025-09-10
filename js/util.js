@@ -39,9 +39,9 @@ const saveanchor = document.getElementById('saveanchor')
 
 const mapLocalCaseIDToAttr = new Map();
 
-// populate the street select options
+// populate the street select options from the hard code street names in utils_helper
 function populateStreetSelect(mergedTransparencyJson, selectStreet) {
-	const setStreets = new Set();
+	//const setStreets = new Set();
 
 	for (const coll of mergedTransparencyJson) {
 		const attr = coll.attributes;
@@ -50,7 +50,12 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 		if (attr.Longitude && attr.Latitude) {
 			mapLocalCaseIDToAttr.set(attr.Case_Number, attr);
 		}
+		/*
 		const loc = attr.Accident_Location;
+
+		if (loc.includes('&')) {
+			console.log('break here')
+		}
 		const arr = loc.split("/").map((s) => s.trim());
 
 		for (const str of arr) {
@@ -59,13 +64,13 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 			if (!setStreets.has(e)) {
 				setStreets.add(e);
 			}
-		}
+		}*/
 	}
 
 	// sort
-	const arrSorted = Array.from(setStreets).sort();
+//	const arrSorted = Array.from(setStreets).sort();
 
-	console.log(setStreets.size, arrSorted.length);
+//	console.log(setStreets.size, arrSorted.length);
 	//	console.debug("Streetnames")
 	/*
 	for (const str of arrSorted) {
@@ -77,8 +82,9 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 	for (const str of streetArray) {
 		const opt = document.createElement("option");
+		
 		opt.value = str;
-		opt.text = str.split("|")[0];
+		opt.text = str.split("|")[0];  // name is first synonym from streetArray
 		selectStreet.add(opt, null);
 	}
 }
@@ -696,6 +702,7 @@ const popupFields = ['Date',
 	'Case_ID',
 	'Local_Report_Number',
 	'Accident_Location',
+	'Accident_Location_Offset',
 	'Latitude',
 	'Longitude',
 	'Collision_Classification_Descri',
