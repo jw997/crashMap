@@ -119,3 +119,23 @@ Data presented
 example:
 
 
+Periodic data update
+1) SWITRS is no longer updated as of 2025
+2) for Ripa data, go to crashmap/build/ripa/traffic 
+   and run getRIPACmds.sh >getRIPAdata.sh 
+   to generate cmds.  Run the cmds for the most recent year.
+   check in any new updates in crashmap/data/stop/ts_*.json
+3) To Update CCRS data, go to build/ccrsToJson/ 
+   manually download latest year from https://data.ca.gov/dataset/ccrs
+   cp the files from ~/Download to build/ccrsToJson 
+   simplify the names with 
+   rename 's/hq1d-p-app52dopendataexport//' hq1d-p-app52dopendataexport20*
+
+   generate the flat ccrs files by running
+   bash processAll.sh
+   
+   copy any updated files such as ccrs2025.json to 
+   crashmap/data/ccrs
+   
+   
+
