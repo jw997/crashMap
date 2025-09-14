@@ -19,7 +19,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "19:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -44,7 +44,7 @@
         "Year": 2025,
         "Date": "2025-01-18",
         "Time": "16:45:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -69,7 +69,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "18:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "34"
@@ -94,7 +94,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "14:10:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -119,7 +119,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "15:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -144,7 +144,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "15:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -169,7 +169,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "09:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -194,7 +194,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "13:05:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -219,7 +219,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "10:45:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -244,7 +244,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "05:15:00",
-        "Involved_Objects": "Truck/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -269,7 +269,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "05:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -294,7 +294,7 @@
         "Year": 2025,
         "Date": "2025-01-15",
         "Time": "11:30:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -319,7 +319,7 @@
         "Year": 2025,
         "Date": "2025-01-15",
         "Time": "10:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -344,7 +344,7 @@
         "Year": 2025,
         "Date": "2025-01-12",
         "Time": "19:20:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -369,7 +369,7 @@
         "Year": 2025,
         "Date": "2025-01-11",
         "Time": "18:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -394,7 +394,7 @@
         "Year": 2025,
         "Date": "2025-01-14",
         "Time": "15:00:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -419,7 +419,7 @@
         "Year": 2025,
         "Date": "2025-01-13",
         "Time": "07:20:00",
-        "Involved_Objects": "Car/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -444,7 +444,7 @@
         "Year": 2025,
         "Date": "2025-01-06",
         "Time": "17:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -469,7 +469,7 @@
         "Year": 2025,
         "Date": "2025-01-06",
         "Time": "09:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -494,7 +494,7 @@
         "Year": 2025,
         "Date": "2025-01-05",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "59/17"
@@ -519,7 +519,7 @@
         "Year": 2025,
         "Date": "2025-01-05",
         "Time": "15:56:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -544,7 +544,7 @@
         "Year": 2025,
         "Date": "2025-01-29",
         "Time": "15:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -569,7 +569,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "11:55:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "42"
@@ -594,7 +594,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "18:05:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -619,7 +619,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "16:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -644,7 +644,7 @@
         "Year": 2025,
         "Date": "2025-01-24",
         "Time": "08:10:00",
-        "Involved_Objects": "Car/Car/Bus",
+        "Involved_Objects": "Bus /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "30/40"
@@ -669,7 +669,7 @@
         "Year": 2025,
         "Date": "2025-01-18",
         "Time": "11:30:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49/73"
@@ -694,7 +694,7 @@
         "Year": 2025,
         "Date": "2025-01-10",
         "Time": "21:00:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -719,7 +719,7 @@
         "Year": 2025,
         "Date": "2025-01-26",
         "Time": "16:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -744,7 +744,7 @@
         "Year": 2025,
         "Date": "2025-01-26",
         "Time": "16:20:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55/36"
@@ -769,7 +769,7 @@
         "Year": 2025,
         "Date": "2025-01-25",
         "Time": "15:49:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -794,7 +794,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "15:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "50"
@@ -819,7 +819,7 @@
         "Year": 2025,
         "Date": "2025-01-23",
         "Time": "12:30:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23"
@@ -844,7 +844,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "12:50:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -869,7 +869,7 @@
         "Year": 2025,
         "Date": "2025-01-14",
         "Time": "09:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "37/38/29"
@@ -894,7 +894,7 @@
         "Year": 2025,
         "Date": "2025-02-09",
         "Time": "11:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -919,7 +919,7 @@
         "Year": 2025,
         "Date": "2025-02-08",
         "Time": "10:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "59"
@@ -944,7 +944,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "14:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -969,7 +969,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "16:20:00",
-        "Involved_Objects": "Truck/Truck",
+        "Involved_Objects": "Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -994,7 +994,7 @@
         "Year": 2025,
         "Date": "2025-02-08",
         "Time": "14:30:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1019,7 +1019,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "05:05:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1044,7 +1044,7 @@
         "Year": 2025,
         "Date": "2025-02-02",
         "Time": "17:47:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1069,7 +1069,7 @@
         "Year": 2025,
         "Date": "2025-02-06",
         "Time": "14:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1094,7 +1094,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "12:51:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1119,7 +1119,7 @@
         "Year": 2025,
         "Date": "2025-02-02",
         "Time": "12:32:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1144,7 +1144,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "23:02:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1169,7 +1169,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "07:55:00",
-        "Involved_Objects": "UNKNOWN/Car/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1194,7 +1194,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "22:05:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "69/70"
@@ -1219,7 +1219,7 @@
         "Year": 2025,
         "Date": "2025-02-22",
         "Time": "06:47:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1244,7 +1244,7 @@
         "Year": 2025,
         "Date": "2025-02-18",
         "Time": "07:24:00",
-        "Involved_Objects": "Car/Bus/Car",
+        "Involved_Objects": "School Bus /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1269,7 +1269,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "19:13:00",
-        "Involved_Objects": "UNKNOWN/Car/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1294,7 +1294,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "19:12:00",
-        "Involved_Objects": "Car/UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1319,7 +1319,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "19:14:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1344,7 +1344,7 @@
         "Year": 2025,
         "Date": "2025-02-22",
         "Time": "19:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "17"
@@ -1369,7 +1369,7 @@
         "Year": 2025,
         "Date": "2025-02-26",
         "Time": "17:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1394,7 +1394,7 @@
         "Year": 2025,
         "Date": "2025-01-25",
         "Time": "10:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1419,7 +1419,7 @@
         "Year": 2025,
         "Date": "2025-02-09",
         "Time": "11:05:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "39"
@@ -1444,7 +1444,7 @@
         "Year": 2025,
         "Date": "2025-02-21",
         "Time": "15:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1469,7 +1469,7 @@
         "Year": 2025,
         "Date": "2025-02-26",
         "Time": "08:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1494,7 +1494,7 @@
         "Year": 2025,
         "Date": "2025-02-24",
         "Time": "19:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62/24"
@@ -1519,7 +1519,7 @@
         "Year": 2025,
         "Date": "2025-02-13",
         "Time": "16:00:00",
-        "Involved_Objects": "Bus/Car",
+        "Involved_Objects": "School Bus /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1544,7 +1544,7 @@
         "Year": 2025,
         "Date": "2025-02-18",
         "Time": "15:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1569,7 +1569,7 @@
         "Year": 2025,
         "Date": "2025-02-11",
         "Time": "17:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1594,7 +1594,7 @@
         "Year": 2025,
         "Date": "2025-02-08",
         "Time": "13:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1619,7 +1619,7 @@
         "Year": 2025,
         "Date": "2025-02-13",
         "Time": "15:30:00",
-        "Involved_Objects": "Car/Car/Truck",
+        "Involved_Objects": "Truck /Police Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1644,7 +1644,7 @@
         "Year": 2025,
         "Date": "2025-02-17",
         "Time": "16:05:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1669,7 +1669,7 @@
         "Year": 2025,
         "Date": "2025-02-17",
         "Time": "12:18:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -1694,7 +1694,7 @@
         "Year": 2025,
         "Date": "2025-02-15",
         "Time": "14:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "39"
@@ -1719,7 +1719,7 @@
         "Year": 2025,
         "Date": "2025-03-10",
         "Time": "11:20:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1744,7 +1744,7 @@
         "Year": 2025,
         "Date": "2025-03-10",
         "Time": "06:46:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1769,7 +1769,7 @@
         "Year": 2025,
         "Date": "2025-03-07",
         "Time": "13:55:00",
-        "Involved_Objects": "UNKNOWN/Truck",
+        "Involved_Objects": "Truck /Hit and Run Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1794,7 +1794,7 @@
         "Year": 2025,
         "Date": "2025-03-07",
         "Time": "14:48:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -1819,7 +1819,7 @@
         "Year": 2025,
         "Date": "2025-03-05",
         "Time": "06:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1844,7 +1844,7 @@
         "Year": 2025,
         "Date": "2025-02-26",
         "Time": "13:40:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1869,7 +1869,7 @@
         "Year": 2025,
         "Date": "2025-03-03",
         "Time": "09:10:00",
-        "Involved_Objects": "Car/Car/Car/Car/UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "5/43/49"
@@ -1894,7 +1894,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "02:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -1919,7 +1919,7 @@
         "Year": 2025,
         "Date": "2025-02-25",
         "Time": "16:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1944,7 +1944,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "13:18:00",
-        "Involved_Objects": "Truck/Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "31"
@@ -1969,7 +1969,7 @@
         "Year": 2025,
         "Date": "2025-01-03",
         "Time": "02:28:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -1994,7 +1994,7 @@
         "Year": 2025,
         "Date": "2025-01-05",
         "Time": "19:45:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2019,7 +2019,7 @@
         "Year": 2025,
         "Date": "2025-01-09",
         "Time": "23:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2044,7 +2044,7 @@
         "Year": 2025,
         "Date": "2025-01-11",
         "Time": "04:55:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2069,7 +2069,7 @@
         "Year": 2025,
         "Date": "2025-01-15",
         "Time": "10:00:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2094,7 +2094,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "07:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2119,7 +2119,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "03:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2144,7 +2144,7 @@
         "Year": 2025,
         "Date": "2025-01-02",
         "Time": "17:27:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62"
@@ -2169,7 +2169,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "18:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2194,7 +2194,7 @@
         "Year": 2025,
         "Date": "2025-01-29",
         "Time": "19:35:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -2219,7 +2219,7 @@
         "Year": 2025,
         "Date": "2025-01-28",
         "Time": "00:50:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2244,7 +2244,7 @@
         "Year": 2025,
         "Date": "2025-01-21",
         "Time": "16:01:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2269,7 +2269,7 @@
         "Year": 2025,
         "Date": "2025-01-02",
         "Time": "22:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -2294,7 +2294,7 @@
         "Year": 2025,
         "Date": "2025-01-03",
         "Time": "16:12:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2319,7 +2319,7 @@
         "Year": 2025,
         "Date": "2025-01-03",
         "Time": "15:05:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "16"
@@ -2344,7 +2344,7 @@
         "Year": 2025,
         "Date": "2025-01-05",
         "Time": "17:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "29"
@@ -2369,7 +2369,7 @@
         "Year": 2025,
         "Date": "2025-01-06",
         "Time": "13:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "23/20"
@@ -2394,7 +2394,7 @@
         "Year": 2025,
         "Date": "2025-01-08",
         "Time": "12:04:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "37/39"
@@ -2419,7 +2419,7 @@
         "Year": 2025,
         "Date": "2025-01-09",
         "Time": "10:16:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -2444,7 +2444,7 @@
         "Year": 2025,
         "Date": "2025-01-31",
         "Time": "17:09:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -2469,7 +2469,7 @@
         "Year": 2025,
         "Date": "2025-01-10",
         "Time": "09:06:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "53/71"
@@ -2494,7 +2494,7 @@
         "Year": 2025,
         "Date": "2025-01-24",
         "Time": "22:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -2519,7 +2519,7 @@
         "Year": 2025,
         "Date": "2025-01-21",
         "Time": "23:17:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -2544,7 +2544,7 @@
         "Year": 2025,
         "Date": "2025-01-10",
         "Time": "19:05:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62"
@@ -2569,7 +2569,7 @@
         "Year": 2025,
         "Date": "2025-01-23",
         "Time": "12:31:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -2594,7 +2594,7 @@
         "Year": 2025,
         "Date": "2025-01-11",
         "Time": "09:08:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "68/42/71/10/74"
@@ -2619,7 +2619,7 @@
         "Year": 2025,
         "Date": "2025-01-11",
         "Time": "09:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "59"
@@ -2644,7 +2644,7 @@
         "Year": 2025,
         "Date": "2025-01-04",
         "Time": "12:32:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -2669,7 +2669,7 @@
         "Year": 2025,
         "Date": "2025-01-15",
         "Time": "13:19:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -2694,7 +2694,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "11:12:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "50"
@@ -2719,7 +2719,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "16:54:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -2744,7 +2744,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -2769,7 +2769,7 @@
         "Year": 2025,
         "Date": "2025-01-13",
         "Time": "06:50:00",
-        "Involved_Objects": "Truck",
+        "Involved_Objects": "Truck /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2794,7 +2794,7 @@
         "Year": 2025,
         "Date": "2025-01-02",
         "Time": "09:40:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2819,7 +2819,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "13:40:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2844,7 +2844,7 @@
         "Year": 2025,
         "Date": "2025-01-24",
         "Time": "08:58:00",
-        "Involved_Objects": "Truck/Truck",
+        "Involved_Objects": "Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2869,7 +2869,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "09:05:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2894,7 +2894,7 @@
         "Year": 2025,
         "Date": "2025-01-21",
         "Time": "12:03:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2919,7 +2919,7 @@
         "Year": 2025,
         "Date": "2025-01-03",
         "Time": "06:12:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -2944,7 +2944,7 @@
         "Year": 2025,
         "Date": "2025-01-14",
         "Time": "17:55:00",
-        "Involved_Objects": "Truck/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "60/41/4"
@@ -2969,7 +2969,7 @@
         "Year": 2025,
         "Date": "2025-01-14",
         "Time": "10:30:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "79"
@@ -2994,7 +2994,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "14:36:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "32"
@@ -3019,7 +3019,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "15:13:00",
-        "Involved_Objects": "Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -3044,7 +3044,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "16:11:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "79"
@@ -3069,7 +3069,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "08:17:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23/34"
@@ -3094,7 +3094,7 @@
         "Year": 2025,
         "Date": "2025-01-17",
         "Time": "16:20:00",
-        "Involved_Objects": "Bicycle",
+        "Involved_Objects": "Bicycle /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "71"
@@ -3119,7 +3119,7 @@
         "Year": 2025,
         "Date": "2025-01-18",
         "Time": "14:53:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "57"
@@ -3144,7 +3144,7 @@
         "Year": 2025,
         "Date": "2025-01-18",
         "Time": "19:08:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "60"
@@ -3169,7 +3169,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "12:42:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "41"
@@ -3194,7 +3194,7 @@
         "Year": 2025,
         "Date": "2025-01-21",
         "Time": "10:37:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "43"
@@ -3219,7 +3219,7 @@
         "Year": 2025,
         "Date": "2025-01-22",
         "Time": "22:30:00",
-        "Involved_Objects": "Motorcycle",
+        "Involved_Objects": "Motorcycle /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "44"
@@ -3244,7 +3244,7 @@
         "Year": 2025,
         "Date": "2025-01-27",
         "Time": "07:51:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -3269,7 +3269,7 @@
         "Year": 2025,
         "Date": "2025-01-27",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "26"
@@ -3294,7 +3294,7 @@
         "Year": 2025,
         "Date": "2025-01-28",
         "Time": "09:45:00",
-        "Involved_Objects": "Electric Scooter/Pedestrian",
+        "Involved_Objects": "Electric Scooter /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19/20"
@@ -3319,7 +3319,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "14:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -3344,7 +3344,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "18:13:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "10/51"
@@ -3369,7 +3369,7 @@
         "Year": 2025,
         "Date": "2025-01-30",
         "Time": "20:18:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23/16"
@@ -3394,7 +3394,7 @@
         "Year": 2025,
         "Date": "2025-01-31",
         "Time": "19:30:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "56"
@@ -3419,7 +3419,7 @@
         "Year": 2025,
         "Date": "2025-01-31",
         "Time": "20:08:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "17"
@@ -3444,7 +3444,7 @@
         "Year": 2025,
         "Date": "2025-01-20",
         "Time": "14:35:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "64"
@@ -3469,7 +3469,7 @@
         "Year": 2025,
         "Date": "2025-01-10",
         "Time": "21:41:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -3494,7 +3494,7 @@
         "Year": 2025,
         "Date": "2025-03-08",
         "Time": "23:25:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3519,7 +3519,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "06:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3544,7 +3544,7 @@
         "Year": 2025,
         "Date": "2025-03-12",
         "Time": "15:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3569,7 +3569,7 @@
         "Year": 2025,
         "Date": "2025-03-08",
         "Time": "06:20:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3594,7 +3594,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "06:54:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3619,7 +3619,7 @@
         "Year": 2025,
         "Date": "2025-02-12",
         "Time": "12:56:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "82"
@@ -3644,7 +3644,7 @@
         "Year": 2025,
         "Date": "2025-02-12",
         "Time": "22:16:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "42/37"
@@ -3669,7 +3669,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "15:30:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "18/15"
@@ -3694,7 +3694,7 @@
         "Year": 2025,
         "Date": "2025-03-27",
         "Time": "18:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3719,7 +3719,7 @@
         "Year": 2025,
         "Date": "2025-03-22",
         "Time": "11:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3744,7 +3744,7 @@
         "Year": 2025,
         "Date": "2025-03-22",
         "Time": "10:33:00",
-        "Involved_Objects": "Car/Car/Truck/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28"
@@ -3769,7 +3769,7 @@
         "Year": 2025,
         "Date": "2025-03-21",
         "Time": "17:20:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3794,7 +3794,7 @@
         "Year": 2025,
         "Date": "2025-03-20",
         "Time": "13:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3819,7 +3819,7 @@
         "Year": 2025,
         "Date": "2025-03-19",
         "Time": "15:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "41"
@@ -3844,7 +3844,7 @@
         "Year": 2025,
         "Date": "2025-03-19",
         "Time": "08:55:00",
-        "Involved_Objects": "Bus",
+        "Involved_Objects": "School Bus /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3869,7 +3869,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "08:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3894,7 +3894,7 @@
         "Year": 2025,
         "Date": "2025-03-15",
         "Time": "05:45:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "33"
@@ -3919,7 +3919,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "12:35:00",
-        "Involved_Objects": "Car/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3944,7 +3944,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "12:30:00",
-        "Involved_Objects": "Truck/Car/Car/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3969,7 +3969,7 @@
         "Year": 2025,
         "Date": "2025-01-16",
         "Time": "19:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -3994,7 +3994,7 @@
         "Year": 2025,
         "Date": "2025-03-24",
         "Time": "15:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4019,7 +4019,7 @@
         "Year": 2025,
         "Date": "2025-02-12",
         "Time": "17:44:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4044,7 +4044,7 @@
         "Year": 2025,
         "Date": "2025-02-06",
         "Time": "17:00:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -4069,7 +4069,7 @@
         "Year": 2025,
         "Date": "2025-02-06",
         "Time": "14:10:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "54"
@@ -4094,7 +4094,7 @@
         "Year": 2025,
         "Date": "2025-02-06",
         "Time": "11:19:00",
-        "Involved_Objects": "Electric Scooter/Car",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "21"
@@ -4119,7 +4119,7 @@
         "Year": 2025,
         "Date": "2025-02-03",
         "Time": "13:56:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "52"
@@ -4144,7 +4144,7 @@
         "Year": 2025,
         "Date": "2025-03-26",
         "Time": "10:00:00",
-        "Involved_Objects": "Bus",
+        "Involved_Objects": "School Bus /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -4169,7 +4169,7 @@
         "Year": 2025,
         "Date": "2025-02-19",
         "Time": "19:59:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4194,7 +4194,7 @@
         "Year": 2025,
         "Date": "2025-02-05",
         "Time": "16:36:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4219,7 +4219,7 @@
         "Year": 2025,
         "Date": "2025-02-15",
         "Time": "16:14:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4244,7 +4244,7 @@
         "Year": 2025,
         "Date": "2025-01-01",
         "Time": "03:30:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4269,7 +4269,7 @@
         "Year": 2025,
         "Date": "2025-03-29",
         "Time": "12:47:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4294,7 +4294,7 @@
         "Year": 2025,
         "Date": "2025-02-05",
         "Time": "09:41:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4319,7 +4319,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "00:11:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4344,7 +4344,7 @@
         "Year": 2025,
         "Date": "2025-02-22",
         "Time": "01:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "63"
@@ -4369,7 +4369,7 @@
         "Year": 2025,
         "Date": "2025-02-14",
         "Time": "20:04:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -4394,7 +4394,7 @@
         "Year": 2025,
         "Date": "2025-02-16",
         "Time": "14:02:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "29"
@@ -4419,7 +4419,7 @@
         "Year": 2025,
         "Date": "2025-02-12",
         "Time": "11:57:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "32"
@@ -4444,7 +4444,7 @@
         "Year": 2025,
         "Date": "2025-02-13",
         "Time": "18:29:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -4469,7 +4469,7 @@
         "Year": 2025,
         "Date": "2025-02-11",
         "Time": "10:16:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "39"
@@ -4494,7 +4494,7 @@
         "Year": 2025,
         "Date": "2025-02-10",
         "Time": "13:22:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "30"
@@ -4519,7 +4519,7 @@
         "Year": 2025,
         "Date": "2025-02-27",
         "Time": "17:22:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -4544,7 +4544,7 @@
         "Year": 2025,
         "Date": "2025-02-25",
         "Time": "12:00:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "32"
@@ -4569,7 +4569,7 @@
         "Year": 2025,
         "Date": "2025-02-18",
         "Time": "15:33:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -4594,7 +4594,7 @@
         "Year": 2025,
         "Date": "2025-02-18",
         "Time": "14:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "33"
@@ -4619,7 +4619,7 @@
         "Year": 2025,
         "Date": "2025-02-12",
         "Time": "08:30:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "31"
@@ -4644,7 +4644,7 @@
         "Year": 2025,
         "Date": "2025-02-08",
         "Time": "18:12:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -4669,7 +4669,7 @@
         "Year": 2025,
         "Date": "2025-02-05",
         "Time": "17:23:00",
-        "Involved_Objects": "Car/UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -4694,7 +4694,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "20:54:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20/45"
@@ -4719,7 +4719,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "20:16:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "75"
@@ -4744,7 +4744,7 @@
         "Year": 2025,
         "Date": "2025-02-03",
         "Time": "20:11:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "63"
@@ -4769,7 +4769,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "18:16:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "77"
@@ -4794,7 +4794,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "18:06:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -4819,7 +4819,7 @@
         "Year": 2025,
         "Date": "2025-03-25",
         "Time": "18:28:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4844,7 +4844,7 @@
         "Year": 2025,
         "Date": "2025-03-23",
         "Time": "12:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4869,7 +4869,7 @@
         "Year": 2025,
         "Date": "2025-02-10",
         "Time": "16:53:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4894,7 +4894,7 @@
         "Year": 2025,
         "Date": "2025-02-19",
         "Time": "13:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4919,7 +4919,7 @@
         "Year": 2025,
         "Date": "2025-02-05",
         "Time": "16:38:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4944,7 +4944,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "01:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4969,7 +4969,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "17:00:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -4994,7 +4994,7 @@
         "Year": 2025,
         "Date": "2025-02-22",
         "Time": "10:24:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5019,7 +5019,7 @@
         "Year": 2025,
         "Date": "2025-02-11",
         "Time": "13:30:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5044,7 +5044,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "23:28:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5069,7 +5069,7 @@
         "Year": 2025,
         "Date": "2025-02-27",
         "Time": "12:27:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62"
@@ -5094,7 +5094,7 @@
         "Year": 2025,
         "Date": "2025-02-28",
         "Time": "20:40:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5119,7 +5119,7 @@
         "Year": 2025,
         "Date": "2025-02-14",
         "Time": "20:15:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5144,7 +5144,7 @@
         "Year": 2025,
         "Date": "2025-02-08",
         "Time": "08:12:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5169,7 +5169,7 @@
         "Year": 2025,
         "Date": "2025-01-26",
         "Time": "01:32:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "32/43"
@@ -5194,7 +5194,7 @@
         "Year": 2025,
         "Date": "2025-03-28",
         "Time": "21:26:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5219,7 +5219,7 @@
         "Year": 2025,
         "Date": "2025-03-28",
         "Time": "21:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5244,7 +5244,7 @@
         "Year": 2025,
         "Date": "2025-03-12",
         "Time": "13:25:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5269,7 +5269,7 @@
         "Year": 2025,
         "Date": "2025-03-29",
         "Time": "23:29:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5294,7 +5294,7 @@
         "Year": 2025,
         "Date": "2025-03-07",
         "Time": "17:36:00",
-        "Involved_Objects": "Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5319,7 +5319,7 @@
         "Year": 2025,
         "Date": "2025-03-28",
         "Time": "00:21:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5344,7 +5344,7 @@
         "Year": 2025,
         "Date": "2025-03-22",
         "Time": "21:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5369,7 +5369,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "15:43:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5394,7 +5394,7 @@
         "Year": 2025,
         "Date": "2025-03-05",
         "Time": "17:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5419,7 +5419,7 @@
         "Year": 2025,
         "Date": "2025-04-05",
         "Time": "10:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -5444,7 +5444,7 @@
         "Year": 2025,
         "Date": "2025-03-05",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "35"
@@ -5469,7 +5469,7 @@
         "Year": 2025,
         "Date": "2025-03-04",
         "Time": "16:33:00",
-        "Involved_Objects": "Car/Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -5494,7 +5494,7 @@
         "Year": 2025,
         "Date": "2025-03-03",
         "Time": "18:51:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "50"
@@ -5519,7 +5519,7 @@
         "Year": 2025,
         "Date": "2025-03-02",
         "Time": "17:00:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "76"
@@ -5544,7 +5544,7 @@
         "Year": 2025,
         "Date": "2025-03-30",
         "Time": "01:00:00",
-        "Involved_Objects": "Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -5569,7 +5569,7 @@
         "Year": 2025,
         "Date": "2025-04-08",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5594,7 +5594,7 @@
         "Year": 2025,
         "Date": "2025-03-20",
         "Time": "10:40:00",
-        "Involved_Objects": "UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5619,7 +5619,7 @@
         "Year": 2025,
         "Date": "2025-03-05",
         "Time": "09:13:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "35"
@@ -5644,7 +5644,7 @@
         "Year": 2025,
         "Date": "2025-03-07",
         "Time": "17:00:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -5669,7 +5669,7 @@
         "Year": 2025,
         "Date": "2025-03-28",
         "Time": "12:37:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23"
@@ -5694,7 +5694,7 @@
         "Year": 2025,
         "Date": "2025-01-24",
         "Time": "11:30:00",
-        "Involved_Objects": "Car/Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -5719,7 +5719,7 @@
         "Year": 2025,
         "Date": "2025-01-28",
         "Time": "21:24:00",
-        "Involved_Objects": "Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -5744,7 +5744,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "23:38:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5769,7 +5769,7 @@
         "Year": 2025,
         "Date": "2025-02-19",
         "Time": "18:41:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -5794,7 +5794,7 @@
         "Year": 2025,
         "Date": "2025-03-27",
         "Time": "13:16:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "68"
@@ -5819,7 +5819,7 @@
         "Year": 2025,
         "Date": "2025-03-24",
         "Time": "14:22:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "60"
@@ -5844,7 +5844,7 @@
         "Year": 2025,
         "Date": "2025-03-24",
         "Time": "11:05:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "81/26"
@@ -5869,7 +5869,7 @@
         "Year": 2025,
         "Date": "2025-03-21",
         "Time": "08:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23"
@@ -5894,7 +5894,7 @@
         "Year": 2025,
         "Date": "2025-03-19",
         "Time": "20:10:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23"
@@ -5919,7 +5919,7 @@
         "Year": 2025,
         "Date": "2025-03-19",
         "Time": "06:08:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24/21"
@@ -5944,7 +5944,7 @@
         "Year": 2025,
         "Date": "2025-03-18",
         "Time": "08:13:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "38"
@@ -5969,7 +5969,7 @@
         "Year": 2025,
         "Date": "2025-03-17",
         "Time": "16:40:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -5994,7 +5994,7 @@
         "Year": 2025,
         "Date": "2025-03-01",
         "Time": "13:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6019,7 +6019,7 @@
         "Year": 2025,
         "Date": "2025-03-15",
         "Time": "13:49:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "38"
@@ -6044,7 +6044,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "13:59:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "37"
@@ -6069,7 +6069,7 @@
         "Year": 2025,
         "Date": "2025-03-13",
         "Time": "17:39:00",
-        "Involved_Objects": "Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": "21"
@@ -6094,7 +6094,7 @@
         "Year": 2025,
         "Date": "2025-03-13",
         "Time": "15:19:00",
-        "Involved_Objects": "Bicycle",
+        "Involved_Objects": "Bicycle /Solo",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "64"
@@ -6119,7 +6119,7 @@
         "Year": 2025,
         "Date": "2025-03-13",
         "Time": "14:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "79"
@@ -6144,7 +6144,7 @@
         "Year": 2025,
         "Date": "2025-03-12",
         "Time": "16:31:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "75"
@@ -6169,7 +6169,7 @@
         "Year": 2025,
         "Date": "2025-03-11",
         "Time": "09:35:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "64"
@@ -6194,7 +6194,7 @@
         "Year": 2025,
         "Date": "2025-03-08",
         "Time": "17:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "61"
@@ -6219,7 +6219,7 @@
         "Year": 2025,
         "Date": "2025-03-08",
         "Time": "15:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "79/45/45"
@@ -6244,7 +6244,7 @@
         "Year": 2025,
         "Date": "2025-04-09",
         "Time": "12:00:00",
-        "Involved_Objects": "Car/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6269,7 +6269,7 @@
         "Year": 2025,
         "Date": "2025-03-07",
         "Time": "22:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "25/37/29"
@@ -6294,7 +6294,7 @@
         "Year": 2025,
         "Date": "2025-04-07",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6319,7 +6319,7 @@
         "Year": 2025,
         "Date": "2025-04-03",
         "Time": "23:15:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6344,7 +6344,7 @@
         "Year": 2025,
         "Date": "2025-04-04",
         "Time": "01:05:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6369,7 +6369,7 @@
         "Year": 2025,
         "Date": "2025-03-28",
         "Time": "14:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62/52"
@@ -6394,7 +6394,7 @@
         "Year": 2025,
         "Date": "2025-03-17",
         "Time": "16:35:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "24"
@@ -6419,7 +6419,7 @@
         "Year": 2025,
         "Date": "2025-03-06",
         "Time": "18:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "88"
@@ -6444,7 +6444,7 @@
         "Year": 2025,
         "Date": "2025-03-04",
         "Time": "05:48:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "23"
@@ -6469,7 +6469,7 @@
         "Year": 2025,
         "Date": "2025-04-06",
         "Time": "14:30:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6494,7 +6494,7 @@
         "Year": 2025,
         "Date": "2025-02-07",
         "Time": "13:46:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Fire Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6519,7 +6519,7 @@
         "Year": 2025,
         "Date": "2025-04-04",
         "Time": "17:45:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6544,7 +6544,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "13:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6569,7 +6569,7 @@
         "Year": 2025,
         "Date": "2025-04-20",
         "Time": "01:30:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6594,7 +6594,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "11:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6619,7 +6619,7 @@
         "Year": 2025,
         "Date": "2025-04-19",
         "Time": "09:13:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6644,7 +6644,7 @@
         "Year": 2025,
         "Date": "2025-04-16",
         "Time": "17:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6669,7 +6669,7 @@
         "Year": 2025,
         "Date": "2025-03-15",
         "Time": "17:56:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Fire Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6694,7 +6694,7 @@
         "Year": 2025,
         "Date": "2025-03-04",
         "Time": "13:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -6719,7 +6719,7 @@
         "Year": 2025,
         "Date": "2025-02-01",
         "Time": "17:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "72"
@@ -6744,7 +6744,7 @@
         "Year": 2025,
         "Date": "2025-04-10",
         "Time": "09:55:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6769,7 +6769,7 @@
         "Year": 2025,
         "Date": "2025-05-06",
         "Time": "18:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6794,7 +6794,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "18:02:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -6819,7 +6819,7 @@
         "Year": 2025,
         "Date": "2025-04-27",
         "Time": "16:27:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6844,7 +6844,7 @@
         "Year": 2025,
         "Date": "2025-04-15",
         "Time": "13:29:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6869,7 +6869,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "11:36:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Police Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6894,7 +6894,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "11:19:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -6919,7 +6919,7 @@
         "Year": 2025,
         "Date": "2025-04-21",
         "Time": "07:20:00",
-        "Involved_Objects": "Bus/Truck",
+        "Involved_Objects": "School Bus /Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6944,7 +6944,7 @@
         "Year": 2025,
         "Date": "2025-04-13",
         "Time": "12:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -6969,7 +6969,7 @@
         "Year": 2025,
         "Date": "2025-04-23",
         "Time": "19:06:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "41/54/19"
@@ -6994,7 +6994,7 @@
         "Year": 2025,
         "Date": "2025-05-09",
         "Time": "12:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7019,7 +7019,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "12:10:00",
-        "Involved_Objects": "Bus/UNKNOWN/UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -7044,7 +7044,7 @@
         "Year": 2025,
         "Date": "2025-04-19",
         "Time": "13:18:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "26/28"
@@ -7069,7 +7069,7 @@
         "Year": 2025,
         "Date": "2025-05-02",
         "Time": "16:55:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7094,7 +7094,7 @@
         "Year": 2025,
         "Date": "2025-05-03",
         "Time": "11:55:00",
-        "Involved_Objects": "UNKNOWN/UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7119,7 +7119,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "09:50:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7144,7 +7144,7 @@
         "Year": 2025,
         "Date": "2025-04-29",
         "Time": "07:39:00",
-        "Involved_Objects": "Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Police Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "38"
@@ -7169,7 +7169,7 @@
         "Year": 2025,
         "Date": "2025-05-02",
         "Time": "12:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7194,7 +7194,7 @@
         "Year": 2025,
         "Date": "2025-04-17",
         "Time": "07:55:00",
-        "Involved_Objects": "Bus/Truck",
+        "Involved_Objects": "School Bus /Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7219,7 +7219,7 @@
         "Year": 2025,
         "Date": "2025-04-24",
         "Time": "17:15:00",
-        "Involved_Objects": "Truck/Car/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7244,7 +7244,7 @@
         "Year": 2025,
         "Date": "2025-04-27",
         "Time": "15:10:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7269,7 +7269,7 @@
         "Year": 2025,
         "Date": "2025-05-18",
         "Time": "10:40:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7294,7 +7294,7 @@
         "Year": 2025,
         "Date": "2025-05-15",
         "Time": "08:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7319,7 +7319,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "16:48:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7344,7 +7344,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "08:30:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7369,7 +7369,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "12:27:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "64"
@@ -7394,7 +7394,7 @@
         "Year": 2025,
         "Date": "2025-04-25",
         "Time": "16:50:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "46"
@@ -7419,7 +7419,7 @@
         "Year": 2025,
         "Date": "2025-04-25",
         "Time": "17:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "27"
@@ -7444,7 +7444,7 @@
         "Year": 2025,
         "Date": "2025-04-25",
         "Time": "20:19:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -7469,7 +7469,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "13:55:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Fire Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -7494,7 +7494,7 @@
         "Year": 2025,
         "Date": "2025-04-16",
         "Time": "17:03:00",
-        "Involved_Objects": "Car/UNKNOWN",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -7519,7 +7519,7 @@
         "Year": 2025,
         "Date": "2025-04-09",
         "Time": "15:30:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "76"
@@ -7544,7 +7544,7 @@
         "Year": 2025,
         "Date": "2025-04-04",
         "Time": "22:34:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "26"
@@ -7569,7 +7569,7 @@
         "Year": 2025,
         "Date": "2025-05-19",
         "Time": "17:00:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7594,7 +7594,7 @@
         "Year": 2025,
         "Date": "2025-04-03",
         "Time": "21:15:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "51"
@@ -7619,7 +7619,7 @@
         "Year": 2025,
         "Date": "2025-03-22",
         "Time": "18:32:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -7644,7 +7644,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "06:15:00",
-        "Involved_Objects": "Truck/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "37"
@@ -7669,7 +7669,7 @@
         "Year": 2025,
         "Date": "2025-05-16",
         "Time": "15:30:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -7694,7 +7694,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "15:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7719,7 +7719,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "07:35:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7744,7 +7744,7 @@
         "Year": 2025,
         "Date": "2025-05-16",
         "Time": "10:00:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49"
@@ -7769,7 +7769,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "18:00:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -7794,7 +7794,7 @@
         "Year": 2025,
         "Date": "2025-05-09",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7819,7 +7819,7 @@
         "Year": 2025,
         "Date": "2025-05-16",
         "Time": "09:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7844,7 +7844,7 @@
         "Year": 2025,
         "Date": "2025-05-14",
         "Time": "16:56:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7869,7 +7869,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "16:57:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7894,7 +7894,7 @@
         "Year": 2025,
         "Date": "2025-05-11",
         "Time": "18:15:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "21"
@@ -7919,7 +7919,7 @@
         "Year": 2025,
         "Date": "2025-06-03",
         "Time": "10:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7944,7 +7944,7 @@
         "Year": 2025,
         "Date": "2025-06-01",
         "Time": "11:40:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "44"
@@ -7969,7 +7969,7 @@
         "Year": 2025,
         "Date": "2025-05-25",
         "Time": "15:37:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -7994,7 +7994,7 @@
         "Year": 2025,
         "Date": "2025-05-28",
         "Time": "07:15:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8019,7 +8019,7 @@
         "Year": 2025,
         "Date": "2025-04-15",
         "Time": "13:49:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "38"
@@ -8044,7 +8044,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "11:36:00",
-        "Involved_Objects": "Truck/Truck",
+        "Involved_Objects": "Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8069,7 +8069,7 @@
         "Year": 2025,
         "Date": "2025-04-19",
         "Time": "18:10:00",
-        "Involved_Objects": "Bicycle",
+        "Involved_Objects": "Bicycle /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "60"
@@ -8094,7 +8094,7 @@
         "Year": 2025,
         "Date": "2025-04-18",
         "Time": "23:40:00",
-        "Involved_Objects": "Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Solo",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": "38"
@@ -8119,7 +8119,7 @@
         "Year": 2025,
         "Date": "2025-04-07",
         "Time": "02:10:00",
-        "Involved_Objects": "Bicycle",
+        "Involved_Objects": "Bicycle /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "61"
@@ -8144,7 +8144,7 @@
         "Year": 2025,
         "Date": "2025-04-14",
         "Time": "07:32:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -8169,7 +8169,7 @@
         "Year": 2025,
         "Date": "2025-04-25",
         "Time": "23:05:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8194,7 +8194,7 @@
         "Year": 2025,
         "Date": "2025-04-21",
         "Time": "17:45:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8219,7 +8219,7 @@
         "Year": 2025,
         "Date": "2025-06-04",
         "Time": "06:18:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -8244,7 +8244,7 @@
         "Year": 2025,
         "Date": "2025-05-23",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": ""
@@ -8269,7 +8269,7 @@
         "Year": 2025,
         "Date": "2025-04-23",
         "Time": "17:06:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -8294,7 +8294,7 @@
         "Year": 2025,
         "Date": "2025-04-24",
         "Time": "21:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -8319,7 +8319,7 @@
         "Year": 2025,
         "Date": "2025-06-01",
         "Time": "10:38:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "65/65"
@@ -8344,7 +8344,7 @@
         "Year": 2025,
         "Date": "2025-04-08",
         "Time": "15:11:00",
-        "Involved_Objects": "Car/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8369,7 +8369,7 @@
         "Year": 2025,
         "Date": "2025-04-09",
         "Time": "14:45:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8394,7 +8394,7 @@
         "Year": 2025,
         "Date": "2025-04-23",
         "Time": "07:00:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8419,7 +8419,7 @@
         "Year": 2025,
         "Date": "2025-04-27",
         "Time": "01:32:00",
-        "Involved_Objects": "Car/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8444,7 +8444,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "09:15:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8469,7 +8469,7 @@
         "Year": 2025,
         "Date": "2025-04-16",
         "Time": "17:00:00",
-        "Involved_Objects": "Electric Scooter/Car",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": "15"
@@ -8494,7 +8494,7 @@
         "Year": 2025,
         "Date": "2025-04-18",
         "Time": "12:13:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "16"
@@ -8519,7 +8519,7 @@
         "Year": 2025,
         "Date": "2025-04-17",
         "Time": "11:38:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "89"
@@ -8544,7 +8544,7 @@
         "Year": 2025,
         "Date": "2025-04-18",
         "Time": "16:55:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -8569,7 +8569,7 @@
         "Year": 2025,
         "Date": "2025-04-20",
         "Time": "09:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49"
@@ -8594,7 +8594,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "14:14:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "59"
@@ -8619,7 +8619,7 @@
         "Year": 2025,
         "Date": "2025-04-23",
         "Time": "18:54:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "75"
@@ -8644,7 +8644,7 @@
         "Year": 2025,
         "Date": "2025-04-26",
         "Time": "14:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -8669,7 +8669,7 @@
         "Year": 2025,
         "Date": "2025-04-28",
         "Time": "15:50:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "40"
@@ -8694,7 +8694,7 @@
         "Year": 2025,
         "Date": "2025-04-01",
         "Time": "10:28:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": "60"
@@ -8719,7 +8719,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "09:46:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "44"
@@ -8744,7 +8744,7 @@
         "Year": 2025,
         "Date": "2025-04-28",
         "Time": "17:36:00",
-        "Involved_Objects": "Truck/Truck",
+        "Involved_Objects": "Truck /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "35"
@@ -8769,7 +8769,7 @@
         "Year": 2025,
         "Date": "2025-05-30",
         "Time": "11:40:00",
-        "Involved_Objects": "Truck",
+        "Involved_Objects": "Truck /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8794,7 +8794,7 @@
         "Year": 2025,
         "Date": "2025-05-31",
         "Time": "11:02:00",
-        "Involved_Objects": "Truck/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8819,7 +8819,7 @@
         "Year": 2025,
         "Date": "2025-05-30",
         "Time": "12:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8844,7 +8844,7 @@
         "Year": 2025,
         "Date": "2025-05-25",
         "Time": "15:35:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8869,7 +8869,7 @@
         "Year": 2025,
         "Date": "2025-04-01",
         "Time": "12:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8894,7 +8894,7 @@
         "Year": 2025,
         "Date": "2025-04-04",
         "Time": "10:25:00",
-        "Involved_Objects": "Car/UNKNOWN",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8919,7 +8919,7 @@
         "Year": 2025,
         "Date": "2025-04-05",
         "Time": "06:07:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8944,7 +8944,7 @@
         "Year": 2025,
         "Date": "2025-04-05",
         "Time": "08:14:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8969,7 +8969,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "09:45:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -8994,7 +8994,7 @@
         "Year": 2025,
         "Date": "2025-04-06",
         "Time": "16:15:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9019,7 +9019,7 @@
         "Year": 2025,
         "Date": "2025-05-24",
         "Time": "10:48:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9044,7 +9044,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "21:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9069,7 +9069,7 @@
         "Year": 2025,
         "Date": "2025-04-01",
         "Time": "12:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19/18"
@@ -9094,7 +9094,7 @@
         "Year": 2025,
         "Date": "2025-04-03",
         "Time": "15:31:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "68"
@@ -9119,7 +9119,7 @@
         "Year": 2025,
         "Date": "2025-04-03",
         "Time": "20:21:00",
-        "Involved_Objects": "Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Other",
         "Injury_Ages": ""
@@ -9144,7 +9144,7 @@
         "Year": 2025,
         "Date": "2025-04-08",
         "Time": "10:38:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "71"
@@ -9169,7 +9169,7 @@
         "Year": 2025,
         "Date": "2025-04-11",
         "Time": "17:01:00",
-        "Involved_Objects": "Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "70"
@@ -9194,7 +9194,7 @@
         "Year": 2025,
         "Date": "2025-04-10",
         "Time": "21:35:00",
-        "Involved_Objects": "Motorcycle/Bicycle",
+        "Involved_Objects": "Motorcycle /Bicycle /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -9219,7 +9219,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "11:26:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "46"
@@ -9244,7 +9244,7 @@
         "Year": 2025,
         "Date": "2025-04-12",
         "Time": "20:19:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -9269,7 +9269,7 @@
         "Year": 2025,
         "Date": "2025-04-15",
         "Time": "17:15:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9294,7 +9294,7 @@
         "Year": 2025,
         "Date": "2025-04-15",
         "Time": "18:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9319,7 +9319,7 @@
         "Year": 2025,
         "Date": "2025-04-28",
         "Time": "16:46:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9344,7 +9344,7 @@
         "Year": 2025,
         "Date": "2025-04-18",
         "Time": "02:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9369,7 +9369,7 @@
         "Year": 2025,
         "Date": "2025-04-01",
         "Time": "14:15:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9394,7 +9394,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "00:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9419,7 +9419,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "13:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "21/20"
@@ -9444,7 +9444,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "09:02:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "50"
@@ -9469,7 +9469,7 @@
         "Year": 2025,
         "Date": "2025-04-30",
         "Time": "07:57:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "63"
@@ -9494,7 +9494,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "15:19:00",
-        "Involved_Objects": "UNKNOWN/Car/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9519,7 +9519,7 @@
         "Year": 2025,
         "Date": "2025-05-22",
         "Time": "16:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9544,7 +9544,7 @@
         "Year": 2025,
         "Date": "2025-05-24",
         "Time": "17:15:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9569,7 +9569,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "12:55:00",
-        "Involved_Objects": "Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "30"
@@ -9594,7 +9594,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "12:35:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9619,7 +9619,7 @@
         "Year": 2025,
         "Date": "2025-04-18",
         "Time": "03:40:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9644,7 +9644,7 @@
         "Year": 2025,
         "Date": "2025-05-18",
         "Time": "14:20:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -9669,7 +9669,7 @@
         "Year": 2025,
         "Date": "2025-04-28",
         "Time": "06:55:00",
-        "Involved_Objects": "Truck/Motorcycle",
+        "Involved_Objects": "Motorcycle /Truck /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -9694,7 +9694,7 @@
         "Year": 2025,
         "Date": "2025-06-06",
         "Time": "13:50:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "43"
@@ -9719,7 +9719,7 @@
         "Year": 2025,
         "Date": "2025-06-06",
         "Time": "18:58:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "31"
@@ -9744,7 +9744,7 @@
         "Year": 2025,
         "Date": "2025-06-04",
         "Time": "09:55:00",
-        "Involved_Objects": "Car/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9769,7 +9769,7 @@
         "Year": 2025,
         "Date": "2025-05-30",
         "Time": "09:56:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9794,7 +9794,7 @@
         "Year": 2025,
         "Date": "2025-06-05",
         "Time": "15:22:00",
-        "Involved_Objects": "Car/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "33"
@@ -9819,7 +9819,7 @@
         "Year": 2025,
         "Date": "2025-05-31",
         "Time": "16:21:00",
-        "Involved_Objects": "Car/Car/Car/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9844,7 +9844,7 @@
         "Year": 2025,
         "Date": "2025-03-22",
         "Time": "03:19:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9869,7 +9869,7 @@
         "Year": 2025,
         "Date": "2025-03-14",
         "Time": "22:08:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9894,7 +9894,7 @@
         "Year": 2025,
         "Date": "2025-04-02",
         "Time": "15:22:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "34/66"
@@ -9919,7 +9919,7 @@
         "Year": 2025,
         "Date": "2025-06-17",
         "Time": "07:35:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9944,7 +9944,7 @@
         "Year": 2025,
         "Date": "2025-06-16",
         "Time": "19:00:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -9969,7 +9969,7 @@
         "Year": 2025,
         "Date": "2025-06-17",
         "Time": "13:46:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "45/45/34"
@@ -9994,7 +9994,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "11:36:00",
-        "Involved_Objects": "UNKNOWN/UNKNOWN",
+        "Involved_Objects": "Truck /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10019,7 +10019,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "11:30:00",
-        "Involved_Objects": "Truck",
+        "Involved_Objects": "Truck /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -10044,7 +10044,7 @@
         "Year": 2025,
         "Date": "2025-06-15",
         "Time": "14:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10069,7 +10069,7 @@
         "Year": 2025,
         "Date": "2025-06-15",
         "Time": "11:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10094,7 +10094,7 @@
         "Year": 2025,
         "Date": "2025-06-15",
         "Time": "11:35:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10119,7 +10119,7 @@
         "Year": 2025,
         "Date": "2025-06-13",
         "Time": "16:55:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10144,7 +10144,7 @@
         "Year": 2025,
         "Date": "2025-06-12",
         "Time": "09:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "39"
@@ -10169,7 +10169,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "12:15:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -10194,7 +10194,7 @@
         "Year": 2025,
         "Date": "2025-06-07",
         "Time": "19:09:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10219,7 +10219,7 @@
         "Year": 2025,
         "Date": "2025-07-01",
         "Time": "14:20:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10244,7 +10244,7 @@
         "Year": 2025,
         "Date": "2025-07-01",
         "Time": "09:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10269,7 +10269,7 @@
         "Year": 2025,
         "Date": "2025-04-22",
         "Time": "23:03:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10294,7 +10294,7 @@
         "Year": 2025,
         "Date": "2025-06-25",
         "Time": "17:56:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10319,7 +10319,7 @@
         "Year": 2025,
         "Date": "2025-06-25",
         "Time": "17:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10344,7 +10344,7 @@
         "Year": 2025,
         "Date": "2025-06-25",
         "Time": "07:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -10369,7 +10369,7 @@
         "Year": 2025,
         "Date": "2025-06-27",
         "Time": "17:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "17/48"
@@ -10394,7 +10394,7 @@
         "Year": 2025,
         "Date": "2025-05-19",
         "Time": "15:41:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "41"
@@ -10419,7 +10419,7 @@
         "Year": 2025,
         "Date": "2025-05-14",
         "Time": "14:23:00",
-        "Involved_Objects": "Bicycle/Truck",
+        "Involved_Objects": "Bicycle /Truck /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "63"
@@ -10444,7 +10444,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "08:13:00",
-        "Involved_Objects": "Truck/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "54/22"
@@ -10469,7 +10469,7 @@
         "Year": 2025,
         "Date": "2025-05-03",
         "Time": "13:13:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10494,7 +10494,7 @@
         "Year": 2025,
         "Date": "2025-05-04",
         "Time": "03:36:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10519,7 +10519,7 @@
         "Year": 2025,
         "Date": "2025-05-06",
         "Time": "09:18:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10544,7 +10544,7 @@
         "Year": 2025,
         "Date": "2025-05-07",
         "Time": "20:53:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10569,7 +10569,7 @@
         "Year": 2025,
         "Date": "2025-05-10",
         "Time": "13:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10594,7 +10594,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "16:11:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10619,7 +10619,7 @@
         "Year": 2025,
         "Date": "2025-05-22",
         "Time": "13:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10644,7 +10644,7 @@
         "Year": 2025,
         "Date": "2025-05-22",
         "Time": "14:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10669,7 +10669,7 @@
         "Year": 2025,
         "Date": "2025-05-24",
         "Time": "01:05:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10694,7 +10694,7 @@
         "Year": 2025,
         "Date": "2025-05-26",
         "Time": "21:44:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10719,7 +10719,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "05:45:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10744,7 +10744,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "14:23:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10769,7 +10769,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "18:30:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10794,7 +10794,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "19:13:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10819,7 +10819,7 @@
         "Year": 2025,
         "Date": "2025-05-03",
         "Time": "22:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -10844,7 +10844,7 @@
         "Year": 2025,
         "Date": "2025-05-04",
         "Time": "02:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20/18"
@@ -10869,7 +10869,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "13:10:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "10"
@@ -10894,7 +10894,7 @@
         "Year": 2025,
         "Date": "2025-05-07",
         "Time": "11:46:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49"
@@ -10919,7 +10919,7 @@
         "Year": 2025,
         "Date": "2025-05-19",
         "Time": "20:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "34/39/19"
@@ -10944,7 +10944,7 @@
         "Year": 2025,
         "Date": "2025-05-09",
         "Time": "17:57:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28/33"
@@ -10969,7 +10969,7 @@
         "Year": 2025,
         "Date": "2025-05-18",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49/12/17"
@@ -10994,7 +10994,7 @@
         "Year": 2025,
         "Date": "2025-05-04",
         "Time": "16:03:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "27"
@@ -11019,7 +11019,7 @@
         "Year": 2025,
         "Date": "2025-05-07",
         "Time": "22:56:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "34"
@@ -11044,7 +11044,7 @@
         "Year": 2025,
         "Date": "2025-05-08",
         "Time": "02:59:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "21"
@@ -11069,7 +11069,7 @@
         "Year": 2025,
         "Date": "2025-05-19",
         "Time": "17:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20/11/14"
@@ -11094,7 +11094,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "14:15:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28"
@@ -11119,7 +11119,7 @@
         "Year": 2025,
         "Date": "2025-05-08",
         "Time": "06:47:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "51/52"
@@ -11144,7 +11144,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "16:30:00",
-        "Involved_Objects": "UNKNOWN/Electric Bicycle",
+        "Involved_Objects": "Electric Bike /Hit and Run Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "17"
@@ -11169,7 +11169,7 @@
         "Year": 2025,
         "Date": "2025-05-09",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -11194,7 +11194,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "12:17:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "86"
@@ -11219,7 +11219,7 @@
         "Year": 2025,
         "Date": "2025-05-09",
         "Time": "17:51:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28/33"
@@ -11244,7 +11244,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "05:50:00",
-        "Involved_Objects": "Truck/Pedestrian",
+        "Involved_Objects": "Truck /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "81"
@@ -11269,7 +11269,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "21:45:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "80/74/20"
@@ -11294,7 +11294,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "16:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "21"
@@ -11319,7 +11319,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "07:59:00",
-        "Involved_Objects": "Electric Bicycle/Car",
+        "Involved_Objects": "Electric Bike /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "51"
@@ -11344,7 +11344,7 @@
         "Year": 2025,
         "Date": "2025-05-12",
         "Time": "13:22:00",
-        "Involved_Objects": "UNKNOWN",
+        "Involved_Objects": "Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "32"
@@ -11369,7 +11369,7 @@
         "Year": 2025,
         "Date": "2025-05-13",
         "Time": "10:56:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "46"
@@ -11394,7 +11394,7 @@
         "Year": 2025,
         "Date": "2025-05-23",
         "Time": "10:58:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "88"
@@ -11419,7 +11419,7 @@
         "Year": 2025,
         "Date": "2025-05-23",
         "Time": "16:00:00",
-        "Involved_Objects": "Car/Pedestrian/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38/9"
@@ -11444,7 +11444,7 @@
         "Year": 2025,
         "Date": "2025-05-13",
         "Time": "16:15:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "27"
@@ -11469,7 +11469,7 @@
         "Year": 2025,
         "Date": "2025-05-23",
         "Time": "17:33:00",
-        "Involved_Objects": "Car/Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "38"
@@ -11494,7 +11494,7 @@
         "Year": 2025,
         "Date": "2025-05-14",
         "Time": "17:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "36"
@@ -11519,7 +11519,7 @@
         "Year": 2025,
         "Date": "2025-04-09",
         "Time": "12:35:00",
-        "Involved_Objects": "Electric Scooter/Car",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28"
@@ -11544,7 +11544,7 @@
         "Year": 2025,
         "Date": "2025-05-24",
         "Time": "07:30:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "",
         "Injury_Ages": "47"
@@ -11569,7 +11569,7 @@
         "Year": 2025,
         "Date": "2025-05-14",
         "Time": "18:04:00",
-        "Involved_Objects": "Car/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "18"
@@ -11594,7 +11594,7 @@
         "Year": 2025,
         "Date": "2025-05-25",
         "Time": "22:47:00",
-        "Involved_Objects": "Electric Scooter/Car",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "16"
@@ -11619,7 +11619,7 @@
         "Year": 2025,
         "Date": "2025-05-16",
         "Time": "10:51:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "54"
@@ -11644,7 +11644,7 @@
         "Year": 2025,
         "Date": "2025-05-17",
         "Time": "00:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "55"
@@ -11669,7 +11669,7 @@
         "Year": 2025,
         "Date": "2025-05-18",
         "Time": "10:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "57"
@@ -11694,7 +11694,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "12:14:00",
-        "Involved_Objects": "UNKNOWN/Pedestrian",
+        "Involved_Objects": "Hit and Run Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "28"
@@ -11719,7 +11719,7 @@
         "Year": 2025,
         "Date": "2025-05-29",
         "Time": "19:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "63"
@@ -11744,7 +11744,7 @@
         "Year": 2025,
         "Date": "2025-05-30",
         "Time": "08:05:00",
-        "Involved_Objects": "Car/Bicycle",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "54"
@@ -11769,7 +11769,7 @@
         "Year": 2025,
         "Date": "2025-06-21",
         "Time": "12:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11794,7 +11794,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "12:30:00",
-        "Involved_Objects": "UNKNOWN/Truck",
+        "Involved_Objects": "Truck /Hit and Run Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11819,7 +11819,7 @@
         "Year": 2025,
         "Date": "2025-07-08",
         "Time": "05:30:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "",
         "Injury_Ages": ""
@@ -11844,7 +11844,7 @@
         "Year": 2025,
         "Date": "2025-07-08",
         "Time": "09:00:00",
-        "Involved_Objects": "Car/Car/UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11869,7 +11869,7 @@
         "Year": 2025,
         "Date": "2025-07-12",
         "Time": "12:11:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11894,7 +11894,7 @@
         "Year": 2025,
         "Date": "2025-07-14",
         "Time": "14:35:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11919,7 +11919,7 @@
         "Year": 2025,
         "Date": "2025-05-03",
         "Time": "02:34:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11944,7 +11944,7 @@
         "Year": 2025,
         "Date": "2025-07-03",
         "Time": "01:47:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -11969,7 +11969,7 @@
         "Year": 2025,
         "Date": "2025-07-11",
         "Time": "12:42:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "31"
@@ -11994,7 +11994,7 @@
         "Year": 2025,
         "Date": "2025-05-31",
         "Time": "22:31:00",
-        "Involved_Objects": "Car/UNKNOWN",
+        "Involved_Objects": "Bus /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "81/96"
@@ -12019,7 +12019,7 @@
         "Year": 2025,
         "Date": "2025-04-29",
         "Time": "21:02:00",
-        "Involved_Objects": "Truck",
+        "Involved_Objects": "Truck /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12044,7 +12044,7 @@
         "Year": 2025,
         "Date": "2025-05-02",
         "Time": "11:28:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "48"
@@ -12069,7 +12069,7 @@
         "Year": 2025,
         "Date": "2025-04-19",
         "Time": "20:30:00",
-        "Involved_Objects": "Car/Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "37"
@@ -12094,7 +12094,7 @@
         "Year": 2025,
         "Date": "2025-07-07",
         "Time": "10:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12119,7 +12119,7 @@
         "Year": 2025,
         "Date": "2025-06-29",
         "Time": "17:45:00",
-        "Involved_Objects": "UNKNOWN/Car/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12144,7 +12144,7 @@
         "Year": 2025,
         "Date": "2025-07-07",
         "Time": "13:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12169,7 +12169,7 @@
         "Year": 2025,
         "Date": "2025-07-05",
         "Time": "18:10:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "27"
@@ -12194,7 +12194,7 @@
         "Year": 2025,
         "Date": "2025-05-01",
         "Time": "08:45:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "16"
@@ -12219,7 +12219,7 @@
         "Year": 2025,
         "Date": "2025-05-02",
         "Time": "14:08:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "22"
@@ -12244,7 +12244,7 @@
         "Year": 2025,
         "Date": "2025-05-04",
         "Time": "11:37:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "33/20"
@@ -12269,7 +12269,7 @@
         "Year": 2025,
         "Date": "2025-06-28",
         "Time": "18:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "45/24"
@@ -12294,7 +12294,7 @@
         "Year": 2025,
         "Date": "2025-05-27",
         "Time": "13:15:00",
-        "Involved_Objects": "Truck/Pedestrian",
+        "Involved_Objects": "Truck /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "34"
@@ -12319,7 +12319,7 @@
         "Year": 2025,
         "Date": "2025-07-16",
         "Time": "16:37:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12344,7 +12344,7 @@
         "Year": 2025,
         "Date": "2025-07-16",
         "Time": "09:00:00",
-        "Involved_Objects": "Truck/Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12369,7 +12369,7 @@
         "Year": 2025,
         "Date": "2025-07-13",
         "Time": "17:50:00",
-        "Involved_Objects": "Truck/Car/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "36"
@@ -12394,7 +12394,7 @@
         "Year": 2025,
         "Date": "2025-07-14",
         "Time": "15:32:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24/46"
@@ -12419,7 +12419,7 @@
         "Year": 2025,
         "Date": "2025-07-15",
         "Time": "06:36:00",
-        "Involved_Objects": "Car/Motorcycle",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "44"
@@ -12444,7 +12444,7 @@
         "Year": 2025,
         "Date": "2025-07-18",
         "Time": "14:40:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12469,7 +12469,7 @@
         "Year": 2025,
         "Date": "2025-07-18",
         "Time": "13:35:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "42"
@@ -12494,7 +12494,7 @@
         "Year": 2025,
         "Date": "2025-07-17",
         "Time": "17:00:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12519,7 +12519,7 @@
         "Year": 2025,
         "Date": "2025-06-14",
         "Time": "13:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "50"
@@ -12544,7 +12544,7 @@
         "Year": 2025,
         "Date": "2025-07-15",
         "Time": "14:35:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12569,7 +12569,7 @@
         "Year": 2025,
         "Date": "2025-07-12",
         "Time": "13:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12594,7 +12594,7 @@
         "Year": 2025,
         "Date": "2025-05-20",
         "Time": "11:33:00",
-        "Involved_Objects": "Truck",
+        "Involved_Objects": "Truck /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12619,7 +12619,7 @@
         "Year": 2025,
         "Date": "2025-06-04",
         "Time": "08:40:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": ""
@@ -12644,7 +12644,7 @@
         "Year": 2025,
         "Date": "2025-06-06",
         "Time": "01:18:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12669,7 +12669,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "12:09:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "31/65/65"
@@ -12694,7 +12694,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "20:58:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "58"
@@ -12719,7 +12719,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "13:55:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "49/10"
@@ -12744,7 +12744,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "21:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "66"
@@ -12769,7 +12769,7 @@
         "Year": 2025,
         "Date": "2025-06-20",
         "Time": "13:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "27/76/94/83"
@@ -12794,7 +12794,7 @@
         "Year": 2025,
         "Date": "2025-06-23",
         "Time": "08:41:00",
-        "Involved_Objects": "Electric Scooter/Car",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "22"
@@ -12819,7 +12819,7 @@
         "Year": 2025,
         "Date": "2025-06-08",
         "Time": "04:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12844,7 +12844,7 @@
         "Year": 2025,
         "Date": "2025-06-06",
         "Time": "19:47:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Police Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12869,7 +12869,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "16:42:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12894,7 +12894,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "16:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12919,7 +12919,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "19:30:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12944,7 +12944,7 @@
         "Year": 2025,
         "Date": "2025-06-13",
         "Time": "19:10:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12969,7 +12969,7 @@
         "Year": 2025,
         "Date": "2025-06-23",
         "Time": "13:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -12994,7 +12994,7 @@
         "Year": 2025,
         "Date": "2025-06-22",
         "Time": "01:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24/23"
@@ -13019,7 +13019,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "16:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "40/6/36"
@@ -13044,7 +13044,7 @@
         "Year": 2025,
         "Date": "2025-06-26",
         "Time": "11:50:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13069,7 +13069,7 @@
         "Year": 2025,
         "Date": "2025-06-23",
         "Time": "16:08:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13094,7 +13094,7 @@
         "Year": 2025,
         "Date": "2025-06-27",
         "Time": "17:03:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13119,7 +13119,7 @@
         "Year": 2025,
         "Date": "2025-07-27",
         "Time": "12:10:00",
-        "Involved_Objects": "Car/Car/Car/Car/Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "67"
@@ -13144,7 +13144,7 @@
         "Year": 2025,
         "Date": "2025-06-13",
         "Time": "17:43:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Fire Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13169,7 +13169,7 @@
         "Year": 2025,
         "Date": "2025-08-04",
         "Time": "15:20:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13194,7 +13194,7 @@
         "Year": 2025,
         "Date": "2025-06-03",
         "Time": "11:37:00",
-        "Involved_Objects": "Electric Bicycle/Truck",
+        "Involved_Objects": "Electric Bike /Truck /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "66"
@@ -13219,7 +13219,7 @@
         "Year": 2025,
         "Date": "2025-06-21",
         "Time": "22:34:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13244,7 +13244,7 @@
         "Year": 2025,
         "Date": "2025-07-29",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "9"
@@ -13269,7 +13269,7 @@
         "Year": 2025,
         "Date": "2025-06-07",
         "Time": "23:32:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13294,7 +13294,7 @@
         "Year": 2025,
         "Date": "2025-07-27",
         "Time": "10:55:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13319,7 +13319,7 @@
         "Year": 2025,
         "Date": "2025-06-01",
         "Time": "10:55:00",
-        "Involved_Objects": "Pedestrian/Car",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Pedestrian",
         "Injury_Ages": "23"
@@ -13344,7 +13344,7 @@
         "Year": 2025,
         "Date": "2025-06-01",
         "Time": "15:59:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "77"
@@ -13369,7 +13369,7 @@
         "Year": 2025,
         "Date": "2025-06-03",
         "Time": "06:23:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "52"
@@ -13394,7 +13394,7 @@
         "Year": 2025,
         "Date": "2025-06-05",
         "Time": "09:18:00",
-        "Involved_Objects": "Car/Electric Scooter",
+        "Involved_Objects": "Electric Scooter /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "62"
@@ -13419,7 +13419,7 @@
         "Year": 2025,
         "Date": "2025-06-06",
         "Time": "15:39:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "78/78"
@@ -13444,7 +13444,7 @@
         "Year": 2025,
         "Date": "2025-06-07",
         "Time": "12:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "35"
@@ -13469,7 +13469,7 @@
         "Year": 2025,
         "Date": "2025-06-10",
         "Time": "03:31:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -13494,7 +13494,7 @@
         "Year": 2025,
         "Date": "2025-06-10",
         "Time": "08:54:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "24"
@@ -13519,7 +13519,7 @@
         "Year": 2025,
         "Date": "2025-06-17",
         "Time": "11:59:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "63"
@@ -13544,7 +13544,7 @@
         "Year": 2025,
         "Date": "2025-06-20",
         "Time": "22:04:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13569,7 +13569,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "13:48:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13594,7 +13594,7 @@
         "Year": 2025,
         "Date": "2025-07-27",
         "Time": "10:57:00",
-        "Involved_Objects": "Car/Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "53"
@@ -13619,7 +13619,7 @@
         "Year": 2025,
         "Date": "2025-06-09",
         "Time": "14:24:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "30"
@@ -13644,7 +13644,7 @@
         "Year": 2025,
         "Date": "2025-06-03",
         "Time": "08:34:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "1"
@@ -13669,7 +13669,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "17:31:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "30"
@@ -13694,7 +13694,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "20:59:00",
-        "Involved_Objects": "Bicycle/Car",
+        "Involved_Objects": "Bicycle /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "34"
@@ -13719,7 +13719,7 @@
         "Year": 2025,
         "Date": "2025-06-22",
         "Time": "19:50:00",
-        "Involved_Objects": "Car/Pedestrian/Pedestrian",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "43"
@@ -13744,7 +13744,7 @@
         "Year": 2025,
         "Date": "2025-07-26",
         "Time": "01:27:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "19"
@@ -13769,7 +13769,7 @@
         "Year": 2025,
         "Date": "2025-06-15",
         "Time": "04:00:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13794,7 +13794,7 @@
         "Year": 2025,
         "Date": "2025-06-19",
         "Time": "10:49:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13819,7 +13819,7 @@
         "Year": 2025,
         "Date": "2025-05-07",
         "Time": "18:21:00",
-        "Involved_Objects": "Pedestrian/Car",
+        "Involved_Objects": "Car /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Pedestrian",
         "Injury_Ages": "21"
@@ -13844,7 +13844,7 @@
         "Year": 2025,
         "Date": "2025-07-30",
         "Time": "10:15:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13869,7 +13869,7 @@
         "Year": 2025,
         "Date": "2025-07-27",
         "Time": "21:25:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "25"
@@ -13894,7 +13894,7 @@
         "Year": 2025,
         "Date": "2025-07-25",
         "Time": "05:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13919,7 +13919,7 @@
         "Year": 2025,
         "Date": "2025-07-21",
         "Time": "03:37:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "63"
@@ -13944,7 +13944,7 @@
         "Year": 2025,
         "Date": "2025-07-22",
         "Time": "08:25:00",
-        "Involved_Objects": "Car/Car/Truck/UNKNOWN",
+        "Involved_Objects": "Truck /Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13969,7 +13969,7 @@
         "Year": 2025,
         "Date": "2025-07-24",
         "Time": "14:37:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -13994,7 +13994,7 @@
         "Year": 2025,
         "Date": "2025-07-20",
         "Time": "15:05:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14019,7 +14019,7 @@
         "Year": 2025,
         "Date": "2025-07-19",
         "Time": "13:40:00",
-        "Involved_Objects": "Car/Car/Car/UNKNOWN",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20/28/25/52"
@@ -14044,7 +14044,7 @@
         "Year": 2025,
         "Date": "2025-06-20",
         "Time": "15:22:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14069,7 +14069,7 @@
         "Year": 2025,
         "Date": "2025-06-28",
         "Time": "11:40:00",
-        "Involved_Objects": "Truck/Car/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "50"
@@ -14094,7 +14094,7 @@
         "Year": 2025,
         "Date": "2025-08-02",
         "Time": "15:39:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14119,7 +14119,7 @@
         "Year": 2025,
         "Date": "2025-08-03",
         "Time": "12:50:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14144,7 +14144,7 @@
         "Year": 2025,
         "Date": "2025-05-26",
         "Time": "22:01:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14169,7 +14169,7 @@
         "Year": 2025,
         "Date": "2025-05-25",
         "Time": "19:34:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14194,7 +14194,7 @@
         "Year": 2025,
         "Date": "2025-05-21",
         "Time": "01:16:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14219,7 +14219,7 @@
         "Year": 2025,
         "Date": "2025-06-17",
         "Time": "10:27:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14244,7 +14244,7 @@
         "Year": 2025,
         "Date": "2025-08-07",
         "Time": "14:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14269,7 +14269,7 @@
         "Year": 2025,
         "Date": "2025-08-05",
         "Time": "11:40:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14294,7 +14294,7 @@
         "Year": 2025,
         "Date": "2025-06-05",
         "Time": "12:50:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14319,7 +14319,7 @@
         "Year": 2025,
         "Date": "2025-06-02",
         "Time": "06:47:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14344,7 +14344,7 @@
         "Year": 2025,
         "Date": "2025-06-25",
         "Time": "10:10:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14369,7 +14369,7 @@
         "Year": 2025,
         "Date": "2025-06-23",
         "Time": "13:20:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14394,7 +14394,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "09:05:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14419,7 +14419,7 @@
         "Year": 2025,
         "Date": "2025-06-24",
         "Time": "18:42:00",
-        "Involved_Objects": "Car/Bus",
+        "Involved_Objects": "Bus /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -14444,7 +14444,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "08:06:00",
-        "Involved_Objects": "Car/Truck",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14469,7 +14469,7 @@
         "Year": 2025,
         "Date": "2025-02-04",
         "Time": "18:42:00",
-        "Involved_Objects": "Car/Bus",
+        "Involved_Objects": "Bus /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "20"
@@ -14494,7 +14494,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "20:24:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14519,7 +14519,7 @@
         "Year": 2025,
         "Date": "2025-06-18",
         "Time": "09:34:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14544,7 +14544,7 @@
         "Year": 2025,
         "Date": "2025-06-11",
         "Time": "00:15:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14569,7 +14569,7 @@
         "Year": 2025,
         "Date": "2025-06-07",
         "Time": "02:56:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14594,7 +14594,7 @@
         "Year": 2025,
         "Date": "2025-06-12",
         "Time": "14:31:00",
-        "Involved_Objects": "Car",
+        "Involved_Objects": "Car /Solo",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14619,7 +14619,7 @@
         "Year": 2025,
         "Date": "2025-08-14",
         "Time": "14:40:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "52"
@@ -14644,7 +14644,7 @@
         "Year": 2025,
         "Date": "2025-08-13",
         "Time": "22:20:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14669,7 +14669,7 @@
         "Year": 2025,
         "Date": "2025-08-09",
         "Time": "12:58:00",
-        "Involved_Objects": "Truck/Car/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "58"
@@ -14694,7 +14694,7 @@
         "Year": 2025,
         "Date": "2025-03-06",
         "Time": "20:35:00",
-        "Involved_Objects": "Bicycle/Pedestrian",
+        "Involved_Objects": "Bicycle /Ped /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
         "Injury_Ages": "53"
@@ -14719,7 +14719,7 @@
         "Year": 2025,
         "Date": "2025-08-10",
         "Time": "16:30:00",
-        "Involved_Objects": "Car/Motorcycle/Car",
+        "Involved_Objects": "Motorcycle /Car /",
         "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "56"
@@ -14744,7 +14744,7 @@
         "Year": 2025,
         "Date": "2025-08-09",
         "Time": "23:45:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14769,7 +14769,7 @@
         "Year": 2025,
         "Date": "2025-08-23",
         "Time": "16:25:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14794,7 +14794,7 @@
         "Year": 2025,
         "Date": "2025-08-24",
         "Time": "10:50:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": "65/57"
@@ -14819,7 +14819,7 @@
         "Year": 2025,
         "Date": "2025-08-20",
         "Time": "11:00:00",
-        "Involved_Objects": "Truck/Car",
+        "Involved_Objects": "Truck /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14844,7 +14844,7 @@
         "Year": 2025,
         "Date": "2025-08-23",
         "Time": "10:21:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14869,7 +14869,7 @@
         "Year": 2025,
         "Date": "2025-08-19",
         "Time": "17:30:00",
-        "Involved_Objects": "Car/Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14894,7 +14894,7 @@
         "Year": 2025,
         "Date": "2025-08-26",
         "Time": "12:00:00",
-        "Involved_Objects": "Car/Car",
+        "Involved_Objects": "Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
@@ -14919,7 +14919,7 @@
         "Year": 2025,
         "Date": "2025-08-18",
         "Time": "16:50:00",
-        "Involved_Objects": "UNKNOWN/Car",
+        "Involved_Objects": "Hit and Run Car /Car /",
         "Injury_Severity": "No Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""

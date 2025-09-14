@@ -121,11 +121,13 @@ example:
 
 Periodic data update
 1) SWITRS is no longer updated as of 2025
-2) for Ripa data, go to crashmap/build/ripa/traffic 
+
+2) for BPD Ripa stop data, go to crashmap/build/ripa/traffic 
    and run getRIPACmds.sh >getRIPAdata.sh 
    to generate cmds.  Run the cmds for the most recent year.
    check in any new updates in crashmap/data/stop/ts_*.json
-3) To Update CCRS data, go to build/ccrsToJson/ 
+
+3) To Update CCRS crash data, go to build/ccrsToJson/ 
    manually download latest year from https://data.ca.gov/dataset/ccrs
    cp the files from ~/Download to build/ccrsToJson 
    simplify the names with 
@@ -137,5 +139,10 @@ Periodic data update
    copy any updated files such as ccrs2025.json to 
    crashmap/data/ccrs
    
+4) to update BPD crash data, go to build/
+run bash getBPDdata.sh
+it will generate 2025.json 2024.json ....
+copy any updated files to ../data/
+
    
 

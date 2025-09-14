@@ -63,9 +63,9 @@ function transformCrash(obj) {
 		attrObj.PrimaryRoad = obj.PrimaryRoad
 		attrObj.SecondaryRoad = obj.SecondaryRoad
 		if (obj.SecondaryDistance) {
-			attrObj.Accident_Location_Offset = '' + obj.SecondaryDistance + 
-			' ' + (obj.SecondaryUnitOfMeasure ?? 'F') +
-			' ' + obj.SecondaryDirection;
+			attrObj.Accident_Location_Offset = '' + obj.SecondaryDistance +
+				' ' + (obj.SecondaryUnitOfMeasure ?? 'F') +
+				' ' + obj.SecondaryDirection;
 		} else {
 			attrObj.Accident_Location_Offset = ''
 		}
@@ -235,7 +235,7 @@ function makeIdToSeverityMap(iwp) {
 		const age = r.StatedAge;
 		if (age) {
 			if (sevNum < 5)
-			appendToMapEntry(mapCollisionIdToInjuryAges, collId, age.toString())
+				appendToMapEntry(mapCollisionIdToInjuryAges, collId, age.toString())
 		}
 	}
 }
@@ -265,16 +265,16 @@ const arrVcodes = [
 	[27, 'Truck'],  //ThreeOrMoreAxleTruck
 	//32,,PullTrailer
 	[33, 'Truck'], //TwoTrailersIncludesSemiAndPull
-	[43, 'Truck'], //FireTruck
+	[43, 'Fire Truck'], //FireTruck
 	//45,,HighwayConstructionEquipment
-	[48, 'Car'], //PoliceCar
+	[48, 'Police Car'], //PoliceCar
 	[55, 'Truck'], //TwoAxleTowTruck
 	[60, 'Pedestrian'], //Pedestrian
 	[91, 'Electric Bicycle'],//ElectricBicycles
 	[93, 'Electric Skateboard'],
-	[94, 'Electric Scooter'] //GoPedZipElectricScooterAndMotorboard
+	[94, 'Electric Scooter'], //GoPedZipElectricScooterAndMotorboard
 	//[96,,MiscMotorVehicleSnowmobileGolfCart
-	//99,,OtherUnknownHitAndRunDriver
+	[99, 'Car Hit and Run'] // ,OtherUnknownHitAndRunDriver
 ];
 
 const mapVtypeIdtoStr = new Map(arrVcodes);
@@ -307,12 +307,232 @@ const mapConvertAtFaultPartyStr = new Map(
 );
 
 
+// map collision id to involved object string
+// map collision id to at fault party type string
+class InvolvedObjects {
+	car = 0;
+	ped = 0;
+	truck = 0;
+	motorcycle = 0;
+	parkedcar = 0;
+	bicycle = 0;
+	ebike = 0;
+	escooter = 0;
+	eskateboard = 0;
+	ambulance=0;
+	policecar = 0;
+	firetruck = 0;
+	bus = 0;
+	schoolbus = 0;
+	hitandrun = 0;
+	unknown = 0;
+	solo = null;
+
+	incrementSolo() {  // null -> true -> false
+		if (null == this.solo) {
+			this.solo = true;
+		} else 	if (true == this.solo ) {
+			this.solo = false;
+		} 
+	}
+
+	addCar() {
+		this.car++; this.incrementSolo();
+	}
+	addPed() {
+		this.ped++; this.incrementSolo();
+	}
+	addMotorcyle() {
+		this.motorcycle++; this.incrementSolo();
+	}
+	addBicycle() {
+		this.bicycle++; this.incrementSolo();
+	}
+	addTruck() {
+		this.truck++; this.incrementSolo();
+	}
+	addParkedCar() {
+		this.parkedcar++; this.incrementSolo();
+	}
+	addEbike() {
+		this.ebike++; this.incrementSolo();
+	}
+	addEScooter() {
+		this.escooter++; this.incrementSolo();
+	}
+	addESkateBoard() {
+		this.eskateboard++; this.incrementSolo();
+	}
+	addAmbulance() {
+		this.ambulance++; this.incrementSolo();
+	}
+	addPolicecar() {
+		this.policecar++; this.incrementSolo();
+	}
+	addFireTruck() {
+		this.firetruck++; this.incrementSolo();
+	}
+	addBus() {
+		this.bus++; this.incrementSolo();
+	}
+	addSchooolBus() {
+		this.schoolbus++; this.incrementSolo();
+	}
+	addHitAndRun() {
+		this.hitandrun++; this.incrementSolo();
+	}
+	addUnkown(id) {
+		this.unknown++; this.incrementSolo();
+	}
+	addObjectByCCRSVehicleTypeId(vTypeId) {
+		/*
+				// map CCRS vehicle type codes to Simplified UI categories
+		const arrVcodes = [
+		
+			[1, 'Car'],  //PassengerCarStationWagonJeep
+			[2, 'Motorcycle'],  //Motorcycle
+			[3, 'Motorcycle'],  //MotorDrivenCycleScooter15HpOrLess
+			[4, 'Bicycle'], //Bicycle
+			[7, 'Car'],  //SportUtilityVehicle
+			[8, 'Car'],  //MiniVan
+			[9, 'Bus'], //Paratransit
+			[10, 'Bus'],  //TourBus
+			//11,,OtherCommercial
+
+			[13, 'Bus'],  //SchoolBusPublicTypeI
+			[17, 'Bus'],  //SchoolBusContractualTypeI
+			
+			[20, 'Bus'],  //PublicTransitAuthority
+			[22, 'Truck'], //PickupsAndPanels
+			[25, 'Truck'],  //TruckTractor
+			[26, 'Truck'],  //TwoAxleTruck
+			[27, 'Truck'],  //ThreeOrMoreAxleTruck
+			//32,,PullTrailer
+			[33, 'Truck'], //TwoTrailersIncludesSemiAndPull
+			[43, 'Fire Truck'], //FireTruck
+			//45,,HighwayConstructionEquipment
+			[48, 'Police Car'], //PoliceCar
+			[55, 'Truck'], //TwoAxleTowTruck
+			[60, 'Pedestrian'], //Pedestrian
+			[91, 'Electric Bicycle'],//ElectricBicycles
+			[93, 'Electric Skateboard'],
+			[94, 'Electric Scooter'], //GoPedZipElectricScooterAndMotorboard
+			//[96,,MiscMotorVehicleSnowmobileGolfCart
+			[99,'Car Hit and Run'] // ,OtherUnknownHitAndRunDriver
+		];*/
+
+		// maybe use ranges?
+		switch (vTypeId) {
+			case 1: case 7: case 8: case 9:
+				this.addCar(); break;
+			case 2: case 3:
+				this.addMotorcyle(); break;
+			case 4:
+				this.addBicycle(); break;
+			case 9: case 10: case 11: case 12: case 20:
+				this.addBus(); break;
+			case 13: case 14: case 15: case 16: case 17: case 18: case 19:
+				this.addSchooolBus(); break;
+			case 11: case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 31: case 32: case 33: case 45: case 47: case 55:
+			case 87: 
+				this.addTruck(); break;
+			case 41:
+				this.addAmbulance(); break;
+			case 43:
+				this.addFireTruck(); break;
+			case 48:
+				this.addPolicecar(); break;
+			case 60:
+				this.addPed(); break;
+			case 91:
+				this.addEbike(); break;
+			case 93:
+				this.addESkateBoared(); break;
+			case 94:
+				this.addEScooter(); break;
+			case 99:
+				this.addHitAndRun(); break;
+			default:
+				console.log("Unexpected data ccrs vehicle type id ", vTypeId)
+				this.addUnkown(); break;
+
+		}
+
+	}
+
+	getString() {
+		var objs = '';
+		if (this.motorcycle) {
+			objs += "Motorcycle /"
+		}
+		if (this.bicycle) {
+			objs += "Bicycle /"
+		}
+		if (this.ebike) {
+			objs += "Electric Bike /"
+		}
+		if (this.escooter) {
+			objs += "Electric Scooter /"
+		}
+		if (this.eskateboard) {
+			objs += "Electric Skateboard /"
+		}
+		if (this.schoolbus) {
+			objs += "School Bus /"
+		}
+		if (this.bus) {
+			objs += "Bus /"
+		}
+		if (this.ambulance) {
+			objs += "Ambulance /"
+		}
+		if (this.firetruck) {
+			objs += "Fire Truck /"
+		}
+		if (this.truck) {
+			objs += "Truck /"
+		}
+		if (this.hitandrun) {
+			objs += "Hit and Run Car /"
+		}
+		if (this.policecar) {
+			objs += "Police Car /"
+		}
+		if (this.car) {
+			objs += "Car /"
+		}
+		if (this.parkedcar) {
+			objs += "Parked Car /"
+		}
+		if (this.ped) {
+			objs += "Ped /"
+		}
+		if (this.solo) {
+			objs += 'Solo'
+		}
+
+		
+
+		return objs;
+	}
+}
+
+var mapCollisionIdToInvolvedObjects = new Map();
+
 for (const p of rowsParties) {
 	const id = p.CollisionId;
+
+	if (mapCollisionIdToInvolvedObjects.get(id) == null) {
+		mapCollisionIdToInvolvedObjects.set(id, new InvolvedObjects())
+	}
+	mapCollisionIdToInvolvedObjects.get(id).addObjectByCCRSVehicleTypeId(p.Vehicle1TypeId)
 
 	// compute involved objects
 	const vType = getObjectforVid(p.Vehicle1TypeId);
 	appendToMapEntry(mapIdToParties, id, vType)
+
+
+
 
 	// compute at fault
 	if (p.IsAtFault == 'True') {
@@ -329,7 +549,8 @@ function getAtFaultPartyForCollision(collisionId) {
 }
 
 function getInvolvedObjectsForCollision(collisionId) {
-	const involvedObjects = mapIdToParties.get(collisionId) ?? "NONE"
+	//	const involvedObjects = mapIdToParties.get(collisionId) ?? "NONE"
+	const involvedObjects = mapCollisionIdToInvolvedObjects.get(collisionId).getString();
 	return involvedObjects;
 }
 
@@ -392,6 +613,8 @@ for (const r of rowsCrashes) {
 	a.Injury_Severity = getInjurySeverityForCollision(a.CollisionId);
 	a.Party_at_Fault = getAtFaultPartyForCollision(a.CollisionId);
 	a.Injury_Ages = getInjuryAgesForCollision(a.CollisionId);
+
+
 }
 
 // from parties 
