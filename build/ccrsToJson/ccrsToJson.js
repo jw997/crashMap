@@ -54,6 +54,7 @@ function transformCrash(obj) {
 	if (obj) {
 		attrObj.CollisionId = obj['Collision Id'];
 		attrObj.Case_ID = obj['Collision Id'];
+		attrObj.Primary_Collision_Factor_Code = obj["Primary Collision Factor Violation"]
 
 		attrObj.Local_Report_Number = obj['Report Number']; // this would be the BPD transparency portal id
 		attrObj.CityName = obj['City Name'];
@@ -463,57 +464,58 @@ class InvolvedObjects {
 	getString() {
 		var objs = '';
 		if (this.motorcycle) {
-			objs += "Motorcycle /"
+			objs += "Motorcycle/"
 		}
 		if (this.bicycle) {
-			objs += "Bicycle /"
+			objs += "Bicycle/"
 		}
 		if (this.ebike) {
-			objs += "Electric Bike /"
+			objs += "Electric Bike/"
 		}
 		if (this.escooter) {
-			objs += "Electric Scooter /"
+			objs += "Electric Scooter/"
 		}
 		if (this.eskateboard) {
-			objs += "Electric Skateboard /"
+			objs += "Electric Skateboard/"
 		}
 		if (this.schoolbus) {
-			objs += "School Bus /"
+			objs += "School Bus/"
 		}
 		if (this.bus) {
-			objs += "Bus /"
+			objs += "Bus/"
 		}
 		if (this.ambulance) {
-			objs += "Ambulance /"
+			objs += "Ambulance/"
 		}
 		if (this.firetruck) {
-			objs += "Fire Truck /"
+			objs += "Fire Truck/"
 		}
 		if (this.truck) {
-			objs += "Truck /"
+			objs += "Truck/"
 		}
 		if (this.hitandrun) {
-			objs += "Hit and Run Car /"
+			objs += "Hit and Run Car/"
 		}
 		if (this.policecar) {
-			objs += "Police Car /"
+			objs += "Police Car/"
 		}
 		if (this.car) {
-			objs += "Car /"
+			objs += "Car/"
 		}
 		if (this.parkedcar) {
-			objs += "Parked Car /"
+			objs += "Parked Car/"
 		}
 		if (this.ped) {
-			objs += "Ped /"
+			objs += "Ped/"
 		}
 		if (this.solo) {
-			objs += 'Solo'
+			objs += 'Solo/'
 		}
-
+		if (objs.length>0) {
+			return objs.slice(0,-1);
+		} 
+		return "UNKNOWN"
 		
-
-		return objs;
 	}
 }
 

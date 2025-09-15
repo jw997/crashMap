@@ -696,7 +696,7 @@ console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
 //const mergedTransparencyJson = mergedSWITRSJson;
 
 const popupFields = ['Date',
-	'Time', 'Hour',
+	'Time',// 'Hour',
 	//'Day_of_Week',
 	'Case_Number',
 	'Case_ID',
@@ -705,17 +705,17 @@ const popupFields = ['Date',
 	'Accident_Location_Offset',
 	'Latitude',
 	'Longitude',
-	'Collision_Classification_Descri',
-	'Collision_Type',
+//'Collision_Classification_Descri',
+	//'Collision_Type',
 	'Primary_Collision_Factor_Code',
 	'PCF_Description',
 	//	'PCF_Category',
 	'Involved_Objects',
-	'Involved_Parties',
+	//'Involved_Parties',
 	'Party_at_Fault',
 	'Number_of_Injuries',
 	'Number_of_Fatalities',
-	'Suspected_Serious_Injury',
+	//'Suspected_Serious_Injury',
 	'Injury_Severity',
 	"Injury_Ages",
 	"url",
@@ -1211,6 +1211,13 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
 		incrementMapKey(histYearData, attr.Year);
 
+		if (!attr.Month) {
+			//console.log("Undefined hour " , attr.Case_Number);
+			// try to set it from time
+			attr.Month = parseInt(attr.Date.substr(5, 2));
+		}
+		incrementMapKey(histMonthData, attr.Month);
+
 		if (!attr.Hour) {
 			//console.log("Undefined hour " , attr.Case_Number);
 			// try to set it from time
@@ -1380,6 +1387,9 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 // chart data variables
 // ADD NEW CHART
 const histYearData = new Map();
+const histMonthData = new Map();
+const arrMonthKeys = [1, 2,3,4,5,6,7,8,9,10,11,12];
+
 const histHourData = new Map();
 const arrHourKeys = [0, 3, 6, 9, 12, 15, 18, 21];
 
@@ -1427,6 +1437,7 @@ clearHistData(arrSeverityKeys, histSeverityData);
 clearHistData(arrAgeKeys, histAgeInjuryData);
 clearHistData(arrStopResultKeys, histStopResultData);
 clearHistData(arrHourKeys, histHourData);
+clearHistData(arrMonthKeys, histMonthData);
 
 
 // clear data functions
@@ -1457,6 +1468,7 @@ clearFaultData();
 // chart variables
 // ADD NEW CHART
 var histYearChart;
+var histMonthChart;
 var histHourChart;
 
 var histChartGPS;
@@ -1509,6 +1521,7 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 function handleFilterClick() {
 	// ADD NEW CHART
 	clearHistYearData();
+	clearHistData(arrMonthKeys, histMonthData);
 	clearHistData(arrHourKeys, histHourData);
 	clearFaultData();
 	clearHistData(arrObjectKeys, histObjectData);
@@ -1616,6 +1629,14 @@ function handleFilterClick() {
 	}
 
 	histYearChart = createOrUpdateChart(dataByYear, histYearChart, document.getElementById('yearHist'), 'Collisions or Stops by Year');
+
+	const dataByMonth = [];
+	for (const k of arrMonthKeys) {
+		dataByMonth.push({ bar: k, count: histMonthData.get(k) })
+	}
+
+	histMonthChart = createOrUpdateChart(dataByMonth, histMonthChart, document.getElementById('monthHist'), 'Collisions or Stops by Month');
+
 
 	const dataByHour = [];
 	for (const k of arrHourKeys) {

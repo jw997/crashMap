@@ -280,7 +280,7 @@
 
 				<option value='Bi'>Bicycle/Any</option> // includes electric bike?
 				<option value='Bi.*Ped'>Bicycle/Pedestrian</option>
-				<option value='Bicycle$|Bi.*Solo'>Bicycle/Solo</option>
+				<option value='^Bicycle$|Bi.*Object|Bi.*Solo'>Bicycle/Solo</option>
 
 				<option value='Ped'>Pedestrian/Any</option>
 
@@ -342,6 +342,7 @@
 
 			<!-- ADD NEW CHART -->
 			<div><canvas id="yearHist" class="chart"></canvas></div>
+			<div><canvas id="monthHist" class="chart"></canvas></div>
 			<div><canvas id="hourHist" class="chart"></canvas></div>
 			<div><canvas id="involvedObjectHist" class="chart collisionChart"></canvas></div>
 			<div><canvas id="severityHist" class="chart collisionChart"></canvas></div>
