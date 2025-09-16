@@ -68,9 +68,9 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 	}
 
 	// sort
-//	const arrSorted = Array.from(setStreets).sort();
+	//	const arrSorted = Array.from(setStreets).sort();
 
-//	console.log(setStreets.size, arrSorted.length);
+	//	console.log(setStreets.size, arrSorted.length);
 	//	console.debug("Streetnames")
 	/*
 	for (const str of arrSorted) {
@@ -82,7 +82,7 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 	for (const str of streetArray) {
 		const opt = document.createElement("option");
-		
+
 		opt.value = str;
 		opt.text = str.split("|")[0];  // name is first synonym from streetArray
 		selectStreet.add(opt, null);
@@ -324,9 +324,9 @@ async function getCCRSData() {
 	for (var y = 2016; y <= 2025; y++) {
 		const file = './data/ccrs/ccrs' + y + '.json';
 
-	//const fileNames = ['ccrs/ccrs2025.json'];
-	//for (const fName of fileNames) {
-	//	const file = './data/' + fName;
+		//const fileNames = ['ccrs/ccrs2025.json'];
+		//for (const fName of fileNames) {
+		//	const file = './data/' + fName;
 		const ccrsJson = await getJson(file);
 		arrays.push(ccrsJson.features);
 
@@ -541,6 +541,7 @@ const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
 // make sets of local collision ids
 function makeLocalCollisionIdMap(arr) {
 	// for arr of SWITRS reports "Local_Report_Number": "2022-00060191",
+	// for arr of CCRS reports   "Local_Report_Number": "9370-2025-00208",
 	// for arr of BPD reports "Case_Number": "2022-00060191",
 	const retval = new Map();
 	for (const c of arr) {
@@ -554,8 +555,7 @@ function makeLocalCollisionIdMap(arr) {
 	return retval;
 }
 
-// TODO needed for CCRS.  lots of CCRS records are misssing GPS
-
+const lidMapCcrs = makeLocalCollisionIdMap(mergedCCRSJson);
 const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
 
@@ -585,14 +585,18 @@ function applyOverrides(overrides) {
 applyOverrides(overrideJson);
 
 const lidSwitrs = new Set(lidMapSwitrs.keys());
+const lidCcrs = new Set(lidMapCcrs.keys());
 
+const tsCcrsUnionTransparency = tsCcrs.union(tsTransparency);
 const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
+/*
 const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
 const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
 const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
-
-// for union, start with switrs
-var mergedUnion = mergedSWITRSJson.slice();
+*/
+// for union, start with switrs and ccrs
+var mergedUnionSwitrs = mergedSWITRSJson.slice();
+var mergedUnionCcrs = mergedCCRSJson.slice();
 
 // add any bpd records that differ in both timestamp and local case id
 for (const e of mergedTransparencyJson) {
@@ -600,9 +604,15 @@ for (const e of mergedTransparencyJson) {
 	const lid = e.attributes.Case_Number;
 
 	// 
+	if (!tsCcrs.has(ts)) {
+		if (!lidCcrs.has(lid)) {
+			mergedUnionCcrs.push(e);
+		}
+	}
+
 	if (!tsSwtrs.has(ts)) {
 		if (!lidSwitrs.has(lid)) {
-			mergedUnion.push(e);
+			mergedUnionSwitrs.push(e);
 		}
 	}
 }
@@ -649,7 +659,7 @@ function getLocalReportForSwitrsReport(switrsColl) {
 }
 
 function getLocalReportForCCRSReport(ccrsColl) {
-	
+
 	const lid = ccrsColl.attributes.Local_Report_Number;
 
 	// first lookup by case number
@@ -674,8 +684,8 @@ for (const switrsColl of mergedSWITRSJson) {
 	switrsColl.localRecord = getLocalReportForSwitrsReport(switrsColl);
 }
 
-for (const ccrsColl of mergedCCRSJson ) {
-	ccrsColl.localRecord = getLocalReportForCCRSReport( ccrsColl)
+for (const ccrsColl of mergedCCRSJson) {
+	ccrsColl.localRecord = getLocalReportForCCRSReport(ccrsColl)
 }
 /*
 console.log(" mergedUnion: ", mergedUnion.length);
@@ -705,7 +715,7 @@ const popupFields = ['Date',
 	'Accident_Location_Offset',
 	'Latitude',
 	'Longitude',
-//'Collision_Classification_Descri',
+	//'Collision_Classification_Descri',
 	//'Collision_Type',
 	'Primary_Collision_Factor_Code',
 	'PCF_Description',
@@ -1388,7 +1398,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 // ADD NEW CHART
 const histYearData = new Map();
 const histMonthData = new Map();
-const arrMonthKeys = [1, 2,3,4,5,6,7,8,9,10,11,12];
+const arrMonthKeys = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const histHourData = new Map();
 const arrHourKeys = [0, 3, 6, 9, 12, 15, 18, 21];
@@ -1546,8 +1556,12 @@ function handleFilterClick() {
 			collData = mergedSWITRSJson;
 			tsSet = tsSwtrs;
 			break;
+		case "CUT":
+			collData = mergedUnionCcrs; // TODO UNION
+			tsSet = tsCcrsUnionTransparency;
+			break;
 		case "SUT":
-			collData = mergedUnion; // TODO UNION
+			collData = mergedUnionSwitrs; // TODO UNION
 			tsSet = tsSwtrsUnionTransparency;
 			break;
 		case "STOPS":
