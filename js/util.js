@@ -579,6 +579,13 @@ function applyOverrides(overrides) {
 			attr.Injury_Severity = oa.Injury_Severity;
 			attr.url = oa.url;
 		}
+
+		const c = lidMapCcrs.get(oa.Case_Number);
+		if (c) {
+			const attr = c.attributes;
+			attr.Injury_Severity = oa.Injury_Severity;
+			attr.url = oa.url;
+		}
 	}
 }
 
@@ -635,8 +642,27 @@ function getSwitrsReportForLocalReport(localColl) {
 	}
 	return undefined;
 }
+
+function getCcrsReportForLocalReport(localColl) {
+	const ts = localColl.attributes.DateTime;
+	const lid = localColl.attributes.Case_Number;
+
+	// first lookup by case number
+	const r1 = lidMapCcrs.get(lid);
+	if (r1) {
+		return r1;
+	}
+	// then try by date time
+	const r2 = tsMapCcrs.get(ts);
+	if (r2) {
+		return r2;
+	}
+	return undefined;
+}
+
 for (const localColl of mergedTransparencyJson) {
 	localColl.switrsRecord = getSwitrsReportForLocalReport(localColl);
+	localColl.ccrsRecord = getCcrsReportForLocalReport(localColl);
 }
 
 // each bpd report has a "Case_Number": "2022-00019693", and a date time
@@ -1130,6 +1156,11 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 			coll_severity = coll.switrsRecord.attributes.Injury_Severity
 		}
 	}
+/*
+	if (attr.NumberKilled>0) {
+		coll_severity = 'Fatal';
+		attr.Injury_Severity = 'Fatal'
+	} */
 
 	acceptableSeverities.push('Fatal');
 
@@ -1185,6 +1216,20 @@ function isStopAttr(a) {
 }
 function incrementMapKey(m, k) {
 	m.set(k, m.get(k) + 1);
+}
+
+function gpsDistance( attr1, attr2) {
+	if (!(attr1.Latitude && attr1.Longitude && attr2.Latitude && attr2.Longitude))  {
+		// someone is missint a gps coord
+		return null;
+	}
+
+	const dLat = Math.abs(attr1.Latitude - attr2.Latitude);
+	const dLon = Math.abs(attr1.Longitude - attr2.Longitude);
+	const metersPerDegree = 100000;
+	const meters = Math.round( metersPerDegree * (dLat + dLon));
+
+	return meters;
 }
 function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
@@ -1264,18 +1309,20 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 				}
 			}
 		}
-		/*
-				if (!(attr.Latitude && attr.Longitude)) {
-					// try to get it from the map
-					const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
-					if (matchingLocalReport) {
-						attr.Latitude = matchingLocalReport.Latitude;
-						attr.Longitude = matchingLocalReport.Longitude;
-						//console.log("Fixed GPS for ", attr.Local_Report_Number);
-					} else {
-						console.log("Failed to fix GPS for ", attr.Local_Report_Number);
-					}
-				}*/
+		var gpsError;
+
+		if (coll.localRecord) {
+		gpsError = gpsDistance( attr, coll.localRecord.attributes)
+		} 
+		if (coll.ccrsRecord) {
+			gpsError = gpsDistance( attr, coll.ccrsRecord.attributes)
+		}
+
+		// add gpsError to histogram
+		if (gpsError) {
+			const bin = getGpsDeltaBin(gpsError)
+			incrementMapKey(histGPSDeltaData, bin);
+		}
 		// if lat  or long is missing, try the linked coll record
 		var lat = attr.Latitude;
 		if (!lat) {
@@ -1404,6 +1451,24 @@ const histHourData = new Map();
 const arrHourKeys = [0, 3, 6, 9, 12, 15, 18, 21];
 
 const histMissingGPSData = new Map();
+
+const histGPSDeltaData = new Map();
+const arrGPSDeltaKeys = [0, 10, 100, 1000];
+function getGpsDeltaBin( delta) {
+	
+	if (delta <=10) {
+		return 0;
+	}
+	if (delta <=100) {
+		return 10;
+	}
+	if (delta <=1000) {
+		return 100;
+	}
+	return 1000;
+
+}
+
 var histFaultData = new Map();
 
 var histSeverityData = new Map();
@@ -1448,6 +1513,7 @@ clearHistData(arrAgeKeys, histAgeInjuryData);
 clearHistData(arrStopResultKeys, histStopResultData);
 clearHistData(arrHourKeys, histHourData);
 clearHistData(arrMonthKeys, histMonthData);
+clearHistData(arrGPSDeltaKeys, histGPSDeltaData);
 
 
 // clear data functions
@@ -1482,6 +1548,7 @@ var histMonthChart;
 var histHourChart;
 
 var histChartGPS;
+var histChartGPSDelta; // gpsDelta
 var histFaultChart;
 
 var histObjectChart;
@@ -1538,6 +1605,7 @@ function handleFilterClick() {
 	clearHistData(arrSeverityKeys, histSeverityData);
 	clearHistData(arrAgeKeys, histAgeInjuryData);
 	clearHistData(arrStopResultKeys, histStopResultData);
+	clearHistData(arrGPSDeltaKeys, histGPSDeltaData);
 
 	const dataSpec = selectData.value;
 	var tsSet;
@@ -1628,6 +1696,11 @@ function handleFilterClick() {
 		dataStopResult.push({ bar: k, count: histStopResultData.get(k) })
 	}
 
+	const dataGPSDelta = [];
+	for (const k of arrGPSDeltaKeys) {
+		dataGPSDelta.push({ bar: k, count: histGPSDeltaData.get(k) })
+	}
+
 
 	// ADD NEW CHART
 	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
@@ -1667,6 +1740,9 @@ function handleFilterClick() {
 
 	histChartGPS = createOrUpdateChart(dataGPSByYear, histChartGPS, document.getElementById('gpsHist'), 'Missing GPS by Year');
 	//ageInjuryHist
+
+	histChartGPSDelta = createOrUpdateChart(dataGPSDelta, histChartGPSDelta, document.getElementById('gpsDelta'), 'GPS Delta');
+
 
 	const dataInjurybyAge = [];
 	for (const k of arrAgeKeys) {
