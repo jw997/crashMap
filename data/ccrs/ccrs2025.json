@@ -15543,9 +15543,9 @@
         "Date": "2025-08-31",
         "Time": "15:57:00",
         "Involved_Objects": "Motorcycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "28"
       }
     },
     {
@@ -15569,9 +15569,9 @@
         "Date": "2025-09-04",
         "Time": "18:30:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "63"
       }
     },
     {
@@ -15647,9 +15647,9 @@
         "Date": "2025-07-25",
         "Time": "15:12:00",
         "Involved_Objects": "Car/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "53"
       }
     },
     {
@@ -15673,9 +15673,9 @@
         "Date": "2025-07-31",
         "Time": "14:34:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "36"
       }
     },
     {
@@ -15699,9 +15699,9 @@
         "Date": "2025-07-22",
         "Time": "17:49:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "29/36"
       }
     },
     {
@@ -15725,9 +15725,9 @@
         "Date": "2025-07-20",
         "Time": "21:45:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "27"
       }
     },
     {
@@ -15751,9 +15751,9 @@
         "Date": "2025-07-10",
         "Time": "08:19:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "47"
       }
     },
     {
@@ -15777,9 +15777,9 @@
         "Date": "2025-07-04",
         "Time": "15:57:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "44"
       }
     },
     {
@@ -15803,9 +15803,9 @@
         "Date": "2025-08-31",
         "Time": "13:15:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "48"
       }
     },
     {
@@ -15829,9 +15829,9 @@
         "Date": "2025-09-01",
         "Time": "10:45:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21/34/19"
       }
     },
     {
@@ -15881,9 +15881,9 @@
         "Date": "2025-09-06",
         "Time": "10:14:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "10"
       }
     },
     {
@@ -15907,9 +15907,9 @@
         "Date": "2025-07-22",
         "Time": "12:30:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "34"
       }
     },
     {
@@ -15933,9 +15933,9 @@
         "Date": "2025-07-18",
         "Time": "20:16:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "32"
       }
     },
     {
@@ -15959,9 +15959,9 @@
         "Date": "2025-07-18",
         "Time": "13:50:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "7"
       }
     },
     {
@@ -15985,9 +15985,9 @@
         "Date": "2025-07-25",
         "Time": "14:46:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "54"
       }
     },
     {
@@ -16011,9 +16011,9 @@
         "Date": "2025-07-22",
         "Time": "16:30:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "38"
       }
     },
     {
@@ -16037,9 +16037,9 @@
         "Date": "2025-07-25",
         "Time": "15:09:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
-        "Injury_Ages": ""
+        "Injury_Ages": "77/35"
       }
     },
     {
@@ -16063,9 +16063,9 @@
         "Date": "2025-07-25",
         "Time": "18:05:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "38/22/78"
       }
     },
     {
@@ -16115,9 +16115,9 @@
         "Date": "2025-07-27",
         "Time": "12:51:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "62"
       }
     },
     {
@@ -16167,9 +16167,9 @@
         "Date": "2025-07-29",
         "Time": "14:25:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Pedestrian",
-        "Injury_Ages": ""
+        "Injury_Ages": "73"
       }
     },
     {
@@ -16193,9 +16193,9 @@
         "Date": "2025-07-29",
         "Time": "14:52:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "35"
       }
     },
     {
@@ -16219,9 +16219,9 @@
         "Date": "2025-07-29",
         "Time": "15:31:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "84"
       }
     },
     {
@@ -16245,9 +16245,9 @@
         "Date": "2025-07-30",
         "Time": "13:34:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "81/19"
       }
     },
     {
@@ -16271,9 +16271,9 @@
         "Date": "2025-07-30",
         "Time": "18:47:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "28"
       }
     },
     {
@@ -16453,9 +16453,9 @@
         "Date": "2025-08-24",
         "Time": "01:42:00",
         "Involved_Objects": "Car/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "28"
       }
     },
     {
@@ -16479,9 +16479,9 @@
         "Date": "2025-09-14",
         "Time": "13:38:00",
         "Involved_Objects": "Police Car/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "25"
       }
     },
     {
@@ -16583,9 +16583,9 @@
         "Date": "2025-01-26",
         "Time": "12:57:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Fatal",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "66"
       }
     },
     {
@@ -16609,9 +16609,9 @@
         "Date": "2025-09-11",
         "Time": "15:20:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "51"
       }
     },
     {
@@ -16817,9 +16817,9 @@
         "Date": "2025-06-26",
         "Time": "14:00:00",
         "Involved_Objects": "Electric Scooter/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21"
       }
     },
     {
@@ -16843,9 +16843,9 @@
         "Date": "2025-06-11",
         "Time": "23:09:00",
         "Involved_Objects": "Electric Scooter/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Other",
-        "Injury_Ages": ""
+        "Injury_Ages": "18"
       }
     },
     {
@@ -16869,9 +16869,9 @@
         "Date": "2025-06-07",
         "Time": "10:39:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
-        "Injury_Ages": ""
+        "Injury_Ages": "30"
       }
     },
     {
@@ -16895,9 +16895,9 @@
         "Date": "2025-07-05",
         "Time": "11:02:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "55"
       }
     },
     {
@@ -16921,9 +16921,9 @@
         "Date": "2025-07-05",
         "Time": "12:15:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Pedestrian",
-        "Injury_Ages": ""
+        "Injury_Ages": "30"
       }
     },
     {
@@ -16947,9 +16947,9 @@
         "Date": "2025-07-08",
         "Time": "15:04:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "79"
       }
     },
     {
@@ -16973,9 +16973,9 @@
         "Date": "2025-07-09",
         "Time": "14:58:00",
         "Involved_Objects": "Electric Scooter/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "19"
       }
     },
     {
@@ -16999,9 +16999,9 @@
         "Date": "2025-07-10",
         "Time": "15:25:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "17/33"
       }
     },
     {
@@ -17025,9 +17025,9 @@
         "Date": "2025-07-14",
         "Time": "15:36:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "18/82"
       }
     },
     {
@@ -17051,9 +17051,9 @@
         "Date": "2025-07-16",
         "Time": "12:58:00",
         "Involved_Objects": "Electric Scooter/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "19"
       }
     },
     {
@@ -17077,9 +17077,9 @@
         "Date": "2025-07-18",
         "Time": "13:50:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "74/61"
       }
     },
     {
@@ -17155,9 +17155,9 @@
         "Date": "2025-07-15",
         "Time": "06:36:00",
         "Involved_Objects": "Car/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "24"
       }
     },
     {
@@ -17181,9 +17181,9 @@
         "Date": "2025-07-14",
         "Time": "18:35:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "20"
       }
     },
     {
@@ -17207,9 +17207,9 @@
         "Date": "2025-06-21",
         "Time": "07:50:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "44/38"
       }
     },
     {
@@ -17285,9 +17285,9 @@
         "Date": "2025-07-11",
         "Time": "10:55:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "40"
       }
     },
     {
@@ -17311,9 +17311,9 @@
         "Date": "2025-07-27",
         "Time": "15:39:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "20"
       }
     },
     {
@@ -17337,9 +17337,9 @@
         "Date": "2025-07-20",
         "Time": "06:28:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "25"
       }
     },
     {
@@ -17545,9 +17545,9 @@
         "Date": "2025-07-03",
         "Time": "16:38:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "37"
       }
     },
     {
@@ -17571,9 +17571,9 @@
         "Date": "2025-07-02",
         "Time": "09:56:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "60"
       }
     },
     {
@@ -17597,9 +17597,9 @@
         "Date": "2025-07-03",
         "Time": "22:44:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "33"
       }
     },
     {
@@ -17623,9 +17623,9 @@
         "Date": "2025-07-03",
         "Time": "13:24:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "23"
       }
     },
     {
@@ -17935,9 +17935,9 @@
         "Date": "2025-07-18",
         "Time": "18:00:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "38/27"
       }
     },
     {
@@ -18039,9 +18039,9 @@
         "Date": "2025-08-04",
         "Time": "17:55:00",
         "Involved_Objects": "Motorcycle/Police Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "24"
       }
     },
     {
@@ -18299,9 +18299,9 @@
         "Date": "2025-08-07",
         "Time": "17:16:00",
         "Involved_Objects": "Truck",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "69/60"
       }
     },
     {
@@ -18325,9 +18325,9 @@
         "Date": "2025-08-28",
         "Time": "16:00:00",
         "Involved_Objects": "Bicycle/Truck",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "23"
       }
     },
     {
@@ -18377,9 +18377,9 @@
         "Date": "2025-10-02",
         "Time": "05:00:00",
         "Involved_Objects": "Hit and Run Car/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "54"
       }
     },
     {
@@ -18481,9 +18481,9 @@
         "Date": "2025-08-15",
         "Time": "08:26:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21"
       }
     },
     {
@@ -18507,9 +18507,9 @@
         "Date": "2025-08-12",
         "Time": "06:09:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Pedestrian",
-        "Injury_Ages": ""
+        "Injury_Ages": "27"
       }
     },
     {
@@ -18533,9 +18533,9 @@
         "Date": "2025-08-08",
         "Time": "23:17:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Pedestrian",
-        "Injury_Ages": ""
+        "Injury_Ages": "50"
       }
     },
     {
@@ -18559,9 +18559,9 @@
         "Date": "2025-08-07",
         "Time": "19:14:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "32"
       }
     },
     {
@@ -18611,9 +18611,9 @@
         "Date": "2025-08-02",
         "Time": "13:55:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "58"
       }
     },
     {
@@ -18637,9 +18637,9 @@
         "Date": "2025-08-01",
         "Time": "14:16:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "46"
       }
     },
     {
@@ -18663,9 +18663,9 @@
         "Date": "2025-08-04",
         "Time": "11:47:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "66"
       }
     },
     {
@@ -18689,9 +18689,9 @@
         "Date": "2025-08-04",
         "Time": "18:17:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21"
       }
     },
     {
@@ -18715,9 +18715,9 @@
         "Date": "2025-08-12",
         "Time": "08:10:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "33"
       }
     },
     {
@@ -18741,9 +18741,9 @@
         "Date": "2025-08-15",
         "Time": "13:25:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "42"
       }
     },
     {
@@ -18767,9 +18767,9 @@
         "Date": "2025-08-17",
         "Time": "10:53:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "32"
       }
     },
     {
@@ -18793,9 +18793,9 @@
         "Date": "2025-08-18",
         "Time": "19:58:00",
         "Involved_Objects": "Electric Scooter/Truck",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "18"
       }
     },
     {
@@ -18819,9 +18819,9 @@
         "Date": "2025-08-13",
         "Time": "04:43:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21"
       }
     },
     {
@@ -18845,9 +18845,9 @@
         "Date": "2025-08-13",
         "Time": "12:39:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "82/73"
       }
     },
     {
@@ -18871,9 +18871,9 @@
         "Date": "2025-08-11",
         "Time": "12:15:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "34"
       }
     },
     {
@@ -18897,9 +18897,9 @@
         "Date": "2025-08-03",
         "Time": "16:13:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "62"
       }
     },
     {
@@ -18923,9 +18923,9 @@
         "Date": "2025-08-21",
         "Time": "16:41:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "33"
       }
     },
     {
@@ -18949,9 +18949,9 @@
         "Date": "2025-08-27",
         "Time": "04:48:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "22"
       }
     },
     {
@@ -18975,9 +18975,9 @@
         "Date": "2025-08-29",
         "Time": "16:04:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "79"
       }
     },
     {
@@ -19001,9 +19001,9 @@
         "Date": "2025-08-31",
         "Time": "16:11:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "40/17/43/53"
       }
     },
     {
@@ -19027,9 +19027,9 @@
         "Date": "2025-08-18",
         "Time": "15:04:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "13"
       }
     },
     {
@@ -19053,9 +19053,9 @@
         "Date": "2025-08-18",
         "Time": "17:30:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "23"
       }
     },
     {
@@ -19079,9 +19079,9 @@
         "Date": "2025-08-19",
         "Time": "13:25:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "70"
       }
     },
     {
@@ -19105,9 +19105,9 @@
         "Date": "2025-08-20",
         "Time": "15:30:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "30"
       }
     },
     {
@@ -19131,9 +19131,9 @@
         "Date": "2025-08-21",
         "Time": "17:20:00",
         "Involved_Objects": "Bicycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "44"
       }
     },
     {
@@ -19157,9 +19157,9 @@
         "Date": "2025-08-22",
         "Time": "13:19:00",
         "Involved_Objects": "Electric Scooter/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "20"
       }
     },
     {
@@ -19183,9 +19183,9 @@
         "Date": "2025-08-22",
         "Time": "21:52:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "50/71"
       }
     },
     {
@@ -19209,9 +19209,9 @@
         "Date": "2025-08-23",
         "Time": "07:20:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Bicyclist",
-        "Injury_Ages": ""
+        "Injury_Ages": "32"
       }
     },
     {
@@ -19235,9 +19235,9 @@
         "Date": "2025-08-23",
         "Time": "18:11:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "28/35/30"
       }
     },
     {
@@ -19261,9 +19261,9 @@
         "Date": "2025-08-24",
         "Time": "22:23:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "25/20/22/20/24/19"
       }
     },
     {
@@ -19287,9 +19287,9 @@
         "Date": "2025-08-25",
         "Time": "05:51:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "43"
       }
     },
     {
@@ -19313,9 +19313,9 @@
         "Date": "2025-08-26",
         "Time": "12:09:00",
         "Involved_Objects": "Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "20"
       }
     },
     {
@@ -19339,9 +19339,9 @@
         "Date": "2025-08-28",
         "Time": "13:18:00",
         "Involved_Objects": "Bicycle/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "",
-        "Injury_Ages": ""
+        "Injury_Ages": "24"
       }
     },
     {
@@ -19365,9 +19365,9 @@
         "Date": "2025-08-30",
         "Time": "13:00:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "63"
       }
     },
     {
@@ -19391,9 +19391,9 @@
         "Date": "2025-08-31",
         "Time": "20:45:00",
         "Involved_Objects": "Electric Scooter/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "19"
       }
     },
     {
@@ -19729,9 +19729,9 @@
         "Date": "2025-09-27",
         "Time": "20:00:00",
         "Involved_Objects": "Motorcycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "24"
       }
     },
     {
@@ -19781,9 +19781,9 @@
         "Date": "2025-10-12",
         "Time": "12:30:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "66"
       }
     },
     {
@@ -19859,9 +19859,9 @@
         "Date": "2025-08-05",
         "Time": "14:06:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "21"
       }
     },
     {
@@ -19885,9 +19885,9 @@
         "Date": "2025-10-20",
         "Time": "00:00:00",
         "Involved_Objects": "Hit and Run Car/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "54"
       }
     },
     {
@@ -19937,7 +19937,7 @@
         "Date": "2025-08-24",
         "Time": "16:20:00",
         "Involved_Objects": "Car/Solo",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
         "Injury_Ages": ""
       }
@@ -20041,9 +20041,9 @@
         "Date": "2025-09-10",
         "Time": "13:44:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "57/47"
       }
     },
     {
@@ -20067,9 +20067,9 @@
         "Date": "2025-10-29",
         "Time": "19:38:00",
         "Involved_Objects": "Truck/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "64"
       }
     },
     {
@@ -20431,9 +20431,9 @@
         "Date": "2025-08-08",
         "Time": "10:41:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "",
-        "Injury_Ages": ""
+        "Injury_Ages": "27/59"
       }
     },
     {
@@ -20899,9 +20899,9 @@
         "Date": "2025-10-23",
         "Time": "19:20:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "31"
       }
     },
     {
@@ -21055,9 +21055,9 @@
         "Date": "2025-10-25",
         "Time": "18:45:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "31/12/57/50/15/9/6/11/51/47"
       }
     },
     {
@@ -21081,9 +21081,9 @@
         "Date": "2025-11-08",
         "Time": "15:35:00",
         "Involved_Objects": "Motorcycle/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Minor Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "26"
       }
     },
     {
@@ -21315,9 +21315,9 @@
         "Date": "2025-11-04",
         "Time": "11:20:00",
         "Involved_Objects": "Hit and Run Car/Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "60"
       }
     },
     {
@@ -21445,9 +21445,9 @@
         "Date": "2025-09-04",
         "Time": "06:33:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "37"
       }
     },
     {
@@ -21471,9 +21471,9 @@
         "Date": "2025-09-06",
         "Time": "16:00:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "27"
       }
     },
     {
@@ -21497,9 +21497,9 @@
         "Date": "2025-09-08",
         "Time": "16:20:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "44/48"
       }
     },
     {
@@ -21523,9 +21523,9 @@
         "Date": "2025-09-26",
         "Time": "12:40:00",
         "Involved_Objects": "Car",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Possible Injury",
         "Party_at_Fault": "Driver",
-        "Injury_Ages": ""
+        "Injury_Ages": "32"
       }
     },
     {
@@ -21549,9 +21549,9 @@
         "Date": "2025-09-24",
         "Time": "06:18:00",
         "Involved_Objects": "Hit and Run Car/Ped",
-        "Injury_Severity": "No Injury",
+        "Injury_Severity": "Serious Injury",
         "Party_at_Fault": "",
-        "Injury_Ages": ""
+        "Injury_Ages": "68"
       }
     }
   ]
