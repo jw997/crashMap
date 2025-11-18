@@ -21553,6 +21553,58 @@
         "Party_at_Fault": "",
         "Injury_Ages": "68"
       }
+    },
+    {
+      "attributes": {
+        "CollisionId": 4931665,
+        "Case_ID": 4931665,
+        "Primary_Collision_Factor_Code": "VC 22107",
+        "Local_Report_Number": "9370-2025-03010",
+        "CityName": "Berkeley",
+        "CCRSDateTime": "10/3/2025 4:10:00 PM",
+        "NumberInjured": 0,
+        "NumberKilled": 0,
+        "PrimaryRoad": "EUCLID AVE",
+        "SecondaryRoad": "BAYVIEW PL",
+        "Accident_Location_Offset": "80 F N",
+        "Latitude": 37.884591,
+        "Longitude": -122.26278,
+        "Accident_Location": "EUCLID AVE/BAYVIEW PL",
+        "Hour": 16,
+        "Year": 2025,
+        "Date": "2025-10-03",
+        "Time": "16:10:00",
+        "Involved_Objects": "School Bus/Car",
+        "Injury_Severity": "No Injury",
+        "Party_at_Fault": "Driver",
+        "Injury_Ages": ""
+      }
+    },
+    {
+      "attributes": {
+        "CollisionId": 4931663,
+        "Case_ID": 4931663,
+        "Primary_Collision_Factor_Code": "VC 22350 UNSAFE SPEED:PREVAIL COND",
+        "Local_Report_Number": "9370-2025-03376",
+        "CityName": "Berkeley",
+        "CCRSDateTime": "11/2/2025 4:54:00 PM",
+        "NumberInjured": 0,
+        "NumberKilled": 0,
+        "PrimaryRoad": "I-80 E/B",
+        "SecondaryRoad": "GILMAN ST",
+        "Accident_Location_Offset": "1013 F W",
+        "Latitude": 37.875516,
+        "Longitude": -122.30628,
+        "Accident_Location": "I-80 E/B/GILMAN ST",
+        "Hour": 16,
+        "Year": 2025,
+        "Date": "2025-11-02",
+        "Time": "16:54:00",
+        "Involved_Objects": "Hit and Run Car/Car",
+        "Injury_Severity": "No Injury",
+        "Party_at_Fault": "Driver",
+        "Injury_Ages": ""
+      }
     }
   ]
 }
