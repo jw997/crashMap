@@ -1,4 +1,4 @@
-import { getJson, streetArray } from "./utils_helper.js";
+import { getMS, getJson, streetArray } from "./utils_helper.js";
 
 import { findClosest } from "./gpsaddr.js";
 
@@ -304,6 +304,8 @@ async function getCityBoundary() {
 
 const cityGeoJson = await getCityBoundary();
 
+getMS();
+
 async function getTransparencyData() {
 	var arrays = [];
 	for (var y = 2015; y <= 2025; y++) {
@@ -317,7 +319,7 @@ async function getTransparencyData() {
 }
 
 const mergedTransparencyJson = await (getTransparencyData());
-
+getMS('loading transparency data')
 async function getCCRSData() {
 	var arrays = [];
 	// ADD NEW YEAR
@@ -336,7 +338,7 @@ async function getCCRSData() {
 }
 
 const mergedCCRSJson = await (getCCRSData());
-
+getMS('loading CCRS data')
 async function getSWITRSData() {
 	var arrays = [];
 	// ADD NEW YEAR
@@ -352,6 +354,7 @@ async function getSWITRSData() {
 }
 
 const mergedSWITRSJson = await (getSWITRSData());
+getMS('loading SWITRS data')
 
 // read fatal crash override data
 async function getOverrideData() {
@@ -385,7 +388,7 @@ async function getStopData() {
 }
 
 const mergedStopJson = await (getStopData());
-
+getMS('loading Stop data')
 // fix up stop json by adding a few computed fields
 //"DateTime_FME": "20201009232500-07:00",
 //"Date": "2024-09-30",
@@ -435,9 +438,9 @@ function fixStops() {
 		}
 	}
 }
-
+getMS();
 fixStops();
-
+getMS('fixed stops data')
 function addStopLocations() {
 	for (const s of mergedStopJson) {
 		const attr = s.attributes;
@@ -457,7 +460,7 @@ function addStopLocations() {
 }
 
 addStopLocations();
-
+getMS('added stop locations')
 
 
 
@@ -525,7 +528,7 @@ function makeTimeStampMap(arr) {
 	}
 	return setTimeStamps;
 }
-
+getMS();
 // make set of swtrs collision time stamps
 const tsCcrs = makeTimeStampSet(mergedCCRSJson);
 const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
@@ -537,6 +540,7 @@ const tsStops = makeTimeStampSet(mergedStopJson);
 const tsMapCcrs = makeTimeStampMap(mergedCCRSJson);
 const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
 const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
+getMS("Made time stamp sets")
 
 // make sets of local collision ids
 function makeLocalCollisionIdMap(arr) {
@@ -555,10 +559,11 @@ function makeLocalCollisionIdMap(arr) {
 	return retval;
 }
 
+getMS();
 const lidMapCcrs = makeLocalCollisionIdMap(mergedCCRSJson);
 const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
 const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
-
+getMS('made collision id maps')
 // apply overrides by local id
 // these correct severity for fatal crashes, and add news urls
 function applyOverrides(overrides) {
@@ -590,7 +595,7 @@ function applyOverrides(overrides) {
 }
 
 applyOverrides(overrideJson);
-
+getMS();
 const lidSwitrs = new Set(lidMapSwitrs.keys());
 const lidCcrs = new Set(lidMapCcrs.keys());
 
@@ -623,6 +628,7 @@ for (const e of mergedTransparencyJson) {
 		}
 	}
 }
+getMS('made unions ')
 
 // each bpd report has a "Case_Number": "2022-00019693", and a date time
 // each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
@@ -659,7 +665,7 @@ function getCcrsReportForLocalReport(localColl) {
 	}
 	return undefined;
 }
-
+getMS();
 for (const localColl of mergedTransparencyJson) {
 	localColl.switrsRecord = getSwitrsReportForLocalReport(localColl);
 	localColl.ccrsRecord = getCcrsReportForLocalReport(localColl);
@@ -713,6 +719,9 @@ for (const switrsColl of mergedSWITRSJson) {
 for (const ccrsColl of mergedCCRSJson) {
 	ccrsColl.localRecord = getLocalReportForCCRSReport(ccrsColl)
 }
+
+getMS('made local collision pointers');
+
 /*
 console.log(" mergedUnion: ", mergedUnion.length);
 
@@ -1348,9 +1357,9 @@ function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHo
 			//	const roundLoc = loc.map((c) => c.toFixed(3));
 			const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
 
-			if (ct > 0) {
+			/*if (ct > 0) {
 				console.log("adjusting marker")
-			}
+			}*/
 
 			var marker;
 

@@ -1,3 +1,16 @@
+var lastTime = 0;
+function getMS(msg) {
+	const thisTime = Date.now();
+	const diff = thisTime - lastTime;
+	lastTime = thisTime;
+
+	if (msg) {
+		console.log(msg, ':', diff, ' ms')
+	}
+	return diff;
+}
+
+
 async function getJson(url) {
 	try {
 		const response = await fetch(url); // {cache: 'no-cache'} https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/
@@ -493,4 +506,4 @@ const streetArray = [
 	"Yosemite"];
 
 
-export { getJson, streetArray };
+export { getMS, getJson, streetArray };
