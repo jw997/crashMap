@@ -1224,7 +1224,7 @@ function gpsDistance(attr1, attr2) {
 
 	return meters;
 }
-function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
+function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
 	// ADD NEW YEAR
 	filter2025,
@@ -1421,7 +1421,7 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 	console.log('Plotted', plotted);
 	console.log("markerCount ", markerCount)
 
-	const summaryMsg = '<br>Matching collisions or Stops: ' + plotted;//+ '<br>' + 'Skipped: ' + skipped + '<br>';
+	const summaryMsg = '<br>Matching ' + CollsionsOrStops + ': ' + plotted;//+ '<br>' + 'Skipped: ' + skipped + '<br>';
 	summary.innerHTML = summaryMsg;
 
 	// set array for download
@@ -1608,6 +1608,7 @@ function handleFilterClick() {
 	legendStop.remove();
 
 	var legend = legendCrash;
+	var bStops = false;
 
 	switch (selectData.value) {
 		case 'T':
@@ -1634,6 +1635,7 @@ function handleFilterClick() {
 			collData = mergedStopJson;
 			tsSet = tsStops;
 			legend = legendStop;
+			bStops = true;
 			break;
 		/*	case 'SNT':
 				collData = mergedSWITRSJson;
@@ -1653,8 +1655,10 @@ function handleFilterClick() {
 
 	}
 
+	const CollsionsOrStops = bStops ? 'Stops' : 'Collisions';
+
 	legend.addTo(map);
-	addMarkers(collData, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
+	addMarkers(CollsionsOrStops, collData, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 
 		selectVehicleTypes.value,
 		// ADD NEW YEAR
@@ -1716,14 +1720,16 @@ function handleFilterClick() {
 		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
 	}
 
-	histYearChart = createOrUpdateChart(dataByYear, histYearChart, document.getElementById('yearHist'), 'Collisions or Stops by Year');
+	
+
+	histYearChart = createOrUpdateChart(dataByYear, histYearChart, document.getElementById('yearHist'), CollsionsOrStops + ' by Year');
 
 	const dataByMonth = [];
 	for (const k of arrMonthKeys) {
 		dataByMonth.push({ bar: k, count: histMonthData.get(k) })
 	}
 
-	histMonthChart = createOrUpdateChart(dataByMonth, histMonthChart, document.getElementById('monthHist'), 'Collisions or Stops by Month');
+	histMonthChart = createOrUpdateChart(dataByMonth, histMonthChart, document.getElementById('monthHist'), CollsionsOrStops +  ' by Month');
 
 
 	const dataByHour = [];
@@ -1731,7 +1737,7 @@ function handleFilterClick() {
 		dataByHour.push({ bar: k, count: histHourData.get(k) })
 	}
 
-	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), 'Collisions or Stops by Hour');
+	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), CollsionsOrStops +  ' by Hour');
 
 	const dataGPSByYear = [];
 	// ADD NEW YEAR
