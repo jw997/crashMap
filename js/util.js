@@ -867,13 +867,13 @@ const grey = "#101010";
 
 
 */
-function createLegend() {
+function createCrashLegend() {
 	const legend = L.control.Legend({
-		position: "bottomleft",
+		position: "bottomright",
 		title: 'Injury',
 		collapsed: false,
 		symbolWidth: 24,
-		opacity: 0.8,
+		opacity: 0.6,
 		column: 1,
 
 		legends: [{
@@ -916,8 +916,26 @@ function createLegend() {
 			fillColor: violet
 			//url: "./images/marker-icon-violet.png",
 
-		}, {
-			label: "Stop: Arrest",
+		}
+		]
+
+	})
+		
+	return legend;
+}
+
+function createStopLegend() {
+	const legend = L.control.Legend({
+		position: "bottomright",
+		title: 'Stop Result',
+		collapsed: false,
+		symbolWidth: 24,
+		opacity: 0.6,
+		column: 1,
+
+		legends: [
+		{
+			label: "Arrest",
 			type: "circle",
 			color: w3_highway_red,
 			fillColor: w3_highway_red,
@@ -926,7 +944,7 @@ function createLegend() {
 
 		},
 		{
-			label: "Stop: Citation",
+			label: "Citation",
 			type: "circle",
 			color: w3_highway_blue,
 			fillColor: w3_highway_blue,
@@ -934,7 +952,7 @@ function createLegend() {
 			//url: "./images/marker-icon-violet.png",
 
 		}, {
-			label: "Stop: Warning",
+			label: "Warning",
 			type: "circle",
 			color: w3_highway_schoolbus,
 			fillColor: w3_highway_schoolbus,
@@ -942,7 +960,7 @@ function createLegend() {
 			//url: "./images/marker-icon-violet.png",
 
 		}, {
-			label: "Stop: No Action",
+			label: "No Action",
 			type: "circle",
 			color: w3_highway_green,
 			fillColor: w3_highway_green,
@@ -951,44 +969,19 @@ function createLegend() {
 		}
 		]
 
-
-
-		/*
-		legends: [{
-			label: "Fatal",
-			type: "image",
-			url: "./images/marker-highway-red.png",
-		}, {
-			label: "Serious",
-			type: "image",
-			url: "./images/marker-highway-orange.png",
-		}, {
-			label: "Minor",
-			type: "image",
-			url: "./images/marker-highway-brown.png"
-		}, {
-			label: "Possible",
-			type: "image",
-			url: "./images/marker-highway-yellow.png",
-		}, {
-			label: "No Injury",
-			type: "image",
-			url: "./images/marker-highway-blue.png"
-		}, {
-			label: "Unspecified",
-			type: "image",
-			url: "./images/marker-icon-violet.png",
-
-		}]*/
 	})
-		.addTo(map);
+		
+	return legend;
 }
+
+const legendCrash = createCrashLegend();
+const legendStop = createStopLegend();
 
 createMap();
 
-if (pointerFine) { // skip the legend for the mobile case.  maybe make a smaller legend?
-	createLegend();
-}
+//if (pointerFine) { // skip the legend for the mobile case.  maybe make a smaller legend?
+//const legend = createLegend();
+//}
 
 // add city boundary to map
 L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
@@ -1156,11 +1149,11 @@ function checkFilter(coll, tsSet, vehTypeRegExp,
 			coll_severity = coll.switrsRecord.attributes.Injury_Severity
 		}
 	}
-/*
-	if (attr.NumberKilled>0) {
-		coll_severity = 'Fatal';
-		attr.Injury_Severity = 'Fatal'
-	} */
+	/*
+		if (attr.NumberKilled>0) {
+			coll_severity = 'Fatal';
+			attr.Injury_Severity = 'Fatal'
+		} */
 
 	acceptableSeverities.push('Fatal');
 
@@ -1218,8 +1211,8 @@ function incrementMapKey(m, k) {
 	m.set(k, m.get(k) + 1);
 }
 
-function gpsDistance( attr1, attr2) {
-	if (!(attr1.Latitude && attr1.Longitude && attr2.Latitude && attr2.Longitude))  {
+function gpsDistance(attr1, attr2) {
+	if (!(attr1.Latitude && attr1.Longitude && attr2.Latitude && attr2.Longitude)) {
 		// someone is missint a gps coord
 		return null;
 	}
@@ -1227,7 +1220,7 @@ function gpsDistance( attr1, attr2) {
 	const dLat = Math.abs(attr1.Latitude - attr2.Latitude);
 	const dLon = Math.abs(attr1.Longitude - attr2.Longitude);
 	const metersPerDegree = 100000;
-	const meters = Math.round( metersPerDegree * (dLat + dLon));
+	const meters = Math.round(metersPerDegree * (dLat + dLon));
 
 	return meters;
 }
@@ -1312,10 +1305,10 @@ function addMarkers(collisionJson, tsSet, histYearData, histHourData, histFaultD
 		var gpsError;
 
 		if (coll.localRecord) {
-		gpsError = gpsDistance( attr, coll.localRecord.attributes)
-		} 
+			gpsError = gpsDistance(attr, coll.localRecord.attributes)
+		}
 		if (coll.ccrsRecord) {
-			gpsError = gpsDistance( attr, coll.ccrsRecord.attributes)
+			gpsError = gpsDistance(attr, coll.ccrsRecord.attributes)
 		}
 
 		// add gpsError to histogram
@@ -1454,15 +1447,15 @@ const histMissingGPSData = new Map();
 
 const histGPSDeltaData = new Map();
 const arrGPSDeltaKeys = [0, 10, 100, 1000];
-function getGpsDeltaBin( delta) {
-	
-	if (delta <=10) {
+function getGpsDeltaBin(delta) {
+
+	if (delta <= 10) {
 		return 0;
 	}
-	if (delta <=100) {
+	if (delta <= 100) {
 		return 10;
 	}
-	if (delta <=1000) {
+	if (delta <= 1000) {
 		return 100;
 	}
 	return 1000;
@@ -1611,6 +1604,11 @@ function handleFilterClick() {
 	var tsSet;
 	var collData;
 
+	legendCrash.remove();
+	legendStop.remove();
+
+	var legend = legendCrash;
+
 	switch (selectData.value) {
 		case 'T':
 			collData = mergedTransparencyJson;
@@ -1635,6 +1633,7 @@ function handleFilterClick() {
 		case "STOPS":
 			collData = mergedStopJson;
 			tsSet = tsStops;
+			legend = legendStop;
 			break;
 		/*	case 'SNT':
 				collData = mergedSWITRSJson;
@@ -1653,6 +1652,8 @@ function handleFilterClick() {
 			console.log("Unepxected data spec")
 
 	}
+
+	legend.addTo(map);
 	addMarkers(collData, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 
 		selectVehicleTypes.value,
