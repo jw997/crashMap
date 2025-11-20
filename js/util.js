@@ -400,7 +400,7 @@ function fixStops() {
 
 		const fme = attr.DateTime_FME;
 		if ((!fme) || (fme.length < 12)) {
-			console.log("undefined DateTime_FME");
+			console.log("stop with undefined DateTime_FME", attr.Stop_GlobalID);
 			continue;
 		}
 
@@ -439,7 +439,7 @@ function fixStops() {
 	}
 }
 getMS();
-fixStops();
+//fixStops();
 getMS('fixed stops data')
 function addStopLocations() {
 	for (const s of mergedStopJson) {
@@ -459,7 +459,7 @@ function addStopLocations() {
 	}
 }
 
-addStopLocations();
+//addStopLocations();
 getMS('added stop locations')
 
 
