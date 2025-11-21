@@ -15,7 +15,6 @@ const selectData = document.querySelector('#selectData');
 const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
 
 // ADD NEW YEAR
-
 const check2025 = document.querySelector('#check2025');
 const check2024 = document.querySelector('#check2024');
 const check2023 = document.querySelector('#check2023');
@@ -929,7 +928,7 @@ function createCrashLegend() {
 		]
 
 	})
-		
+
 	return legend;
 }
 
@@ -943,43 +942,43 @@ function createStopLegend() {
 		column: 1,
 
 		legends: [
-		{
-			label: "Arrest",
-			type: "circle",
-			color: w3_highway_red,
-			fillColor: w3_highway_red,
-			fillOpacity: 1
-			//url: "./images/marker-icon-violet.png",
+			{
+				label: "Arrest",
+				type: "circle",
+				color: w3_highway_red,
+				fillColor: w3_highway_red,
+				fillOpacity: 1
+				//url: "./images/marker-icon-violet.png",
 
-		},
-		{
-			label: "Citation",
-			type: "circle",
-			color: w3_highway_blue,
-			fillColor: w3_highway_blue,
-			fillOpacity: 1
-			//url: "./images/marker-icon-violet.png",
+			},
+			{
+				label: "Citation",
+				type: "circle",
+				color: w3_highway_blue,
+				fillColor: w3_highway_blue,
+				fillOpacity: 1
+				//url: "./images/marker-icon-violet.png",
 
-		}, {
-			label: "Warning",
-			type: "circle",
-			color: w3_highway_schoolbus,
-			fillColor: w3_highway_schoolbus,
-			fillOpacity: 0.5
-			//url: "./images/marker-icon-violet.png",
+			}, {
+				label: "Warning",
+				type: "circle",
+				color: w3_highway_schoolbus,
+				fillColor: w3_highway_schoolbus,
+				fillOpacity: 0.5
+				//url: "./images/marker-icon-violet.png",
 
-		}, {
-			label: "No Action",
-			type: "circle",
-			color: w3_highway_green,
-			fillColor: w3_highway_green,
-			fillOpacity: 0.5
-			//url: "./images/marker-icon-violet.png",
-		}
+			}, {
+				label: "No Action",
+				type: "circle",
+				color: w3_highway_green,
+				fillColor: w3_highway_green,
+				fillOpacity: 0.5
+				//url: "./images/marker-icon-violet.png",
+			}
 		]
 
 	})
-		
+
 	return legend;
 }
 
@@ -1310,7 +1309,39 @@ function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHo
 					incrementMapKey(histAgeInjuryData, k);
 				}
 			}
+
 		}
+
+
+		// lat data
+		const latStr = attr.Latitude;
+
+		if (latStr) {
+			// split 
+			for (const l of arrLatKeys) {
+				if (latStr < l) {
+
+					incrementMapKey(histLatData, l);
+					break;
+				}
+			}
+		}
+
+		// lon data
+		const lonStr = attr.Longitude;
+
+		if (lonStr) {
+			// split 
+			for (const l of arrLonKeys) {
+				if (lonStr < l) {
+
+					incrementMapKey(histLonData, l);
+					break;
+				}
+			}
+		}
+
+
 		var gpsError;
 
 		if (coll.localRecord) {
@@ -1501,6 +1532,14 @@ const arrObjectKeys = [
 	"Car", "Motorcycle", "Bicycle", "Pedestrian", "Truck", "Bus", "Parked Car", "Object", "Electric Bike", "Electric Scooter", "Electric Skateboard"
 ];
 
+var histLatData = new Map();
+const arrLatKeys = [0, 37.84, 37.85, 37.86, 37.87, 37.88, 37.89, 37.90, 37.91];
+
+
+var histLonData = new Map();
+const arrLonKeys = [-122.33, -122.32,  -122.31,  -122.30,  -122.29,  -122.28,  -122.27,  -122.26,  -122.25,  -122.24,  -122.23,  -122.22,  -122.21,  -122.20,  -122.19];
+
+
 /* histogram data */
 function clearHistData(keys, data) {
 	for (const f of keys) {
@@ -1516,6 +1555,8 @@ clearHistData(arrStopResultKeys, histStopResultData);
 clearHistData(arrHourKeys, histHourData);
 clearHistData(arrMonthKeys, histMonthData);
 clearHistData(arrGPSDeltaKeys, histGPSDeltaData);
+clearHistData(arrLatKeys, histLatData);
+clearHistData(arrLonKeys, histLonData);
 
 
 // clear data functions
@@ -1558,6 +1599,9 @@ var histSeverityChart;
 var histAgeInjuryChart;
 
 var histStopResultChart;
+
+var histLatChart;
+var histLonChart;
 
 
 
@@ -1608,6 +1652,8 @@ function handleFilterClick() {
 	clearHistData(arrAgeKeys, histAgeInjuryData);
 	clearHistData(arrStopResultKeys, histStopResultData);
 	clearHistData(arrGPSDeltaKeys, histGPSDeltaData);
+	clearHistData(arrLatKeys, histLatData);
+	clearHistData(arrLonKeys, histLonData);
 
 	const dataSpec = selectData.value;
 	var tsSet;
@@ -1729,7 +1775,7 @@ function handleFilterClick() {
 		dataByYear.push({ bar: bar, count: histYearData.get(bar) });
 	}
 
-	
+
 
 	histYearChart = createOrUpdateChart(dataByYear, histYearChart, document.getElementById('yearHist'), CollsionsOrStops + ' by Year');
 
@@ -1738,7 +1784,7 @@ function handleFilterClick() {
 		dataByMonth.push({ bar: k, count: histMonthData.get(k) })
 	}
 
-	histMonthChart = createOrUpdateChart(dataByMonth, histMonthChart, document.getElementById('monthHist'), CollsionsOrStops +  ' by Month');
+	histMonthChart = createOrUpdateChart(dataByMonth, histMonthChart, document.getElementById('monthHist'), CollsionsOrStops + ' by Month');
 
 
 	const dataByHour = [];
@@ -1746,7 +1792,7 @@ function handleFilterClick() {
 		dataByHour.push({ bar: k, count: histHourData.get(k) })
 	}
 
-	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), CollsionsOrStops +  ' by Hour');
+	histHourChart = createOrUpdateChart(dataByHour, histHourChart, document.getElementById('hourHist'), CollsionsOrStops + ' by Hour');
 
 	const dataGPSByYear = [];
 	// ADD NEW YEAR
@@ -1768,6 +1814,22 @@ function handleFilterClick() {
 	histAgeInjuryChart = createOrUpdateChart(dataInjurybyAge, histAgeInjuryChart, document.getElementById('ageInjuryHist'), 'Injury by Age');
 
 	histStopResultChart = createOrUpdateChart(dataStopResult, histStopResultChart, document.getElementById('stopResultHist'), 'Stop Results');
+
+	const dataByLat = [];
+	for (const k of arrLatKeys) {
+		dataByLat.push({ bar: k, count: histLatData.get(k) })
+	}
+
+	histLatChart = createOrUpdateChart(dataByLat, histLatChart, document.getElementById('latHist'), CollsionsOrStops + ' by Latitude');
+
+
+	const dataByLon = [];
+	for (const k of arrLonKeys) {
+		dataByLon.push({ bar: k, count: histLonData.get(k) })
+	}
+
+	histLonChart = createOrUpdateChart(dataByLon, histLonChart, document.getElementById('lonHist'), CollsionsOrStops + ' by Longitude');
+
 
 }
 
