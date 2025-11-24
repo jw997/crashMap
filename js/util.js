@@ -1232,6 +1232,15 @@ function gpsDistance(attr1, attr2) {
 
 	return meters;
 }
+
+function floatFixed(f, d) {
+	return Number.parseFloat( f.toFixed(d));
+}
+function roundLoc( arr) {
+	const digits = 4;
+	const retval = [floatFixed(arr[0], digits), floatFixed(arr[1], digits)];
+	return retval;
+}
 function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
 	// ADD NEW YEAR
@@ -1386,7 +1395,7 @@ function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHo
 		if (lat && long) {
 			const loc = [lat, long];
 			//	const roundLoc = loc.map((c) => c.toFixed(3));
-			const ct = markersAtLocation.get(JSON.stringify(loc)) ?? 0;
+			const ct = markersAtLocation.get(JSON.stringify(roundLoc(loc))) ?? 0;
 
 			/*if (ct > 0) {
 				console.log("adjusting marker")
@@ -1429,7 +1438,7 @@ function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHo
 			/*const marker = L.marker([lat + ct * 0.0001, long - ct * 0.0001],
 				{ icon: myMarker });*/
 
-			markersAtLocation.set(JSON.stringify(loc), ct + 1);
+			markersAtLocation.set(JSON.stringify(roundLoc(loc)), ct + 1);
 			var msg = collisionPopup(attr);
 			if (coll.switrsRecord) {
 				const msg2 = collisionPopup(coll.switrsRecord.attributes);
@@ -1452,7 +1461,7 @@ function addMarkers(CollsionsOrStops, collisionJson, tsSet, histYearData, histHo
 			markerCount++;
 		} else {
 			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
-			console.log("Missing gps for collision id:", attr.Case_Number)
+			console.log("Missing gps for collision id:", attr.CollisionId, attr.Case_ID)  
 			incrementMapKey(histMissingGPSData, attr.Year);
 			skipped++;
 		}
